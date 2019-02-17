@@ -1,0 +1,13 @@
+{
+    "name": "San Francisco 2015 Municipal Election - District 3",
+    "date": "2015-11-03",
+    "format": "us_ca_sfo",
+    "tabulation": "eager_irv",
+    "params": {
+        "contest": 3
+    },
+    "files": [
+        "us/ca/sfo/2015/11/20151119_masterlookup.txt",
+        "us/ca/sfo/2015/11/20151119_ballotimage.txt"
+    ]
+}
