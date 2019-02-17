@@ -1,0 +1,16 @@
+{
+    "name": "Maine 2018 Congress District 2 General Election",
+    "date": "2018-11-06",
+    "format": "us_me",
+    "tabulation": "eager_irv",
+    "files": [
+        "us/me/2018/11/cd02/final/Nov18CVRExportFINAL1.xlsx",
+        "us/me/2018/11/cd02/final/Nov18CVRExportFINAL2.xlsx",
+        "us/me/2018/11/cd02/final/Nov18CVRExportFINAL3.xlsx",
+        "us/me/2018/11/cd02/final/RepCD2-8final.xlsx",
+        "us/me/2018/11/cd02/final/UOCAVA-AUX-CVRRepCD2.xlsx",
+        "us/me/2018/11/cd02/final/UOCAVA-FINALRepCD2.xlsx",
+        "us/me/2018/11/cd02/final/UOCAVA2CVRRepCD2.xlsx",
+        "us/me/2018/11/cd02/final/AUXCVRProofedCVR95RepCD2.xlsx"
+    ]
+}
