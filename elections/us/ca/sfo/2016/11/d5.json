@@ -1,0 +1,13 @@
+{
+    "name": "San Francisco 2016 Municipal Election - District 5",
+    "date": "2016-11-08",
+    "format": "us_ca_sfo",
+    "tabulation": "eager_irv",
+    "params": {
+        "contest": 11
+    },
+    "files": [
+        "us/ca/sfo/2016/11/20161206_masterlookup.txt",
+        "us/ca/sfo/2016/11/20161206_ballotimage.txt"
+    ]
+}
