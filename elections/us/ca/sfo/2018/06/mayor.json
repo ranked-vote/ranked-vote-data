@@ -1,0 +1,13 @@
+{
+    "name": "San Francisco 2018 Municipal Election - Mayor",
+    "date": "2018-06-05",
+    "format": "us_ca_sfo",
+    "tabulation": "eager_irv",
+    "params": {
+        "contest": 20
+    },
+    "files": [
+        "us/ca/sfo/2018/06/20180627_masterlookup.txt",
+        "us/ca/sfo/2018/06/20180627_ballotimage.txt"
+    ]
+}
