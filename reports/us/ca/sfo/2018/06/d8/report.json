@@ -136,6 +136,12 @@
       "denominator": 19996
     },
     {
+      "first_candidate": "RAFAEL MANDELMAN",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 6942,
+      "denominator": 19996
+    },
+    {
       "first_candidate": "JEFF SHEEHY",
       "second_candidate": "RAFAEL MANDELMAN",
       "numerator": 7209,
@@ -148,6 +154,12 @@
       "denominator": 12669
     },
     {
+      "first_candidate": "JEFF SHEEHY",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 3859,
+      "denominator": 12669
+    },
+    {
       "first_candidate": "LAWRENCE ''STARK'' DAGESSE",
       "second_candidate": "RAFAEL MANDELMAN",
       "numerator": 271,
@@ -157,6 +169,12 @@
       "first_candidate": "LAWRENCE ''STARK'' DAGESSE",
       "second_candidate": "JEFF SHEEHY",
       "numerator": 206,
+      "denominator": 597
+    },
+    {
+      "first_candidate": "LAWRENCE ''STARK'' DAGESSE",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 120,
       "denominator": 597
     }
   ],

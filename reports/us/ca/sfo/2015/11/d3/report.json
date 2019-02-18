@@ -136,6 +136,12 @@
       "denominator": 8767
     },
     {
+      "first_candidate": "AARON PESKIN",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 4607,
+      "denominator": 8767
+    },
+    {
       "first_candidate": "JULIE CHRISTENSEN",
       "second_candidate": "AARON PESKIN",
       "numerator": 1249,
@@ -148,6 +154,12 @@
       "denominator": 7267
     },
     {
+      "first_candidate": "JULIE CHRISTENSEN",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 3830,
+      "denominator": 7267
+    },
+    {
       "first_candidate": "WILMA PANG",
       "second_candidate": "AARON PESKIN",
       "numerator": 154,
@@ -157,6 +169,12 @@
       "first_candidate": "WILMA PANG",
       "second_candidate": "JULIE CHRISTENSEN",
       "numerator": 228,
+      "denominator": 660
+    },
+    {
+      "first_candidate": "WILMA PANG",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 278,
       "denominator": 660
     }
   ],

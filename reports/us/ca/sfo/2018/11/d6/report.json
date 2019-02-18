@@ -133,6 +133,12 @@
       "denominator": 14288
     },
     {
+      "first_candidate": "MATT HANEY",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 5772,
+      "denominator": 14288
+    },
+    {
       "first_candidate": "CHRISTINE JOHNSON",
       "second_candidate": "MATT HANEY",
       "numerator": 2169,
@@ -145,6 +151,12 @@
       "denominator": 6267
     },
     {
+      "first_candidate": "CHRISTINE JOHNSON",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 1138,
+      "denominator": 6267
+    },
+    {
       "first_candidate": "SONJA TRAUSS",
       "second_candidate": "MATT HANEY",
       "numerator": 1239,
@@ -154,6 +166,12 @@
       "first_candidate": "SONJA TRAUSS",
       "second_candidate": "CHRISTINE JOHNSON",
       "numerator": 2804,
+      "denominator": 4775
+    },
+    {
+      "first_candidate": "SONJA TRAUSS",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 732,
       "denominator": 4775
     }
   ],

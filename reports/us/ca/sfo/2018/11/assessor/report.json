@@ -89,9 +89,21 @@
       "denominator": 236697
     },
     {
+      "first_candidate": "CARMEN CHU",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 137943,
+      "denominator": 236697
+    },
+    {
       "first_candidate": "PAUL BELLAR",
       "second_candidate": "CARMEN CHU",
       "numerator": 34407,
+      "denominator": 80479
+    },
+    {
+      "first_candidate": "PAUL BELLAR",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 46072,
       "denominator": 80479
     }
   ],

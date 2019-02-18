@@ -637,6 +637,12 @@
       "denominator": 9585
     },
     {
+      "first_candidate": "SHAMANN WALTON",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 2737,
+      "denominator": 9585
+    },
+    {
       "first_candidate": "TONY KELLY",
       "second_candidate": "SHAMANN WALTON",
       "numerator": 1505,
@@ -670,6 +676,12 @@
       "first_candidate": "TONY KELLY",
       "second_candidate": "WRITE-IN NEO VEAVEA",
       "numerator": 0,
+      "denominator": 5679
+    },
+    {
+      "first_candidate": "TONY KELLY",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 1047,
       "denominator": 5679
     },
     {
@@ -709,6 +721,12 @@
       "denominator": 4820
     },
     {
+      "first_candidate": "THEO ELLINGTON",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 901,
+      "denominator": 4820
+    },
+    {
       "first_candidate": "UZURI PEASE-GREENE",
       "second_candidate": "SHAMANN WALTON",
       "numerator": 369,
@@ -742,6 +760,12 @@
       "first_candidate": "UZURI PEASE-GREENE",
       "second_candidate": "WRITE-IN NEO VEAVEA",
       "numerator": 1,
+      "denominator": 1311
+    },
+    {
+      "first_candidate": "UZURI PEASE-GREENE",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 204,
       "denominator": 1311
     },
     {
@@ -781,6 +805,12 @@
       "denominator": 966
     },
     {
+      "first_candidate": "GLORIA BERRY",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 209,
+      "denominator": 966
+    },
+    {
       "first_candidate": "ASALE CHANDLER",
       "second_candidate": "SHAMANN WALTON",
       "numerator": 113,
@@ -817,6 +847,12 @@
       "denominator": 802
     },
     {
+      "first_candidate": "ASALE CHANDLER",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 145,
+      "denominator": 802
+    },
+    {
       "first_candidate": "WRITE-IN NEO VEAVEA",
       "second_candidate": "SHAMANN WALTON",
       "numerator": 6,
@@ -850,6 +886,12 @@
       "first_candidate": "WRITE-IN NEO VEAVEA",
       "second_candidate": "ASALE CHANDLER",
       "numerator": 1,
+      "denominator": 31
+    },
+    {
+      "first_candidate": "WRITE-IN NEO VEAVEA",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 8,
       "denominator": 31
     }
   ],

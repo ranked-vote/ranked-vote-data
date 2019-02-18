@@ -89,9 +89,21 @@
       "denominator": 38406
     },
     {
+      "first_candidate": "RAFAEL MANDELMAN",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 28564,
+      "denominator": 38406
+    },
+    {
       "first_candidate": "LAWRENCE ''STARK'' DAGESSE",
       "second_candidate": "RAFAEL MANDELMAN",
       "numerator": 2070,
+      "denominator": 3598
+    },
+    {
+      "first_candidate": "LAWRENCE ''STARK'' DAGESSE",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 1528,
       "denominator": 3598
     }
   ],

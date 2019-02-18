@@ -92,9 +92,21 @@
       "denominator": 21399
     },
     {
+      "first_candidate": "LONDON BREED",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 11697,
+      "denominator": 21399
+    },
+    {
       "first_candidate": "DEAN PRESTON",
       "second_candidate": "LONDON BREED",
       "numerator": 9222,
+      "denominator": 19610
+    },
+    {
+      "first_candidate": "DEAN PRESTON",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 10388,
       "denominator": 19610
     }
   ],

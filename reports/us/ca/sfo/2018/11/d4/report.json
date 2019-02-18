@@ -985,6 +985,12 @@
       "denominator": 10314
     },
     {
+      "first_candidate": "GORDON MAR",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 3106,
+      "denominator": 10314
+    },
+    {
       "first_candidate": "JESSICA HO",
       "second_candidate": "GORDON MAR",
       "numerator": 1841,
@@ -1024,6 +1030,12 @@
       "first_candidate": "JESSICA HO",
       "second_candidate": "ADAM KIM",
       "numerator": 423,
+      "denominator": 7444
+    },
+    {
+      "first_candidate": "JESSICA HO",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 1745,
       "denominator": 7444
     },
     {
@@ -1069,6 +1081,12 @@
       "denominator": 3490
     },
     {
+      "first_candidate": "TREVOR MCNEIL",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 491,
+      "denominator": 3490
+    },
+    {
       "first_candidate": "ARTHUR TOM",
       "second_candidate": "GORDON MAR",
       "numerator": 466,
@@ -1108,6 +1126,12 @@
       "first_candidate": "ARTHUR TOM",
       "second_candidate": "ADAM KIM",
       "numerator": 77,
+      "denominator": 2441
+    },
+    {
+      "first_candidate": "ARTHUR TOM",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 364,
       "denominator": 2441
     },
     {
@@ -1153,6 +1177,12 @@
       "denominator": 2183
     },
     {
+      "first_candidate": "LOU ANN BASSAN",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 546,
+      "denominator": 2183
+    },
+    {
       "first_candidate": "MIKE MURPHY",
       "second_candidate": "GORDON MAR",
       "numerator": 186,
@@ -1192,6 +1222,12 @@
       "first_candidate": "MIKE MURPHY",
       "second_candidate": "ADAM KIM",
       "numerator": 139,
+      "denominator": 1182
+    },
+    {
+      "first_candidate": "MIKE MURPHY",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 210,
       "denominator": 1182
     },
     {
@@ -1237,6 +1273,12 @@
       "denominator": 853
     },
     {
+      "first_candidate": "TUAN NGUYEN",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 170,
+      "denominator": 853
+    },
+    {
       "first_candidate": "ADAM KIM",
       "second_candidate": "GORDON MAR",
       "numerator": 74,
@@ -1276,6 +1318,12 @@
       "first_candidate": "ADAM KIM",
       "second_candidate": "TUAN NGUYEN",
       "numerator": 45,
+      "denominator": 515
+    },
+    {
+      "first_candidate": "ADAM KIM",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 67,
       "denominator": 515
     }
   ],

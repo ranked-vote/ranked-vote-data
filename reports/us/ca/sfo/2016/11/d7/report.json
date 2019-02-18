@@ -473,6 +473,12 @@
       "denominator": 14179
     },
     {
+      "first_candidate": "NORMAN YEE",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 5031,
+      "denominator": 14179
+    },
+    {
       "first_candidate": "JOEL ENGARDIO",
       "second_candidate": "NORMAN YEE",
       "numerator": 1622,
@@ -494,6 +500,12 @@
       "first_candidate": "JOEL ENGARDIO",
       "second_candidate": "MIKE YOUNG",
       "numerator": 709,
+      "denominator": 7645
+    },
+    {
+      "first_candidate": "JOEL ENGARDIO",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 1240,
       "denominator": 7645
     },
     {
@@ -521,6 +533,12 @@
       "denominator": 6498
     },
     {
+      "first_candidate": "BEN MATRANGA",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 1017,
+      "denominator": 6498
+    },
+    {
       "first_candidate": "JOHN FARRELL",
       "second_candidate": "NORMAN YEE",
       "numerator": 719,
@@ -545,6 +563,12 @@
       "denominator": 4948
     },
     {
+      "first_candidate": "JOHN FARRELL",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 746,
+      "denominator": 4948
+    },
+    {
       "first_candidate": "MIKE YOUNG",
       "second_candidate": "NORMAN YEE",
       "numerator": 493,
@@ -566,6 +590,12 @@
       "first_candidate": "MIKE YOUNG",
       "second_candidate": "JOHN FARRELL",
       "numerator": 608,
+      "denominator": 2004
+    },
+    {
+      "first_candidate": "MIKE YOUNG",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 237,
       "denominator": 2004
     }
   ],

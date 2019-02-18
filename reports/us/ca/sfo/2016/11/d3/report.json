@@ -92,9 +92,21 @@
       "denominator": 19211
     },
     {
+      "first_candidate": "AARON PESKIN",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 11746,
+      "denominator": 19211
+    },
+    {
       "first_candidate": "TIM E. DONNELLY",
       "second_candidate": "AARON PESKIN",
       "numerator": 3300,
+      "denominator": 7447
+    },
+    {
+      "first_candidate": "TIM E. DONNELLY",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 4147,
       "denominator": 7447
     }
   ],

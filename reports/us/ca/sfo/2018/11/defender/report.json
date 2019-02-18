@@ -55,7 +55,14 @@
     }
   ],
   "pairwise": [],
-  "first_alternates": [],
+  "first_alternates": [
+    {
+      "first_candidate": "JEFF ADACHI",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 292864,
+      "denominator": 292864
+    }
+  ],
   "final_by_first": {
     "finalists": [
       "JEFF ADACHI",

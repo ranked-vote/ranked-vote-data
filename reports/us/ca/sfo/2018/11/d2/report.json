@@ -256,6 +256,12 @@
       "denominator": 14415
     },
     {
+      "first_candidate": "CATHERINE STEFANI",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 4552,
+      "denominator": 14415
+    },
+    {
       "first_candidate": "NICK JOSEFOWITZ",
       "second_candidate": "CATHERINE STEFANI",
       "numerator": 5735,
@@ -271,6 +277,12 @@
       "first_candidate": "NICK JOSEFOWITZ",
       "second_candidate": "JOHN DENNIS",
       "numerator": 1200,
+      "denominator": 13644
+    },
+    {
+      "first_candidate": "NICK JOSEFOWITZ",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 3434,
       "denominator": 13644
     },
     {
@@ -292,6 +304,12 @@
       "denominator": 4145
     },
     {
+      "first_candidate": "SCHUYLER HUDAK",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 590,
+      "denominator": 4145
+    },
+    {
       "first_candidate": "JOHN DENNIS",
       "second_candidate": "CATHERINE STEFANI",
       "numerator": 594,
@@ -307,6 +325,12 @@
       "first_candidate": "JOHN DENNIS",
       "second_candidate": "SCHUYLER HUDAK",
       "numerator": 793,
+      "denominator": 3108
+    },
+    {
+      "first_candidate": "JOHN DENNIS",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 1023,
       "denominator": 3108
     }
   ],

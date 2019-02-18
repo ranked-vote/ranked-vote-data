@@ -908,6 +908,12 @@
       "denominator": 92121
     },
     {
+      "first_candidate": "LONDON BREED",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 20453,
+      "denominator": 92121
+    },
+    {
       "first_candidate": "MARK LENO",
       "second_candidate": "LONDON BREED",
       "numerator": 15705,
@@ -953,6 +959,12 @@
       "first_candidate": "MARK LENO",
       "second_candidate": "WRITE-IN ANTOINE R. ROGERS",
       "numerator": 0,
+      "denominator": 61416
+    },
+    {
+      "first_candidate": "MARK LENO",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 5711,
       "denominator": 61416
     },
     {
@@ -1004,6 +1016,12 @@
       "denominator": 60738
     },
     {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 3062,
+      "denominator": 60738
+    },
+    {
       "first_candidate": "ANGELA ALIOTO",
       "second_candidate": "LONDON BREED",
       "numerator": 4712,
@@ -1049,6 +1067,12 @@
       "first_candidate": "ANGELA ALIOTO",
       "second_candidate": "WRITE-IN ANTOINE R. ROGERS",
       "numerator": 0,
+      "denominator": 17552
+    },
+    {
+      "first_candidate": "ANGELA ALIOTO",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 3512,
       "denominator": 17552
     },
     {
@@ -1100,6 +1124,12 @@
       "denominator": 9576
     },
     {
+      "first_candidate": "ELLEN LEE ZHOU",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 1690,
+      "denominator": 9576
+    },
+    {
       "first_candidate": "RICHIE GREENBERG",
       "second_candidate": "LONDON BREED",
       "numerator": 1091,
@@ -1145,6 +1175,12 @@
       "first_candidate": "RICHIE GREENBERG",
       "second_candidate": "WRITE-IN ANTOINE R. ROGERS",
       "numerator": 1,
+      "denominator": 7051
+    },
+    {
+      "first_candidate": "RICHIE GREENBERG",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 1947,
       "denominator": 7051
     },
     {
@@ -1196,6 +1232,12 @@
       "denominator": 1675
     },
     {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 129,
+      "denominator": 1675
+    },
+    {
       "first_candidate": "MICHELLE BRAVO",
       "second_candidate": "LONDON BREED",
       "numerator": 119,
@@ -1244,6 +1286,12 @@
       "denominator": 900
     },
     {
+      "first_candidate": "MICHELLE BRAVO",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 140,
+      "denominator": 900
+    },
+    {
       "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
       "second_candidate": "LONDON BREED",
       "numerator": 3,
@@ -1288,6 +1336,12 @@
     {
       "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
       "second_candidate": "MICHELLE BRAVO",
+      "numerator": 0,
+      "denominator": 3
+    },
+    {
+      "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "second_candidate": "$UNDERVOTE",
       "numerator": 0,
       "denominator": 3
     }

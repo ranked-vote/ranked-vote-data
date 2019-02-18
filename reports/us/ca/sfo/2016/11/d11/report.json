@@ -345,6 +345,12 @@
       "denominator": 9466
     },
     {
+      "first_candidate": "AHSHA SAFAI",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 2999,
+      "denominator": 9466
+    },
+    {
       "first_candidate": "KIM ALVARENGA",
       "second_candidate": "AHSHA SAFAI",
       "numerator": 2179,
@@ -366,6 +372,12 @@
       "first_candidate": "KIM ALVARENGA",
       "second_candidate": "BERTA HERNANDEZ",
       "numerator": 1057,
+      "denominator": 8670
+    },
+    {
+      "first_candidate": "KIM ALVARENGA",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 1847,
       "denominator": 8670
     },
     {
@@ -393,6 +405,12 @@
       "denominator": 3019
     },
     {
+      "first_candidate": "MAGDALENA DE GUZMAN",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 531,
+      "denominator": 3019
+    },
+    {
       "first_candidate": "FRANCISCO HERRERA",
       "second_candidate": "AHSHA SAFAI",
       "numerator": 370,
@@ -417,6 +435,12 @@
       "denominator": 2618
     },
     {
+      "first_candidate": "FRANCISCO HERRERA",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 397,
+      "denominator": 2618
+    },
+    {
       "first_candidate": "BERTA HERNANDEZ",
       "second_candidate": "AHSHA SAFAI",
       "numerator": 231,
@@ -438,6 +462,12 @@
       "first_candidate": "BERTA HERNANDEZ",
       "second_candidate": "FRANCISCO HERRERA",
       "numerator": 440,
+      "denominator": 1607
+    },
+    {
+      "first_candidate": "BERTA HERNANDEZ",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 167,
       "denominator": 1607
     }
   ],

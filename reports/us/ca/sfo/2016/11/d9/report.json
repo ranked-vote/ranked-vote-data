@@ -193,6 +193,12 @@
       "denominator": 18396
     },
     {
+      "first_candidate": "HILLARY RONEN",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 4877,
+      "denominator": 18396
+    },
+    {
       "first_candidate": "JOSHUA ARCE",
       "second_candidate": "HILLARY RONEN",
       "numerator": 4342,
@@ -208,6 +214,12 @@
       "first_candidate": "JOSHUA ARCE",
       "second_candidate": "ISWARI ESPA\u00d1A",
       "numerator": 548,
+      "denominator": 9648
+    },
+    {
+      "first_candidate": "JOSHUA ARCE",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 2539,
       "denominator": 9648
     },
     {
@@ -229,6 +241,12 @@
       "denominator": 3465
     },
     {
+      "first_candidate": "MELISSA SAN MIGUEL",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 485,
+      "denominator": 3465
+    },
+    {
       "first_candidate": "ISWARI ESPA\u00d1A",
       "second_candidate": "HILLARY RONEN",
       "numerator": 127,
@@ -244,6 +262,12 @@
       "first_candidate": "ISWARI ESPA\u00d1A",
       "second_candidate": "MELISSA SAN MIGUEL",
       "numerator": 201,
+      "denominator": 545
+    },
+    {
+      "first_candidate": "ISWARI ESPA\u00d1A",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 106,
       "denominator": 545
     }
   ],

@@ -970,6 +970,12 @@
       "denominator": 12568
     },
     {
+      "first_candidate": "SANDRA LEE FEWER",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 3585,
+      "denominator": 12568
+    },
+    {
       "first_candidate": "MARJAN PHILHOUR",
       "second_candidate": "SANDRA LEE FEWER",
       "numerator": 3991,
@@ -1021,6 +1027,12 @@
       "first_candidate": "MARJAN PHILHOUR",
       "second_candidate": "ANDY THORNLEY",
       "numerator": 164,
+      "denominator": 11099
+    },
+    {
+      "first_candidate": "MARJAN PHILHOUR",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 2466,
       "denominator": 11099
     },
     {
@@ -1078,6 +1090,12 @@
       "denominator": 3402
     },
     {
+      "first_candidate": "DAVID LEE",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 506,
+      "denominator": 3402
+    },
+    {
       "first_candidate": "RICHIE GREENBERG",
       "second_candidate": "SANDRA LEE FEWER",
       "numerator": 91,
@@ -1129,6 +1147,12 @@
       "first_candidate": "RICHIE GREENBERG",
       "second_candidate": "ANDY THORNLEY",
       "numerator": 29,
+      "denominator": 980
+    },
+    {
+      "first_candidate": "RICHIE GREENBERG",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 172,
       "denominator": 980
     },
     {
@@ -1186,6 +1210,12 @@
       "denominator": 747
     },
     {
+      "first_candidate": "BRIAN J. LARKIN",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 77,
+      "denominator": 747
+    },
+    {
       "first_candidate": "SAMUEL KWONG",
       "second_candidate": "SANDRA LEE FEWER",
       "numerator": 60,
@@ -1237,6 +1267,12 @@
       "first_candidate": "SAMUEL KWONG",
       "second_candidate": "ANDY THORNLEY",
       "numerator": 3,
+      "denominator": 744
+    },
+    {
+      "first_candidate": "SAMUEL KWONG",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 79,
       "denominator": 744
     },
     {
@@ -1294,6 +1330,12 @@
       "denominator": 612
     },
     {
+      "first_candidate": "JASON JUNGREIS",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 56,
+      "denominator": 612
+    },
+    {
       "first_candidate": "JONATHAN LYENS",
       "second_candidate": "SANDRA LEE FEWER",
       "numerator": 173,
@@ -1345,6 +1387,12 @@
       "first_candidate": "JONATHAN LYENS",
       "second_candidate": "ANDY THORNLEY",
       "numerator": 21,
+      "denominator": 611
+    },
+    {
+      "first_candidate": "JONATHAN LYENS",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 56,
       "denominator": 611
     },
     {
@@ -1402,6 +1450,12 @@
       "denominator": 558
     },
     {
+      "first_candidate": "SHERMAN R. D'SILVA",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 86,
+      "denominator": 558
+    },
+    {
       "first_candidate": "ANDY THORNLEY",
       "second_candidate": "SANDRA LEE FEWER",
       "numerator": 139,
@@ -1453,6 +1507,12 @@
       "first_candidate": "ANDY THORNLEY",
       "second_candidate": "SHERMAN R. D'SILVA",
       "numerator": 9,
+      "denominator": 360
+    },
+    {
+      "first_candidate": "ANDY THORNLEY",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 33,
       "denominator": 360
     }
   ],

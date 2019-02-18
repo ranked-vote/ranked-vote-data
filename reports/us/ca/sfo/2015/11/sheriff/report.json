@@ -136,6 +136,12 @@
       "denominator": 113349
     },
     {
+      "first_candidate": "VICKI HENNESSY",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 59936,
+      "denominator": 113349
+    },
+    {
       "first_candidate": "ROSS MIRKARIMI",
       "second_candidate": "VICKI HENNESSY",
       "numerator": 22758,
@@ -148,6 +154,12 @@
       "denominator": 61446
     },
     {
+      "first_candidate": "ROSS MIRKARIMI",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 31162,
+      "denominator": 61446
+    },
+    {
       "first_candidate": "JOHN ROBINSON",
       "second_candidate": "VICKI HENNESSY",
       "numerator": 5168,
@@ -157,6 +169,12 @@
       "first_candidate": "JOHN ROBINSON",
       "second_candidate": "ROSS MIRKARIMI",
       "numerator": 1959,
+      "denominator": 11036
+    },
+    {
+      "first_candidate": "JOHN ROBINSON",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 3909,
       "denominator": 11036
     }
   ],
