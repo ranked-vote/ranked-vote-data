@@ -45,12 +45,12 @@
       ],
       "results": [
         {
-          "name": "JOSHUA ARCE",
-          "votes": 9648
-        },
-        {
           "name": "HILLARY RONEN",
           "votes": 18396
+        },
+        {
+          "name": "JOSHUA ARCE",
+          "votes": 9648
         },
         {
           "name": "MELISSA SAN MIGUEL",
@@ -59,6 +59,10 @@
         {
           "name": "ISWARI ESPA\u00d1A",
           "votes": 545
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 2891
         }
       ],
       "undervote": 2764,

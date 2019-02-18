@@ -39,12 +39,16 @@
       ],
       "results": [
         {
+          "name": "LONDON BREED",
+          "votes": 21399
+        },
+        {
           "name": "DEAN PRESTON",
           "votes": 19610
         },
         {
-          "name": "LONDON BREED",
-          "votes": 21399
+          "name": "$EXHAUSTED",
+          "votes": 4522
         }
       ],
       "undervote": 4472,

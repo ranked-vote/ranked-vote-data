@@ -51,24 +51,24 @@
       ],
       "results": [
         {
-          "name": "THEO ELLINGTON",
-          "votes": 4820
-        },
-        {
-          "name": "GLORIA BERRY",
-          "votes": 966
-        },
-        {
-          "name": "UZURI PEASE-GREENE",
-          "votes": 1311
+          "name": "SHAMANN WALTON",
+          "votes": 9585
         },
         {
           "name": "TONY KELLY",
           "votes": 5679
         },
         {
-          "name": "SHAMANN WALTON",
-          "votes": 9585
+          "name": "THEO ELLINGTON",
+          "votes": 4820
+        },
+        {
+          "name": "UZURI PEASE-GREENE",
+          "votes": 1311
+        },
+        {
+          "name": "GLORIA BERRY",
+          "votes": 966
         },
         {
           "name": "ASALE CHANDLER",
@@ -77,6 +77,10 @@
         {
           "name": "WRITE-IN NEO VEAVEA",
           "votes": 31
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 3063
         }
       ],
       "undervote": 2907,
@@ -94,16 +98,20 @@
       ],
       "results": [
         {
-          "name": "THEO ELLINGTON",
-          "votes": 5387
+          "name": "SHAMANN WALTON",
+          "votes": 10392
         },
         {
           "name": "TONY KELLY",
           "votes": 6540
         },
         {
-          "name": "SHAMANN WALTON",
-          "votes": 10392
+          "name": "THEO ELLINGTON",
+          "votes": 5387
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 3938
         }
       ],
       "undervote": 3772,
@@ -148,7 +156,7 @@
         },
         {
           "from": "UZURI PEASE-GREENE",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 291
         },
         {
@@ -168,7 +176,7 @@
         },
         {
           "from": "GLORIA BERRY",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 310
         },
         {
@@ -178,7 +186,7 @@
         },
         {
           "from": "ASALE CHANDLER",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 264
         },
         {
@@ -208,7 +216,7 @@
         },
         {
           "from": "WRITE-IN NEO VEAVEA",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 10
         }
       ]
@@ -221,12 +229,16 @@
       ],
       "results": [
         {
+          "name": "SHAMANN WALTON",
+          "votes": 13023
+        },
+        {
           "name": "TONY KELLY",
           "votes": 7624
         },
         {
-          "name": "SHAMANN WALTON",
-          "votes": 13023
+          "name": "$EXHAUSTED",
+          "votes": 5610
         }
       ],
       "undervote": 5433,
@@ -248,7 +260,7 @@
         },
         {
           "from": "THEO ELLINGTON",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 1672
         },
         {

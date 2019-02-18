@@ -67,28 +67,32 @@
       ],
       "results": [
         {
-          "name": "FRANCISCO HERRERA",
-          "votes": 28805
-        },
-        {
           "name": "ED LEE",
           "votes": 105771
         },
         {
-          "name": "STUART SCHUFFMAN",
-          "votes": 18347
-        },
-        {
-          "name": "REED MARTIN",
-          "votes": 4660
+          "name": "FRANCISCO HERRERA",
+          "votes": 28805
         },
         {
           "name": "AMY FARAH WEISS",
           "votes": 23236
         },
         {
+          "name": "STUART SCHUFFMAN",
+          "votes": 18347
+        },
+        {
           "name": "KENT GRAHAM",
           "votes": 8827
+        },
+        {
+          "name": "REED MARTIN",
+          "votes": 4660
+        },
+        {
+          "name": "WRITE-IN - MICHAEL PETRELIS",
+          "votes": 37
         },
         {
           "name": "WRITE-IN - ROBERT L. JORDAN, JR.",
@@ -99,16 +103,16 @@
           "votes": 6
         },
         {
-          "name": "WRITE-IN - MICHAEL PETRELIS",
-          "votes": 37
+          "name": "WRITE-IN - DANIEL C KAPPLER",
+          "votes": 6
         },
         {
           "name": "WRITE-IN - JOHN E. FITCH",
           "votes": 5
         },
         {
-          "name": "WRITE-IN - DANIEL C KAPPLER",
-          "votes": 6
+          "name": "$EXHAUSTED",
+          "votes": 13362
         }
       ],
       "undervote": 12741,

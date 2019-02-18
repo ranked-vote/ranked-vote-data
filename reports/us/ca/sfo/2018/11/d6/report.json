@@ -39,16 +39,20 @@
       ],
       "results": [
         {
-          "name": "CHRISTINE JOHNSON",
-          "votes": 6267
-        },
-        {
           "name": "MATT HANEY",
           "votes": 14288
         },
         {
+          "name": "CHRISTINE JOHNSON",
+          "votes": 6267
+        },
+        {
           "name": "SONJA TRAUSS",
           "votes": 4775
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 3542
         }
       ],
       "undervote": 3467,

@@ -73,12 +73,16 @@
           "votes": 132013
         },
         {
+          "name": "Tiffany L. Bond",
+          "votes": 16552
+        },
+        {
           "name": "William R.S. Hoar",
           "votes": 6875
         },
         {
-          "name": "Tiffany L. Bond",
-          "votes": 16552
+          "name": "$EXHAUSTED",
+          "votes": 6453
         }
       ],
       "undervote": 6018,
@@ -95,12 +99,16 @@
       ],
       "results": [
         {
+          "name": "Jared F. Golden",
+          "votes": 142440
+        },
+        {
           "name": "Bruce Poliquin",
           "votes": 138931
         },
         {
-          "name": "Jared F. Golden",
-          "votes": 142440
+          "name": "$EXHAUSTED",
+          "votes": 14706
         }
       ],
       "undervote": 14173,
@@ -128,7 +136,7 @@
         },
         {
           "from": "Tiffany L. Bond",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 5573
         },
         {
@@ -148,7 +156,7 @@
         },
         {
           "from": "William R.S. Hoar",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 2680
         }
       ]

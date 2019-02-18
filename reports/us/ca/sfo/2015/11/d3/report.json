@@ -42,16 +42,20 @@
       ],
       "results": [
         {
-          "name": "JULIE CHRISTENSEN",
-          "votes": 7267
-        },
-        {
           "name": "AARON PESKIN",
           "votes": 8767
         },
         {
+          "name": "JULIE CHRISTENSEN",
+          "votes": 7267
+        },
+        {
           "name": "WILMA PANG",
           "votes": 660
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 860
         }
       ],
       "undervote": 819,

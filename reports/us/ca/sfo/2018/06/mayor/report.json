@@ -60,10 +60,6 @@
       ],
       "results": [
         {
-          "name": "JANE KIM",
-          "votes": 60738
-        },
-        {
           "name": "LONDON BREED",
           "votes": 92121
         },
@@ -72,28 +68,36 @@
           "votes": 61416
         },
         {
-          "name": "ELLEN LEE ZHOU",
-          "votes": 9576
+          "name": "JANE KIM",
+          "votes": 60738
         },
         {
           "name": "ANGELA ALIOTO",
           "votes": 17552
         },
         {
-          "name": "RICHIE GREENBERG",
-          "votes": 7051
+          "name": "ELLEN LEE ZHOU",
+          "votes": 9576
         },
         {
-          "name": "MICHELLE BRAVO",
-          "votes": 900
+          "name": "RICHIE GREENBERG",
+          "votes": 7051
         },
         {
           "name": "AMY FARAH WEISS",
           "votes": 1675
         },
         {
+          "name": "MICHELLE BRAVO",
+          "votes": 900
+        },
+        {
           "name": "WRITE-IN ANTOINE R. ROGERS",
           "votes": 3
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 2984
         }
       ],
       "undervote": 2350,
@@ -111,16 +115,20 @@
       ],
       "results": [
         {
-          "name": "JANE KIM",
-          "votes": 66043
-        },
-        {
           "name": "LONDON BREED",
           "votes": 102767
         },
         {
           "name": "MARK LENO",
           "votes": 68707
+        },
+        {
+          "name": "JANE KIM",
+          "votes": 66043
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 16499
         }
       ],
       "undervote": 15806,
@@ -162,7 +170,7 @@
         },
         {
           "from": "ANGELA ALIOTO",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 5635
         },
         {
@@ -187,12 +195,12 @@
         },
         {
           "from": "ELLEN LEE ZHOU",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 3555
         },
         {
           "from": "RICHIE GREENBERG",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 3516
         },
         {
@@ -227,12 +235,12 @@
         },
         {
           "from": "AMY FARAH WEISS",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 399
         },
         {
           "from": "MICHELLE BRAVO",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 410
         },
         {
@@ -271,6 +279,10 @@
         {
           "name": "MARK LENO",
           "votes": 113431
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 24608
         }
       ],
       "undervote": 23860,
@@ -297,7 +309,7 @@
         },
         {
           "from": "JANE KIM",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 8109
         },
         {

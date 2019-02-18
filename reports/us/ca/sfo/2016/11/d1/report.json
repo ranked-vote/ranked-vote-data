@@ -75,32 +75,36 @@
           "votes": 3402
         },
         {
-          "name": "BRIAN J. LARKIN",
-          "votes": 747
-        },
-        {
-          "name": "SHERMAN R. D'SILVA",
-          "votes": 558
-        },
-        {
-          "name": "JASON JUNGREIS",
-          "votes": 612
-        },
-        {
           "name": "RICHIE GREENBERG",
           "votes": 980
         },
         {
-          "name": "JONATHAN LYENS",
-          "votes": 611
+          "name": "BRIAN J. LARKIN",
+          "votes": 747
         },
         {
           "name": "SAMUEL KWONG",
           "votes": 744
         },
         {
+          "name": "JASON JUNGREIS",
+          "votes": 612
+        },
+        {
+          "name": "JONATHAN LYENS",
+          "votes": 611
+        },
+        {
+          "name": "SHERMAN R. D'SILVA",
+          "votes": 558
+        },
+        {
           "name": "ANDY THORNLEY",
           "votes": 360
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 3428
         }
       ],
       "undervote": 3236,
@@ -123,6 +127,10 @@
         {
           "name": "MARJAN PHILHOUR",
           "votes": 13459
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 6613
         }
       ],
       "undervote": 6403,
@@ -151,7 +159,7 @@
         },
         {
           "from": "DAVID LEE",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 1005
         },
         {
@@ -171,7 +179,7 @@
         },
         {
           "from": "RICHIE GREENBERG",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 558
         },
         {
@@ -181,7 +189,7 @@
         },
         {
           "from": "BRIAN J. LARKIN",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 398
         },
         {
@@ -206,7 +214,7 @@
         },
         {
           "from": "SAMUEL KWONG",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 316
         },
         {
@@ -216,7 +224,7 @@
         },
         {
           "from": "JASON JUNGREIS",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 348
         },
         {
@@ -226,7 +234,7 @@
         },
         {
           "from": "JONATHAN LYENS",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 207
         },
         {
@@ -246,7 +254,7 @@
         },
         {
           "from": "SHERMAN R. D'SILVA",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 249
         },
         {
@@ -256,7 +264,7 @@
         },
         {
           "from": "ANDY THORNLEY",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 104
         },
         {

@@ -48,8 +48,8 @@
       ],
       "results": [
         {
-          "name": "JOHN FARRELL",
-          "votes": 4948
+          "name": "NORMAN YEE",
+          "votes": 14179
         },
         {
           "name": "JOEL ENGARDIO",
@@ -60,12 +60,16 @@
           "votes": 6498
         },
         {
+          "name": "JOHN FARRELL",
+          "votes": 4948
+        },
+        {
           "name": "MIKE YOUNG",
           "votes": 2004
         },
         {
-          "name": "NORMAN YEE",
-          "votes": 14179
+          "name": "$EXHAUSTED",
+          "votes": 4212
         }
       ],
       "undervote": 4084,
@@ -84,8 +88,8 @@
       ],
       "results": [
         {
-          "name": "JOHN FARRELL",
-          "votes": 5556
+          "name": "NORMAN YEE",
+          "votes": 14672
         },
         {
           "name": "JOEL ENGARDIO",
@@ -96,8 +100,12 @@
           "votes": 6833
         },
         {
-          "name": "NORMAN YEE",
-          "votes": 14672
+          "name": "JOHN FARRELL",
+          "votes": 5556
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 4449
         }
       ],
       "undervote": 4319,
@@ -129,7 +137,7 @@
         },
         {
           "from": "MIKE YOUNG",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 237
         },
         {
@@ -163,6 +171,10 @@
       ],
       "results": [
         {
+          "name": "NORMAN YEE",
+          "votes": 15796
+        },
+        {
           "name": "JOEL ENGARDIO",
           "votes": 9600
         },
@@ -171,8 +183,8 @@
           "votes": 8667
         },
         {
-          "name": "NORMAN YEE",
-          "votes": 15796
+          "name": "$EXHAUSTED",
+          "votes": 5423
         }
       ],
       "undervote": 5282,
@@ -204,7 +216,7 @@
         },
         {
           "from": "JOHN FARRELL",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 974
         },
         {
@@ -232,12 +244,16 @@
       ],
       "results": [
         {
+          "name": "NORMAN YEE",
+          "votes": 17692
+        },
+        {
           "name": "JOEL ENGARDIO",
           "votes": 12815
         },
         {
-          "name": "NORMAN YEE",
-          "votes": 17692
+          "name": "$EXHAUSTED",
+          "votes": 8979
         }
       ],
       "undervote": 8826,
@@ -264,7 +280,7 @@
         },
         {
           "from": "BEN MATRANGA",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 3556
         },
         {

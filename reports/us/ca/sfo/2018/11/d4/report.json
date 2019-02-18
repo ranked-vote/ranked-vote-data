@@ -58,12 +58,16 @@
           "votes": 10314
         },
         {
+          "name": "JESSICA HO",
+          "votes": 7444
+        },
+        {
           "name": "TREVOR MCNEIL",
           "votes": 3490
         },
         {
-          "name": "TUAN NGUYEN",
-          "votes": 853
+          "name": "ARTHUR TOM",
+          "votes": 2441
         },
         {
           "name": "LOU ANN BASSAN",
@@ -74,16 +78,16 @@
           "votes": 1182
         },
         {
-          "name": "ARTHUR TOM",
-          "votes": 2441
-        },
-        {
-          "name": "JESSICA HO",
-          "votes": 7444
+          "name": "TUAN NGUYEN",
+          "votes": 853
         },
         {
           "name": "ADAM KIM",
           "votes": 515
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 2990
         }
       ],
       "undervote": 2814,
@@ -109,12 +113,16 @@
           "votes": 10388
         },
         {
+          "name": "JESSICA HO",
+          "votes": 7556
+        },
+        {
           "name": "TREVOR MCNEIL",
           "votes": 3547
         },
         {
-          "name": "TUAN NGUYEN",
-          "votes": 898
+          "name": "ARTHUR TOM",
+          "votes": 2513
         },
         {
           "name": "LOU ANN BASSAN",
@@ -125,12 +133,12 @@
           "votes": 1233
         },
         {
-          "name": "ARTHUR TOM",
-          "votes": 2513
+          "name": "TUAN NGUYEN",
+          "votes": 898
         },
         {
-          "name": "JESSICA HO",
-          "votes": 7556
+          "name": "$EXHAUSTED",
+          "votes": 3057
         }
       ],
       "undervote": 2880,
@@ -187,7 +195,7 @@
         },
         {
           "from": "ADAM KIM",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 67
         },
         {
@@ -232,20 +240,24 @@
           "votes": 10833
         },
         {
-          "name": "TREVOR MCNEIL",
-          "votes": 3987
+          "name": "JESSICA HO",
+          "votes": 7858
         },
         {
-          "name": "LOU ANN BASSAN",
-          "votes": 2467
+          "name": "TREVOR MCNEIL",
+          "votes": 3987
         },
         {
           "name": "ARTHUR TOM",
           "votes": 2740
         },
         {
-          "name": "JESSICA HO",
-          "votes": 7858
+          "name": "LOU ANN BASSAN",
+          "votes": 2467
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 3527
         }
       ],
       "undervote": 3344,
@@ -288,7 +300,7 @@
         },
         {
           "from": "MIKE MURPHY",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 273
         },
         {
@@ -313,7 +325,7 @@
         },
         {
           "from": "TUAN NGUYEN",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 197
         },
         {
@@ -362,6 +374,10 @@
           "votes": 11138
         },
         {
+          "name": "JESSICA HO",
+          "votes": 8306
+        },
+        {
           "name": "TREVOR MCNEIL",
           "votes": 4470
         },
@@ -370,8 +386,8 @@
           "votes": 3187
         },
         {
-          "name": "JESSICA HO",
-          "votes": 8306
+          "name": "$EXHAUSTED",
+          "votes": 4311
         }
       ],
       "undervote": 4125,
@@ -423,7 +439,7 @@
         },
         {
           "from": "LOU ANN BASSAN",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 784
         },
         {
@@ -457,6 +473,10 @@
         {
           "name": "JESSICA HO",
           "votes": 10065
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 8092
         }
       ],
       "undervote": 7892,
@@ -479,7 +499,7 @@
         },
         {
           "from": "TREVOR MCNEIL",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 2129
         },
         {
@@ -494,7 +514,7 @@
         },
         {
           "from": "ARTHUR TOM",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 1652
         },
         {

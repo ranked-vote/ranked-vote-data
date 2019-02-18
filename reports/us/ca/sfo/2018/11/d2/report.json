@@ -42,20 +42,24 @@
       ],
       "results": [
         {
+          "name": "CATHERINE STEFANI",
+          "votes": 14415
+        },
+        {
           "name": "NICK JOSEFOWITZ",
           "votes": 13644
+        },
+        {
+          "name": "SCHUYLER HUDAK",
+          "votes": 4145
         },
         {
           "name": "JOHN DENNIS",
           "votes": 3108
         },
         {
-          "name": "CATHERINE STEFANI",
-          "votes": 14415
-        },
-        {
-          "name": "SCHUYLER HUDAK",
-          "votes": 4145
+          "name": "$EXHAUSTED",
+          "votes": 4594
         }
       ],
       "undervote": 4515,
@@ -72,12 +76,16 @@
       ],
       "results": [
         {
+          "name": "CATHERINE STEFANI",
+          "votes": 17340
+        },
+        {
           "name": "NICK JOSEFOWITZ",
           "votes": 16061
         },
         {
-          "name": "CATHERINE STEFANI",
-          "votes": 17340
+          "name": "$EXHAUSTED",
+          "votes": 6505
         }
       ],
       "undervote": 6408,
@@ -110,12 +118,12 @@
         },
         {
           "from": "SCHUYLER HUDAK",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 697
         },
         {
           "from": "JOHN DENNIS",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 1214
         },
         {

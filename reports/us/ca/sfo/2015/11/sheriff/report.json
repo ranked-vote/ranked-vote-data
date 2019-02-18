@@ -52,6 +52,10 @@
         {
           "name": "JOHN ROBINSON",
           "votes": 11036
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 17238
         }
       ],
       "undervote": 17001,

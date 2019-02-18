@@ -48,24 +48,28 @@
       ],
       "results": [
         {
-          "name": "KIM ALVARENGA",
-          "votes": 8670
-        },
-        {
           "name": "AHSHA SAFAI",
           "votes": 9466
         },
         {
-          "name": "BERTA HERNANDEZ",
-          "votes": 1607
+          "name": "KIM ALVARENGA",
+          "votes": 8670
+        },
+        {
+          "name": "MAGDALENA DE GUZMAN",
+          "votes": 3019
         },
         {
           "name": "FRANCISCO HERRERA",
           "votes": 2618
         },
         {
-          "name": "MAGDALENA DE GUZMAN",
-          "votes": 3019
+          "name": "BERTA HERNANDEZ",
+          "votes": 1607
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 2630
         }
       ],
       "undervote": 2457,
@@ -82,12 +86,16 @@
       ],
       "results": [
         {
+          "name": "AHSHA SAFAI",
+          "votes": 11222
+        },
+        {
           "name": "KIM ALVARENGA",
           "votes": 10809
         },
         {
-          "name": "AHSHA SAFAI",
-          "votes": 11222
+          "name": "$EXHAUSTED",
+          "votes": 5979
         }
       ],
       "undervote": 5774,
@@ -116,7 +124,7 @@
         },
         {
           "from": "MAGDALENA DE GUZMAN",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 1438
         },
         {
@@ -131,7 +139,7 @@
         },
         {
           "from": "FRANCISCO HERRERA",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 1208
         },
         {
@@ -141,7 +149,7 @@
         },
         {
           "from": "BERTA HERNANDEZ",
-          "to": "$UNDERVOTE",
+          "to": "$EXHAUSTED",
           "count": 703
         },
         {
