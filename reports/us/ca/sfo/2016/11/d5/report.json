@@ -23,7 +23,7 @@
       "LONDON BREED",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2016/11/d5.normalized.csv.gz",
+    "normalized_ballots": "us/ca/sfo/2016/11/d5/us_ca_sfo_2016_11_d5.normalized.csv.gz",
     "candidates": [
       {
         "id": "LONDON BREED",

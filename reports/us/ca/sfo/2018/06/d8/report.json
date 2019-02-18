@@ -24,7 +24,7 @@
       "RAFAEL MANDELMAN",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2018/06/d8.normalized.csv.gz",
+    "normalized_ballots": "us/ca/sfo/2018/06/d8/us_ca_sfo_2018_06_d8.normalized.csv.gz",
     "candidates": [
       {
         "id": "RAFAEL MANDELMAN",

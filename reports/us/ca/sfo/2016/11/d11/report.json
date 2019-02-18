@@ -26,7 +26,7 @@
       "KIM ALVARENGA",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2016/11/d11.normalized.csv.gz",
+    "normalized_ballots": "us/ca/sfo/2016/11/d11/us_ca_sfo_2016_11_d11.normalized.csv.gz",
     "candidates": [
       {
         "id": "AHSHA SAFAI",

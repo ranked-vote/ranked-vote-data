@@ -33,7 +33,7 @@
       "WRITE-IN - IGNACIO L. NUNEZ",
       "WRITE-IN - MICHAEL PETRELIS"
     ],
-    "normalized_ballots": "us/ca/sfo/2015/11/mayor.normalized.csv.gz",
+    "normalized_ballots": "us/ca/sfo/2015/11/mayor/us_ca_sfo_2015_11_mayor.normalized.csv.gz",
     "candidates": [
       {
         "id": "ED LEE",

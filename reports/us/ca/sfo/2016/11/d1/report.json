@@ -31,7 +31,7 @@
       "JASON JUNGREIS",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2016/11/d1.normalized.csv.gz",
+    "normalized_ballots": "us/ca/sfo/2016/11/d1/us_ca_sfo_2016_11_d1.normalized.csv.gz",
     "candidates": [
       {
         "id": "SANDRA LEE FEWER",

@@ -21,7 +21,7 @@
       "SONJA TRAUSS",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2018/11/d6.normalized.csv.gz",
+    "normalized_ballots": "us/ca/sfo/2018/11/d6/us_ca_sfo_2018_11_d6.normalized.csv.gz",
     "candidates": [
       {
         "id": "MATT HANEY",

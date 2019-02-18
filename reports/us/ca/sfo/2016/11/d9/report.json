@@ -25,7 +25,7 @@
       "JOSHUA ARCE",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2016/11/d9.normalized.csv.gz",
+    "normalized_ballots": "us/ca/sfo/2016/11/d9/us_ca_sfo_2016_11_d9.normalized.csv.gz",
     "candidates": [
       {
         "id": "HILLARY RONEN",

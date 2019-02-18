@@ -23,7 +23,7 @@
       "AARON PESKIN",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2016/11/d3.normalized.csv.gz",
+    "normalized_ballots": "us/ca/sfo/2016/11/d3/us_ca_sfo_2016_11_d3.normalized.csv.gz",
     "candidates": [
       {
         "id": "AARON PESKIN",

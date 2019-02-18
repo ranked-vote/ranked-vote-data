@@ -40,103 +40,67 @@
     ],
     "num_ballots": 296077,
     "candidate_ids": [
-      "REP Poliquin, Bruce (5931)",
-      "REP Poliquin, Bruce",
-      "DEM Golden, Jared F. (5471)",
-      "Bond, Tiffany L.",
-      "DEM Golden, Jared F.",
-      "Hoar, William R.S.",
-      "DEM Golden, Jared F. "
+      "Bruce Poliquin",
+      "Jared F. Golden",
+      "Tiffany L. Bond",
+      "William R.S. Hoar"
     ],
-    "normalized_ballots": "us/me/2018/11/cd02.normalized.csv.gz",
+    "normalized_ballots": "us/me/2018/11/cd02/us_me_2018_11_cd02.normalized.csv.gz",
     "candidates": [
       {
-        "id": "REP Poliquin, Bruce (5931)",
+        "id": "Bruce Poliquin",
         "name": "Bruce Poliquin",
         "write_in": false
       },
       {
-        "id": "DEM Golden, Jared F. (5471)",
+        "id": "Jared F. Golden",
         "name": "Jared F. Golden",
         "write_in": false
       },
       {
-        "id": "Bond, Tiffany L.",
+        "id": "Tiffany L. Bond",
         "name": "Tiffany L. Bond",
         "write_in": false
       },
       {
-        "id": "Hoar, William R.S.",
+        "id": "William R.S. Hoar",
         "name": "William R.S. Hoar",
-        "write_in": false
-      },
-      {
-        "id": "DEM Golden, Jared F.",
-        "name": "Jared F. Golden",
-        "write_in": false
-      },
-      {
-        "id": "REP Poliquin, Bruce",
-        "name": "Bruce Poliquin",
-        "write_in": false
-      },
-      {
-        "id": "DEM Golden, Jared F. ",
-        "name": "Jared F. Golden",
         "write_in": false
       }
     ]
   },
   "candidates": [
-    "REP Poliquin, Bruce (5931)",
-    "DEM Golden, Jared F. (5471)",
-    "Bond, Tiffany L.",
-    "Hoar, William R.S.",
-    "DEM Golden, Jared F.",
-    "REP Poliquin, Bruce",
-    "DEM Golden, Jared F. "
+    "Bruce Poliquin",
+    "Jared F. Golden",
+    "Tiffany L. Bond",
+    "William R.S. Hoar"
   ],
-  "winner": "REP Poliquin, Bruce (5931)",
+  "winner": "Jared F. Golden",
   "rounds": [
     {
       "round": 1,
       "candidates": [
-        "REP Poliquin, Bruce (5931)",
-        "DEM Golden, Jared F. (5471)",
-        "Bond, Tiffany L.",
-        "Hoar, William R.S.",
-        "DEM Golden, Jared F.",
-        "REP Poliquin, Bruce",
-        "DEM Golden, Jared F. "
+        "Bruce Poliquin",
+        "Jared F. Golden",
+        "Tiffany L. Bond",
+        "William R.S. Hoar"
       ],
       "results": [
         {
-          "name": "REP Poliquin, Bruce (5931)",
-          "votes": 133793
+          "name": "Bruce Poliquin",
+          "votes": 134184
         },
         {
-          "name": "DEM Golden, Jared F. (5471)",
-          "votes": 131003
+          "name": "Jared F. Golden",
+          "votes": 132013
         },
         {
-          "name": "Bond, Tiffany L.",
+          "name": "Tiffany L. Bond",
           "votes": 16552
         },
         {
-          "name": "Hoar, William R.S.",
+          "name": "William R.S. Hoar",
           "votes": 6875
-        },
-        {
-          "name": "DEM Golden, Jared F.",
-          "votes": 944
-        },
-        {
-          "name": "REP Poliquin, Bruce",
-          "votes": 391
-        },
-        {
-          "name": "DEM Golden, Jared F. ",
-          "votes": 66
         },
         {
           "name": "$EXHAUSTED",
@@ -152,68 +116,70 @@
     {
       "round": 2,
       "candidates": [
-        "REP Poliquin, Bruce (5931)",
-        "DEM Golden, Jared F. (5471)"
+        "Jared F. Golden",
+        "Bruce Poliquin"
       ],
       "results": [
         {
-          "name": "REP Poliquin, Bruce (5931)",
-          "votes": 133793
+          "name": "Jared F. Golden",
+          "votes": 142440
         },
         {
-          "name": "DEM Golden, Jared F. (5471)",
-          "votes": 131003
+          "name": "Bruce Poliquin",
+          "votes": 138931
         },
         {
           "name": "$EXHAUSTED",
-          "votes": 31281
+          "votes": 14706
         }
       ],
-      "undervote": 30692,
-      "overvote": 589,
-      "continuing_ballots": 264796,
+      "undervote": 14173,
+      "overvote": 533,
+      "continuing_ballots": 281371,
       "eliminated": [
-        "Bond, Tiffany L.",
-        "Hoar, William R.S.",
-        "DEM Golden, Jared F.",
-        "REP Poliquin, Bruce",
-        "DEM Golden, Jared F. "
+        "Tiffany L. Bond",
+        "William R.S. Hoar"
       ],
       "transfers": [
         {
-          "from": "REP Poliquin, Bruce (5931)",
-          "to": "REP Poliquin, Bruce (5931)",
-          "count": 133793
+          "from": "Bruce Poliquin",
+          "to": "Bruce Poliquin",
+          "count": 134184
         },
         {
-          "from": "DEM Golden, Jared F. (5471)",
-          "to": "DEM Golden, Jared F. (5471)",
-          "count": 131003
+          "from": "Jared F. Golden",
+          "to": "Jared F. Golden",
+          "count": 132013
         },
         {
-          "from": "Bond, Tiffany L.",
+          "from": "Tiffany L. Bond",
+          "to": "Jared F. Golden",
+          "count": 7862
+        },
+        {
+          "from": "Tiffany L. Bond",
           "to": "$EXHAUSTED",
-          "count": 16552
+          "count": 5573
         },
         {
-          "from": "Hoar, William R.S.",
-          "to": "$EXHAUSTED",
-          "count": 6875
+          "from": "Tiffany L. Bond",
+          "to": "Bruce Poliquin",
+          "count": 3117
         },
         {
-          "from": "DEM Golden, Jared F.",
-          "to": "$EXHAUSTED",
-          "count": 944
+          "from": "William R.S. Hoar",
+          "to": "Bruce Poliquin",
+          "count": 1630
         },
         {
-          "from": "REP Poliquin, Bruce",
-          "to": "$EXHAUSTED",
-          "count": 391
+          "from": "William R.S. Hoar",
+          "to": "Jared F. Golden",
+          "count": 2565
         },
         {
-          "from": "DEM Golden, Jared F. ",
+          "from": "William R.S. Hoar",
           "to": "$EXHAUSTED",
-          "count": 66
+          "count": 2680
         },
         {
           "from": "$EXHAUSTED",
@@ -224,719 +190,254 @@
     }
   ],
   "smith_set": [
-    "REP Poliquin, Bruce (5931)"
+    "Jared F. Golden"
   ],
-  "condorcet": "REP Poliquin, Bruce (5931)",
+  "condorcet": "Jared F. Golden",
   "graph": [
     {
-      "source": "REP Poliquin, Bruce (5931)",
+      "source": "Bruce Poliquin",
+      "edges": [
+        "Jared F. Golden"
+      ]
+    },
+    {
+      "source": "Jared F. Golden",
       "edges": []
     },
     {
-      "source": "DEM Golden, Jared F. (5471)",
+      "source": "Tiffany L. Bond",
       "edges": [
-        "REP Poliquin, Bruce (5931)"
+        "Bruce Poliquin",
+        "Jared F. Golden"
       ]
     },
     {
-      "source": "Bond, Tiffany L.",
+      "source": "William R.S. Hoar",
       "edges": [
-        "DEM Golden, Jared F. (5471)",
-        "REP Poliquin, Bruce (5931)"
-      ]
-    },
-    {
-      "source": "Hoar, William R.S.",
-      "edges": [
-        "Bond, Tiffany L.",
-        "DEM Golden, Jared F. (5471)",
-        "REP Poliquin, Bruce (5931)"
-      ]
-    },
-    {
-      "source": "DEM Golden, Jared F.",
-      "edges": [
-        "Bond, Tiffany L.",
-        "DEM Golden, Jared F. (5471)",
-        "Hoar, William R.S.",
-        "REP Poliquin, Bruce",
-        "REP Poliquin, Bruce (5931)"
-      ]
-    },
-    {
-      "source": "REP Poliquin, Bruce",
-      "edges": [
-        "Bond, Tiffany L.",
-        "DEM Golden, Jared F. (5471)",
-        "Hoar, William R.S.",
-        "REP Poliquin, Bruce (5931)"
-      ]
-    },
-    {
-      "source": "DEM Golden, Jared F. ",
-      "edges": [
-        "Bond, Tiffany L.",
-        "DEM Golden, Jared F.",
-        "DEM Golden, Jared F. (5471)",
-        "Hoar, William R.S.",
-        "REP Poliquin, Bruce",
-        "REP Poliquin, Bruce (5931)"
+        "Bruce Poliquin",
+        "Jared F. Golden",
+        "Tiffany L. Bond"
       ]
     }
   ],
   "pairwise": [
     {
-      "first_candidate": "REP Poliquin, Bruce (5931)",
-      "second_candidate": "DEM Golden, Jared F. (5471)",
-      "numerator": 133793,
-      "denominator": 264796
+      "first_candidate": "Bruce Poliquin",
+      "second_candidate": "Jared F. Golden",
+      "numerator": 138931,
+      "denominator": 281371
     },
     {
-      "first_candidate": "REP Poliquin, Bruce (5931)",
-      "second_candidate": "Bond, Tiffany L.",
-      "numerator": 133793,
-      "denominator": 227347
+      "first_candidate": "Bruce Poliquin",
+      "second_candidate": "Tiffany L. Bond",
+      "numerator": 144516,
+      "denominator": 231474
     },
     {
-      "first_candidate": "REP Poliquin, Bruce (5931)",
-      "second_candidate": "Hoar, William R.S.",
-      "numerator": 133793,
-      "denominator": 215925
+      "first_candidate": "Bruce Poliquin",
+      "second_candidate": "William R.S. Hoar",
+      "numerator": 146412,
+      "denominator": 220988
     },
     {
-      "first_candidate": "REP Poliquin, Bruce (5931)",
-      "second_candidate": "DEM Golden, Jared F.",
-      "numerator": 133793,
-      "denominator": 150351
+      "first_candidate": "Jared F. Golden",
+      "second_candidate": "Bruce Poliquin",
+      "numerator": 142440,
+      "denominator": 281371
     },
     {
-      "first_candidate": "REP Poliquin, Bruce (5931)",
-      "second_candidate": "REP Poliquin, Bruce",
-      "numerator": 133793,
-      "denominator": 188293
+      "first_candidate": "Jared F. Golden",
+      "second_candidate": "Tiffany L. Bond",
+      "numerator": 145067,
+      "denominator": 194165
     },
     {
-      "first_candidate": "REP Poliquin, Bruce (5931)",
-      "second_candidate": "DEM Golden, Jared F. ",
-      "numerator": 133793,
-      "denominator": 136403
+      "first_candidate": "Jared F. Golden",
+      "second_candidate": "William R.S. Hoar",
+      "numerator": 148900,
+      "denominator": 191712
     },
     {
-      "first_candidate": "DEM Golden, Jared F. (5471)",
-      "second_candidate": "REP Poliquin, Bruce (5931)",
-      "numerator": 131003,
-      "denominator": 264796
+      "first_candidate": "Tiffany L. Bond",
+      "second_candidate": "Bruce Poliquin",
+      "numerator": 86958,
+      "denominator": 231474
     },
     {
-      "first_candidate": "DEM Golden, Jared F. (5471)",
-      "second_candidate": "Bond, Tiffany L.",
-      "numerator": 131003,
-      "denominator": 189938
+      "first_candidate": "Tiffany L. Bond",
+      "second_candidate": "Jared F. Golden",
+      "numerator": 49098,
+      "denominator": 194165
     },
     {
-      "first_candidate": "DEM Golden, Jared F. (5471)",
-      "second_candidate": "Hoar, William R.S.",
-      "numerator": 131003,
-      "denominator": 185850
+      "first_candidate": "Tiffany L. Bond",
+      "second_candidate": "William R.S. Hoar",
+      "numerator": 92199,
+      "denominator": 141190
     },
     {
-      "first_candidate": "DEM Golden, Jared F. (5471)",
-      "second_candidate": "DEM Golden, Jared F.",
-      "numerator": 131003,
-      "denominator": 175216
+      "first_candidate": "William R.S. Hoar",
+      "second_candidate": "Bruce Poliquin",
+      "numerator": 74576,
+      "denominator": 220988
     },
     {
-      "first_candidate": "DEM Golden, Jared F. (5471)",
-      "second_candidate": "REP Poliquin, Bruce",
-      "numerator": 131003,
-      "denominator": 150019
+      "first_candidate": "William R.S. Hoar",
+      "second_candidate": "Jared F. Golden",
+      "numerator": 42812,
+      "denominator": 191712
     },
     {
-      "first_candidate": "DEM Golden, Jared F. (5471)",
-      "second_candidate": "DEM Golden, Jared F. ",
-      "numerator": 131003,
-      "denominator": 135330
-    },
-    {
-      "first_candidate": "Bond, Tiffany L.",
-      "second_candidate": "REP Poliquin, Bruce (5931)",
-      "numerator": 93554,
-      "denominator": 227347
-    },
-    {
-      "first_candidate": "Bond, Tiffany L.",
-      "second_candidate": "DEM Golden, Jared F. (5471)",
-      "numerator": 58935,
-      "denominator": 189938
-    },
-    {
-      "first_candidate": "Bond, Tiffany L.",
-      "second_candidate": "Hoar, William R.S.",
-      "numerator": 92200,
-      "denominator": 141191
-    },
-    {
-      "first_candidate": "Bond, Tiffany L.",
-      "second_candidate": "DEM Golden, Jared F.",
-      "numerator": 123127,
-      "denominator": 137174
-    },
-    {
-      "first_candidate": "Bond, Tiffany L.",
-      "second_candidate": "REP Poliquin, Bruce",
-      "numerator": 124438,
-      "denominator": 141539
-    },
-    {
-      "first_candidate": "Bond, Tiffany L.",
-      "second_candidate": "DEM Golden, Jared F. ",
-      "numerator": 129165,
-      "denominator": 133042
-    },
-    {
-      "first_candidate": "Hoar, William R.S.",
-      "second_candidate": "REP Poliquin, Bruce (5931)",
-      "numerator": 82132,
-      "denominator": 215925
-    },
-    {
-      "first_candidate": "Hoar, William R.S.",
-      "second_candidate": "DEM Golden, Jared F. (5471)",
-      "numerator": 54847,
-      "denominator": 185850
-    },
-    {
-      "first_candidate": "Hoar, William R.S.",
-      "second_candidate": "Bond, Tiffany L.",
+      "first_candidate": "William R.S. Hoar",
+      "second_candidate": "Tiffany L. Bond",
       "numerator": 48991,
-      "denominator": 141191
-    },
-    {
-      "first_candidate": "Hoar, William R.S.",
-      "second_candidate": "DEM Golden, Jared F.",
-      "numerator": 109674,
-      "denominator": 126755
-    },
-    {
-      "first_candidate": "Hoar, William R.S.",
-      "second_candidate": "REP Poliquin, Bruce",
-      "numerator": 111587,
-      "denominator": 130775
-    },
-    {
-      "first_candidate": "Hoar, William R.S.",
-      "second_candidate": "DEM Golden, Jared F. ",
-      "numerator": 116569,
-      "denominator": 121427
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F.",
-      "second_candidate": "REP Poliquin, Bruce (5931)",
-      "numerator": 16558,
-      "denominator": 150351
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F.",
-      "second_candidate": "DEM Golden, Jared F. (5471)",
-      "numerator": 44213,
-      "denominator": 175216
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F.",
-      "second_candidate": "Bond, Tiffany L.",
-      "numerator": 14047,
-      "denominator": 137174
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F.",
-      "second_candidate": "Hoar, William R.S.",
-      "numerator": 17081,
-      "denominator": 126755
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F.",
-      "second_candidate": "REP Poliquin, Bruce",
-      "numerator": 43768,
-      "denominator": 98381
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F.",
-      "second_candidate": "DEM Golden, Jared F. ",
-      "numerator": 46786,
-      "denominator": 51988
-    },
-    {
-      "first_candidate": "REP Poliquin, Bruce",
-      "second_candidate": "REP Poliquin, Bruce (5931)",
-      "numerator": 54500,
-      "denominator": 188293
-    },
-    {
-      "first_candidate": "REP Poliquin, Bruce",
-      "second_candidate": "DEM Golden, Jared F. (5471)",
-      "numerator": 19016,
-      "denominator": 150019
-    },
-    {
-      "first_candidate": "REP Poliquin, Bruce",
-      "second_candidate": "Bond, Tiffany L.",
-      "numerator": 17101,
-      "denominator": 141539
-    },
-    {
-      "first_candidate": "REP Poliquin, Bruce",
-      "second_candidate": "Hoar, William R.S.",
-      "numerator": 19188,
-      "denominator": 130775
-    },
-    {
-      "first_candidate": "REP Poliquin, Bruce",
-      "second_candidate": "DEM Golden, Jared F.",
-      "numerator": 54613,
-      "denominator": 98381
-    },
-    {
-      "first_candidate": "REP Poliquin, Bruce",
-      "second_candidate": "DEM Golden, Jared F. ",
-      "numerator": 60246,
-      "denominator": 65448
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F. ",
-      "second_candidate": "REP Poliquin, Bruce (5931)",
-      "numerator": 2610,
-      "denominator": 136403
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F. ",
-      "second_candidate": "DEM Golden, Jared F. (5471)",
-      "numerator": 4327,
-      "denominator": 135330
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F. ",
-      "second_candidate": "Bond, Tiffany L.",
-      "numerator": 3877,
-      "denominator": 133042
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F. ",
-      "second_candidate": "Hoar, William R.S.",
-      "numerator": 4858,
-      "denominator": 121427
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F. ",
-      "second_candidate": "DEM Golden, Jared F.",
-      "numerator": 5202,
-      "denominator": 51988
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F. ",
-      "second_candidate": "REP Poliquin, Bruce",
-      "numerator": 5202,
-      "denominator": 65448
+      "denominator": 141190
     }
   ],
   "first_alternates": [
     {
-      "first_candidate": "REP Poliquin, Bruce (5931)",
-      "second_candidate": "DEM Golden, Jared F. (5471)",
-      "numerator": 0,
-      "denominator": 133793
+      "first_candidate": "Bruce Poliquin",
+      "second_candidate": "Jared F. Golden",
+      "numerator": 9315,
+      "denominator": 134184
     },
     {
-      "first_candidate": "REP Poliquin, Bruce (5931)",
-      "second_candidate": "Bond, Tiffany L.",
-      "numerator": 15082,
-      "denominator": 133793
+      "first_candidate": "Bruce Poliquin",
+      "second_candidate": "Tiffany L. Bond",
+      "numerator": 15210,
+      "denominator": 134184
     },
     {
-      "first_candidate": "REP Poliquin, Bruce (5931)",
-      "second_candidate": "Hoar, William R.S.",
-      "numerator": 19302,
-      "denominator": 133793
+      "first_candidate": "Bruce Poliquin",
+      "second_candidate": "William R.S. Hoar",
+      "numerator": 19429,
+      "denominator": 134184
     },
     {
-      "first_candidate": "REP Poliquin, Bruce (5931)",
-      "second_candidate": "DEM Golden, Jared F.",
-      "numerator": 6657,
-      "denominator": 133793
-    },
-    {
-      "first_candidate": "REP Poliquin, Bruce (5931)",
-      "second_candidate": "REP Poliquin, Bruce",
-      "numerator": 6256,
-      "denominator": 133793
-    },
-    {
-      "first_candidate": "REP Poliquin, Bruce (5931)",
-      "second_candidate": "DEM Golden, Jared F. ",
-      "numerator": 2592,
-      "denominator": 133793
-    },
-    {
-      "first_candidate": "REP Poliquin, Bruce (5931)",
+      "first_candidate": "Bruce Poliquin",
       "second_candidate": "$EXHAUSTED",
-      "numerator": 83904,
-      "denominator": 133793
+      "numerator": 90230,
+      "denominator": 134184
     },
     {
-      "first_candidate": "DEM Golden, Jared F. (5471)",
-      "second_candidate": "REP Poliquin, Bruce (5931)",
-      "numerator": 0,
-      "denominator": 131003
+      "first_candidate": "Jared F. Golden",
+      "second_candidate": "Bruce Poliquin",
+      "numerator": 8089,
+      "denominator": 132013
     },
     {
-      "first_candidate": "DEM Golden, Jared F. (5471)",
-      "second_candidate": "Bond, Tiffany L.",
-      "numerator": 52551,
-      "denominator": 131003
+      "first_candidate": "Jared F. Golden",
+      "second_candidate": "Tiffany L. Bond",
+      "numerator": 53118,
+      "denominator": 132013
     },
     {
-      "first_candidate": "DEM Golden, Jared F. (5471)",
-      "second_candidate": "Hoar, William R.S.",
-      "numerator": 18084,
-      "denominator": 131003
+      "first_candidate": "Jared F. Golden",
+      "second_candidate": "William R.S. Hoar",
+      "numerator": 18344,
+      "denominator": 132013
     },
     {
-      "first_candidate": "DEM Golden, Jared F. (5471)",
-      "second_candidate": "DEM Golden, Jared F.",
-      "numerator": 2102,
-      "denominator": 131003
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F. (5471)",
-      "second_candidate": "REP Poliquin, Bruce",
-      "numerator": 8020,
-      "denominator": 131003
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F. (5471)",
-      "second_candidate": "DEM Golden, Jared F. ",
-      "numerator": 875,
-      "denominator": 131003
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F. (5471)",
+      "first_candidate": "Jared F. Golden",
       "second_candidate": "$EXHAUSTED",
-      "numerator": 49371,
-      "denominator": 131003
+      "numerator": 52462,
+      "denominator": 132013
     },
     {
-      "first_candidate": "Bond, Tiffany L.",
-      "second_candidate": "REP Poliquin, Bruce (5931)",
-      "numerator": 0,
-      "denominator": 16552
-    },
-    {
-      "first_candidate": "Bond, Tiffany L.",
-      "second_candidate": "DEM Golden, Jared F. (5471)",
-      "numerator": 0,
-      "denominator": 16552
-    },
-    {
-      "first_candidate": "Bond, Tiffany L.",
-      "second_candidate": "Hoar, William R.S.",
-      "numerator": 5639,
-      "denominator": 16552
-    },
-    {
-      "first_candidate": "Bond, Tiffany L.",
-      "second_candidate": "DEM Golden, Jared F.",
-      "numerator": 3510,
-      "denominator": 16552
-    },
-    {
-      "first_candidate": "Bond, Tiffany L.",
-      "second_candidate": "REP Poliquin, Bruce",
+      "first_candidate": "Tiffany L. Bond",
+      "second_candidate": "Bruce Poliquin",
       "numerator": 1632,
       "denominator": 16552
     },
     {
-      "first_candidate": "Bond, Tiffany L.",
-      "second_candidate": "DEM Golden, Jared F. ",
-      "numerator": 1325,
+      "first_candidate": "Tiffany L. Bond",
+      "second_candidate": "Jared F. Golden",
+      "numerator": 4835,
       "denominator": 16552
     },
     {
-      "first_candidate": "Bond, Tiffany L.",
+      "first_candidate": "Tiffany L. Bond",
+      "second_candidate": "William R.S. Hoar",
+      "numerator": 5639,
+      "denominator": 16552
+    },
+    {
+      "first_candidate": "Tiffany L. Bond",
       "second_candidate": "$EXHAUSTED",
       "numerator": 4446,
       "denominator": 16552
     },
     {
-      "first_candidate": "Hoar, William R.S.",
-      "second_candidate": "REP Poliquin, Bruce (5931)",
-      "numerator": 0,
-      "denominator": 6875
-    },
-    {
-      "first_candidate": "Hoar, William R.S.",
-      "second_candidate": "DEM Golden, Jared F. (5471)",
-      "numerator": 0,
-      "denominator": 6875
-    },
-    {
-      "first_candidate": "Hoar, William R.S.",
-      "second_candidate": "Bond, Tiffany L.",
-      "numerator": 2621,
-      "denominator": 6875
-    },
-    {
-      "first_candidate": "Hoar, William R.S.",
-      "second_candidate": "DEM Golden, Jared F.",
-      "numerator": 859,
-      "denominator": 6875
-    },
-    {
-      "first_candidate": "Hoar, William R.S.",
-      "second_candidate": "REP Poliquin, Bruce",
+      "first_candidate": "William R.S. Hoar",
+      "second_candidate": "Bruce Poliquin",
       "numerator": 889,
       "denominator": 6875
     },
     {
-      "first_candidate": "Hoar, William R.S.",
-      "second_candidate": "DEM Golden, Jared F. ",
-      "numerator": 344,
+      "first_candidate": "William R.S. Hoar",
+      "second_candidate": "Jared F. Golden",
+      "numerator": 1203,
       "denominator": 6875
     },
     {
-      "first_candidate": "Hoar, William R.S.",
+      "first_candidate": "William R.S. Hoar",
+      "second_candidate": "Tiffany L. Bond",
+      "numerator": 2621,
+      "denominator": 6875
+    },
+    {
+      "first_candidate": "William R.S. Hoar",
       "second_candidate": "$EXHAUSTED",
       "numerator": 2162,
       "denominator": 6875
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F.",
-      "second_candidate": "REP Poliquin, Bruce (5931)",
-      "numerator": 0,
-      "denominator": 944
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F.",
-      "second_candidate": "DEM Golden, Jared F. (5471)",
-      "numerator": 0,
-      "denominator": 944
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F.",
-      "second_candidate": "Bond, Tiffany L.",
-      "numerator": 405,
-      "denominator": 944
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F.",
-      "second_candidate": "Hoar, William R.S.",
-      "numerator": 147,
-      "denominator": 944
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F.",
-      "second_candidate": "REP Poliquin, Bruce",
-      "numerator": 16,
-      "denominator": 944
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F.",
-      "second_candidate": "DEM Golden, Jared F. ",
-      "numerator": 0,
-      "denominator": 944
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F.",
-      "second_candidate": "$EXHAUSTED",
-      "numerator": 376,
-      "denominator": 944
-    },
-    {
-      "first_candidate": "REP Poliquin, Bruce",
-      "second_candidate": "REP Poliquin, Bruce (5931)",
-      "numerator": 0,
-      "denominator": 391
-    },
-    {
-      "first_candidate": "REP Poliquin, Bruce",
-      "second_candidate": "DEM Golden, Jared F. (5471)",
-      "numerator": 0,
-      "denominator": 391
-    },
-    {
-      "first_candidate": "REP Poliquin, Bruce",
-      "second_candidate": "Bond, Tiffany L.",
-      "numerator": 43,
-      "denominator": 391
-    },
-    {
-      "first_candidate": "REP Poliquin, Bruce",
-      "second_candidate": "Hoar, William R.S.",
-      "numerator": 66,
-      "denominator": 391
-    },
-    {
-      "first_candidate": "REP Poliquin, Bruce",
-      "second_candidate": "DEM Golden, Jared F.",
-      "numerator": 34,
-      "denominator": 391
-    },
-    {
-      "first_candidate": "REP Poliquin, Bruce",
-      "second_candidate": "DEM Golden, Jared F. ",
-      "numerator": 0,
-      "denominator": 391
-    },
-    {
-      "first_candidate": "REP Poliquin, Bruce",
-      "second_candidate": "$EXHAUSTED",
-      "numerator": 248,
-      "denominator": 391
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F. ",
-      "second_candidate": "REP Poliquin, Bruce (5931)",
-      "numerator": 0,
-      "denominator": 66
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F. ",
-      "second_candidate": "DEM Golden, Jared F. (5471)",
-      "numerator": 0,
-      "denominator": 66
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F. ",
-      "second_candidate": "Bond, Tiffany L.",
-      "numerator": 6,
-      "denominator": 66
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F. ",
-      "second_candidate": "Hoar, William R.S.",
-      "numerator": 11,
-      "denominator": 66
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F. ",
-      "second_candidate": "DEM Golden, Jared F.",
-      "numerator": 0,
-      "denominator": 66
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F. ",
-      "second_candidate": "REP Poliquin, Bruce",
-      "numerator": 3,
-      "denominator": 66
-    },
-    {
-      "first_candidate": "DEM Golden, Jared F. ",
-      "second_candidate": "$EXHAUSTED",
-      "numerator": 46,
-      "denominator": 66
     }
   ],
   "final_by_first": {
     "finalists": [
-      "REP Poliquin, Bruce (5931)",
-      "DEM Golden, Jared F. (5471)",
+      "Jared F. Golden",
+      "Bruce Poliquin",
       "$EXHAUSTED"
     ],
     "eliminated": [
-      "Bond, Tiffany L.",
-      "Hoar, William R.S.",
-      "DEM Golden, Jared F.",
-      "REP Poliquin, Bruce",
-      "DEM Golden, Jared F. "
+      "Tiffany L. Bond",
+      "William R.S. Hoar"
     ],
     "pairs": [
       {
-        "first_candidate": "Bond, Tiffany L.",
-        "second_candidate": "REP Poliquin, Bruce (5931)",
-        "numerator": 0,
+        "first_candidate": "Tiffany L. Bond",
+        "second_candidate": "Jared F. Golden",
+        "numerator": 7862,
         "denominator": 16552
       },
       {
-        "first_candidate": "Bond, Tiffany L.",
-        "second_candidate": "DEM Golden, Jared F. (5471)",
-        "numerator": 0,
+        "first_candidate": "Tiffany L. Bond",
+        "second_candidate": "Bruce Poliquin",
+        "numerator": 3117,
         "denominator": 16552
       },
       {
-        "first_candidate": "Bond, Tiffany L.",
+        "first_candidate": "Tiffany L. Bond",
         "second_candidate": "$EXHAUSTED",
-        "numerator": 16552,
+        "numerator": 5573,
         "denominator": 16552
       },
       {
-        "first_candidate": "Hoar, William R.S.",
-        "second_candidate": "REP Poliquin, Bruce (5931)",
-        "numerator": 0,
+        "first_candidate": "William R.S. Hoar",
+        "second_candidate": "Jared F. Golden",
+        "numerator": 2565,
         "denominator": 6875
       },
       {
-        "first_candidate": "Hoar, William R.S.",
-        "second_candidate": "DEM Golden, Jared F. (5471)",
-        "numerator": 0,
+        "first_candidate": "William R.S. Hoar",
+        "second_candidate": "Bruce Poliquin",
+        "numerator": 1630,
         "denominator": 6875
       },
       {
-        "first_candidate": "Hoar, William R.S.",
+        "first_candidate": "William R.S. Hoar",
         "second_candidate": "$EXHAUSTED",
-        "numerator": 6875,
+        "numerator": 2680,
         "denominator": 6875
-      },
-      {
-        "first_candidate": "DEM Golden, Jared F.",
-        "second_candidate": "REP Poliquin, Bruce (5931)",
-        "numerator": 0,
-        "denominator": 944
-      },
-      {
-        "first_candidate": "DEM Golden, Jared F.",
-        "second_candidate": "DEM Golden, Jared F. (5471)",
-        "numerator": 0,
-        "denominator": 944
-      },
-      {
-        "first_candidate": "DEM Golden, Jared F.",
-        "second_candidate": "$EXHAUSTED",
-        "numerator": 944,
-        "denominator": 944
-      },
-      {
-        "first_candidate": "REP Poliquin, Bruce",
-        "second_candidate": "REP Poliquin, Bruce (5931)",
-        "numerator": 0,
-        "denominator": 391
-      },
-      {
-        "first_candidate": "REP Poliquin, Bruce",
-        "second_candidate": "DEM Golden, Jared F. (5471)",
-        "numerator": 0,
-        "denominator": 391
-      },
-      {
-        "first_candidate": "REP Poliquin, Bruce",
-        "second_candidate": "$EXHAUSTED",
-        "numerator": 391,
-        "denominator": 391
-      },
-      {
-        "first_candidate": "DEM Golden, Jared F. ",
-        "second_candidate": "REP Poliquin, Bruce (5931)",
-        "numerator": 0,
-        "denominator": 66
-      },
-      {
-        "first_candidate": "DEM Golden, Jared F. ",
-        "second_candidate": "DEM Golden, Jared F. (5471)",
-        "numerator": 0,
-        "denominator": 66
-      },
-      {
-        "first_candidate": "DEM Golden, Jared F. ",
-        "second_candidate": "$EXHAUSTED",
-        "numerator": 66,
-        "denominator": 66
       }
     ]
   }

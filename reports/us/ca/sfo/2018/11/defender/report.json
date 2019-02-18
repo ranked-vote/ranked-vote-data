@@ -19,7 +19,7 @@
       "JEFF ADACHI",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2018/11/defender.normalized.csv.gz",
+    "normalized_ballots": "us/ca/sfo/2018/11/defender/us_ca_sfo_2018_11_defender.normalized.csv.gz",
     "candidates": [
       {
         "id": "JEFF ADACHI",

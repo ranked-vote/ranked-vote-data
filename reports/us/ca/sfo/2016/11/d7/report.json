@@ -26,7 +26,7 @@
       "BEN MATRANGA",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2016/11/d7.normalized.csv.gz",
+    "normalized_ballots": "us/ca/sfo/2016/11/d7/us_ca_sfo_2016_11_d7.normalized.csv.gz",
     "candidates": [
       {
         "id": "NORMAN YEE",

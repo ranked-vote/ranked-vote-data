@@ -24,7 +24,7 @@
       "ROSS MIRKARIMI",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2015/11/sheriff.normalized.csv.gz",
+    "normalized_ballots": "us/ca/sfo/2015/11/sheriff/us_ca_sfo_2015_11_sheriff.normalized.csv.gz",
     "candidates": [
       {
         "id": "VICKI HENNESSY",
