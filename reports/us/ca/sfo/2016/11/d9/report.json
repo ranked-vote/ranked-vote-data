@@ -198,7 +198,7 @@
     },
     {
       "first_candidate": "HILLARY RONEN",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 4877,
       "denominator": 18396
     },
@@ -222,7 +222,7 @@
     },
     {
       "first_candidate": "JOSHUA ARCE",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 2539,
       "denominator": 9648
     },
@@ -246,7 +246,7 @@
     },
     {
       "first_candidate": "MELISSA SAN MIGUEL",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 485,
       "denominator": 3465
     },
@@ -270,7 +270,7 @@
     },
     {
       "first_candidate": "ISWARI ESPA\u00d1A",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 106,
       "denominator": 545
     }
@@ -281,7 +281,7 @@
       "JOSHUA ARCE",
       "MELISSA SAN MIGUEL",
       "ISWARI ESPA\u00d1A",
-      "$UNDERVOTE"
+      "$EXHAUSTED"
     ],
     "eliminated": [],
     "pairs": []

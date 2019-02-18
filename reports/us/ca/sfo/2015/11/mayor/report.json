@@ -960,7 +960,7 @@
     },
     {
       "first_candidate": "ED LEE",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 71736,
       "denominator": 105771
     },
@@ -1026,7 +1026,7 @@
     },
     {
       "first_candidate": "FRANCISCO HERRERA",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 5107,
       "denominator": 28805
     },
@@ -1092,7 +1092,7 @@
     },
     {
       "first_candidate": "AMY FARAH WEISS",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 3422,
       "denominator": 23236
     },
@@ -1158,7 +1158,7 @@
     },
     {
       "first_candidate": "STUART SCHUFFMAN",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 3227,
       "denominator": 18347
     },
@@ -1224,7 +1224,7 @@
     },
     {
       "first_candidate": "KENT GRAHAM",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 2583,
       "denominator": 8827
     },
@@ -1290,7 +1290,7 @@
     },
     {
       "first_candidate": "REED MARTIN",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 855,
       "denominator": 4660
     },
@@ -1356,7 +1356,7 @@
     },
     {
       "first_candidate": "WRITE-IN - MICHAEL PETRELIS",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 12,
       "denominator": 37
     },
@@ -1422,7 +1422,7 @@
     },
     {
       "first_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 3,
       "denominator": 7
     },
@@ -1488,7 +1488,7 @@
     },
     {
       "first_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 1,
       "denominator": 6
     },
@@ -1554,7 +1554,7 @@
     },
     {
       "first_candidate": "WRITE-IN - DANIEL C KAPPLER",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 3,
       "denominator": 6
     },
@@ -1620,7 +1620,7 @@
     },
     {
       "first_candidate": "WRITE-IN - JOHN E. FITCH",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 3,
       "denominator": 5
     }
@@ -1638,7 +1638,7 @@
       "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
       "WRITE-IN - DANIEL C KAPPLER",
       "WRITE-IN - JOHN E. FITCH",
-      "$UNDERVOTE"
+      "$EXHAUSTED"
     ],
     "eliminated": [],
     "pairs": []

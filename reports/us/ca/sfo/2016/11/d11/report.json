@@ -161,6 +161,11 @@
           "from": "BERTA HERNANDEZ",
           "to": "AHSHA SAFAI",
           "count": 395
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 2630
         }
       ]
     }
@@ -354,7 +359,7 @@
     },
     {
       "first_candidate": "AHSHA SAFAI",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 2999,
       "denominator": 9466
     },
@@ -384,7 +389,7 @@
     },
     {
       "first_candidate": "KIM ALVARENGA",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 1847,
       "denominator": 8670
     },
@@ -414,7 +419,7 @@
     },
     {
       "first_candidate": "MAGDALENA DE GUZMAN",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 531,
       "denominator": 3019
     },
@@ -444,7 +449,7 @@
     },
     {
       "first_candidate": "FRANCISCO HERRERA",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 397,
       "denominator": 2618
     },
@@ -474,7 +479,7 @@
     },
     {
       "first_candidate": "BERTA HERNANDEZ",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 167,
       "denominator": 1607
     }
@@ -483,7 +488,7 @@
     "finalists": [
       "AHSHA SAFAI",
       "KIM ALVARENGA",
-      "$UNDERVOTE"
+      "$EXHAUSTED"
     ],
     "eliminated": [
       "MAGDALENA DE GUZMAN",
@@ -505,7 +510,7 @@
       },
       {
         "first_candidate": "MAGDALENA DE GUZMAN",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 1438,
         "denominator": 3019
       },
@@ -523,7 +528,7 @@
       },
       {
         "first_candidate": "FRANCISCO HERRERA",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 1208,
         "denominator": 2618
       },
@@ -541,7 +546,7 @@
       },
       {
         "first_candidate": "BERTA HERNANDEZ",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 703,
         "denominator": 1607
       }

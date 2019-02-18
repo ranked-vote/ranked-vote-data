@@ -141,7 +141,7 @@
     },
     {
       "first_candidate": "AARON PESKIN",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 4607,
       "denominator": 8767
     },
@@ -159,7 +159,7 @@
     },
     {
       "first_candidate": "JULIE CHRISTENSEN",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 3830,
       "denominator": 7267
     },
@@ -177,7 +177,7 @@
     },
     {
       "first_candidate": "WILMA PANG",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 278,
       "denominator": 660
     }
@@ -187,7 +187,7 @@
       "AARON PESKIN",
       "JULIE CHRISTENSEN",
       "WILMA PANG",
-      "$UNDERVOTE"
+      "$EXHAUSTED"
     ],
     "eliminated": [],
     "pairs": []

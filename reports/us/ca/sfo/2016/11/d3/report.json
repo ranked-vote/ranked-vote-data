@@ -97,7 +97,7 @@
     },
     {
       "first_candidate": "AARON PESKIN",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 11746,
       "denominator": 19211
     },
@@ -109,7 +109,7 @@
     },
     {
       "first_candidate": "TIM E. DONNELLY",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 4147,
       "denominator": 7447
     }
@@ -118,7 +118,7 @@
     "finalists": [
       "AARON PESKIN",
       "TIM E. DONNELLY",
-      "$UNDERVOTE"
+      "$EXHAUSTED"
     ],
     "eliminated": [],
     "pairs": []

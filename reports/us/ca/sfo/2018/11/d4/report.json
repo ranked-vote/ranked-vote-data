@@ -222,6 +222,11 @@
           "from": "ADAM KIM",
           "to": "GORDON MAR",
           "count": 74
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 2990
         }
       ]
     },
@@ -357,6 +362,11 @@
           "from": "ADAM KIM",
           "to": "ADAM KIM",
           "count": 0
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 3057
         }
       ]
     },
@@ -456,6 +466,11 @@
           "from": "ADAM KIM",
           "to": "ADAM KIM",
           "count": 0
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 3527
         }
       ]
     },
@@ -546,6 +561,11 @@
           "from": "ADAM KIM",
           "to": "ADAM KIM",
           "count": 0
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 4311
         }
       ]
     }
@@ -1006,7 +1026,7 @@
     },
     {
       "first_candidate": "GORDON MAR",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 3106,
       "denominator": 10314
     },
@@ -1054,7 +1074,7 @@
     },
     {
       "first_candidate": "JESSICA HO",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 1745,
       "denominator": 7444
     },
@@ -1102,7 +1122,7 @@
     },
     {
       "first_candidate": "TREVOR MCNEIL",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 491,
       "denominator": 3490
     },
@@ -1150,7 +1170,7 @@
     },
     {
       "first_candidate": "ARTHUR TOM",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 364,
       "denominator": 2441
     },
@@ -1198,7 +1218,7 @@
     },
     {
       "first_candidate": "LOU ANN BASSAN",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 546,
       "denominator": 2183
     },
@@ -1246,7 +1266,7 @@
     },
     {
       "first_candidate": "MIKE MURPHY",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 210,
       "denominator": 1182
     },
@@ -1294,7 +1314,7 @@
     },
     {
       "first_candidate": "TUAN NGUYEN",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 170,
       "denominator": 853
     },
@@ -1342,7 +1362,7 @@
     },
     {
       "first_candidate": "ADAM KIM",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 67,
       "denominator": 515
     }
@@ -1351,7 +1371,7 @@
     "finalists": [
       "GORDON MAR",
       "JESSICA HO",
-      "$UNDERVOTE"
+      "$EXHAUSTED"
     ],
     "eliminated": [
       "TREVOR MCNEIL",
@@ -1376,7 +1396,7 @@
       },
       {
         "first_candidate": "TREVOR MCNEIL",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 1376,
         "denominator": 3490
       },
@@ -1394,7 +1414,7 @@
       },
       {
         "first_candidate": "ARTHUR TOM",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 1127,
         "denominator": 2441
       },
@@ -1412,7 +1432,7 @@
       },
       {
         "first_candidate": "LOU ANN BASSAN",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 1283,
         "denominator": 2183
       },
@@ -1430,7 +1450,7 @@
       },
       {
         "first_candidate": "MIKE MURPHY",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 701,
         "denominator": 1182
       },
@@ -1448,7 +1468,7 @@
       },
       {
         "first_candidate": "TUAN NGUYEN",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 385,
         "denominator": 853
       },
@@ -1466,7 +1486,7 @@
       },
       {
         "first_candidate": "ADAM KIM",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 230,
         "denominator": 515
       }

@@ -94,7 +94,7 @@
     },
     {
       "first_candidate": "RAFAEL MANDELMAN",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 28564,
       "denominator": 38406
     },
@@ -106,7 +106,7 @@
     },
     {
       "first_candidate": "LAWRENCE ''STARK'' DAGESSE",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 1528,
       "denominator": 3598
     }
@@ -115,7 +115,7 @@
     "finalists": [
       "RAFAEL MANDELMAN",
       "LAWRENCE ''STARK'' DAGESSE",
-      "$UNDERVOTE"
+      "$EXHAUSTED"
     ],
     "eliminated": [],
     "pairs": []

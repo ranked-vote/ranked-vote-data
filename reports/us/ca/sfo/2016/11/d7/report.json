@@ -159,6 +159,11 @@
           "from": "MIKE YOUNG",
           "to": "BEN MATRANGA",
           "count": 335
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 4212
         }
       ]
     },
@@ -233,6 +238,11 @@
           "from": "MIKE YOUNG",
           "to": "MIKE YOUNG",
           "count": 0
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 4449
         }
       ]
     },
@@ -297,6 +307,11 @@
           "from": "MIKE YOUNG",
           "to": "MIKE YOUNG",
           "count": 0
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 5423
         }
       ]
     }
@@ -490,7 +505,7 @@
     },
     {
       "first_candidate": "NORMAN YEE",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 5031,
       "denominator": 14179
     },
@@ -520,7 +535,7 @@
     },
     {
       "first_candidate": "JOEL ENGARDIO",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 1240,
       "denominator": 7645
     },
@@ -550,7 +565,7 @@
     },
     {
       "first_candidate": "BEN MATRANGA",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 1017,
       "denominator": 6498
     },
@@ -580,7 +595,7 @@
     },
     {
       "first_candidate": "JOHN FARRELL",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 746,
       "denominator": 4948
     },
@@ -610,7 +625,7 @@
     },
     {
       "first_candidate": "MIKE YOUNG",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 237,
       "denominator": 2004
     }
@@ -619,7 +634,7 @@
     "finalists": [
       "NORMAN YEE",
       "JOEL ENGARDIO",
-      "$UNDERVOTE"
+      "$EXHAUSTED"
     ],
     "eliminated": [
       "BEN MATRANGA",
@@ -641,7 +656,7 @@
       },
       {
         "first_candidate": "BEN MATRANGA",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 2244,
         "denominator": 6498
       },
@@ -659,7 +674,7 @@
       },
       {
         "first_candidate": "JOHN FARRELL",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 1882,
         "denominator": 4948
       },
@@ -677,7 +692,7 @@
       },
       {
         "first_candidate": "MIKE YOUNG",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 641,
         "denominator": 2004
       }

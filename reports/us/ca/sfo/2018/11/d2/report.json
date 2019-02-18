@@ -135,6 +135,11 @@
           "from": "JOHN DENNIS",
           "to": "NICK JOSEFOWITZ",
           "count": 961
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 4594
         }
       ]
     }
@@ -265,7 +270,7 @@
     },
     {
       "first_candidate": "CATHERINE STEFANI",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 4552,
       "denominator": 14415
     },
@@ -289,7 +294,7 @@
     },
     {
       "first_candidate": "NICK JOSEFOWITZ",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 3434,
       "denominator": 13644
     },
@@ -313,7 +318,7 @@
     },
     {
       "first_candidate": "SCHUYLER HUDAK",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 590,
       "denominator": 4145
     },
@@ -337,7 +342,7 @@
     },
     {
       "first_candidate": "JOHN DENNIS",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 1023,
       "denominator": 3108
     }
@@ -346,7 +351,7 @@
     "finalists": [
       "CATHERINE STEFANI",
       "NICK JOSEFOWITZ",
-      "$UNDERVOTE"
+      "$EXHAUSTED"
     ],
     "eliminated": [
       "SCHUYLER HUDAK",
@@ -367,7 +372,7 @@
       },
       {
         "first_candidate": "SCHUYLER HUDAK",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 697,
         "denominator": 4145
       },
@@ -385,7 +390,7 @@
       },
       {
         "first_candidate": "JOHN DENNIS",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 1214,
         "denominator": 3108
       }

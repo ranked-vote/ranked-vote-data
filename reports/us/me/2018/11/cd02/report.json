@@ -158,6 +158,11 @@
           "from": "William R.S. Hoar",
           "to": "$EXHAUSTED",
           "count": 2680
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 6453
         }
       ]
     }
@@ -288,7 +293,7 @@
     },
     {
       "first_candidate": "Bruce Poliquin",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 90230,
       "denominator": 134184
     },
@@ -312,7 +317,7 @@
     },
     {
       "first_candidate": "Jared F. Golden",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 52462,
       "denominator": 132013
     },
@@ -336,7 +341,7 @@
     },
     {
       "first_candidate": "Tiffany L. Bond",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 4446,
       "denominator": 16552
     },
@@ -360,7 +365,7 @@
     },
     {
       "first_candidate": "William R.S. Hoar",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 2162,
       "denominator": 6875
     }
@@ -369,7 +374,7 @@
     "finalists": [
       "Jared F. Golden",
       "Bruce Poliquin",
-      "$UNDERVOTE"
+      "$EXHAUSTED"
     ],
     "eliminated": [
       "Tiffany L. Bond",
@@ -390,7 +395,7 @@
       },
       {
         "first_candidate": "Tiffany L. Bond",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 5573,
         "denominator": 16552
       },
@@ -408,7 +413,7 @@
       },
       {
         "first_candidate": "William R.S. Hoar",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 2680,
         "denominator": 6875
       }

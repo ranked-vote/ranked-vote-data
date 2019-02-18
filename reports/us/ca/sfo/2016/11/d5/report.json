@@ -97,7 +97,7 @@
     },
     {
       "first_candidate": "LONDON BREED",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 11697,
       "denominator": 21399
     },
@@ -109,7 +109,7 @@
     },
     {
       "first_candidate": "DEAN PRESTON",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 10388,
       "denominator": 19610
     }
@@ -118,7 +118,7 @@
     "finalists": [
       "LONDON BREED",
       "DEAN PRESTON",
-      "$UNDERVOTE"
+      "$EXHAUSTED"
     ],
     "eliminated": [],
     "pairs": []

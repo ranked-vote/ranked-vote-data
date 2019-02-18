@@ -276,6 +276,11 @@
           "from": "ANDY THORNLEY",
           "to": "SANDRA LEE FEWER",
           "count": 167
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 3428
         }
       ]
     }
@@ -979,7 +984,7 @@
     },
     {
       "first_candidate": "SANDRA LEE FEWER",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 3585,
       "denominator": 12568
     },
@@ -1039,7 +1044,7 @@
     },
     {
       "first_candidate": "MARJAN PHILHOUR",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 2466,
       "denominator": 11099
     },
@@ -1099,7 +1104,7 @@
     },
     {
       "first_candidate": "DAVID LEE",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 506,
       "denominator": 3402
     },
@@ -1159,7 +1164,7 @@
     },
     {
       "first_candidate": "RICHIE GREENBERG",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 172,
       "denominator": 980
     },
@@ -1219,7 +1224,7 @@
     },
     {
       "first_candidate": "BRIAN J. LARKIN",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 77,
       "denominator": 747
     },
@@ -1279,7 +1284,7 @@
     },
     {
       "first_candidate": "SAMUEL KWONG",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 79,
       "denominator": 744
     },
@@ -1339,7 +1344,7 @@
     },
     {
       "first_candidate": "JASON JUNGREIS",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 56,
       "denominator": 612
     },
@@ -1399,7 +1404,7 @@
     },
     {
       "first_candidate": "JONATHAN LYENS",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 56,
       "denominator": 611
     },
@@ -1459,7 +1464,7 @@
     },
     {
       "first_candidate": "SHERMAN R. D'SILVA",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 86,
       "denominator": 558
     },
@@ -1519,7 +1524,7 @@
     },
     {
       "first_candidate": "ANDY THORNLEY",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 33,
       "denominator": 360
     }
@@ -1528,7 +1533,7 @@
     "finalists": [
       "SANDRA LEE FEWER",
       "MARJAN PHILHOUR",
-      "$UNDERVOTE"
+      "$EXHAUSTED"
     ],
     "eliminated": [
       "DAVID LEE",
@@ -1555,7 +1560,7 @@
       },
       {
         "first_candidate": "DAVID LEE",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 1005,
         "denominator": 3402
       },
@@ -1573,7 +1578,7 @@
       },
       {
         "first_candidate": "RICHIE GREENBERG",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 558,
         "denominator": 980
       },
@@ -1591,7 +1596,7 @@
       },
       {
         "first_candidate": "BRIAN J. LARKIN",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 398,
         "denominator": 747
       },
@@ -1609,7 +1614,7 @@
       },
       {
         "first_candidate": "SAMUEL KWONG",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 316,
         "denominator": 744
       },
@@ -1627,7 +1632,7 @@
       },
       {
         "first_candidate": "JASON JUNGREIS",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 348,
         "denominator": 612
       },
@@ -1645,7 +1650,7 @@
       },
       {
         "first_candidate": "JONATHAN LYENS",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 207,
         "denominator": 611
       },
@@ -1663,7 +1668,7 @@
       },
       {
         "first_candidate": "SHERMAN R. D'SILVA",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 249,
         "denominator": 558
       },
@@ -1681,7 +1686,7 @@
       },
       {
         "first_candidate": "ANDY THORNLEY",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 104,
         "denominator": 360
       }

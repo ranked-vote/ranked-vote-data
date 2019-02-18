@@ -262,6 +262,11 @@
           "from": "WRITE-IN ANTOINE R. ROGERS",
           "to": "LONDON BREED",
           "count": 3
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 2984
         }
       ]
     },
@@ -346,6 +351,11 @@
           "from": "WRITE-IN ANTOINE R. ROGERS",
           "to": "WRITE-IN ANTOINE R. ROGERS",
           "count": 0
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 16499
         }
       ]
     }
@@ -921,7 +931,7 @@
     },
     {
       "first_candidate": "LONDON BREED",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 20453,
       "denominator": 92121
     },
@@ -975,7 +985,7 @@
     },
     {
       "first_candidate": "MARK LENO",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 5711,
       "denominator": 61416
     },
@@ -1029,7 +1039,7 @@
     },
     {
       "first_candidate": "JANE KIM",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 3062,
       "denominator": 60738
     },
@@ -1083,7 +1093,7 @@
     },
     {
       "first_candidate": "ANGELA ALIOTO",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 3512,
       "denominator": 17552
     },
@@ -1137,7 +1147,7 @@
     },
     {
       "first_candidate": "ELLEN LEE ZHOU",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 1690,
       "denominator": 9576
     },
@@ -1191,7 +1201,7 @@
     },
     {
       "first_candidate": "RICHIE GREENBERG",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 1947,
       "denominator": 7051
     },
@@ -1245,7 +1255,7 @@
     },
     {
       "first_candidate": "AMY FARAH WEISS",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 129,
       "denominator": 1675
     },
@@ -1299,7 +1309,7 @@
     },
     {
       "first_candidate": "MICHELLE BRAVO",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 140,
       "denominator": 900
     },
@@ -1353,7 +1363,7 @@
     },
     {
       "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 0,
       "denominator": 3
     }
@@ -1362,7 +1372,7 @@
     "finalists": [
       "LONDON BREED",
       "MARK LENO",
-      "$UNDERVOTE"
+      "$EXHAUSTED"
     ],
     "eliminated": [
       "JANE KIM",
@@ -1388,7 +1398,7 @@
       },
       {
         "first_candidate": "JANE KIM",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 5689,
         "denominator": 60738
       },
@@ -1406,7 +1416,7 @@
       },
       {
         "first_candidate": "ANGELA ALIOTO",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 6691,
         "denominator": 17552
       },
@@ -1424,7 +1434,7 @@
       },
       {
         "first_candidate": "ELLEN LEE ZHOU",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 4247,
         "denominator": 9576
       },
@@ -1442,7 +1452,7 @@
       },
       {
         "first_candidate": "RICHIE GREENBERG",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 3938,
         "denominator": 7051
       },
@@ -1460,7 +1470,7 @@
       },
       {
         "first_candidate": "AMY FARAH WEISS",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 551,
         "denominator": 1675
       },
@@ -1478,7 +1488,7 @@
       },
       {
         "first_candidate": "MICHELLE BRAVO",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 508,
         "denominator": 900
       },
@@ -1496,7 +1506,7 @@
       },
       {
         "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
-        "second_candidate": "$UNDERVOTE",
+        "second_candidate": "$EXHAUSTED",
         "numerator": 0,
         "denominator": 3
       }

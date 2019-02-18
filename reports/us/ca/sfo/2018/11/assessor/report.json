@@ -94,7 +94,7 @@
     },
     {
       "first_candidate": "CARMEN CHU",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 137943,
       "denominator": 236697
     },
@@ -106,7 +106,7 @@
     },
     {
       "first_candidate": "PAUL BELLAR",
-      "second_candidate": "$UNDERVOTE",
+      "second_candidate": "$EXHAUSTED",
       "numerator": 46072,
       "denominator": 80479
     }
@@ -115,7 +115,7 @@
     "finalists": [
       "CARMEN CHU",
       "PAUL BELLAR",
-      "$UNDERVOTE"
+      "$EXHAUSTED"
     ],
     "eliminated": [],
     "pairs": []
