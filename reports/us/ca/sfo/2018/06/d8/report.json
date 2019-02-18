@@ -18,13 +18,30 @@
       }
     ],
     "num_ballots": 36067,
-    "candidates": [
+    "candidate_ids": [
       "JEFF SHEEHY",
       "LAWRENCE ''STARK'' DAGESSE",
       "RAFAEL MANDELMAN",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2018/06/d8.normalized.csv.gz"
+    "normalized_ballots": "us/ca/sfo/2018/06/d8.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "RAFAEL MANDELMAN",
+        "name": "Rafael Mandelman",
+        "write_in": false
+      },
+      {
+        "id": "JEFF SHEEHY",
+        "name": "Jeff Sheehy",
+        "write_in": false
+      },
+      {
+        "id": "LAWRENCE ''STARK'' DAGESSE",
+        "name": "Lawrence ''Stark'' Dagesse",
+        "write_in": false
+      }
+    ]
   },
   "candidates": [
     "RAFAEL MANDELMAN",

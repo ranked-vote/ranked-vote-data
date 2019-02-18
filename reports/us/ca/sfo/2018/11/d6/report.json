@@ -15,13 +15,30 @@
       }
     ],
     "num_ballots": 28872,
-    "candidates": [
+    "candidate_ids": [
       "CHRISTINE JOHNSON",
       "MATT HANEY",
       "SONJA TRAUSS",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2018/11/d6.normalized.csv.gz"
+    "normalized_ballots": "us/ca/sfo/2018/11/d6.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "MATT HANEY",
+        "name": "Matt Haney",
+        "write_in": false
+      },
+      {
+        "id": "CHRISTINE JOHNSON",
+        "name": "Christine Johnson",
+        "write_in": false
+      },
+      {
+        "id": "SONJA TRAUSS",
+        "name": "Sonja Trauss",
+        "write_in": false
+      }
+    ]
   },
   "candidates": [
     "MATT HANEY",

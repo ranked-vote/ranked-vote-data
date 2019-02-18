@@ -15,14 +15,36 @@
       }
     ],
     "num_ballots": 39906,
-    "candidates": [
+    "candidate_ids": [
       "NICK JOSEFOWITZ",
       "JOHN DENNIS",
       "SCHUYLER HUDAK",
       "CATHERINE STEFANI",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2018/11/d2.normalized.csv.gz"
+    "normalized_ballots": "us/ca/sfo/2018/11/d2.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "CATHERINE STEFANI",
+        "name": "Catherine Stefani",
+        "write_in": false
+      },
+      {
+        "id": "NICK JOSEFOWITZ",
+        "name": "Nick Josefowitz",
+        "write_in": false
+      },
+      {
+        "id": "SCHUYLER HUDAK",
+        "name": "Schuyler Hudak",
+        "write_in": false
+      },
+      {
+        "id": "JOHN DENNIS",
+        "name": "John Dennis",
+        "write_in": false
+      }
+    ]
   },
   "candidates": [
     "CATHERINE STEFANI",

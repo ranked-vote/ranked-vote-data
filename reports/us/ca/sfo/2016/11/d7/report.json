@@ -18,7 +18,7 @@
       }
     ],
     "num_ballots": 39486,
-    "candidates": [
+    "candidate_ids": [
       "JOEL ENGARDIO",
       "JOHN FARRELL",
       "MIKE YOUNG",
@@ -26,7 +26,34 @@
       "BEN MATRANGA",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2016/11/d7.normalized.csv.gz"
+    "normalized_ballots": "us/ca/sfo/2016/11/d7.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "NORMAN YEE",
+        "name": "Norman Yee",
+        "write_in": false
+      },
+      {
+        "id": "JOEL ENGARDIO",
+        "name": "Joel Engardio",
+        "write_in": false
+      },
+      {
+        "id": "BEN MATRANGA",
+        "name": "Ben Matranga",
+        "write_in": false
+      },
+      {
+        "id": "JOHN FARRELL",
+        "name": "John Farrell",
+        "write_in": false
+      },
+      {
+        "id": "MIKE YOUNG",
+        "name": "Mike Young",
+        "write_in": false
+      }
+    ]
   },
   "candidates": [
     "NORMAN YEE",

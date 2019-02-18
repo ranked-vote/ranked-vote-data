@@ -15,7 +15,7 @@
       }
     ],
     "num_ballots": 26257,
-    "candidates": [
+    "candidate_ids": [
       "ASALE CHANDLER",
       "UZURI PEASE-GREENE",
       "TONY KELLY",
@@ -25,7 +25,44 @@
       "$WRITE_IN",
       "WRITE-IN NEO VEAVEA"
     ],
-    "normalized_ballots": "us/ca/sfo/2018/11/d10.normalized.csv.gz"
+    "normalized_ballots": "us/ca/sfo/2018/11/d10.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "SHAMANN WALTON",
+        "name": "Shamann Walton",
+        "write_in": false
+      },
+      {
+        "id": "TONY KELLY",
+        "name": "Tony Kelly",
+        "write_in": false
+      },
+      {
+        "id": "THEO ELLINGTON",
+        "name": "Theo Ellington",
+        "write_in": false
+      },
+      {
+        "id": "UZURI PEASE-GREENE",
+        "name": "Uzuri Pease-Greene",
+        "write_in": false
+      },
+      {
+        "id": "GLORIA BERRY",
+        "name": "Gloria Berry",
+        "write_in": false
+      },
+      {
+        "id": "ASALE CHANDLER",
+        "name": "Asale Chandler",
+        "write_in": false
+      },
+      {
+        "id": "WRITE-IN NEO VEAVEA",
+        "name": "Write-In Neo Veavea",
+        "write_in": false
+      }
+    ]
   },
   "candidates": [
     "SHAMANN WALTON",

@@ -18,7 +18,7 @@
       }
     ],
     "num_ballots": 203069,
-    "candidates": [
+    "candidate_ids": [
       "FRANCISCO HERRERA",
       "ED LEE",
       "REED MARTIN",
@@ -33,7 +33,64 @@
       "WRITE-IN - IGNACIO L. NUNEZ",
       "WRITE-IN - MICHAEL PETRELIS"
     ],
-    "normalized_ballots": "us/ca/sfo/2015/11/mayor.normalized.csv.gz"
+    "normalized_ballots": "us/ca/sfo/2015/11/mayor.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "ED LEE",
+        "name": "Ed Lee",
+        "write_in": false
+      },
+      {
+        "id": "FRANCISCO HERRERA",
+        "name": "Francisco Herrera",
+        "write_in": false
+      },
+      {
+        "id": "AMY FARAH WEISS",
+        "name": "Amy Farah Weiss",
+        "write_in": false
+      },
+      {
+        "id": "STUART SCHUFFMAN",
+        "name": "Stuart Schuffman",
+        "write_in": false
+      },
+      {
+        "id": "KENT GRAHAM",
+        "name": "Kent Graham",
+        "write_in": false
+      },
+      {
+        "id": "REED MARTIN",
+        "name": "Reed Martin",
+        "write_in": false
+      },
+      {
+        "id": "WRITE-IN - MICHAEL PETRELIS",
+        "name": "Michael Petrelis",
+        "write_in": true
+      },
+      {
+        "id": "WRITE-IN - ROBERT L. JORDAN, JR.",
+        "name": "Robert L. Jordan, Jr.",
+        "write_in": true
+      },
+      {
+        "id": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+        "name": "Karla Gottschalk (A.K.A Belle Starr)",
+        "write_in": true
+      },
+      {
+        "id": "WRITE-IN - DANIEL C KAPPLER",
+        "name": "Daniel C Kappler",
+        "write_in": true
+      },
+      {
+        "id": "WRITE-IN - JOHN E. FITCH",
+        "name": "John E. Fitch",
+        "write_in": true
+      }
+    ]
   },
   "candidates": [
     "ED LEE",

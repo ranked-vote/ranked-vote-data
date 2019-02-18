@@ -18,7 +18,7 @@
       }
     ],
     "num_ballots": 28010,
-    "candidates": [
+    "candidate_ids": [
       "AHSHA SAFAI",
       "MAGDALENA DE GUZMAN",
       "FRANCISCO HERRERA",
@@ -26,7 +26,34 @@
       "KIM ALVARENGA",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2016/11/d11.normalized.csv.gz"
+    "normalized_ballots": "us/ca/sfo/2016/11/d11.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "AHSHA SAFAI",
+        "name": "Ahsha Safai",
+        "write_in": false
+      },
+      {
+        "id": "KIM ALVARENGA",
+        "name": "Kim Alvarenga",
+        "write_in": false
+      },
+      {
+        "id": "MAGDALENA DE GUZMAN",
+        "name": "Magdalena De Guzman",
+        "write_in": false
+      },
+      {
+        "id": "FRANCISCO HERRERA",
+        "name": "Francisco Herrera",
+        "write_in": false
+      },
+      {
+        "id": "BERTA HERNANDEZ",
+        "name": "Berta Hernandez",
+        "write_in": false
+      }
+    ]
   },
   "candidates": [
     "AHSHA SAFAI",

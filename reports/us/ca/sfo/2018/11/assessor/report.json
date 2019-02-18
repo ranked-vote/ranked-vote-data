@@ -15,12 +15,24 @@
       }
     ],
     "num_ballots": 368578,
-    "candidates": [
+    "candidate_ids": [
       "CARMEN CHU",
       "PAUL BELLAR",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2018/11/assessor.normalized.csv.gz"
+    "normalized_ballots": "us/ca/sfo/2018/11/assessor.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "CARMEN CHU",
+        "name": "Carmen Chu",
+        "write_in": false
+      },
+      {
+        "id": "PAUL BELLAR",
+        "name": "Paul Bellar",
+        "write_in": false
+      }
+    ]
   },
   "candidates": [
     "CARMEN CHU",

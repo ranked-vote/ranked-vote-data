@@ -18,14 +18,36 @@
       }
     ],
     "num_ballots": 34945,
-    "candidates": [
+    "candidate_ids": [
       "MELISSA SAN MIGUEL",
       "HILLARY RONEN",
       "ISWARI ESPA\u00d1A",
       "JOSHUA ARCE",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2016/11/d9.normalized.csv.gz"
+    "normalized_ballots": "us/ca/sfo/2016/11/d9.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "HILLARY RONEN",
+        "name": "Hillary Ronen",
+        "write_in": false
+      },
+      {
+        "id": "JOSHUA ARCE",
+        "name": "Joshua Arce",
+        "write_in": false
+      },
+      {
+        "id": "MELISSA SAN MIGUEL",
+        "name": "Melissa San Miguel",
+        "write_in": false
+      },
+      {
+        "id": "ISWARI ESPA\u00d1A",
+        "name": "Iswari Espa\u00f1a",
+        "write_in": false
+      }
+    ]
   },
   "candidates": [
     "HILLARY RONEN",

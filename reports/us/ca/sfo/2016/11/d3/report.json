@@ -18,12 +18,24 @@
       }
     ],
     "num_ballots": 31521,
-    "candidates": [
+    "candidate_ids": [
       "TIM E. DONNELLY",
       "AARON PESKIN",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2016/11/d3.normalized.csv.gz"
+    "normalized_ballots": "us/ca/sfo/2016/11/d3.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "AARON PESKIN",
+        "name": "Aaron Peskin",
+        "write_in": false
+      },
+      {
+        "id": "TIM E. DONNELLY",
+        "name": "Tim E. Donnelly",
+        "write_in": false
+      }
+    ]
   },
   "candidates": [
     "AARON PESKIN",

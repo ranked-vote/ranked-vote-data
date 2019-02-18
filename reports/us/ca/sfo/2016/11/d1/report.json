@@ -18,7 +18,7 @@
       }
     ],
     "num_ballots": 35109,
-    "candidates": [
+    "candidate_ids": [
       "SAMUEL KWONG",
       "SHERMAN R. D'SILVA",
       "MARJAN PHILHOUR",
@@ -31,7 +31,59 @@
       "JASON JUNGREIS",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2016/11/d1.normalized.csv.gz"
+    "normalized_ballots": "us/ca/sfo/2016/11/d1.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "SANDRA LEE FEWER",
+        "name": "Sandra Lee Fewer",
+        "write_in": false
+      },
+      {
+        "id": "MARJAN PHILHOUR",
+        "name": "Marjan Philhour",
+        "write_in": false
+      },
+      {
+        "id": "DAVID LEE",
+        "name": "David Lee",
+        "write_in": false
+      },
+      {
+        "id": "RICHIE GREENBERG",
+        "name": "Richie Greenberg",
+        "write_in": false
+      },
+      {
+        "id": "BRIAN J. LARKIN",
+        "name": "Brian J. Larkin",
+        "write_in": false
+      },
+      {
+        "id": "SAMUEL KWONG",
+        "name": "Samuel Kwong",
+        "write_in": false
+      },
+      {
+        "id": "JASON JUNGREIS",
+        "name": "Jason Jungreis",
+        "write_in": false
+      },
+      {
+        "id": "JONATHAN LYENS",
+        "name": "Jonathan Lyens",
+        "write_in": false
+      },
+      {
+        "id": "SHERMAN R. D'SILVA",
+        "name": "Sherman R. D'Silva",
+        "write_in": false
+      },
+      {
+        "id": "ANDY THORNLEY",
+        "name": "Andy Thornley",
+        "write_in": false
+      }
+    ]
   },
   "candidates": [
     "SANDRA LEE FEWER",

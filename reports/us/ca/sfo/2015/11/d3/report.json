@@ -18,13 +18,30 @@
       }
     ],
     "num_ballots": 17554,
-    "candidates": [
+    "candidate_ids": [
       "AARON PESKIN",
       "WILMA PANG",
       "JULIE CHRISTENSEN",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2015/11/d3.normalized.csv.gz"
+    "normalized_ballots": "us/ca/sfo/2015/11/d3.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "AARON PESKIN",
+        "name": "Aaron Peskin",
+        "write_in": false
+      },
+      {
+        "id": "JULIE CHRISTENSEN",
+        "name": "Julie Christensen",
+        "write_in": false
+      },
+      {
+        "id": "WILMA PANG",
+        "name": "Wilma Pang",
+        "write_in": false
+      }
+    ]
   },
   "candidates": [
     "AARON PESKIN",

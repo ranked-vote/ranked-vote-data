@@ -18,7 +18,7 @@
       }
     ],
     "num_ballots": 254016,
-    "candidates": [
+    "candidate_ids": [
       "MICHELLE BRAVO",
       "LONDON BREED",
       "MARK LENO",
@@ -30,7 +30,54 @@
       "$WRITE_IN",
       "WRITE-IN ANTOINE R. ROGERS"
     ],
-    "normalized_ballots": "us/ca/sfo/2018/06/mayor.normalized.csv.gz"
+    "normalized_ballots": "us/ca/sfo/2018/06/mayor.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "LONDON BREED",
+        "name": "London Breed",
+        "write_in": false
+      },
+      {
+        "id": "MARK LENO",
+        "name": "Mark Leno",
+        "write_in": false
+      },
+      {
+        "id": "JANE KIM",
+        "name": "Jane Kim",
+        "write_in": false
+      },
+      {
+        "id": "ANGELA ALIOTO",
+        "name": "Angela Alioto",
+        "write_in": false
+      },
+      {
+        "id": "ELLEN LEE ZHOU",
+        "name": "Ellen Lee Zhou",
+        "write_in": false
+      },
+      {
+        "id": "RICHIE GREENBERG",
+        "name": "Richie Greenberg",
+        "write_in": false
+      },
+      {
+        "id": "AMY FARAH WEISS",
+        "name": "Amy Farah Weiss",
+        "write_in": false
+      },
+      {
+        "id": "MICHELLE BRAVO",
+        "name": "Michelle Bravo",
+        "write_in": false
+      },
+      {
+        "id": "WRITE-IN ANTOINE R. ROGERS",
+        "name": "Write-In Antoine R. Rogers",
+        "write_in": false
+      }
+    ]
   },
   "candidates": [
     "LONDON BREED",

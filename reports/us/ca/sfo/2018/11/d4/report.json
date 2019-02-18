@@ -15,7 +15,7 @@
       }
     ],
     "num_ballots": 31412,
-    "candidates": [
+    "candidate_ids": [
       "JESSICA HO",
       "ADAM KIM",
       "TUAN NGUYEN",
@@ -26,7 +26,49 @@
       "LOU ANN BASSAN",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2018/11/d4.normalized.csv.gz"
+    "normalized_ballots": "us/ca/sfo/2018/11/d4.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "GORDON MAR",
+        "name": "Gordon Mar",
+        "write_in": false
+      },
+      {
+        "id": "JESSICA HO",
+        "name": "Jessica Ho",
+        "write_in": false
+      },
+      {
+        "id": "TREVOR MCNEIL",
+        "name": "Trevor Mcneil",
+        "write_in": false
+      },
+      {
+        "id": "ARTHUR TOM",
+        "name": "Arthur Tom",
+        "write_in": false
+      },
+      {
+        "id": "LOU ANN BASSAN",
+        "name": "Lou Ann Bassan",
+        "write_in": false
+      },
+      {
+        "id": "MIKE MURPHY",
+        "name": "Mike Murphy",
+        "write_in": false
+      },
+      {
+        "id": "TUAN NGUYEN",
+        "name": "Tuan Nguyen",
+        "write_in": false
+      },
+      {
+        "id": "ADAM KIM",
+        "name": "Adam Kim",
+        "write_in": false
+      }
+    ]
   },
   "candidates": [
     "GORDON MAR",

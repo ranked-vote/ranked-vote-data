@@ -18,12 +18,24 @@
       }
     ],
     "num_ballots": 45531,
-    "candidates": [
+    "candidate_ids": [
       "DEAN PRESTON",
       "LONDON BREED",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2016/11/d5.normalized.csv.gz"
+    "normalized_ballots": "us/ca/sfo/2016/11/d5.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "LONDON BREED",
+        "name": "London Breed",
+        "write_in": false
+      },
+      {
+        "id": "DEAN PRESTON",
+        "name": "Dean Preston",
+        "write_in": false
+      }
+    ]
   },
   "candidates": [
     "LONDON BREED",

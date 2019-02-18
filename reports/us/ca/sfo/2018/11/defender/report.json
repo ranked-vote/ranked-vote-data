@@ -15,11 +15,18 @@
       }
     ],
     "num_ballots": 368578,
-    "candidates": [
+    "candidate_ids": [
       "JEFF ADACHI",
       "$WRITE_IN"
     ],
-    "normalized_ballots": "us/ca/sfo/2018/11/defender.normalized.csv.gz"
+    "normalized_ballots": "us/ca/sfo/2018/11/defender.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "JEFF ADACHI",
+        "name": "Jeff Adachi",
+        "write_in": false
+      }
+    ]
   },
   "candidates": [
     "JEFF ADACHI"
