@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "num_ballots": 45531,
+    "candidates": [
+      "DEAN PRESTON",
+      "LONDON BREED",
+      "$WRITE_IN"
+    ],
+    "files": [
+      {
+        "name": "raw/us/ca/sfo/2016/11/20161206_masterlookup.txt",
+        "sha1": "c1128b1b6a7319da871cad0a2a2429db64c8ed70"
+      },
+      {
+        "name": "raw/us/ca/sfo/2016/11/20161206_ballotimage.txt",
+        "sha1": "ff12479964e24b73aee8cc6e8fa68400361c971c"
+      }
+    ],
+    "format": "us_ca_sfo"
+  },
+  "normalized_ballots": "us/ca/sfo/2016/11/d5.normalized.csv.gz",
+  "candidates": [
+    "LONDON BREED",
+    "DEAN PRESTON"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "LONDON BREED",
+        "DEAN PRESTON"
+      ],
+      "results": [
+        {
+          "name": "DEAN PRESTON",
+          "votes": 19610
+        },
+        {
+          "name": "LONDON BREED",
+          "votes": 21399
+        }
+      ],
+      "undervote": 4472,
+      "overvote": 50,
+      "continuing_ballots": 41009,
+      "eliminated": []
+    }
+  ],
+  "smith_set": [
+    "LONDON BREED"
+  ],
+  "condorcet": "LONDON BREED",
+  "graph": [
+    {
+      "source": "LONDON BREED",
+      "edges": []
+    },
+    {
+      "source": "DEAN PRESTON",
+      "edges": [
+        "LONDON BREED"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "LONDON BREED",
+      "second_candidate": "DEAN PRESTON",
+      "numerator": 21399,
+      "denominator": 41009
+    },
+    {
+      "first_candidate": "DEAN PRESTON",
+      "second_candidate": "LONDON BREED",
+      "numerator": 19610,
+      "denominator": 41009
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "LONDON BREED",
+      "second_candidate": "DEAN PRESTON",
+      "numerator": 9702,
+      "denominator": 21399
+    },
+    {
+      "first_candidate": "DEAN PRESTON",
+      "second_candidate": "LONDON BREED",
+      "numerator": 9222,
+      "denominator": 19610
+    }
+  ],
+  "final_by_first": []
+}

@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "num_ballots": 36067,
+    "candidates": [
+      "JEFF SHEEHY",
+      "LAWRENCE ''STARK'' DAGESSE",
+      "RAFAEL MANDELMAN",
+      "$WRITE_IN"
+    ],
+    "files": [
+      {
+        "name": "raw/us/ca/sfo/2018/06/20180627_masterlookup.txt",
+        "sha1": "030176016a69434bcc4353a502fbe0935bea3a0e"
+      },
+      {
+        "name": "raw/us/ca/sfo/2018/06/20180627_ballotimage.txt",
+        "sha1": "9544df621e257046b94e011dcb1a95bdb0148143"
+      }
+    ],
+    "format": "us_ca_sfo"
+  },
+  "normalized_ballots": "us/ca/sfo/2018/06/d8.normalized.csv.gz",
+  "candidates": [
+    "RAFAEL MANDELMAN",
+    "JEFF SHEEHY",
+    "LAWRENCE ''STARK'' DAGESSE"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "RAFAEL MANDELMAN",
+        "JEFF SHEEHY",
+        "LAWRENCE ''STARK'' DAGESSE"
+      ],
+      "results": [
+        {
+          "name": "RAFAEL MANDELMAN",
+          "votes": 19996
+        },
+        {
+          "name": "JEFF SHEEHY",
+          "votes": 12669
+        },
+        {
+          "name": "LAWRENCE ''STARK'' DAGESSE",
+          "votes": 597
+        }
+      ],
+      "undervote": 2780,
+      "overvote": 25,
+      "continuing_ballots": 33262,
+      "eliminated": []
+    }
+  ],
+  "smith_set": [
+    "RAFAEL MANDELMAN"
+  ],
+  "condorcet": "RAFAEL MANDELMAN",
+  "graph": [
+    {
+      "source": "RAFAEL MANDELMAN",
+      "edges": []
+    },
+    {
+      "source": "JEFF SHEEHY",
+      "edges": [
+        "RAFAEL MANDELMAN"
+      ]
+    },
+    {
+      "source": "LAWRENCE ''STARK'' DAGESSE",
+      "edges": [
+        "JEFF SHEEHY",
+        "RAFAEL MANDELMAN"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "RAFAEL MANDELMAN",
+      "second_candidate": "JEFF SHEEHY",
+      "numerator": 20267,
+      "denominator": 33142
+    },
+    {
+      "first_candidate": "RAFAEL MANDELMAN",
+      "second_candidate": "LAWRENCE ''STARK'' DAGESSE",
+      "numerator": 27205,
+      "denominator": 29403
+    },
+    {
+      "first_candidate": "JEFF SHEEHY",
+      "second_candidate": "RAFAEL MANDELMAN",
+      "numerator": 12875,
+      "denominator": 33142
+    },
+    {
+      "first_candidate": "JEFF SHEEHY",
+      "second_candidate": "LAWRENCE ''STARK'' DAGESSE",
+      "numerator": 23529,
+      "denominator": 26320
+    },
+    {
+      "first_candidate": "LAWRENCE ''STARK'' DAGESSE",
+      "second_candidate": "RAFAEL MANDELMAN",
+      "numerator": 2198,
+      "denominator": 29403
+    },
+    {
+      "first_candidate": "LAWRENCE ''STARK'' DAGESSE",
+      "second_candidate": "JEFF SHEEHY",
+      "numerator": 2791,
+      "denominator": 26320
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "RAFAEL MANDELMAN",
+      "second_candidate": "JEFF SHEEHY",
+      "numerator": 10860,
+      "denominator": 19996
+    },
+    {
+      "first_candidate": "RAFAEL MANDELMAN",
+      "second_candidate": "LAWRENCE ''STARK'' DAGESSE",
+      "numerator": 2194,
+      "denominator": 19996
+    },
+    {
+      "first_candidate": "JEFF SHEEHY",
+      "second_candidate": "RAFAEL MANDELMAN",
+      "numerator": 7209,
+      "denominator": 12669
+    },
+    {
+      "first_candidate": "JEFF SHEEHY",
+      "second_candidate": "LAWRENCE ''STARK'' DAGESSE",
+      "numerator": 1601,
+      "denominator": 12669
+    },
+    {
+      "first_candidate": "LAWRENCE ''STARK'' DAGESSE",
+      "second_candidate": "RAFAEL MANDELMAN",
+      "numerator": 271,
+      "denominator": 597
+    },
+    {
+      "first_candidate": "LAWRENCE ''STARK'' DAGESSE",
+      "second_candidate": "JEFF SHEEHY",
+      "numerator": 206,
+      "denominator": 597
+    }
+  ],
+  "final_by_first": []
+}

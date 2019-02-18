@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "num_ballots": 34945,
+    "candidates": [
+      "MELISSA SAN MIGUEL",
+      "HILLARY RONEN",
+      "ISWARI ESPA\u00d1A",
+      "JOSHUA ARCE",
+      "$WRITE_IN"
+    ],
+    "files": [
+      {
+        "name": "raw/us/ca/sfo/2016/11/20161206_masterlookup.txt",
+        "sha1": "c1128b1b6a7319da871cad0a2a2429db64c8ed70"
+      },
+      {
+        "name": "raw/us/ca/sfo/2016/11/20161206_ballotimage.txt",
+        "sha1": "ff12479964e24b73aee8cc6e8fa68400361c971c"
+      }
+    ],
+    "format": "us_ca_sfo"
+  },
+  "normalized_ballots": "us/ca/sfo/2016/11/d9.normalized.csv.gz",
+  "candidates": [
+    "HILLARY RONEN",
+    "JOSHUA ARCE",
+    "MELISSA SAN MIGUEL",
+    "ISWARI ESPA\u00d1A"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "HILLARY RONEN",
+        "JOSHUA ARCE",
+        "MELISSA SAN MIGUEL",
+        "ISWARI ESPA\u00d1A"
+      ],
+      "results": [
+        {
+          "name": "JOSHUA ARCE",
+          "votes": 9648
+        },
+        {
+          "name": "HILLARY RONEN",
+          "votes": 18396
+        },
+        {
+          "name": "MELISSA SAN MIGUEL",
+          "votes": 3465
+        },
+        {
+          "name": "ISWARI ESPA\u00d1A",
+          "votes": 545
+        }
+      ],
+      "undervote": 2764,
+      "overvote": 127,
+      "continuing_ballots": 32054,
+      "eliminated": []
+    }
+  ],
+  "smith_set": [
+    "HILLARY RONEN"
+  ],
+  "condorcet": "HILLARY RONEN",
+  "graph": [
+    {
+      "source": "HILLARY RONEN",
+      "edges": []
+    },
+    {
+      "source": "JOSHUA ARCE",
+      "edges": [
+        "HILLARY RONEN"
+      ]
+    },
+    {
+      "source": "MELISSA SAN MIGUEL",
+      "edges": [
+        "HILLARY RONEN",
+        "JOSHUA ARCE"
+      ]
+    },
+    {
+      "source": "ISWARI ESPA\u00d1A",
+      "edges": [
+        "HILLARY RONEN",
+        "MELISSA SAN MIGUEL",
+        "JOSHUA ARCE"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "HILLARY RONEN",
+      "second_candidate": "JOSHUA ARCE",
+      "numerator": 20314,
+      "denominator": 31347
+    },
+    {
+      "first_candidate": "HILLARY RONEN",
+      "second_candidate": "MELISSA SAN MIGUEL",
+      "numerator": 23068,
+      "denominator": 29347
+    },
+    {
+      "first_candidate": "HILLARY RONEN",
+      "second_candidate": "ISWARI ESPA\u00d1A",
+      "numerator": 25812,
+      "denominator": 28598
+    },
+    {
+      "first_candidate": "JOSHUA ARCE",
+      "second_candidate": "HILLARY RONEN",
+      "numerator": 11033,
+      "denominator": 31347
+    },
+    {
+      "first_candidate": "JOSHUA ARCE",
+      "second_candidate": "MELISSA SAN MIGUEL",
+      "numerator": 16129,
+      "denominator": 26967
+    },
+    {
+      "first_candidate": "JOSHUA ARCE",
+      "second_candidate": "ISWARI ESPA\u00d1A",
+      "numerator": 20103,
+      "denominator": 23751
+    },
+    {
+      "first_candidate": "MELISSA SAN MIGUEL",
+      "second_candidate": "HILLARY RONEN",
+      "numerator": 6279,
+      "denominator": 29347
+    },
+    {
+      "first_candidate": "MELISSA SAN MIGUEL",
+      "second_candidate": "JOSHUA ARCE",
+      "numerator": 10838,
+      "denominator": 26967
+    },
+    {
+      "first_candidate": "MELISSA SAN MIGUEL",
+      "second_candidate": "ISWARI ESPA\u00d1A",
+      "numerator": 18370,
+      "denominator": 21272
+    },
+    {
+      "first_candidate": "ISWARI ESPA\u00d1A",
+      "second_candidate": "HILLARY RONEN",
+      "numerator": 2786,
+      "denominator": 28598
+    },
+    {
+      "first_candidate": "ISWARI ESPA\u00d1A",
+      "second_candidate": "JOSHUA ARCE",
+      "numerator": 3648,
+      "denominator": 23751
+    },
+    {
+      "first_candidate": "ISWARI ESPA\u00d1A",
+      "second_candidate": "MELISSA SAN MIGUEL",
+      "numerator": 2902,
+      "denominator": 21272
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "HILLARY RONEN",
+      "second_candidate": "JOSHUA ARCE",
+      "numerator": 6101,
+      "denominator": 18396
+    },
+    {
+      "first_candidate": "HILLARY RONEN",
+      "second_candidate": "MELISSA SAN MIGUEL",
+      "numerator": 6726,
+      "denominator": 18396
+    },
+    {
+      "first_candidate": "HILLARY RONEN",
+      "second_candidate": "ISWARI ESPA\u00d1A",
+      "numerator": 692,
+      "denominator": 18396
+    },
+    {
+      "first_candidate": "JOSHUA ARCE",
+      "second_candidate": "HILLARY RONEN",
+      "numerator": 4342,
+      "denominator": 9648
+    },
+    {
+      "first_candidate": "JOSHUA ARCE",
+      "second_candidate": "MELISSA SAN MIGUEL",
+      "numerator": 2219,
+      "denominator": 9648
+    },
+    {
+      "first_candidate": "JOSHUA ARCE",
+      "second_candidate": "ISWARI ESPA\u00d1A",
+      "numerator": 548,
+      "denominator": 9648
+    },
+    {
+      "first_candidate": "MELISSA SAN MIGUEL",
+      "second_candidate": "HILLARY RONEN",
+      "numerator": 1496,
+      "denominator": 3465
+    },
+    {
+      "first_candidate": "MELISSA SAN MIGUEL",
+      "second_candidate": "JOSHUA ARCE",
+      "numerator": 910,
+      "denominator": 3465
+    },
+    {
+      "first_candidate": "MELISSA SAN MIGUEL",
+      "second_candidate": "ISWARI ESPA\u00d1A",
+      "numerator": 574,
+      "denominator": 3465
+    },
+    {
+      "first_candidate": "ISWARI ESPA\u00d1A",
+      "second_candidate": "HILLARY RONEN",
+      "numerator": 127,
+      "denominator": 545
+    },
+    {
+      "first_candidate": "ISWARI ESPA\u00d1A",
+      "second_candidate": "JOSHUA ARCE",
+      "numerator": 111,
+      "denominator": 545
+    },
+    {
+      "first_candidate": "ISWARI ESPA\u00d1A",
+      "second_candidate": "MELISSA SAN MIGUEL",
+      "numerator": 201,
+      "denominator": 545
+    }
+  ],
+  "final_by_first": []
+}

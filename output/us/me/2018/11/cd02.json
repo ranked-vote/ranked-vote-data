@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "num_ballots": 296077,
+    "candidates": [
+      "Bruce Poliquin",
+      "Jared F. Golden",
+      "Tiffany L. Bond",
+      "William R.S. Hoar"
+    ],
+    "files": [
+      {
+        "name": "raw/us/me/2018/11/cd02/final/Nov18CVRExportFINAL1.xlsx",
+        "sha1": "196513adbe019a623d69bce3914b7135a021a3ac"
+      },
+      {
+        "name": "raw/us/me/2018/11/cd02/final/Nov18CVRExportFINAL2.xlsx",
+        "sha1": "9defa6da5adc481eac2bb72a348583b6eddaf1d6"
+      },
+      {
+        "name": "raw/us/me/2018/11/cd02/final/Nov18CVRExportFINAL3.xlsx",
+        "sha1": "7f3f7a539b119a14396f7df1c52a6a3128e2087d"
+      },
+      {
+        "name": "raw/us/me/2018/11/cd02/final/RepCD2-8final.xlsx",
+        "sha1": "b0911053cfe6d144ec82fbeb637d6c555a31a4fb"
+      },
+      {
+        "name": "raw/us/me/2018/11/cd02/final/UOCAVA-AUX-CVRRepCD2.xlsx",
+        "sha1": "593f0ee1a5f7a74082d59e097a30bcc2f9c29d2e"
+      },
+      {
+        "name": "raw/us/me/2018/11/cd02/final/UOCAVA-FINALRepCD2.xlsx",
+        "sha1": "710675ddef04b546b95ba2ddf305369742e73e6d"
+      },
+      {
+        "name": "raw/us/me/2018/11/cd02/final/UOCAVA2CVRRepCD2.xlsx",
+        "sha1": "1ab98cfb6bd40b9b80ba2e6cec894abd5b7ecac7"
+      },
+      {
+        "name": "raw/us/me/2018/11/cd02/final/AUXCVRProofedCVR95RepCD2.xlsx",
+        "sha1": "7c71574723e61c0eb1e13eea57c47eb24384da07"
+      }
+    ],
+    "format": "us_me"
+  },
+  "normalized_ballots": "us/me/2018/11/cd02.normalized.csv.gz",
+  "candidates": [
+    "Bruce Poliquin",
+    "Jared F. Golden",
+    "Tiffany L. Bond",
+    "William R.S. Hoar"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "Bruce Poliquin",
+        "Jared F. Golden",
+        "Tiffany L. Bond",
+        "William R.S. Hoar"
+      ],
+      "results": [
+        {
+          "name": "Bruce Poliquin",
+          "votes": 134184
+        },
+        {
+          "name": "Jared F. Golden",
+          "votes": 132013
+        },
+        {
+          "name": "William R.S. Hoar",
+          "votes": 6875
+        },
+        {
+          "name": "Tiffany L. Bond",
+          "votes": 16552
+        }
+      ],
+      "undervote": 6018,
+      "overvote": 435,
+      "continuing_ballots": 289624,
+      "eliminated": []
+    },
+    {
+      "round": 2,
+      "candidates": [
+        "Jared F. Golden",
+        "Bruce Poliquin"
+      ],
+      "results": [
+        {
+          "name": "Bruce Poliquin",
+          "votes": 138931
+        },
+        {
+          "name": "Jared F. Golden",
+          "votes": 142440
+        }
+      ],
+      "undervote": 14173,
+      "overvote": 533,
+      "continuing_ballots": 281371,
+      "eliminated": [
+        "Tiffany L. Bond",
+        "William R.S. Hoar"
+      ]
+    }
+  ],
+  "smith_set": [
+    "Jared F. Golden"
+  ],
+  "condorcet": "Jared F. Golden",
+  "graph": [
+    {
+      "source": "Bruce Poliquin",
+      "edges": [
+        "Jared F. Golden"
+      ]
+    },
+    {
+      "source": "Jared F. Golden",
+      "edges": []
+    },
+    {
+      "source": "Tiffany L. Bond",
+      "edges": [
+        "Bruce Poliquin",
+        "Jared F. Golden"
+      ]
+    },
+    {
+      "source": "William R.S. Hoar",
+      "edges": [
+        "Bruce Poliquin",
+        "Tiffany L. Bond",
+        "Jared F. Golden"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "Bruce Poliquin",
+      "second_candidate": "Jared F. Golden",
+      "numerator": 138931,
+      "denominator": 281371
+    },
+    {
+      "first_candidate": "Bruce Poliquin",
+      "second_candidate": "Tiffany L. Bond",
+      "numerator": 144516,
+      "denominator": 231474
+    },
+    {
+      "first_candidate": "Bruce Poliquin",
+      "second_candidate": "William R.S. Hoar",
+      "numerator": 146412,
+      "denominator": 220988
+    },
+    {
+      "first_candidate": "Jared F. Golden",
+      "second_candidate": "Bruce Poliquin",
+      "numerator": 142440,
+      "denominator": 281371
+    },
+    {
+      "first_candidate": "Jared F. Golden",
+      "second_candidate": "Tiffany L. Bond",
+      "numerator": 145067,
+      "denominator": 194165
+    },
+    {
+      "first_candidate": "Jared F. Golden",
+      "second_candidate": "William R.S. Hoar",
+      "numerator": 148900,
+      "denominator": 191712
+    },
+    {
+      "first_candidate": "Tiffany L. Bond",
+      "second_candidate": "Bruce Poliquin",
+      "numerator": 86958,
+      "denominator": 231474
+    },
+    {
+      "first_candidate": "Tiffany L. Bond",
+      "second_candidate": "Jared F. Golden",
+      "numerator": 49098,
+      "denominator": 194165
+    },
+    {
+      "first_candidate": "Tiffany L. Bond",
+      "second_candidate": "William R.S. Hoar",
+      "numerator": 92199,
+      "denominator": 141190
+    },
+    {
+      "first_candidate": "William R.S. Hoar",
+      "second_candidate": "Bruce Poliquin",
+      "numerator": 74576,
+      "denominator": 220988
+    },
+    {
+      "first_candidate": "William R.S. Hoar",
+      "second_candidate": "Jared F. Golden",
+      "numerator": 42812,
+      "denominator": 191712
+    },
+    {
+      "first_candidate": "William R.S. Hoar",
+      "second_candidate": "Tiffany L. Bond",
+      "numerator": 48991,
+      "denominator": 141190
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "Bruce Poliquin",
+      "second_candidate": "Jared F. Golden",
+      "numerator": 9315,
+      "denominator": 134184
+    },
+    {
+      "first_candidate": "Bruce Poliquin",
+      "second_candidate": "Tiffany L. Bond",
+      "numerator": 15210,
+      "denominator": 134184
+    },
+    {
+      "first_candidate": "Bruce Poliquin",
+      "second_candidate": "William R.S. Hoar",
+      "numerator": 19429,
+      "denominator": 134184
+    },
+    {
+      "first_candidate": "Jared F. Golden",
+      "second_candidate": "Bruce Poliquin",
+      "numerator": 8089,
+      "denominator": 132013
+    },
+    {
+      "first_candidate": "Jared F. Golden",
+      "second_candidate": "Tiffany L. Bond",
+      "numerator": 53118,
+      "denominator": 132013
+    },
+    {
+      "first_candidate": "Jared F. Golden",
+      "second_candidate": "William R.S. Hoar",
+      "numerator": 18344,
+      "denominator": 132013
+    },
+    {
+      "first_candidate": "Tiffany L. Bond",
+      "second_candidate": "Bruce Poliquin",
+      "numerator": 1632,
+      "denominator": 16552
+    },
+    {
+      "first_candidate": "Tiffany L. Bond",
+      "second_candidate": "Jared F. Golden",
+      "numerator": 4835,
+      "denominator": 16552
+    },
+    {
+      "first_candidate": "Tiffany L. Bond",
+      "second_candidate": "William R.S. Hoar",
+      "numerator": 5639,
+      "denominator": 16552
+    },
+    {
+      "first_candidate": "William R.S. Hoar",
+      "second_candidate": "Bruce Poliquin",
+      "numerator": 889,
+      "denominator": 6875
+    },
+    {
+      "first_candidate": "William R.S. Hoar",
+      "second_candidate": "Jared F. Golden",
+      "numerator": 1203,
+      "denominator": 6875
+    },
+    {
+      "first_candidate": "William R.S. Hoar",
+      "second_candidate": "Tiffany L. Bond",
+      "numerator": 2621,
+      "denominator": 6875
+    }
+  ],
+  "final_by_first": [
+    {
+      "first_candidate": "Tiffany L. Bond",
+      "second_candidate": "Jared F. Golden",
+      "numerator": 7862,
+      "denominator": 16552
+    },
+    {
+      "first_candidate": "Tiffany L. Bond",
+      "second_candidate": "Bruce Poliquin",
+      "numerator": 3117,
+      "denominator": 16552
+    },
+    {
+      "first_candidate": "Tiffany L. Bond",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 5573,
+      "denominator": 16552
+    },
+    {
+      "first_candidate": "William R.S. Hoar",
+      "second_candidate": "Jared F. Golden",
+      "numerator": 2565,
+      "denominator": 6875
+    },
+    {
+      "first_candidate": "William R.S. Hoar",
+      "second_candidate": "Bruce Poliquin",
+      "numerator": 1630,
+      "denominator": 6875
+    },
+    {
+      "first_candidate": "William R.S. Hoar",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 2680,
+      "denominator": 6875
+    }
+  ]
+}

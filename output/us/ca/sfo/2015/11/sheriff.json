@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "num_ballots": 203069,
+    "candidates": [
+      "VICKI HENNESSY",
+      "JOHN ROBINSON",
+      "ROSS MIRKARIMI",
+      "$WRITE_IN"
+    ],
+    "files": [
+      {
+        "name": "raw/us/ca/sfo/2015/11/20151119_masterlookup.txt",
+        "sha1": "32444f136a2aacecb740d70ecc02b99c9b0102fc"
+      },
+      {
+        "name": "raw/us/ca/sfo/2015/11/20151119_ballotimage.txt",
+        "sha1": "8f5079df4267c4c23c3432ff71ce148dc483f30a"
+      }
+    ],
+    "format": "us_ca_sfo"
+  },
+  "normalized_ballots": "us/ca/sfo/2015/11/sheriff.normalized.csv.gz",
+  "candidates": [
+    "VICKI HENNESSY",
+    "ROSS MIRKARIMI",
+    "JOHN ROBINSON"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "VICKI HENNESSY",
+        "ROSS MIRKARIMI",
+        "JOHN ROBINSON"
+      ],
+      "results": [
+        {
+          "name": "VICKI HENNESSY",
+          "votes": 113349
+        },
+        {
+          "name": "ROSS MIRKARIMI",
+          "votes": 61446
+        },
+        {
+          "name": "JOHN ROBINSON",
+          "votes": 11036
+        }
+      ],
+      "undervote": 17001,
+      "overvote": 237,
+      "continuing_ballots": 185831,
+      "eliminated": []
+    }
+  ],
+  "smith_set": [
+    "VICKI HENNESSY"
+  ],
+  "condorcet": "VICKI HENNESSY",
+  "graph": [
+    {
+      "source": "VICKI HENNESSY",
+      "edges": []
+    },
+    {
+      "source": "ROSS MIRKARIMI",
+      "edges": [
+        "VICKI HENNESSY"
+      ]
+    },
+    {
+      "source": "JOHN ROBINSON",
+      "edges": [
+        "VICKI HENNESSY",
+        "ROSS MIRKARIMI"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "VICKI HENNESSY",
+      "second_candidate": "ROSS MIRKARIMI",
+      "numerator": 118517,
+      "denominator": 181922
+    },
+    {
+      "first_candidate": "VICKI HENNESSY",
+      "second_candidate": "JOHN ROBINSON",
+      "numerator": 136107,
+      "denominator": 154669
+    },
+    {
+      "first_candidate": "ROSS MIRKARIMI",
+      "second_candidate": "VICKI HENNESSY",
+      "numerator": 63405,
+      "denominator": 181922
+    },
+    {
+      "first_candidate": "ROSS MIRKARIMI",
+      "second_candidate": "JOHN ROBINSON",
+      "numerator": 80096,
+      "denominator": 125895
+    },
+    {
+      "first_candidate": "JOHN ROBINSON",
+      "second_candidate": "VICKI HENNESSY",
+      "numerator": 18562,
+      "denominator": 154669
+    },
+    {
+      "first_candidate": "JOHN ROBINSON",
+      "second_candidate": "ROSS MIRKARIMI",
+      "numerator": 45799,
+      "denominator": 125895
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "VICKI HENNESSY",
+      "second_candidate": "ROSS MIRKARIMI",
+      "numerator": 18650,
+      "denominator": 113349
+    },
+    {
+      "first_candidate": "VICKI HENNESSY",
+      "second_candidate": "JOHN ROBINSON",
+      "numerator": 34763,
+      "denominator": 113349
+    },
+    {
+      "first_candidate": "ROSS MIRKARIMI",
+      "second_candidate": "VICKI HENNESSY",
+      "numerator": 22758,
+      "denominator": 61446
+    },
+    {
+      "first_candidate": "ROSS MIRKARIMI",
+      "second_candidate": "JOHN ROBINSON",
+      "numerator": 7526,
+      "denominator": 61446
+    },
+    {
+      "first_candidate": "JOHN ROBINSON",
+      "second_candidate": "VICKI HENNESSY",
+      "numerator": 5168,
+      "denominator": 11036
+    },
+    {
+      "first_candidate": "JOHN ROBINSON",
+      "second_candidate": "ROSS MIRKARIMI",
+      "numerator": 1959,
+      "denominator": 11036
+    }
+  ],
+  "final_by_first": []
+}

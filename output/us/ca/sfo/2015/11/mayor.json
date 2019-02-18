@@ -1,0 +1,1551 @@
+{
+  "meta": {
+    "num_ballots": 203069,
+    "candidates": [
+      "FRANCISCO HERRERA",
+      "ED LEE",
+      "REED MARTIN",
+      "AMY FARAH WEISS",
+      "KENT GRAHAM",
+      "STUART SCHUFFMAN",
+      "$WRITE_IN",
+      "WRITE-IN - JOHN E. FITCH",
+      "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "WRITE-IN - DANIEL C KAPPLER",
+      "WRITE-IN - IGNACIO L. NUNEZ",
+      "WRITE-IN - MICHAEL PETRELIS"
+    ],
+    "files": [
+      {
+        "name": "raw/us/ca/sfo/2015/11/20151119_masterlookup.txt",
+        "sha1": "32444f136a2aacecb740d70ecc02b99c9b0102fc"
+      },
+      {
+        "name": "raw/us/ca/sfo/2015/11/20151119_ballotimage.txt",
+        "sha1": "8f5079df4267c4c23c3432ff71ce148dc483f30a"
+      }
+    ],
+    "format": "us_ca_sfo"
+  },
+  "normalized_ballots": "us/ca/sfo/2015/11/mayor.normalized.csv.gz",
+  "candidates": [
+    "ED LEE",
+    "FRANCISCO HERRERA",
+    "AMY FARAH WEISS",
+    "STUART SCHUFFMAN",
+    "KENT GRAHAM",
+    "REED MARTIN",
+    "WRITE-IN - MICHAEL PETRELIS",
+    "WRITE-IN - ROBERT L. JORDAN, JR.",
+    "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+    "WRITE-IN - DANIEL C KAPPLER",
+    "WRITE-IN - JOHN E. FITCH"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "ED LEE",
+        "FRANCISCO HERRERA",
+        "AMY FARAH WEISS",
+        "STUART SCHUFFMAN",
+        "KENT GRAHAM",
+        "REED MARTIN",
+        "WRITE-IN - MICHAEL PETRELIS",
+        "WRITE-IN - ROBERT L. JORDAN, JR.",
+        "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+        "WRITE-IN - DANIEL C KAPPLER",
+        "WRITE-IN - JOHN E. FITCH"
+      ],
+      "results": [
+        {
+          "name": "FRANCISCO HERRERA",
+          "votes": 28805
+        },
+        {
+          "name": "ED LEE",
+          "votes": 105771
+        },
+        {
+          "name": "STUART SCHUFFMAN",
+          "votes": 18347
+        },
+        {
+          "name": "REED MARTIN",
+          "votes": 4660
+        },
+        {
+          "name": "AMY FARAH WEISS",
+          "votes": 23236
+        },
+        {
+          "name": "KENT GRAHAM",
+          "votes": 8827
+        },
+        {
+          "name": "WRITE-IN - ROBERT L. JORDAN, JR.",
+          "votes": 7
+        },
+        {
+          "name": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+          "votes": 6
+        },
+        {
+          "name": "WRITE-IN - MICHAEL PETRELIS",
+          "votes": 37
+        },
+        {
+          "name": "WRITE-IN - JOHN E. FITCH",
+          "votes": 5
+        },
+        {
+          "name": "WRITE-IN - DANIEL C KAPPLER",
+          "votes": 6
+        }
+      ],
+      "undervote": 12741,
+      "overvote": 621,
+      "continuing_ballots": 189707,
+      "eliminated": []
+    }
+  ],
+  "smith_set": [
+    "ED LEE"
+  ],
+  "condorcet": "ED LEE",
+  "graph": [
+    {
+      "source": "ED LEE",
+      "edges": []
+    },
+    {
+      "source": "FRANCISCO HERRERA",
+      "edges": [
+        "ED LEE",
+        "AMY FARAH WEISS"
+      ]
+    },
+    {
+      "source": "AMY FARAH WEISS",
+      "edges": [
+        "ED LEE"
+      ]
+    },
+    {
+      "source": "STUART SCHUFFMAN",
+      "edges": [
+        "FRANCISCO HERRERA",
+        "ED LEE",
+        "AMY FARAH WEISS"
+      ]
+    },
+    {
+      "source": "KENT GRAHAM",
+      "edges": [
+        "FRANCISCO HERRERA",
+        "ED LEE",
+        "AMY FARAH WEISS",
+        "STUART SCHUFFMAN"
+      ]
+    },
+    {
+      "source": "REED MARTIN",
+      "edges": [
+        "ED LEE",
+        "AMY FARAH WEISS",
+        "FRANCISCO HERRERA",
+        "KENT GRAHAM",
+        "STUART SCHUFFMAN"
+      ]
+    },
+    {
+      "source": "WRITE-IN - MICHAEL PETRELIS",
+      "edges": [
+        "ED LEE",
+        "AMY FARAH WEISS",
+        "FRANCISCO HERRERA",
+        "KENT GRAHAM",
+        "REED MARTIN",
+        "STUART SCHUFFMAN"
+      ]
+    },
+    {
+      "source": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "edges": [
+        "ED LEE",
+        "AMY FARAH WEISS",
+        "WRITE-IN - DANIEL C KAPPLER",
+        "FRANCISCO HERRERA",
+        "KENT GRAHAM",
+        "REED MARTIN",
+        "STUART SCHUFFMAN",
+        "WRITE-IN - MICHAEL PETRELIS"
+      ]
+    },
+    {
+      "source": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "edges": [
+        "ED LEE",
+        "AMY FARAH WEISS",
+        "WRITE-IN - DANIEL C KAPPLER",
+        "FRANCISCO HERRERA",
+        "KENT GRAHAM",
+        "REED MARTIN",
+        "STUART SCHUFFMAN",
+        "WRITE-IN - MICHAEL PETRELIS"
+      ]
+    },
+    {
+      "source": "WRITE-IN - DANIEL C KAPPLER",
+      "edges": [
+        "ED LEE",
+        "AMY FARAH WEISS",
+        "FRANCISCO HERRERA",
+        "KENT GRAHAM",
+        "REED MARTIN",
+        "STUART SCHUFFMAN",
+        "WRITE-IN - MICHAEL PETRELIS"
+      ]
+    },
+    {
+      "source": "WRITE-IN - JOHN E. FITCH",
+      "edges": [
+        "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+        "ED LEE",
+        "AMY FARAH WEISS",
+        "WRITE-IN - DANIEL C KAPPLER",
+        "FRANCISCO HERRERA",
+        "KENT GRAHAM",
+        "REED MARTIN",
+        "STUART SCHUFFMAN",
+        "WRITE-IN - MICHAEL PETRELIS"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "ED LEE",
+      "second_candidate": "FRANCISCO HERRERA",
+      "numerator": 113191,
+      "denominator": 168232
+    },
+    {
+      "first_candidate": "ED LEE",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 112777,
+      "denominator": 169568
+    },
+    {
+      "first_candidate": "ED LEE",
+      "second_candidate": "STUART SCHUFFMAN",
+      "numerator": 115085,
+      "denominator": 162141
+    },
+    {
+      "first_candidate": "ED LEE",
+      "second_candidate": "KENT GRAHAM",
+      "numerator": 115678,
+      "denominator": 135513
+    },
+    {
+      "first_candidate": "ED LEE",
+      "second_candidate": "REED MARTIN",
+      "numerator": 116692,
+      "denominator": 132374
+    },
+    {
+      "first_candidate": "ED LEE",
+      "second_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "numerator": 118303,
+      "denominator": 118350
+    },
+    {
+      "first_candidate": "ED LEE",
+      "second_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "numerator": 118308,
+      "denominator": 118316
+    },
+    {
+      "first_candidate": "ED LEE",
+      "second_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "numerator": 118309,
+      "denominator": 118318
+    },
+    {
+      "first_candidate": "ED LEE",
+      "second_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "numerator": 118309,
+      "denominator": 118324
+    },
+    {
+      "first_candidate": "ED LEE",
+      "second_candidate": "WRITE-IN - JOHN E. FITCH",
+      "numerator": 118309,
+      "denominator": 118316
+    },
+    {
+      "first_candidate": "FRANCISCO HERRERA",
+      "second_candidate": "ED LEE",
+      "numerator": 55041,
+      "denominator": 168232
+    },
+    {
+      "first_candidate": "FRANCISCO HERRERA",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 48975,
+      "denominator": 99531
+    },
+    {
+      "first_candidate": "FRANCISCO HERRERA",
+      "second_candidate": "STUART SCHUFFMAN",
+      "numerator": 55909,
+      "denominator": 92747
+    },
+    {
+      "first_candidate": "FRANCISCO HERRERA",
+      "second_candidate": "KENT GRAHAM",
+      "numerator": 66522,
+      "denominator": 91640
+    },
+    {
+      "first_candidate": "FRANCISCO HERRERA",
+      "second_candidate": "REED MARTIN",
+      "numerator": 67877,
+      "denominator": 84245
+    },
+    {
+      "first_candidate": "FRANCISCO HERRERA",
+      "second_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "numerator": 70669,
+      "denominator": 70719
+    },
+    {
+      "first_candidate": "FRANCISCO HERRERA",
+      "second_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "numerator": 70683,
+      "denominator": 70692
+    },
+    {
+      "first_candidate": "FRANCISCO HERRERA",
+      "second_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "numerator": 70681,
+      "denominator": 70690
+    },
+    {
+      "first_candidate": "FRANCISCO HERRERA",
+      "second_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "numerator": 70681,
+      "denominator": 70693
+    },
+    {
+      "first_candidate": "FRANCISCO HERRERA",
+      "second_candidate": "WRITE-IN - JOHN E. FITCH",
+      "numerator": 70683,
+      "denominator": 70690
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "ED LEE",
+      "numerator": 56791,
+      "denominator": 169568
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "FRANCISCO HERRERA",
+      "numerator": 50556,
+      "denominator": 99531
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "STUART SCHUFFMAN",
+      "numerator": 58097,
+      "denominator": 95072
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "KENT GRAHAM",
+      "numerator": 70996,
+      "denominator": 93392
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "REED MARTIN",
+      "numerator": 72390,
+      "denominator": 88800
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "numerator": 77019,
+      "denominator": 77064
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "numerator": 77027,
+      "denominator": 77035
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "numerator": 77026,
+      "denominator": 77034
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "numerator": 77026,
+      "denominator": 77038
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "WRITE-IN - JOHN E. FITCH",
+      "numerator": 77028,
+      "denominator": 77035
+    },
+    {
+      "first_candidate": "STUART SCHUFFMAN",
+      "second_candidate": "ED LEE",
+      "numerator": 47056,
+      "denominator": 162141
+    },
+    {
+      "first_candidate": "STUART SCHUFFMAN",
+      "second_candidate": "FRANCISCO HERRERA",
+      "numerator": 36838,
+      "denominator": 92747
+    },
+    {
+      "first_candidate": "STUART SCHUFFMAN",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 36975,
+      "denominator": 95072
+    },
+    {
+      "first_candidate": "STUART SCHUFFMAN",
+      "second_candidate": "KENT GRAHAM",
+      "numerator": 52283,
+      "denominator": 79300
+    },
+    {
+      "first_candidate": "STUART SCHUFFMAN",
+      "second_candidate": "REED MARTIN",
+      "numerator": 54202,
+      "denominator": 72913
+    },
+    {
+      "first_candidate": "STUART SCHUFFMAN",
+      "second_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "numerator": 56954,
+      "denominator": 56998
+    },
+    {
+      "first_candidate": "STUART SCHUFFMAN",
+      "second_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "numerator": 56965,
+      "denominator": 56973
+    },
+    {
+      "first_candidate": "STUART SCHUFFMAN",
+      "second_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "numerator": 56966,
+      "denominator": 56974
+    },
+    {
+      "first_candidate": "STUART SCHUFFMAN",
+      "second_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "numerator": 56966,
+      "denominator": 56981
+    },
+    {
+      "first_candidate": "STUART SCHUFFMAN",
+      "second_candidate": "WRITE-IN - JOHN E. FITCH",
+      "numerator": 56966,
+      "denominator": 56974
+    },
+    {
+      "first_candidate": "KENT GRAHAM",
+      "second_candidate": "ED LEE",
+      "numerator": 19835,
+      "denominator": 135513
+    },
+    {
+      "first_candidate": "KENT GRAHAM",
+      "second_candidate": "FRANCISCO HERRERA",
+      "numerator": 25118,
+      "denominator": 91640
+    },
+    {
+      "first_candidate": "KENT GRAHAM",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 22396,
+      "denominator": 93392
+    },
+    {
+      "first_candidate": "KENT GRAHAM",
+      "second_candidate": "STUART SCHUFFMAN",
+      "numerator": 27017,
+      "denominator": 79300
+    },
+    {
+      "first_candidate": "KENT GRAHAM",
+      "second_candidate": "REED MARTIN",
+      "numerator": 28572,
+      "denominator": 48341
+    },
+    {
+      "first_candidate": "KENT GRAHAM",
+      "second_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "numerator": 31259,
+      "denominator": 31308
+    },
+    {
+      "first_candidate": "KENT GRAHAM",
+      "second_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "numerator": 31261,
+      "denominator": 31270
+    },
+    {
+      "first_candidate": "KENT GRAHAM",
+      "second_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "numerator": 31259,
+      "denominator": 31267
+    },
+    {
+      "first_candidate": "KENT GRAHAM",
+      "second_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "numerator": 31260,
+      "denominator": 31276
+    },
+    {
+      "first_candidate": "KENT GRAHAM",
+      "second_candidate": "WRITE-IN - JOHN E. FITCH",
+      "numerator": 31261,
+      "denominator": 31269
+    },
+    {
+      "first_candidate": "REED MARTIN",
+      "second_candidate": "ED LEE",
+      "numerator": 15682,
+      "denominator": 132374
+    },
+    {
+      "first_candidate": "REED MARTIN",
+      "second_candidate": "FRANCISCO HERRERA",
+      "numerator": 16368,
+      "denominator": 84245
+    },
+    {
+      "first_candidate": "REED MARTIN",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 16410,
+      "denominator": 88800
+    },
+    {
+      "first_candidate": "REED MARTIN",
+      "second_candidate": "STUART SCHUFFMAN",
+      "numerator": 18711,
+      "denominator": 72913
+    },
+    {
+      "first_candidate": "REED MARTIN",
+      "second_candidate": "KENT GRAHAM",
+      "numerator": 19769,
+      "denominator": 48341
+    },
+    {
+      "first_candidate": "REED MARTIN",
+      "second_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "numerator": 22984,
+      "denominator": 23032
+    },
+    {
+      "first_candidate": "REED MARTIN",
+      "second_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "numerator": 22987,
+      "denominator": 22996
+    },
+    {
+      "first_candidate": "REED MARTIN",
+      "second_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "numerator": 22987,
+      "denominator": 22996
+    },
+    {
+      "first_candidate": "REED MARTIN",
+      "second_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "numerator": 22987,
+      "denominator": 23003
+    },
+    {
+      "first_candidate": "REED MARTIN",
+      "second_candidate": "WRITE-IN - JOHN E. FITCH",
+      "numerator": 22986,
+      "denominator": 22994
+    },
+    {
+      "first_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "second_candidate": "ED LEE",
+      "numerator": 47,
+      "denominator": 118350
+    },
+    {
+      "first_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "second_candidate": "FRANCISCO HERRERA",
+      "numerator": 50,
+      "denominator": 70719
+    },
+    {
+      "first_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 45,
+      "denominator": 77064
+    },
+    {
+      "first_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "second_candidate": "STUART SCHUFFMAN",
+      "numerator": 44,
+      "denominator": 56998
+    },
+    {
+      "first_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "second_candidate": "KENT GRAHAM",
+      "numerator": 49,
+      "denominator": 31308
+    },
+    {
+      "first_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "second_candidate": "REED MARTIN",
+      "numerator": 48,
+      "denominator": 23032
+    },
+    {
+      "first_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "second_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "numerator": 50,
+      "denominator": 59
+    },
+    {
+      "first_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "second_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "numerator": 50,
+      "denominator": 58
+    },
+    {
+      "first_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "second_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "numerator": 50,
+      "denominator": 67
+    },
+    {
+      "first_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "second_candidate": "WRITE-IN - JOHN E. FITCH",
+      "numerator": 50,
+      "denominator": 58
+    },
+    {
+      "first_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "second_candidate": "ED LEE",
+      "numerator": 8,
+      "denominator": 118316
+    },
+    {
+      "first_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "second_candidate": "FRANCISCO HERRERA",
+      "numerator": 9,
+      "denominator": 70692
+    },
+    {
+      "first_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 8,
+      "denominator": 77035
+    },
+    {
+      "first_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "second_candidate": "STUART SCHUFFMAN",
+      "numerator": 8,
+      "denominator": 56973
+    },
+    {
+      "first_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "second_candidate": "KENT GRAHAM",
+      "numerator": 9,
+      "denominator": 31270
+    },
+    {
+      "first_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "second_candidate": "REED MARTIN",
+      "numerator": 9,
+      "denominator": 22996
+    },
+    {
+      "first_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "second_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "numerator": 9,
+      "denominator": 59
+    },
+    {
+      "first_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "second_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "numerator": 9,
+      "denominator": 18
+    },
+    {
+      "first_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "second_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "numerator": 9,
+      "denominator": 25
+    },
+    {
+      "first_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "second_candidate": "WRITE-IN - JOHN E. FITCH",
+      "numerator": 8,
+      "denominator": 16
+    },
+    {
+      "first_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "second_candidate": "ED LEE",
+      "numerator": 9,
+      "denominator": 118318
+    },
+    {
+      "first_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "second_candidate": "FRANCISCO HERRERA",
+      "numerator": 9,
+      "denominator": 70690
+    },
+    {
+      "first_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 8,
+      "denominator": 77034
+    },
+    {
+      "first_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "second_candidate": "STUART SCHUFFMAN",
+      "numerator": 8,
+      "denominator": 56974
+    },
+    {
+      "first_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "second_candidate": "KENT GRAHAM",
+      "numerator": 8,
+      "denominator": 31267
+    },
+    {
+      "first_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "second_candidate": "REED MARTIN",
+      "numerator": 9,
+      "denominator": 22996
+    },
+    {
+      "first_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "second_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "numerator": 8,
+      "denominator": 58
+    },
+    {
+      "first_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "second_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "numerator": 9,
+      "denominator": 18
+    },
+    {
+      "first_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "second_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "numerator": 9,
+      "denominator": 25
+    },
+    {
+      "first_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "second_candidate": "WRITE-IN - JOHN E. FITCH",
+      "numerator": 9,
+      "denominator": 16
+    },
+    {
+      "first_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "second_candidate": "ED LEE",
+      "numerator": 15,
+      "denominator": 118324
+    },
+    {
+      "first_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "second_candidate": "FRANCISCO HERRERA",
+      "numerator": 12,
+      "denominator": 70693
+    },
+    {
+      "first_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 12,
+      "denominator": 77038
+    },
+    {
+      "first_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "second_candidate": "STUART SCHUFFMAN",
+      "numerator": 15,
+      "denominator": 56981
+    },
+    {
+      "first_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "second_candidate": "KENT GRAHAM",
+      "numerator": 16,
+      "denominator": 31276
+    },
+    {
+      "first_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "second_candidate": "REED MARTIN",
+      "numerator": 16,
+      "denominator": 23003
+    },
+    {
+      "first_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "second_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "numerator": 17,
+      "denominator": 67
+    },
+    {
+      "first_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "second_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "numerator": 16,
+      "denominator": 25
+    },
+    {
+      "first_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "second_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "numerator": 16,
+      "denominator": 25
+    },
+    {
+      "first_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "second_candidate": "WRITE-IN - JOHN E. FITCH",
+      "numerator": 16,
+      "denominator": 24
+    },
+    {
+      "first_candidate": "WRITE-IN - JOHN E. FITCH",
+      "second_candidate": "ED LEE",
+      "numerator": 7,
+      "denominator": 118316
+    },
+    {
+      "first_candidate": "WRITE-IN - JOHN E. FITCH",
+      "second_candidate": "FRANCISCO HERRERA",
+      "numerator": 7,
+      "denominator": 70690
+    },
+    {
+      "first_candidate": "WRITE-IN - JOHN E. FITCH",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 7,
+      "denominator": 77035
+    },
+    {
+      "first_candidate": "WRITE-IN - JOHN E. FITCH",
+      "second_candidate": "STUART SCHUFFMAN",
+      "numerator": 8,
+      "denominator": 56974
+    },
+    {
+      "first_candidate": "WRITE-IN - JOHN E. FITCH",
+      "second_candidate": "KENT GRAHAM",
+      "numerator": 8,
+      "denominator": 31269
+    },
+    {
+      "first_candidate": "WRITE-IN - JOHN E. FITCH",
+      "second_candidate": "REED MARTIN",
+      "numerator": 8,
+      "denominator": 22994
+    },
+    {
+      "first_candidate": "WRITE-IN - JOHN E. FITCH",
+      "second_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "numerator": 8,
+      "denominator": 58
+    },
+    {
+      "first_candidate": "WRITE-IN - JOHN E. FITCH",
+      "second_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "numerator": 8,
+      "denominator": 16
+    },
+    {
+      "first_candidate": "WRITE-IN - JOHN E. FITCH",
+      "second_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "numerator": 7,
+      "denominator": 16
+    },
+    {
+      "first_candidate": "WRITE-IN - JOHN E. FITCH",
+      "second_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "numerator": 8,
+      "denominator": 24
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "ED LEE",
+      "second_candidate": "FRANCISCO HERRERA",
+      "numerator": 9061,
+      "denominator": 105771
+    },
+    {
+      "first_candidate": "ED LEE",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 11108,
+      "denominator": 105771
+    },
+    {
+      "first_candidate": "ED LEE",
+      "second_candidate": "STUART SCHUFFMAN",
+      "numerator": 4665,
+      "denominator": 105771
+    },
+    {
+      "first_candidate": "ED LEE",
+      "second_candidate": "KENT GRAHAM",
+      "numerator": 5879,
+      "denominator": 105771
+    },
+    {
+      "first_candidate": "ED LEE",
+      "second_candidate": "REED MARTIN",
+      "numerator": 3316,
+      "denominator": 105771
+    },
+    {
+      "first_candidate": "ED LEE",
+      "second_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "numerator": 3,
+      "denominator": 105771
+    },
+    {
+      "first_candidate": "ED LEE",
+      "second_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "numerator": 0,
+      "denominator": 105771
+    },
+    {
+      "first_candidate": "ED LEE",
+      "second_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "numerator": 0,
+      "denominator": 105771
+    },
+    {
+      "first_candidate": "ED LEE",
+      "second_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "numerator": 2,
+      "denominator": 105771
+    },
+    {
+      "first_candidate": "ED LEE",
+      "second_candidate": "WRITE-IN - JOHN E. FITCH",
+      "numerator": 1,
+      "denominator": 105771
+    },
+    {
+      "first_candidate": "FRANCISCO HERRERA",
+      "second_candidate": "ED LEE",
+      "numerator": 2079,
+      "denominator": 28805
+    },
+    {
+      "first_candidate": "FRANCISCO HERRERA",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 10628,
+      "denominator": 28805
+    },
+    {
+      "first_candidate": "FRANCISCO HERRERA",
+      "second_candidate": "STUART SCHUFFMAN",
+      "numerator": 7576,
+      "denominator": 28805
+    },
+    {
+      "first_candidate": "FRANCISCO HERRERA",
+      "second_candidate": "KENT GRAHAM",
+      "numerator": 1486,
+      "denominator": 28805
+    },
+    {
+      "first_candidate": "FRANCISCO HERRERA",
+      "second_candidate": "REED MARTIN",
+      "numerator": 1928,
+      "denominator": 28805
+    },
+    {
+      "first_candidate": "FRANCISCO HERRERA",
+      "second_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "numerator": 0,
+      "denominator": 28805
+    },
+    {
+      "first_candidate": "FRANCISCO HERRERA",
+      "second_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "numerator": 0,
+      "denominator": 28805
+    },
+    {
+      "first_candidate": "FRANCISCO HERRERA",
+      "second_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "numerator": 0,
+      "denominator": 28805
+    },
+    {
+      "first_candidate": "FRANCISCO HERRERA",
+      "second_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "numerator": 0,
+      "denominator": 28805
+    },
+    {
+      "first_candidate": "FRANCISCO HERRERA",
+      "second_candidate": "WRITE-IN - JOHN E. FITCH",
+      "numerator": 0,
+      "denominator": 28805
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "ED LEE",
+      "numerator": 1881,
+      "denominator": 23236
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "FRANCISCO HERRERA",
+      "numerator": 8607,
+      "denominator": 23236
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "STUART SCHUFFMAN",
+      "numerator": 5516,
+      "denominator": 23236
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "KENT GRAHAM",
+      "numerator": 2298,
+      "denominator": 23236
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "REED MARTIN",
+      "numerator": 1510,
+      "denominator": 23236
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "numerator": 1,
+      "denominator": 23236
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "numerator": 0,
+      "denominator": 23236
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "numerator": 1,
+      "denominator": 23236
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "numerator": 0,
+      "denominator": 23236
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "WRITE-IN - JOHN E. FITCH",
+      "numerator": 0,
+      "denominator": 23236
+    },
+    {
+      "first_candidate": "STUART SCHUFFMAN",
+      "second_candidate": "ED LEE",
+      "numerator": 1285,
+      "denominator": 18347
+    },
+    {
+      "first_candidate": "STUART SCHUFFMAN",
+      "second_candidate": "FRANCISCO HERRERA",
+      "numerator": 5193,
+      "denominator": 18347
+    },
+    {
+      "first_candidate": "STUART SCHUFFMAN",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 6444,
+      "denominator": 18347
+    },
+    {
+      "first_candidate": "STUART SCHUFFMAN",
+      "second_candidate": "KENT GRAHAM",
+      "numerator": 1189,
+      "denominator": 18347
+    },
+    {
+      "first_candidate": "STUART SCHUFFMAN",
+      "second_candidate": "REED MARTIN",
+      "numerator": 1005,
+      "denominator": 18347
+    },
+    {
+      "first_candidate": "STUART SCHUFFMAN",
+      "second_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "numerator": 3,
+      "denominator": 18347
+    },
+    {
+      "first_candidate": "STUART SCHUFFMAN",
+      "second_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "numerator": 0,
+      "denominator": 18347
+    },
+    {
+      "first_candidate": "STUART SCHUFFMAN",
+      "second_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "numerator": 1,
+      "denominator": 18347
+    },
+    {
+      "first_candidate": "STUART SCHUFFMAN",
+      "second_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "numerator": 0,
+      "denominator": 18347
+    },
+    {
+      "first_candidate": "STUART SCHUFFMAN",
+      "second_candidate": "WRITE-IN - JOHN E. FITCH",
+      "numerator": 0,
+      "denominator": 18347
+    },
+    {
+      "first_candidate": "KENT GRAHAM",
+      "second_candidate": "ED LEE",
+      "numerator": 1125,
+      "denominator": 8827
+    },
+    {
+      "first_candidate": "KENT GRAHAM",
+      "second_candidate": "FRANCISCO HERRERA",
+      "numerator": 1105,
+      "denominator": 8827
+    },
+    {
+      "first_candidate": "KENT GRAHAM",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 1774,
+      "denominator": 8827
+    },
+    {
+      "first_candidate": "KENT GRAHAM",
+      "second_candidate": "STUART SCHUFFMAN",
+      "numerator": 1346,
+      "denominator": 8827
+    },
+    {
+      "first_candidate": "KENT GRAHAM",
+      "second_candidate": "REED MARTIN",
+      "numerator": 893,
+      "denominator": 8827
+    },
+    {
+      "first_candidate": "KENT GRAHAM",
+      "second_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "numerator": 1,
+      "denominator": 8827
+    },
+    {
+      "first_candidate": "KENT GRAHAM",
+      "second_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "numerator": 0,
+      "denominator": 8827
+    },
+    {
+      "first_candidate": "KENT GRAHAM",
+      "second_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "numerator": 0,
+      "denominator": 8827
+    },
+    {
+      "first_candidate": "KENT GRAHAM",
+      "second_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "numerator": 0,
+      "denominator": 8827
+    },
+    {
+      "first_candidate": "KENT GRAHAM",
+      "second_candidate": "WRITE-IN - JOHN E. FITCH",
+      "numerator": 0,
+      "denominator": 8827
+    },
+    {
+      "first_candidate": "REED MARTIN",
+      "second_candidate": "ED LEE",
+      "numerator": 574,
+      "denominator": 4660
+    },
+    {
+      "first_candidate": "REED MARTIN",
+      "second_candidate": "FRANCISCO HERRERA",
+      "numerator": 661,
+      "denominator": 4660
+    },
+    {
+      "first_candidate": "REED MARTIN",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 1297,
+      "denominator": 4660
+    },
+    {
+      "first_candidate": "REED MARTIN",
+      "second_candidate": "STUART SCHUFFMAN",
+      "numerator": 629,
+      "denominator": 4660
+    },
+    {
+      "first_candidate": "REED MARTIN",
+      "second_candidate": "KENT GRAHAM",
+      "numerator": 643,
+      "denominator": 4660
+    },
+    {
+      "first_candidate": "REED MARTIN",
+      "second_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "numerator": 1,
+      "denominator": 4660
+    },
+    {
+      "first_candidate": "REED MARTIN",
+      "second_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "numerator": 0,
+      "denominator": 4660
+    },
+    {
+      "first_candidate": "REED MARTIN",
+      "second_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "numerator": 0,
+      "denominator": 4660
+    },
+    {
+      "first_candidate": "REED MARTIN",
+      "second_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "numerator": 0,
+      "denominator": 4660
+    },
+    {
+      "first_candidate": "REED MARTIN",
+      "second_candidate": "WRITE-IN - JOHN E. FITCH",
+      "numerator": 0,
+      "denominator": 4660
+    },
+    {
+      "first_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "second_candidate": "ED LEE",
+      "numerator": 2,
+      "denominator": 37
+    },
+    {
+      "first_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "second_candidate": "FRANCISCO HERRERA",
+      "numerator": 7,
+      "denominator": 37
+    },
+    {
+      "first_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 7,
+      "denominator": 37
+    },
+    {
+      "first_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "second_candidate": "STUART SCHUFFMAN",
+      "numerator": 7,
+      "denominator": 37
+    },
+    {
+      "first_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "second_candidate": "KENT GRAHAM",
+      "numerator": 0,
+      "denominator": 37
+    },
+    {
+      "first_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "second_candidate": "REED MARTIN",
+      "numerator": 2,
+      "denominator": 37
+    },
+    {
+      "first_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "second_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "numerator": 0,
+      "denominator": 37
+    },
+    {
+      "first_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "second_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "numerator": 0,
+      "denominator": 37
+    },
+    {
+      "first_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "second_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "numerator": 0,
+      "denominator": 37
+    },
+    {
+      "first_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "second_candidate": "WRITE-IN - JOHN E. FITCH",
+      "numerator": 0,
+      "denominator": 37
+    },
+    {
+      "first_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "second_candidate": "ED LEE",
+      "numerator": 1,
+      "denominator": 7
+    },
+    {
+      "first_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "second_candidate": "FRANCISCO HERRERA",
+      "numerator": 1,
+      "denominator": 7
+    },
+    {
+      "first_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 1,
+      "denominator": 7
+    },
+    {
+      "first_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "second_candidate": "STUART SCHUFFMAN",
+      "numerator": 0,
+      "denominator": 7
+    },
+    {
+      "first_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "second_candidate": "KENT GRAHAM",
+      "numerator": 0,
+      "denominator": 7
+    },
+    {
+      "first_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "second_candidate": "REED MARTIN",
+      "numerator": 0,
+      "denominator": 7
+    },
+    {
+      "first_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "second_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "numerator": 0,
+      "denominator": 7
+    },
+    {
+      "first_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "second_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "numerator": 0,
+      "denominator": 7
+    },
+    {
+      "first_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "second_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "numerator": 1,
+      "denominator": 7
+    },
+    {
+      "first_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "second_candidate": "WRITE-IN - JOHN E. FITCH",
+      "numerator": 0,
+      "denominator": 7
+    },
+    {
+      "first_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "second_candidate": "ED LEE",
+      "numerator": 0,
+      "denominator": 6
+    },
+    {
+      "first_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "second_candidate": "FRANCISCO HERRERA",
+      "numerator": 2,
+      "denominator": 6
+    },
+    {
+      "first_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 1,
+      "denominator": 6
+    },
+    {
+      "first_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "second_candidate": "STUART SCHUFFMAN",
+      "numerator": 0,
+      "denominator": 6
+    },
+    {
+      "first_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "second_candidate": "KENT GRAHAM",
+      "numerator": 1,
+      "denominator": 6
+    },
+    {
+      "first_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "second_candidate": "REED MARTIN",
+      "numerator": 0,
+      "denominator": 6
+    },
+    {
+      "first_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "second_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "numerator": 0,
+      "denominator": 6
+    },
+    {
+      "first_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "second_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "numerator": 0,
+      "denominator": 6
+    },
+    {
+      "first_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "second_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "numerator": 0,
+      "denominator": 6
+    },
+    {
+      "first_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "second_candidate": "WRITE-IN - JOHN E. FITCH",
+      "numerator": 1,
+      "denominator": 6
+    },
+    {
+      "first_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "second_candidate": "ED LEE",
+      "numerator": 0,
+      "denominator": 6
+    },
+    {
+      "first_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "second_candidate": "FRANCISCO HERRERA",
+      "numerator": 2,
+      "denominator": 6
+    },
+    {
+      "first_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 0,
+      "denominator": 6
+    },
+    {
+      "first_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "second_candidate": "STUART SCHUFFMAN",
+      "numerator": 1,
+      "denominator": 6
+    },
+    {
+      "first_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "second_candidate": "KENT GRAHAM",
+      "numerator": 0,
+      "denominator": 6
+    },
+    {
+      "first_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "second_candidate": "REED MARTIN",
+      "numerator": 0,
+      "denominator": 6
+    },
+    {
+      "first_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "second_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "numerator": 0,
+      "denominator": 6
+    },
+    {
+      "first_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "second_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "numerator": 0,
+      "denominator": 6
+    },
+    {
+      "first_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "second_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "numerator": 0,
+      "denominator": 6
+    },
+    {
+      "first_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "second_candidate": "WRITE-IN - JOHN E. FITCH",
+      "numerator": 0,
+      "denominator": 6
+    },
+    {
+      "first_candidate": "WRITE-IN - JOHN E. FITCH",
+      "second_candidate": "ED LEE",
+      "numerator": 0,
+      "denominator": 5
+    },
+    {
+      "first_candidate": "WRITE-IN - JOHN E. FITCH",
+      "second_candidate": "FRANCISCO HERRERA",
+      "numerator": 0,
+      "denominator": 5
+    },
+    {
+      "first_candidate": "WRITE-IN - JOHN E. FITCH",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 0,
+      "denominator": 5
+    },
+    {
+      "first_candidate": "WRITE-IN - JOHN E. FITCH",
+      "second_candidate": "STUART SCHUFFMAN",
+      "numerator": 1,
+      "denominator": 5
+    },
+    {
+      "first_candidate": "WRITE-IN - JOHN E. FITCH",
+      "second_candidate": "KENT GRAHAM",
+      "numerator": 0,
+      "denominator": 5
+    },
+    {
+      "first_candidate": "WRITE-IN - JOHN E. FITCH",
+      "second_candidate": "REED MARTIN",
+      "numerator": 1,
+      "denominator": 5
+    },
+    {
+      "first_candidate": "WRITE-IN - JOHN E. FITCH",
+      "second_candidate": "WRITE-IN - MICHAEL PETRELIS",
+      "numerator": 0,
+      "denominator": 5
+    },
+    {
+      "first_candidate": "WRITE-IN - JOHN E. FITCH",
+      "second_candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "numerator": 0,
+      "denominator": 5
+    },
+    {
+      "first_candidate": "WRITE-IN - JOHN E. FITCH",
+      "second_candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "numerator": 0,
+      "denominator": 5
+    },
+    {
+      "first_candidate": "WRITE-IN - JOHN E. FITCH",
+      "second_candidate": "WRITE-IN - DANIEL C KAPPLER",
+      "numerator": 0,
+      "denominator": 5
+    }
+  ],
+  "final_by_first": []
+}

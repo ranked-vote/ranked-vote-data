@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "num_ballots": 31521,
+    "candidates": [
+      "TIM E. DONNELLY",
+      "AARON PESKIN",
+      "$WRITE_IN"
+    ],
+    "files": [
+      {
+        "name": "raw/us/ca/sfo/2016/11/20161206_masterlookup.txt",
+        "sha1": "c1128b1b6a7319da871cad0a2a2429db64c8ed70"
+      },
+      {
+        "name": "raw/us/ca/sfo/2016/11/20161206_ballotimage.txt",
+        "sha1": "ff12479964e24b73aee8cc6e8fa68400361c971c"
+      }
+    ],
+    "format": "us_ca_sfo"
+  },
+  "normalized_ballots": "us/ca/sfo/2016/11/d3.normalized.csv.gz",
+  "candidates": [
+    "AARON PESKIN",
+    "TIM E. DONNELLY"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "AARON PESKIN",
+        "TIM E. DONNELLY"
+      ],
+      "results": [
+        {
+          "name": "AARON PESKIN",
+          "votes": 19211
+        },
+        {
+          "name": "TIM E. DONNELLY",
+          "votes": 7447
+        }
+      ],
+      "undervote": 4839,
+      "overvote": 24,
+      "continuing_ballots": 26658,
+      "eliminated": []
+    }
+  ],
+  "smith_set": [
+    "AARON PESKIN"
+  ],
+  "condorcet": "AARON PESKIN",
+  "graph": [
+    {
+      "source": "AARON PESKIN",
+      "edges": []
+    },
+    {
+      "source": "TIM E. DONNELLY",
+      "edges": [
+        "AARON PESKIN"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "AARON PESKIN",
+      "second_candidate": "TIM E. DONNELLY",
+      "numerator": 19211,
+      "denominator": 26658
+    },
+    {
+      "first_candidate": "TIM E. DONNELLY",
+      "second_candidate": "AARON PESKIN",
+      "numerator": 7447,
+      "denominator": 26658
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "AARON PESKIN",
+      "second_candidate": "TIM E. DONNELLY",
+      "numerator": 7465,
+      "denominator": 19211
+    },
+    {
+      "first_candidate": "TIM E. DONNELLY",
+      "second_candidate": "AARON PESKIN",
+      "numerator": 3300,
+      "denominator": 7447
+    }
+  ],
+  "final_by_first": []
+}

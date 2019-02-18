@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "num_ballots": 48049,
+    "candidates": [
+      "LAWRENCE ''STARK'' DAGESSE",
+      "RAFAEL MANDELMAN",
+      "$WRITE_IN"
+    ],
+    "files": [
+      {
+        "name": "raw/us/ca/sfo/2018/11/20181127_masterlookup.txt",
+        "sha1": "a8e909a7cea653eea6ed3e450fa83cd41d0e11ed"
+      },
+      {
+        "name": "raw/us/ca/sfo/2018/11/20181127_d8_ballotimage.txt",
+        "sha1": "00fc9d75d29a4fb80ba987763978f81218bd8cbe"
+      }
+    ],
+    "format": "us_ca_sfo"
+  },
+  "normalized_ballots": "us/ca/sfo/2018/11/d8.normalized.csv.gz",
+  "candidates": [
+    "RAFAEL MANDELMAN",
+    "LAWRENCE ''STARK'' DAGESSE"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "RAFAEL MANDELMAN",
+        "LAWRENCE ''STARK'' DAGESSE"
+      ],
+      "results": [
+        {
+          "name": "RAFAEL MANDELMAN",
+          "votes": 38406
+        },
+        {
+          "name": "LAWRENCE ''STARK'' DAGESSE",
+          "votes": 3598
+        }
+      ],
+      "undervote": 6007,
+      "overvote": 38,
+      "continuing_ballots": 42004,
+      "eliminated": []
+    }
+  ],
+  "smith_set": [
+    "RAFAEL MANDELMAN"
+  ],
+  "condorcet": "RAFAEL MANDELMAN",
+  "graph": [
+    {
+      "source": "RAFAEL MANDELMAN",
+      "edges": []
+    },
+    {
+      "source": "LAWRENCE ''STARK'' DAGESSE",
+      "edges": [
+        "RAFAEL MANDELMAN"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "RAFAEL MANDELMAN",
+      "second_candidate": "LAWRENCE ''STARK'' DAGESSE",
+      "numerator": 38406,
+      "denominator": 42004
+    },
+    {
+      "first_candidate": "LAWRENCE ''STARK'' DAGESSE",
+      "second_candidate": "RAFAEL MANDELMAN",
+      "numerator": 3598,
+      "denominator": 42004
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "RAFAEL MANDELMAN",
+      "second_candidate": "LAWRENCE ''STARK'' DAGESSE",
+      "numerator": 9842,
+      "denominator": 38406
+    },
+    {
+      "first_candidate": "LAWRENCE ''STARK'' DAGESSE",
+      "second_candidate": "RAFAEL MANDELMAN",
+      "numerator": 2070,
+      "denominator": 3598
+    }
+  ],
+  "final_by_first": []
+}

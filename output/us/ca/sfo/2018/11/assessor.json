@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "num_ballots": 368578,
+    "candidates": [
+      "CARMEN CHU",
+      "PAUL BELLAR",
+      "$WRITE_IN"
+    ],
+    "files": [
+      {
+        "name": "raw/us/ca/sfo/2018/11/20181127_masterlookup.txt",
+        "sha1": "a8e909a7cea653eea6ed3e450fa83cd41d0e11ed"
+      },
+      {
+        "name": "raw/us/ca/sfo/2018/11/20181127_assessor_ballotimage.txt",
+        "sha1": "61d1f9e2df0c9e239f85a609487d912b77f92c43"
+      }
+    ],
+    "format": "us_ca_sfo"
+  },
+  "normalized_ballots": "us/ca/sfo/2018/11/assessor.normalized.csv.gz",
+  "candidates": [
+    "CARMEN CHU",
+    "PAUL BELLAR"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "CARMEN CHU",
+        "PAUL BELLAR"
+      ],
+      "results": [
+        {
+          "name": "CARMEN CHU",
+          "votes": 236697
+        },
+        {
+          "name": "PAUL BELLAR",
+          "votes": 80479
+        }
+      ],
+      "undervote": 50974,
+      "overvote": 428,
+      "continuing_ballots": 317176,
+      "eliminated": []
+    }
+  ],
+  "smith_set": [
+    "CARMEN CHU"
+  ],
+  "condorcet": "CARMEN CHU",
+  "graph": [
+    {
+      "source": "CARMEN CHU",
+      "edges": []
+    },
+    {
+      "source": "PAUL BELLAR",
+      "edges": [
+        "CARMEN CHU"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "CARMEN CHU",
+      "second_candidate": "PAUL BELLAR",
+      "numerator": 236697,
+      "denominator": 317176
+    },
+    {
+      "first_candidate": "PAUL BELLAR",
+      "second_candidate": "CARMEN CHU",
+      "numerator": 80479,
+      "denominator": 317176
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "CARMEN CHU",
+      "second_candidate": "PAUL BELLAR",
+      "numerator": 98754,
+      "denominator": 236697
+    },
+    {
+      "first_candidate": "PAUL BELLAR",
+      "second_candidate": "CARMEN CHU",
+      "numerator": 34407,
+      "denominator": 80479
+    }
+  ],
+  "final_by_first": []
+}

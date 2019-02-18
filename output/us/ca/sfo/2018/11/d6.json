@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "num_ballots": 28872,
+    "candidates": [
+      "CHRISTINE JOHNSON",
+      "MATT HANEY",
+      "SONJA TRAUSS",
+      "$WRITE_IN"
+    ],
+    "files": [
+      {
+        "name": "raw/us/ca/sfo/2018/11/20181127_masterlookup.txt",
+        "sha1": "a8e909a7cea653eea6ed3e450fa83cd41d0e11ed"
+      },
+      {
+        "name": "raw/us/ca/sfo/2018/11/20181127_d6_ballotimage.txt",
+        "sha1": "b749052240062e1e3b0f7102c963244ff74939fb"
+      }
+    ],
+    "format": "us_ca_sfo"
+  },
+  "normalized_ballots": "us/ca/sfo/2018/11/d6.normalized.csv.gz",
+  "candidates": [
+    "MATT HANEY",
+    "CHRISTINE JOHNSON",
+    "SONJA TRAUSS"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "MATT HANEY",
+        "CHRISTINE JOHNSON",
+        "SONJA TRAUSS"
+      ],
+      "results": [
+        {
+          "name": "CHRISTINE JOHNSON",
+          "votes": 6267
+        },
+        {
+          "name": "MATT HANEY",
+          "votes": 14288
+        },
+        {
+          "name": "SONJA TRAUSS",
+          "votes": 4775
+        }
+      ],
+      "undervote": 3467,
+      "overvote": 75,
+      "continuing_ballots": 25330,
+      "eliminated": []
+    }
+  ],
+  "smith_set": [
+    "MATT HANEY"
+  ],
+  "condorcet": "MATT HANEY",
+  "graph": [
+    {
+      "source": "MATT HANEY",
+      "edges": []
+    },
+    {
+      "source": "CHRISTINE JOHNSON",
+      "edges": [
+        "MATT HANEY"
+      ]
+    },
+    {
+      "source": "SONJA TRAUSS",
+      "edges": [
+        "CHRISTINE JOHNSON",
+        "MATT HANEY"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "MATT HANEY",
+      "second_candidate": "CHRISTINE JOHNSON",
+      "numerator": 15527,
+      "denominator": 24598
+    },
+    {
+      "first_candidate": "MATT HANEY",
+      "second_candidate": "SONJA TRAUSS",
+      "numerator": 16457,
+      "denominator": 24192
+    },
+    {
+      "first_candidate": "CHRISTINE JOHNSON",
+      "second_candidate": "MATT HANEY",
+      "numerator": 9071,
+      "denominator": 24598
+    },
+    {
+      "first_candidate": "CHRISTINE JOHNSON",
+      "second_candidate": "SONJA TRAUSS",
+      "numerator": 10825,
+      "denominator": 19558
+    },
+    {
+      "first_candidate": "SONJA TRAUSS",
+      "second_candidate": "MATT HANEY",
+      "numerator": 7735,
+      "denominator": 24192
+    },
+    {
+      "first_candidate": "SONJA TRAUSS",
+      "second_candidate": "CHRISTINE JOHNSON",
+      "numerator": 8733,
+      "denominator": 19558
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "MATT HANEY",
+      "second_candidate": "CHRISTINE JOHNSON",
+      "numerator": 4558,
+      "denominator": 14288
+    },
+    {
+      "first_candidate": "MATT HANEY",
+      "second_candidate": "SONJA TRAUSS",
+      "numerator": 3958,
+      "denominator": 14288
+    },
+    {
+      "first_candidate": "CHRISTINE JOHNSON",
+      "second_candidate": "MATT HANEY",
+      "numerator": 2169,
+      "denominator": 6267
+    },
+    {
+      "first_candidate": "CHRISTINE JOHNSON",
+      "second_candidate": "SONJA TRAUSS",
+      "numerator": 2960,
+      "denominator": 6267
+    },
+    {
+      "first_candidate": "SONJA TRAUSS",
+      "second_candidate": "MATT HANEY",
+      "numerator": 1239,
+      "denominator": 4775
+    },
+    {
+      "first_candidate": "SONJA TRAUSS",
+      "second_candidate": "CHRISTINE JOHNSON",
+      "numerator": 2804,
+      "denominator": 4775
+    }
+  ],
+  "final_by_first": []
+}

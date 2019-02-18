@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "num_ballots": 368578,
+    "candidates": [
+      "JEFF ADACHI",
+      "$WRITE_IN"
+    ],
+    "files": [
+      {
+        "name": "raw/us/ca/sfo/2018/11/20181127_masterlookup.txt",
+        "sha1": "a8e909a7cea653eea6ed3e450fa83cd41d0e11ed"
+      },
+      {
+        "name": "raw/us/ca/sfo/2018/11/20181127_defender_ballotimage.txt",
+        "sha1": "ba1b22adb8eabb95b3f6f6eb0d370794596ba0a6"
+      }
+    ],
+    "format": "us_ca_sfo"
+  },
+  "normalized_ballots": "us/ca/sfo/2018/11/defender.normalized.csv.gz",
+  "candidates": [
+    "JEFF ADACHI"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "JEFF ADACHI"
+      ],
+      "results": [
+        {
+          "name": "JEFF ADACHI",
+          "votes": 292864
+        }
+      ],
+      "undervote": 75631,
+      "overvote": 83,
+      "continuing_ballots": 292864,
+      "eliminated": []
+    }
+  ],
+  "smith_set": [
+    "JEFF ADACHI"
+  ],
+  "condorcet": "JEFF ADACHI",
+  "graph": [
+    {
+      "source": "JEFF ADACHI",
+      "edges": []
+    }
+  ],
+  "pairwise": [],
+  "first_alternates": [],
+  "final_by_first": []
+}

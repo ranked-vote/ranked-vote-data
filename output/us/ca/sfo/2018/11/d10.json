@@ -1,0 +1,799 @@
+{
+  "meta": {
+    "num_ballots": 26257,
+    "candidates": [
+      "ASALE CHANDLER",
+      "UZURI PEASE-GREENE",
+      "TONY KELLY",
+      "SHAMANN WALTON",
+      "THEO ELLINGTON",
+      "GLORIA BERRY",
+      "$WRITE_IN",
+      "WRITE-IN NEO VEAVEA"
+    ],
+    "files": [
+      {
+        "name": "raw/us/ca/sfo/2018/11/20181127_masterlookup.txt",
+        "sha1": "a8e909a7cea653eea6ed3e450fa83cd41d0e11ed"
+      },
+      {
+        "name": "raw/us/ca/sfo/2018/11/20181127_d10_ballotimage.txt",
+        "sha1": "9f1177357c1b3be1a861ea496343b4cecc181250"
+      }
+    ],
+    "format": "us_ca_sfo"
+  },
+  "normalized_ballots": "us/ca/sfo/2018/11/d10.normalized.csv.gz",
+  "candidates": [
+    "SHAMANN WALTON",
+    "TONY KELLY",
+    "THEO ELLINGTON",
+    "UZURI PEASE-GREENE",
+    "GLORIA BERRY",
+    "ASALE CHANDLER",
+    "WRITE-IN NEO VEAVEA"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "SHAMANN WALTON",
+        "TONY KELLY",
+        "THEO ELLINGTON",
+        "UZURI PEASE-GREENE",
+        "GLORIA BERRY",
+        "ASALE CHANDLER",
+        "WRITE-IN NEO VEAVEA"
+      ],
+      "results": [
+        {
+          "name": "THEO ELLINGTON",
+          "votes": 4820
+        },
+        {
+          "name": "GLORIA BERRY",
+          "votes": 966
+        },
+        {
+          "name": "UZURI PEASE-GREENE",
+          "votes": 1311
+        },
+        {
+          "name": "TONY KELLY",
+          "votes": 5679
+        },
+        {
+          "name": "SHAMANN WALTON",
+          "votes": 9585
+        },
+        {
+          "name": "ASALE CHANDLER",
+          "votes": 802
+        },
+        {
+          "name": "WRITE-IN NEO VEAVEA",
+          "votes": 31
+        }
+      ],
+      "undervote": 2907,
+      "overvote": 156,
+      "continuing_ballots": 23194,
+      "eliminated": []
+    },
+    {
+      "round": 2,
+      "candidates": [
+        "SHAMANN WALTON",
+        "TONY KELLY",
+        "THEO ELLINGTON"
+      ],
+      "results": [
+        {
+          "name": "THEO ELLINGTON",
+          "votes": 5387
+        },
+        {
+          "name": "TONY KELLY",
+          "votes": 6540
+        },
+        {
+          "name": "SHAMANN WALTON",
+          "votes": 10392
+        }
+      ],
+      "undervote": 3772,
+      "overvote": 166,
+      "continuing_ballots": 22319,
+      "eliminated": [
+        "UZURI PEASE-GREENE",
+        "GLORIA BERRY",
+        "ASALE CHANDLER",
+        "WRITE-IN NEO VEAVEA"
+      ]
+    },
+    {
+      "round": 3,
+      "candidates": [
+        "SHAMANN WALTON",
+        "TONY KELLY"
+      ],
+      "results": [
+        {
+          "name": "TONY KELLY",
+          "votes": 7624
+        },
+        {
+          "name": "SHAMANN WALTON",
+          "votes": 13023
+        }
+      ],
+      "undervote": 5433,
+      "overvote": 177,
+      "continuing_ballots": 20647,
+      "eliminated": [
+        "THEO ELLINGTON"
+      ]
+    }
+  ],
+  "smith_set": [
+    "SHAMANN WALTON"
+  ],
+  "condorcet": "SHAMANN WALTON",
+  "graph": [
+    {
+      "source": "SHAMANN WALTON",
+      "edges": []
+    },
+    {
+      "source": "TONY KELLY",
+      "edges": [
+        "THEO ELLINGTON",
+        "SHAMANN WALTON"
+      ]
+    },
+    {
+      "source": "THEO ELLINGTON",
+      "edges": [
+        "SHAMANN WALTON"
+      ]
+    },
+    {
+      "source": "UZURI PEASE-GREENE",
+      "edges": [
+        "TONY KELLY",
+        "THEO ELLINGTON",
+        "SHAMANN WALTON"
+      ]
+    },
+    {
+      "source": "GLORIA BERRY",
+      "edges": [
+        "UZURI PEASE-GREENE",
+        "TONY KELLY",
+        "THEO ELLINGTON",
+        "SHAMANN WALTON"
+      ]
+    },
+    {
+      "source": "ASALE CHANDLER",
+      "edges": [
+        "UZURI PEASE-GREENE",
+        "SHAMANN WALTON",
+        "TONY KELLY",
+        "GLORIA BERRY",
+        "THEO ELLINGTON"
+      ]
+    },
+    {
+      "source": "WRITE-IN NEO VEAVEA",
+      "edges": [
+        "UZURI PEASE-GREENE",
+        "SHAMANN WALTON",
+        "TONY KELLY",
+        "GLORIA BERRY",
+        "ASALE CHANDLER",
+        "THEO ELLINGTON"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "SHAMANN WALTON",
+      "second_candidate": "TONY KELLY",
+      "numerator": 13023,
+      "denominator": 20647
+    },
+    {
+      "first_candidate": "SHAMANN WALTON",
+      "second_candidate": "THEO ELLINGTON",
+      "numerator": 12617,
+      "denominator": 19357
+    },
+    {
+      "first_candidate": "SHAMANN WALTON",
+      "second_candidate": "UZURI PEASE-GREENE",
+      "numerator": 14600,
+      "denominator": 18951
+    },
+    {
+      "first_candidate": "SHAMANN WALTON",
+      "second_candidate": "GLORIA BERRY",
+      "numerator": 15400,
+      "denominator": 18009
+    },
+    {
+      "first_candidate": "SHAMANN WALTON",
+      "second_candidate": "ASALE CHANDLER",
+      "numerator": 15558,
+      "denominator": 17595
+    },
+    {
+      "first_candidate": "SHAMANN WALTON",
+      "second_candidate": "WRITE-IN NEO VEAVEA",
+      "numerator": 15879,
+      "denominator": 15920
+    },
+    {
+      "first_candidate": "TONY KELLY",
+      "second_candidate": "SHAMANN WALTON",
+      "numerator": 7624,
+      "denominator": 20647
+    },
+    {
+      "first_candidate": "TONY KELLY",
+      "second_candidate": "THEO ELLINGTON",
+      "numerator": 8471,
+      "denominator": 18567
+    },
+    {
+      "first_candidate": "TONY KELLY",
+      "second_candidate": "UZURI PEASE-GREENE",
+      "numerator": 10450,
+      "denominator": 14524
+    },
+    {
+      "first_candidate": "TONY KELLY",
+      "second_candidate": "GLORIA BERRY",
+      "numerator": 10763,
+      "denominator": 13960
+    },
+    {
+      "first_candidate": "TONY KELLY",
+      "second_candidate": "ASALE CHANDLER",
+      "numerator": 10864,
+      "denominator": 13166
+    },
+    {
+      "first_candidate": "TONY KELLY",
+      "second_candidate": "WRITE-IN NEO VEAVEA",
+      "numerator": 11245,
+      "denominator": 11299
+    },
+    {
+      "first_candidate": "THEO ELLINGTON",
+      "second_candidate": "SHAMANN WALTON",
+      "numerator": 6740,
+      "denominator": 19357
+    },
+    {
+      "first_candidate": "THEO ELLINGTON",
+      "second_candidate": "TONY KELLY",
+      "numerator": 10096,
+      "denominator": 18567
+    },
+    {
+      "first_candidate": "THEO ELLINGTON",
+      "second_candidate": "UZURI PEASE-GREENE",
+      "numerator": 11542,
+      "denominator": 16486
+    },
+    {
+      "first_candidate": "THEO ELLINGTON",
+      "second_candidate": "GLORIA BERRY",
+      "numerator": 12107,
+      "denominator": 14842
+    },
+    {
+      "first_candidate": "THEO ELLINGTON",
+      "second_candidate": "ASALE CHANDLER",
+      "numerator": 12211,
+      "denominator": 14383
+    },
+    {
+      "first_candidate": "THEO ELLINGTON",
+      "second_candidate": "WRITE-IN NEO VEAVEA",
+      "numerator": 12590,
+      "denominator": 12634
+    },
+    {
+      "first_candidate": "UZURI PEASE-GREENE",
+      "second_candidate": "SHAMANN WALTON",
+      "numerator": 4351,
+      "denominator": 18951
+    },
+    {
+      "first_candidate": "UZURI PEASE-GREENE",
+      "second_candidate": "TONY KELLY",
+      "numerator": 4074,
+      "denominator": 14524
+    },
+    {
+      "first_candidate": "UZURI PEASE-GREENE",
+      "second_candidate": "THEO ELLINGTON",
+      "numerator": 4944,
+      "denominator": 16486
+    },
+    {
+      "first_candidate": "UZURI PEASE-GREENE",
+      "second_candidate": "GLORIA BERRY",
+      "numerator": 6653,
+      "denominator": 10311
+    },
+    {
+      "first_candidate": "UZURI PEASE-GREENE",
+      "second_candidate": "ASALE CHANDLER",
+      "numerator": 6716,
+      "denominator": 9313
+    },
+    {
+      "first_candidate": "UZURI PEASE-GREENE",
+      "second_candidate": "WRITE-IN NEO VEAVEA",
+      "numerator": 7014,
+      "denominator": 7071
+    },
+    {
+      "first_candidate": "GLORIA BERRY",
+      "second_candidate": "SHAMANN WALTON",
+      "numerator": 2609,
+      "denominator": 18009
+    },
+    {
+      "first_candidate": "GLORIA BERRY",
+      "second_candidate": "TONY KELLY",
+      "numerator": 3197,
+      "denominator": 13960
+    },
+    {
+      "first_candidate": "GLORIA BERRY",
+      "second_candidate": "THEO ELLINGTON",
+      "numerator": 2735,
+      "denominator": 14842
+    },
+    {
+      "first_candidate": "GLORIA BERRY",
+      "second_candidate": "UZURI PEASE-GREENE",
+      "numerator": 3658,
+      "denominator": 10311
+    },
+    {
+      "first_candidate": "GLORIA BERRY",
+      "second_candidate": "ASALE CHANDLER",
+      "numerator": 3491,
+      "denominator": 5874
+    },
+    {
+      "first_candidate": "GLORIA BERRY",
+      "second_candidate": "WRITE-IN NEO VEAVEA",
+      "numerator": 4160,
+      "denominator": 4219
+    },
+    {
+      "first_candidate": "ASALE CHANDLER",
+      "second_candidate": "SHAMANN WALTON",
+      "numerator": 2037,
+      "denominator": 17595
+    },
+    {
+      "first_candidate": "ASALE CHANDLER",
+      "second_candidate": "TONY KELLY",
+      "numerator": 2302,
+      "denominator": 13166
+    },
+    {
+      "first_candidate": "ASALE CHANDLER",
+      "second_candidate": "THEO ELLINGTON",
+      "numerator": 2172,
+      "denominator": 14383
+    },
+    {
+      "first_candidate": "ASALE CHANDLER",
+      "second_candidate": "UZURI PEASE-GREENE",
+      "numerator": 2597,
+      "denominator": 9313
+    },
+    {
+      "first_candidate": "ASALE CHANDLER",
+      "second_candidate": "GLORIA BERRY",
+      "numerator": 2383,
+      "denominator": 5874
+    },
+    {
+      "first_candidate": "ASALE CHANDLER",
+      "second_candidate": "WRITE-IN NEO VEAVEA",
+      "numerator": 2963,
+      "denominator": 3023
+    },
+    {
+      "first_candidate": "WRITE-IN NEO VEAVEA",
+      "second_candidate": "SHAMANN WALTON",
+      "numerator": 41,
+      "denominator": 15920
+    },
+    {
+      "first_candidate": "WRITE-IN NEO VEAVEA",
+      "second_candidate": "TONY KELLY",
+      "numerator": 54,
+      "denominator": 11299
+    },
+    {
+      "first_candidate": "WRITE-IN NEO VEAVEA",
+      "second_candidate": "THEO ELLINGTON",
+      "numerator": 44,
+      "denominator": 12634
+    },
+    {
+      "first_candidate": "WRITE-IN NEO VEAVEA",
+      "second_candidate": "UZURI PEASE-GREENE",
+      "numerator": 57,
+      "denominator": 7071
+    },
+    {
+      "first_candidate": "WRITE-IN NEO VEAVEA",
+      "second_candidate": "GLORIA BERRY",
+      "numerator": 59,
+      "denominator": 4219
+    },
+    {
+      "first_candidate": "WRITE-IN NEO VEAVEA",
+      "second_candidate": "ASALE CHANDLER",
+      "numerator": 60,
+      "denominator": 3023
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "SHAMANN WALTON",
+      "second_candidate": "TONY KELLY",
+      "numerator": 1492,
+      "denominator": 9585
+    },
+    {
+      "first_candidate": "SHAMANN WALTON",
+      "second_candidate": "THEO ELLINGTON",
+      "numerator": 3999,
+      "denominator": 9585
+    },
+    {
+      "first_candidate": "SHAMANN WALTON",
+      "second_candidate": "UZURI PEASE-GREENE",
+      "numerator": 693,
+      "denominator": 9585
+    },
+    {
+      "first_candidate": "SHAMANN WALTON",
+      "second_candidate": "GLORIA BERRY",
+      "numerator": 379,
+      "denominator": 9585
+    },
+    {
+      "first_candidate": "SHAMANN WALTON",
+      "second_candidate": "ASALE CHANDLER",
+      "numerator": 278,
+      "denominator": 9585
+    },
+    {
+      "first_candidate": "SHAMANN WALTON",
+      "second_candidate": "WRITE-IN NEO VEAVEA",
+      "numerator": 7,
+      "denominator": 9585
+    },
+    {
+      "first_candidate": "TONY KELLY",
+      "second_candidate": "SHAMANN WALTON",
+      "numerator": 1505,
+      "denominator": 5679
+    },
+    {
+      "first_candidate": "TONY KELLY",
+      "second_candidate": "THEO ELLINGTON",
+      "numerator": 846,
+      "denominator": 5679
+    },
+    {
+      "first_candidate": "TONY KELLY",
+      "second_candidate": "UZURI PEASE-GREENE",
+      "numerator": 1808,
+      "denominator": 5679
+    },
+    {
+      "first_candidate": "TONY KELLY",
+      "second_candidate": "GLORIA BERRY",
+      "numerator": 252,
+      "denominator": 5679
+    },
+    {
+      "first_candidate": "TONY KELLY",
+      "second_candidate": "ASALE CHANDLER",
+      "numerator": 221,
+      "denominator": 5679
+    },
+    {
+      "first_candidate": "TONY KELLY",
+      "second_candidate": "WRITE-IN NEO VEAVEA",
+      "numerator": 0,
+      "denominator": 5679
+    },
+    {
+      "first_candidate": "THEO ELLINGTON",
+      "second_candidate": "SHAMANN WALTON",
+      "numerator": 2191,
+      "denominator": 4820
+    },
+    {
+      "first_candidate": "THEO ELLINGTON",
+      "second_candidate": "TONY KELLY",
+      "numerator": 862,
+      "denominator": 4820
+    },
+    {
+      "first_candidate": "THEO ELLINGTON",
+      "second_candidate": "UZURI PEASE-GREENE",
+      "numerator": 370,
+      "denominator": 4820
+    },
+    {
+      "first_candidate": "THEO ELLINGTON",
+      "second_candidate": "GLORIA BERRY",
+      "numerator": 327,
+      "denominator": 4820
+    },
+    {
+      "first_candidate": "THEO ELLINGTON",
+      "second_candidate": "ASALE CHANDLER",
+      "numerator": 165,
+      "denominator": 4820
+    },
+    {
+      "first_candidate": "THEO ELLINGTON",
+      "second_candidate": "WRITE-IN NEO VEAVEA",
+      "numerator": 4,
+      "denominator": 4820
+    },
+    {
+      "first_candidate": "UZURI PEASE-GREENE",
+      "second_candidate": "SHAMANN WALTON",
+      "numerator": 369,
+      "denominator": 1311
+    },
+    {
+      "first_candidate": "UZURI PEASE-GREENE",
+      "second_candidate": "TONY KELLY",
+      "numerator": 371,
+      "denominator": 1311
+    },
+    {
+      "first_candidate": "UZURI PEASE-GREENE",
+      "second_candidate": "THEO ELLINGTON",
+      "numerator": 176,
+      "denominator": 1311
+    },
+    {
+      "first_candidate": "UZURI PEASE-GREENE",
+      "second_candidate": "GLORIA BERRY",
+      "numerator": 98,
+      "denominator": 1311
+    },
+    {
+      "first_candidate": "UZURI PEASE-GREENE",
+      "second_candidate": "ASALE CHANDLER",
+      "numerator": 92,
+      "denominator": 1311
+    },
+    {
+      "first_candidate": "UZURI PEASE-GREENE",
+      "second_candidate": "WRITE-IN NEO VEAVEA",
+      "numerator": 1,
+      "denominator": 1311
+    },
+    {
+      "first_candidate": "GLORIA BERRY",
+      "second_candidate": "SHAMANN WALTON",
+      "numerator": 159,
+      "denominator": 966
+    },
+    {
+      "first_candidate": "GLORIA BERRY",
+      "second_candidate": "TONY KELLY",
+      "numerator": 174,
+      "denominator": 966
+    },
+    {
+      "first_candidate": "GLORIA BERRY",
+      "second_candidate": "THEO ELLINGTON",
+      "numerator": 132,
+      "denominator": 966
+    },
+    {
+      "first_candidate": "GLORIA BERRY",
+      "second_candidate": "UZURI PEASE-GREENE",
+      "numerator": 74,
+      "denominator": 966
+    },
+    {
+      "first_candidate": "GLORIA BERRY",
+      "second_candidate": "ASALE CHANDLER",
+      "numerator": 217,
+      "denominator": 966
+    },
+    {
+      "first_candidate": "GLORIA BERRY",
+      "second_candidate": "WRITE-IN NEO VEAVEA",
+      "numerator": 1,
+      "denominator": 966
+    },
+    {
+      "first_candidate": "ASALE CHANDLER",
+      "second_candidate": "SHAMANN WALTON",
+      "numerator": 113,
+      "denominator": 802
+    },
+    {
+      "first_candidate": "ASALE CHANDLER",
+      "second_candidate": "TONY KELLY",
+      "numerator": 132,
+      "denominator": 802
+    },
+    {
+      "first_candidate": "ASALE CHANDLER",
+      "second_candidate": "THEO ELLINGTON",
+      "numerator": 92,
+      "denominator": 802
+    },
+    {
+      "first_candidate": "ASALE CHANDLER",
+      "second_candidate": "UZURI PEASE-GREENE",
+      "numerator": 102,
+      "denominator": 802
+    },
+    {
+      "first_candidate": "ASALE CHANDLER",
+      "second_candidate": "GLORIA BERRY",
+      "numerator": 218,
+      "denominator": 802
+    },
+    {
+      "first_candidate": "ASALE CHANDLER",
+      "second_candidate": "WRITE-IN NEO VEAVEA",
+      "numerator": 0,
+      "denominator": 802
+    },
+    {
+      "first_candidate": "WRITE-IN NEO VEAVEA",
+      "second_candidate": "SHAMANN WALTON",
+      "numerator": 6,
+      "denominator": 31
+    },
+    {
+      "first_candidate": "WRITE-IN NEO VEAVEA",
+      "second_candidate": "TONY KELLY",
+      "numerator": 8,
+      "denominator": 31
+    },
+    {
+      "first_candidate": "WRITE-IN NEO VEAVEA",
+      "second_candidate": "THEO ELLINGTON",
+      "numerator": 5,
+      "denominator": 31
+    },
+    {
+      "first_candidate": "WRITE-IN NEO VEAVEA",
+      "second_candidate": "UZURI PEASE-GREENE",
+      "numerator": 3,
+      "denominator": 31
+    },
+    {
+      "first_candidate": "WRITE-IN NEO VEAVEA",
+      "second_candidate": "GLORIA BERRY",
+      "numerator": 0,
+      "denominator": 31
+    },
+    {
+      "first_candidate": "WRITE-IN NEO VEAVEA",
+      "second_candidate": "ASALE CHANDLER",
+      "numerator": 1,
+      "denominator": 31
+    }
+  ],
+  "final_by_first": [
+    {
+      "first_candidate": "THEO ELLINGTON",
+      "second_candidate": "SHAMANN WALTON",
+      "numerator": 2483,
+      "denominator": 4820
+    },
+    {
+      "first_candidate": "THEO ELLINGTON",
+      "second_candidate": "TONY KELLY",
+      "numerator": 1011,
+      "denominator": 4820
+    },
+    {
+      "first_candidate": "THEO ELLINGTON",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 1326,
+      "denominator": 4820
+    },
+    {
+      "first_candidate": "UZURI PEASE-GREENE",
+      "second_candidate": "SHAMANN WALTON",
+      "numerator": 488,
+      "denominator": 1311
+    },
+    {
+      "first_candidate": "UZURI PEASE-GREENE",
+      "second_candidate": "TONY KELLY",
+      "numerator": 436,
+      "denominator": 1311
+    },
+    {
+      "first_candidate": "UZURI PEASE-GREENE",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 387,
+      "denominator": 1311
+    },
+    {
+      "first_candidate": "GLORIA BERRY",
+      "second_candidate": "SHAMANN WALTON",
+      "numerator": 270,
+      "denominator": 966
+    },
+    {
+      "first_candidate": "GLORIA BERRY",
+      "second_candidate": "TONY KELLY",
+      "numerator": 268,
+      "denominator": 966
+    },
+    {
+      "first_candidate": "GLORIA BERRY",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 428,
+      "denominator": 966
+    },
+    {
+      "first_candidate": "ASALE CHANDLER",
+      "second_candidate": "SHAMANN WALTON",
+      "numerator": 186,
+      "denominator": 802
+    },
+    {
+      "first_candidate": "ASALE CHANDLER",
+      "second_candidate": "TONY KELLY",
+      "numerator": 221,
+      "denominator": 802
+    },
+    {
+      "first_candidate": "ASALE CHANDLER",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 395,
+      "denominator": 802
+    },
+    {
+      "first_candidate": "WRITE-IN NEO VEAVEA",
+      "second_candidate": "SHAMANN WALTON",
+      "numerator": 11,
+      "denominator": 31
+    },
+    {
+      "first_candidate": "WRITE-IN NEO VEAVEA",
+      "second_candidate": "TONY KELLY",
+      "numerator": 9,
+      "denominator": 31
+    },
+    {
+      "first_candidate": "WRITE-IN NEO VEAVEA",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 11,
+      "denominator": 31
+    }
+  ]
+}

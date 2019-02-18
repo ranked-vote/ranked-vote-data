@@ -1,0 +1,1236 @@
+{
+  "meta": {
+    "num_ballots": 254016,
+    "candidates": [
+      "MICHELLE BRAVO",
+      "LONDON BREED",
+      "MARK LENO",
+      "JANE KIM",
+      "RICHIE GREENBERG",
+      "ANGELA ALIOTO",
+      "AMY FARAH WEISS",
+      "ELLEN LEE ZHOU",
+      "$WRITE_IN",
+      "WRITE-IN ANTOINE R. ROGERS"
+    ],
+    "files": [
+      {
+        "name": "raw/us/ca/sfo/2018/06/20180627_masterlookup.txt",
+        "sha1": "030176016a69434bcc4353a502fbe0935bea3a0e"
+      },
+      {
+        "name": "raw/us/ca/sfo/2018/06/20180627_ballotimage.txt",
+        "sha1": "9544df621e257046b94e011dcb1a95bdb0148143"
+      }
+    ],
+    "format": "us_ca_sfo"
+  },
+  "normalized_ballots": "us/ca/sfo/2018/06/mayor.normalized.csv.gz",
+  "candidates": [
+    "LONDON BREED",
+    "MARK LENO",
+    "JANE KIM",
+    "ANGELA ALIOTO",
+    "ELLEN LEE ZHOU",
+    "RICHIE GREENBERG",
+    "AMY FARAH WEISS",
+    "MICHELLE BRAVO",
+    "WRITE-IN ANTOINE R. ROGERS"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "LONDON BREED",
+        "MARK LENO",
+        "JANE KIM",
+        "ANGELA ALIOTO",
+        "ELLEN LEE ZHOU",
+        "RICHIE GREENBERG",
+        "AMY FARAH WEISS",
+        "MICHELLE BRAVO",
+        "WRITE-IN ANTOINE R. ROGERS"
+      ],
+      "results": [
+        {
+          "name": "JANE KIM",
+          "votes": 60738
+        },
+        {
+          "name": "LONDON BREED",
+          "votes": 92121
+        },
+        {
+          "name": "MARK LENO",
+          "votes": 61416
+        },
+        {
+          "name": "ELLEN LEE ZHOU",
+          "votes": 9576
+        },
+        {
+          "name": "ANGELA ALIOTO",
+          "votes": 17552
+        },
+        {
+          "name": "RICHIE GREENBERG",
+          "votes": 7051
+        },
+        {
+          "name": "MICHELLE BRAVO",
+          "votes": 900
+        },
+        {
+          "name": "AMY FARAH WEISS",
+          "votes": 1675
+        },
+        {
+          "name": "WRITE-IN ANTOINE R. ROGERS",
+          "votes": 3
+        }
+      ],
+      "undervote": 2350,
+      "overvote": 634,
+      "continuing_ballots": 251032,
+      "eliminated": []
+    },
+    {
+      "round": 2,
+      "candidates": [
+        "LONDON BREED",
+        "MARK LENO",
+        "JANE KIM"
+      ],
+      "results": [
+        {
+          "name": "JANE KIM",
+          "votes": 66043
+        },
+        {
+          "name": "LONDON BREED",
+          "votes": 102767
+        },
+        {
+          "name": "MARK LENO",
+          "votes": 68707
+        }
+      ],
+      "undervote": 15806,
+      "overvote": 693,
+      "continuing_ballots": 237517,
+      "eliminated": [
+        "ANGELA ALIOTO",
+        "ELLEN LEE ZHOU",
+        "RICHIE GREENBERG",
+        "AMY FARAH WEISS",
+        "MICHELLE BRAVO",
+        "WRITE-IN ANTOINE R. ROGERS"
+      ]
+    },
+    {
+      "round": 3,
+      "candidates": [
+        "LONDON BREED",
+        "MARK LENO"
+      ],
+      "results": [
+        {
+          "name": "LONDON BREED",
+          "votes": 115977
+        },
+        {
+          "name": "MARK LENO",
+          "votes": 113431
+        }
+      ],
+      "undervote": 23860,
+      "overvote": 748,
+      "continuing_ballots": 229408,
+      "eliminated": [
+        "JANE KIM"
+      ]
+    }
+  ],
+  "smith_set": [
+    "LONDON BREED"
+  ],
+  "condorcet": "LONDON BREED",
+  "graph": [
+    {
+      "source": "LONDON BREED",
+      "edges": []
+    },
+    {
+      "source": "MARK LENO",
+      "edges": [
+        "LONDON BREED"
+      ]
+    },
+    {
+      "source": "JANE KIM",
+      "edges": [
+        "MARK LENO",
+        "LONDON BREED"
+      ]
+    },
+    {
+      "source": "ANGELA ALIOTO",
+      "edges": [
+        "JANE KIM",
+        "MARK LENO",
+        "LONDON BREED"
+      ]
+    },
+    {
+      "source": "ELLEN LEE ZHOU",
+      "edges": [
+        "JANE KIM",
+        "ANGELA ALIOTO",
+        "MARK LENO",
+        "AMY FARAH WEISS",
+        "LONDON BREED"
+      ]
+    },
+    {
+      "source": "RICHIE GREENBERG",
+      "edges": [
+        "JANE KIM",
+        "ANGELA ALIOTO",
+        "MARK LENO",
+        "AMY FARAH WEISS",
+        "ELLEN LEE ZHOU",
+        "LONDON BREED"
+      ]
+    },
+    {
+      "source": "AMY FARAH WEISS",
+      "edges": [
+        "JANE KIM",
+        "ANGELA ALIOTO",
+        "MARK LENO",
+        "LONDON BREED"
+      ]
+    },
+    {
+      "source": "MICHELLE BRAVO",
+      "edges": [
+        "JANE KIM",
+        "ANGELA ALIOTO",
+        "MARK LENO",
+        "RICHIE GREENBERG",
+        "AMY FARAH WEISS",
+        "ELLEN LEE ZHOU",
+        "LONDON BREED"
+      ]
+    },
+    {
+      "source": "WRITE-IN ANTOINE R. ROGERS",
+      "edges": [
+        "JANE KIM",
+        "ANGELA ALIOTO",
+        "MARK LENO",
+        "MICHELLE BRAVO",
+        "RICHIE GREENBERG",
+        "AMY FARAH WEISS",
+        "ELLEN LEE ZHOU",
+        "LONDON BREED"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "LONDON BREED",
+      "second_candidate": "MARK LENO",
+      "numerator": 115977,
+      "denominator": 229408
+    },
+    {
+      "first_candidate": "LONDON BREED",
+      "second_candidate": "JANE KIM",
+      "numerator": 122558,
+      "denominator": 223494
+    },
+    {
+      "first_candidate": "LONDON BREED",
+      "second_candidate": "ANGELA ALIOTO",
+      "numerator": 146543,
+      "denominator": 189342
+    },
+    {
+      "first_candidate": "LONDON BREED",
+      "second_candidate": "ELLEN LEE ZHOU",
+      "numerator": 152404,
+      "denominator": 171011
+    },
+    {
+      "first_candidate": "LONDON BREED",
+      "second_candidate": "RICHIE GREENBERG",
+      "numerator": 154606,
+      "denominator": 168982
+    },
+    {
+      "first_candidate": "LONDON BREED",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 156436,
+      "denominator": 184811
+    },
+    {
+      "first_candidate": "LONDON BREED",
+      "second_candidate": "MICHELLE BRAVO",
+      "numerator": 156913,
+      "denominator": 162474
+    },
+    {
+      "first_candidate": "LONDON BREED",
+      "second_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "numerator": 157323,
+      "denominator": 157331
+    },
+    {
+      "first_candidate": "MARK LENO",
+      "second_candidate": "LONDON BREED",
+      "numerator": 113431,
+      "denominator": 229408
+    },
+    {
+      "first_candidate": "MARK LENO",
+      "second_candidate": "JANE KIM",
+      "numerator": 104130,
+      "denominator": 195788
+    },
+    {
+      "first_candidate": "MARK LENO",
+      "second_candidate": "ANGELA ALIOTO",
+      "numerator": 153492,
+      "denominator": 203986
+    },
+    {
+      "first_candidate": "MARK LENO",
+      "second_candidate": "ELLEN LEE ZHOU",
+      "numerator": 162209,
+      "denominator": 184233
+    },
+    {
+      "first_candidate": "MARK LENO",
+      "second_candidate": "RICHIE GREENBERG",
+      "numerator": 163168,
+      "denominator": 180016
+    },
+    {
+      "first_candidate": "MARK LENO",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 162984,
+      "denominator": 174499
+    },
+    {
+      "first_candidate": "MARK LENO",
+      "second_candidate": "MICHELLE BRAVO",
+      "numerator": 164949,
+      "denominator": 171493
+    },
+    {
+      "first_candidate": "MARK LENO",
+      "second_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "numerator": 165463,
+      "denominator": 165472
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "LONDON BREED",
+      "numerator": 100936,
+      "denominator": 223494
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "MARK LENO",
+      "numerator": 91658,
+      "denominator": 195788
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "ANGELA ALIOTO",
+      "numerator": 136736,
+      "denominator": 193450
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "ELLEN LEE ZHOU",
+      "numerator": 143377,
+      "denominator": 164610
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "RICHIE GREENBERG",
+      "numerator": 144910,
+      "denominator": 163979
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 144625,
+      "denominator": 155878
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "MICHELLE BRAVO",
+      "numerator": 145760,
+      "denominator": 152905
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "numerator": 146193,
+      "denominator": 146206
+    },
+    {
+      "first_candidate": "ANGELA ALIOTO",
+      "second_candidate": "LONDON BREED",
+      "numerator": 42799,
+      "denominator": 189342
+    },
+    {
+      "first_candidate": "ANGELA ALIOTO",
+      "second_candidate": "MARK LENO",
+      "numerator": 50494,
+      "denominator": 203986
+    },
+    {
+      "first_candidate": "ANGELA ALIOTO",
+      "second_candidate": "JANE KIM",
+      "numerator": 56714,
+      "denominator": 193450
+    },
+    {
+      "first_candidate": "ANGELA ALIOTO",
+      "second_candidate": "ELLEN LEE ZHOU",
+      "numerator": 72128,
+      "denominator": 95344
+    },
+    {
+      "first_candidate": "ANGELA ALIOTO",
+      "second_candidate": "RICHIE GREENBERG",
+      "numerator": 73127,
+      "denominator": 88969
+    },
+    {
+      "first_candidate": "ANGELA ALIOTO",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 75905,
+      "denominator": 107409
+    },
+    {
+      "first_candidate": "ANGELA ALIOTO",
+      "second_candidate": "MICHELLE BRAVO",
+      "numerator": 76211,
+      "denominator": 82956
+    },
+    {
+      "first_candidate": "ANGELA ALIOTO",
+      "second_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "numerator": 76910,
+      "denominator": 76927
+    },
+    {
+      "first_candidate": "ELLEN LEE ZHOU",
+      "second_candidate": "LONDON BREED",
+      "numerator": 18607,
+      "denominator": 171011
+    },
+    {
+      "first_candidate": "ELLEN LEE ZHOU",
+      "second_candidate": "MARK LENO",
+      "numerator": 22024,
+      "denominator": 184233
+    },
+    {
+      "first_candidate": "ELLEN LEE ZHOU",
+      "second_candidate": "JANE KIM",
+      "numerator": 21233,
+      "denominator": 164610
+    },
+    {
+      "first_candidate": "ELLEN LEE ZHOU",
+      "second_candidate": "ANGELA ALIOTO",
+      "numerator": 23216,
+      "denominator": 95344
+    },
+    {
+      "first_candidate": "ELLEN LEE ZHOU",
+      "second_candidate": "RICHIE GREENBERG",
+      "numerator": 25765,
+      "denominator": 44057
+    },
+    {
+      "first_candidate": "ELLEN LEE ZHOU",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 26565,
+      "denominator": 60201
+    },
+    {
+      "first_candidate": "ELLEN LEE ZHOU",
+      "second_candidate": "MICHELLE BRAVO",
+      "numerator": 26748,
+      "denominator": 34804
+    },
+    {
+      "first_candidate": "ELLEN LEE ZHOU",
+      "second_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "numerator": 27504,
+      "denominator": 27521
+    },
+    {
+      "first_candidate": "RICHIE GREENBERG",
+      "second_candidate": "LONDON BREED",
+      "numerator": 14376,
+      "denominator": 168982
+    },
+    {
+      "first_candidate": "RICHIE GREENBERG",
+      "second_candidate": "MARK LENO",
+      "numerator": 16848,
+      "denominator": 180016
+    },
+    {
+      "first_candidate": "RICHIE GREENBERG",
+      "second_candidate": "JANE KIM",
+      "numerator": 19069,
+      "denominator": 163979
+    },
+    {
+      "first_candidate": "RICHIE GREENBERG",
+      "second_candidate": "ANGELA ALIOTO",
+      "numerator": 15842,
+      "denominator": 88969
+    },
+    {
+      "first_candidate": "RICHIE GREENBERG",
+      "second_candidate": "ELLEN LEE ZHOU",
+      "numerator": 18292,
+      "denominator": 44057
+    },
+    {
+      "first_candidate": "RICHIE GREENBERG",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 20333,
+      "denominator": 54038
+    },
+    {
+      "first_candidate": "RICHIE GREENBERG",
+      "second_candidate": "MICHELLE BRAVO",
+      "numerator": 20526,
+      "denominator": 28735
+    },
+    {
+      "first_candidate": "RICHIE GREENBERG",
+      "second_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "numerator": 20967,
+      "denominator": 20983
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "LONDON BREED",
+      "numerator": 28375,
+      "denominator": 184811
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "MARK LENO",
+      "numerator": 11515,
+      "denominator": 174499
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "JANE KIM",
+      "numerator": 11253,
+      "denominator": 155878
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "ANGELA ALIOTO",
+      "numerator": 31504,
+      "denominator": 107409
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "ELLEN LEE ZHOU",
+      "numerator": 33636,
+      "denominator": 60201
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "RICHIE GREENBERG",
+      "numerator": 33705,
+      "denominator": 54038
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "MICHELLE BRAVO",
+      "numerator": 34483,
+      "denominator": 43047
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "numerator": 35072,
+      "denominator": 35089
+    },
+    {
+      "first_candidate": "MICHELLE BRAVO",
+      "second_candidate": "LONDON BREED",
+      "numerator": 5561,
+      "denominator": 162474
+    },
+    {
+      "first_candidate": "MICHELLE BRAVO",
+      "second_candidate": "MARK LENO",
+      "numerator": 6544,
+      "denominator": 171493
+    },
+    {
+      "first_candidate": "MICHELLE BRAVO",
+      "second_candidate": "JANE KIM",
+      "numerator": 7145,
+      "denominator": 152905
+    },
+    {
+      "first_candidate": "MICHELLE BRAVO",
+      "second_candidate": "ANGELA ALIOTO",
+      "numerator": 6745,
+      "denominator": 82956
+    },
+    {
+      "first_candidate": "MICHELLE BRAVO",
+      "second_candidate": "ELLEN LEE ZHOU",
+      "numerator": 8056,
+      "denominator": 34804
+    },
+    {
+      "first_candidate": "MICHELLE BRAVO",
+      "second_candidate": "RICHIE GREENBERG",
+      "numerator": 8209,
+      "denominator": 28735
+    },
+    {
+      "first_candidate": "MICHELLE BRAVO",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 8564,
+      "denominator": 43047
+    },
+    {
+      "first_candidate": "MICHELLE BRAVO",
+      "second_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "numerator": 9253,
+      "denominator": 9270
+    },
+    {
+      "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "second_candidate": "LONDON BREED",
+      "numerator": 8,
+      "denominator": 157331
+    },
+    {
+      "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "second_candidate": "MARK LENO",
+      "numerator": 9,
+      "denominator": 165472
+    },
+    {
+      "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "second_candidate": "JANE KIM",
+      "numerator": 13,
+      "denominator": 146206
+    },
+    {
+      "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "second_candidate": "ANGELA ALIOTO",
+      "numerator": 17,
+      "denominator": 76927
+    },
+    {
+      "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "second_candidate": "ELLEN LEE ZHOU",
+      "numerator": 17,
+      "denominator": 27521
+    },
+    {
+      "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "second_candidate": "RICHIE GREENBERG",
+      "numerator": 16,
+      "denominator": 20983
+    },
+    {
+      "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 17,
+      "denominator": 35089
+    },
+    {
+      "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "second_candidate": "MICHELLE BRAVO",
+      "numerator": 17,
+      "denominator": 9270
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "LONDON BREED",
+      "second_candidate": "MARK LENO",
+      "numerator": 27632,
+      "denominator": 92121
+    },
+    {
+      "first_candidate": "LONDON BREED",
+      "second_candidate": "JANE KIM",
+      "numerator": 20257,
+      "denominator": 92121
+    },
+    {
+      "first_candidate": "LONDON BREED",
+      "second_candidate": "ANGELA ALIOTO",
+      "numerator": 15450,
+      "denominator": 92121
+    },
+    {
+      "first_candidate": "LONDON BREED",
+      "second_candidate": "ELLEN LEE ZHOU",
+      "numerator": 3223,
+      "denominator": 92121
+    },
+    {
+      "first_candidate": "LONDON BREED",
+      "second_candidate": "RICHIE GREENBERG",
+      "numerator": 2244,
+      "denominator": 92121
+    },
+    {
+      "first_candidate": "LONDON BREED",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 1781,
+      "denominator": 92121
+    },
+    {
+      "first_candidate": "LONDON BREED",
+      "second_candidate": "MICHELLE BRAVO",
+      "numerator": 1076,
+      "denominator": 92121
+    },
+    {
+      "first_candidate": "LONDON BREED",
+      "second_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "numerator": 5,
+      "denominator": 92121
+    },
+    {
+      "first_candidate": "MARK LENO",
+      "second_candidate": "LONDON BREED",
+      "numerator": 15705,
+      "denominator": 61416
+    },
+    {
+      "first_candidate": "MARK LENO",
+      "second_candidate": "JANE KIM",
+      "numerator": 30861,
+      "denominator": 61416
+    },
+    {
+      "first_candidate": "MARK LENO",
+      "second_candidate": "ANGELA ALIOTO",
+      "numerator": 5683,
+      "denominator": 61416
+    },
+    {
+      "first_candidate": "MARK LENO",
+      "second_candidate": "ELLEN LEE ZHOU",
+      "numerator": 938,
+      "denominator": 61416
+    },
+    {
+      "first_candidate": "MARK LENO",
+      "second_candidate": "RICHIE GREENBERG",
+      "numerator": 1141,
+      "denominator": 61416
+    },
+    {
+      "first_candidate": "MARK LENO",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 1014,
+      "denominator": 61416
+    },
+    {
+      "first_candidate": "MARK LENO",
+      "second_candidate": "MICHELLE BRAVO",
+      "numerator": 363,
+      "denominator": 61416
+    },
+    {
+      "first_candidate": "MARK LENO",
+      "second_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "numerator": 0,
+      "denominator": 61416
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "LONDON BREED",
+      "numerator": 10341,
+      "denominator": 60738
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "MARK LENO",
+      "numerator": 40586,
+      "denominator": 60738
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "ANGELA ALIOTO",
+      "numerator": 2901,
+      "denominator": 60738
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "ELLEN LEE ZHOU",
+      "numerator": 1475,
+      "denominator": 60738
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "RICHIE GREENBERG",
+      "numerator": 311,
+      "denominator": 60738
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 1778,
+      "denominator": 60738
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "MICHELLE BRAVO",
+      "numerator": 284,
+      "denominator": 60738
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "numerator": 0,
+      "denominator": 60738
+    },
+    {
+      "first_candidate": "ANGELA ALIOTO",
+      "second_candidate": "LONDON BREED",
+      "numerator": 4712,
+      "denominator": 17552
+    },
+    {
+      "first_candidate": "ANGELA ALIOTO",
+      "second_candidate": "MARK LENO",
+      "numerator": 3629,
+      "denominator": 17552
+    },
+    {
+      "first_candidate": "ANGELA ALIOTO",
+      "second_candidate": "JANE KIM",
+      "numerator": 2173,
+      "denominator": 17552
+    },
+    {
+      "first_candidate": "ANGELA ALIOTO",
+      "second_candidate": "ELLEN LEE ZHOU",
+      "numerator": 953,
+      "denominator": 17552
+    },
+    {
+      "first_candidate": "ANGELA ALIOTO",
+      "second_candidate": "RICHIE GREENBERG",
+      "numerator": 1449,
+      "denominator": 17552
+    },
+    {
+      "first_candidate": "ANGELA ALIOTO",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 609,
+      "denominator": 17552
+    },
+    {
+      "first_candidate": "ANGELA ALIOTO",
+      "second_candidate": "MICHELLE BRAVO",
+      "numerator": 515,
+      "denominator": 17552
+    },
+    {
+      "first_candidate": "ANGELA ALIOTO",
+      "second_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "numerator": 0,
+      "denominator": 17552
+    },
+    {
+      "first_candidate": "ELLEN LEE ZHOU",
+      "second_candidate": "LONDON BREED",
+      "numerator": 2404,
+      "denominator": 9576
+    },
+    {
+      "first_candidate": "ELLEN LEE ZHOU",
+      "second_candidate": "MARK LENO",
+      "numerator": 1048,
+      "denominator": 9576
+    },
+    {
+      "first_candidate": "ELLEN LEE ZHOU",
+      "second_candidate": "JANE KIM",
+      "numerator": 1232,
+      "denominator": 9576
+    },
+    {
+      "first_candidate": "ELLEN LEE ZHOU",
+      "second_candidate": "ANGELA ALIOTO",
+      "numerator": 1712,
+      "denominator": 9576
+    },
+    {
+      "first_candidate": "ELLEN LEE ZHOU",
+      "second_candidate": "RICHIE GREENBERG",
+      "numerator": 1036,
+      "denominator": 9576
+    },
+    {
+      "first_candidate": "ELLEN LEE ZHOU",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 257,
+      "denominator": 9576
+    },
+    {
+      "first_candidate": "ELLEN LEE ZHOU",
+      "second_candidate": "MICHELLE BRAVO",
+      "numerator": 197,
+      "denominator": 9576
+    },
+    {
+      "first_candidate": "ELLEN LEE ZHOU",
+      "second_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "numerator": 0,
+      "denominator": 9576
+    },
+    {
+      "first_candidate": "RICHIE GREENBERG",
+      "second_candidate": "LONDON BREED",
+      "numerator": 1091,
+      "denominator": 7051
+    },
+    {
+      "first_candidate": "RICHIE GREENBERG",
+      "second_candidate": "MARK LENO",
+      "numerator": 879,
+      "denominator": 7051
+    },
+    {
+      "first_candidate": "RICHIE GREENBERG",
+      "second_candidate": "JANE KIM",
+      "numerator": 374,
+      "denominator": 7051
+    },
+    {
+      "first_candidate": "RICHIE GREENBERG",
+      "second_candidate": "ANGELA ALIOTO",
+      "numerator": 1594,
+      "denominator": 7051
+    },
+    {
+      "first_candidate": "RICHIE GREENBERG",
+      "second_candidate": "ELLEN LEE ZHOU",
+      "numerator": 673,
+      "denominator": 7051
+    },
+    {
+      "first_candidate": "RICHIE GREENBERG",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 262,
+      "denominator": 7051
+    },
+    {
+      "first_candidate": "RICHIE GREENBERG",
+      "second_candidate": "MICHELLE BRAVO",
+      "numerator": 230,
+      "denominator": 7051
+    },
+    {
+      "first_candidate": "RICHIE GREENBERG",
+      "second_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "numerator": 1,
+      "denominator": 7051
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "LONDON BREED",
+      "numerator": 187,
+      "denominator": 1675
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "MARK LENO",
+      "numerator": 325,
+      "denominator": 1675
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "JANE KIM",
+      "numerator": 573,
+      "denominator": 1675
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "ANGELA ALIOTO",
+      "numerator": 175,
+      "denominator": 1675
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "ELLEN LEE ZHOU",
+      "numerator": 107,
+      "denominator": 1675
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "RICHIE GREENBERG",
+      "numerator": 91,
+      "denominator": 1675
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "MICHELLE BRAVO",
+      "numerator": 88,
+      "denominator": 1675
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "numerator": 0,
+      "denominator": 1675
+    },
+    {
+      "first_candidate": "MICHELLE BRAVO",
+      "second_candidate": "LONDON BREED",
+      "numerator": 119,
+      "denominator": 900
+    },
+    {
+      "first_candidate": "MICHELLE BRAVO",
+      "second_candidate": "MARK LENO",
+      "numerator": 117,
+      "denominator": 900
+    },
+    {
+      "first_candidate": "MICHELLE BRAVO",
+      "second_candidate": "JANE KIM",
+      "numerator": 91,
+      "denominator": 900
+    },
+    {
+      "first_candidate": "MICHELLE BRAVO",
+      "second_candidate": "ANGELA ALIOTO",
+      "numerator": 185,
+      "denominator": 900
+    },
+    {
+      "first_candidate": "MICHELLE BRAVO",
+      "second_candidate": "ELLEN LEE ZHOU",
+      "numerator": 111,
+      "denominator": 900
+    },
+    {
+      "first_candidate": "MICHELLE BRAVO",
+      "second_candidate": "RICHIE GREENBERG",
+      "numerator": 77,
+      "denominator": 900
+    },
+    {
+      "first_candidate": "MICHELLE BRAVO",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 60,
+      "denominator": 900
+    },
+    {
+      "first_candidate": "MICHELLE BRAVO",
+      "second_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "numerator": 0,
+      "denominator": 900
+    },
+    {
+      "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "second_candidate": "LONDON BREED",
+      "numerator": 3,
+      "denominator": 3
+    },
+    {
+      "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "second_candidate": "MARK LENO",
+      "numerator": 0,
+      "denominator": 3
+    },
+    {
+      "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "second_candidate": "JANE KIM",
+      "numerator": 0,
+      "denominator": 3
+    },
+    {
+      "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "second_candidate": "ANGELA ALIOTO",
+      "numerator": 0,
+      "denominator": 3
+    },
+    {
+      "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "second_candidate": "ELLEN LEE ZHOU",
+      "numerator": 0,
+      "denominator": 3
+    },
+    {
+      "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "second_candidate": "RICHIE GREENBERG",
+      "numerator": 0,
+      "denominator": 3
+    },
+    {
+      "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "second_candidate": "AMY FARAH WEISS",
+      "numerator": 0,
+      "denominator": 3
+    },
+    {
+      "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "second_candidate": "MICHELLE BRAVO",
+      "numerator": 0,
+      "denominator": 3
+    }
+  ],
+  "final_by_first": [
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "LONDON BREED",
+      "numerator": 11939,
+      "denominator": 60738
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "MARK LENO",
+      "numerator": 43110,
+      "denominator": 60738
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 5689,
+      "denominator": 60738
+    },
+    {
+      "first_candidate": "ANGELA ALIOTO",
+      "second_candidate": "LONDON BREED",
+      "numerator": 6018,
+      "denominator": 17552
+    },
+    {
+      "first_candidate": "ANGELA ALIOTO",
+      "second_candidate": "MARK LENO",
+      "numerator": 4843,
+      "denominator": 17552
+    },
+    {
+      "first_candidate": "ANGELA ALIOTO",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 6691,
+      "denominator": 17552
+    },
+    {
+      "first_candidate": "ELLEN LEE ZHOU",
+      "second_candidate": "LONDON BREED",
+      "numerator": 3634,
+      "denominator": 9576
+    },
+    {
+      "first_candidate": "ELLEN LEE ZHOU",
+      "second_candidate": "MARK LENO",
+      "numerator": 1695,
+      "denominator": 9576
+    },
+    {
+      "first_candidate": "ELLEN LEE ZHOU",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 4247,
+      "denominator": 9576
+    },
+    {
+      "first_candidate": "RICHIE GREENBERG",
+      "second_candidate": "LONDON BREED",
+      "numerator": 1748,
+      "denominator": 7051
+    },
+    {
+      "first_candidate": "RICHIE GREENBERG",
+      "second_candidate": "MARK LENO",
+      "numerator": 1365,
+      "denominator": 7051
+    },
+    {
+      "first_candidate": "RICHIE GREENBERG",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 3938,
+      "denominator": 7051
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "LONDON BREED",
+      "numerator": 328,
+      "denominator": 1675
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "MARK LENO",
+      "numerator": 796,
+      "denominator": 1675
+    },
+    {
+      "first_candidate": "AMY FARAH WEISS",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 551,
+      "denominator": 1675
+    },
+    {
+      "first_candidate": "MICHELLE BRAVO",
+      "second_candidate": "LONDON BREED",
+      "numerator": 186,
+      "denominator": 900
+    },
+    {
+      "first_candidate": "MICHELLE BRAVO",
+      "second_candidate": "MARK LENO",
+      "numerator": 206,
+      "denominator": 900
+    },
+    {
+      "first_candidate": "MICHELLE BRAVO",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 508,
+      "denominator": 900
+    },
+    {
+      "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "second_candidate": "LONDON BREED",
+      "numerator": 3,
+      "denominator": 3
+    },
+    {
+      "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "second_candidate": "MARK LENO",
+      "numerator": 0,
+      "denominator": 3
+    },
+    {
+      "first_candidate": "WRITE-IN ANTOINE R. ROGERS",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 0,
+      "denominator": 3
+    }
+  ]
+}

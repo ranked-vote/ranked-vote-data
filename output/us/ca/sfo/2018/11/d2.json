@@ -1,0 +1,304 @@
+{
+  "meta": {
+    "num_ballots": 39906,
+    "candidates": [
+      "NICK JOSEFOWITZ",
+      "JOHN DENNIS",
+      "SCHUYLER HUDAK",
+      "CATHERINE STEFANI",
+      "$WRITE_IN"
+    ],
+    "files": [
+      {
+        "name": "raw/us/ca/sfo/2018/11/20181127_masterlookup.txt",
+        "sha1": "a8e909a7cea653eea6ed3e450fa83cd41d0e11ed"
+      },
+      {
+        "name": "raw/us/ca/sfo/2018/11/20181127_d2_ballotimage.txt",
+        "sha1": "128cb76858fdc17fce3683613715b5a1428f36a8"
+      }
+    ],
+    "format": "us_ca_sfo"
+  },
+  "normalized_ballots": "us/ca/sfo/2018/11/d2.normalized.csv.gz",
+  "candidates": [
+    "CATHERINE STEFANI",
+    "NICK JOSEFOWITZ",
+    "SCHUYLER HUDAK",
+    "JOHN DENNIS"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "CATHERINE STEFANI",
+        "NICK JOSEFOWITZ",
+        "SCHUYLER HUDAK",
+        "JOHN DENNIS"
+      ],
+      "results": [
+        {
+          "name": "NICK JOSEFOWITZ",
+          "votes": 13644
+        },
+        {
+          "name": "JOHN DENNIS",
+          "votes": 3108
+        },
+        {
+          "name": "CATHERINE STEFANI",
+          "votes": 14415
+        },
+        {
+          "name": "SCHUYLER HUDAK",
+          "votes": 4145
+        }
+      ],
+      "undervote": 4515,
+      "overvote": 79,
+      "continuing_ballots": 35312,
+      "eliminated": []
+    },
+    {
+      "round": 2,
+      "candidates": [
+        "CATHERINE STEFANI",
+        "NICK JOSEFOWITZ"
+      ],
+      "results": [
+        {
+          "name": "NICK JOSEFOWITZ",
+          "votes": 16061
+        },
+        {
+          "name": "CATHERINE STEFANI",
+          "votes": 17340
+        }
+      ],
+      "undervote": 6408,
+      "overvote": 97,
+      "continuing_ballots": 33401,
+      "eliminated": [
+        "SCHUYLER HUDAK",
+        "JOHN DENNIS"
+      ]
+    }
+  ],
+  "smith_set": [
+    "CATHERINE STEFANI"
+  ],
+  "condorcet": "CATHERINE STEFANI",
+  "graph": [
+    {
+      "source": "CATHERINE STEFANI",
+      "edges": []
+    },
+    {
+      "source": "NICK JOSEFOWITZ",
+      "edges": [
+        "CATHERINE STEFANI"
+      ]
+    },
+    {
+      "source": "SCHUYLER HUDAK",
+      "edges": [
+        "NICK JOSEFOWITZ",
+        "CATHERINE STEFANI"
+      ]
+    },
+    {
+      "source": "JOHN DENNIS",
+      "edges": [
+        "SCHUYLER HUDAK",
+        "NICK JOSEFOWITZ",
+        "CATHERINE STEFANI"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "CATHERINE STEFANI",
+      "second_candidate": "NICK JOSEFOWITZ",
+      "numerator": 17340,
+      "denominator": 33401
+    },
+    {
+      "first_candidate": "CATHERINE STEFANI",
+      "second_candidate": "SCHUYLER HUDAK",
+      "numerator": 21393,
+      "denominator": 30493
+    },
+    {
+      "first_candidate": "CATHERINE STEFANI",
+      "second_candidate": "JOHN DENNIS",
+      "numerator": 24601,
+      "denominator": 30523
+    },
+    {
+      "first_candidate": "NICK JOSEFOWITZ",
+      "second_candidate": "CATHERINE STEFANI",
+      "numerator": 16061,
+      "denominator": 33401
+    },
+    {
+      "first_candidate": "NICK JOSEFOWITZ",
+      "second_candidate": "SCHUYLER HUDAK",
+      "numerator": 19360,
+      "denominator": 29290
+    },
+    {
+      "first_candidate": "NICK JOSEFOWITZ",
+      "second_candidate": "JOHN DENNIS",
+      "numerator": 22208,
+      "denominator": 28559
+    },
+    {
+      "first_candidate": "SCHUYLER HUDAK",
+      "second_candidate": "CATHERINE STEFANI",
+      "numerator": 9100,
+      "denominator": 30493
+    },
+    {
+      "first_candidate": "SCHUYLER HUDAK",
+      "second_candidate": "NICK JOSEFOWITZ",
+      "numerator": 9930,
+      "denominator": 29290
+    },
+    {
+      "first_candidate": "SCHUYLER HUDAK",
+      "second_candidate": "JOHN DENNIS",
+      "numerator": 16711,
+      "denominator": 23516
+    },
+    {
+      "first_candidate": "JOHN DENNIS",
+      "second_candidate": "CATHERINE STEFANI",
+      "numerator": 5922,
+      "denominator": 30523
+    },
+    {
+      "first_candidate": "JOHN DENNIS",
+      "second_candidate": "NICK JOSEFOWITZ",
+      "numerator": 6351,
+      "denominator": 28559
+    },
+    {
+      "first_candidate": "JOHN DENNIS",
+      "second_candidate": "SCHUYLER HUDAK",
+      "numerator": 6805,
+      "denominator": 23516
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "CATHERINE STEFANI",
+      "second_candidate": "NICK JOSEFOWITZ",
+      "numerator": 4544,
+      "denominator": 14415
+    },
+    {
+      "first_candidate": "CATHERINE STEFANI",
+      "second_candidate": "SCHUYLER HUDAK",
+      "numerator": 4166,
+      "denominator": 14415
+    },
+    {
+      "first_candidate": "CATHERINE STEFANI",
+      "second_candidate": "JOHN DENNIS",
+      "numerator": 1153,
+      "denominator": 14415
+    },
+    {
+      "first_candidate": "NICK JOSEFOWITZ",
+      "second_candidate": "CATHERINE STEFANI",
+      "numerator": 5735,
+      "denominator": 13644
+    },
+    {
+      "first_candidate": "NICK JOSEFOWITZ",
+      "second_candidate": "SCHUYLER HUDAK",
+      "numerator": 3275,
+      "denominator": 13644
+    },
+    {
+      "first_candidate": "NICK JOSEFOWITZ",
+      "second_candidate": "JOHN DENNIS",
+      "numerator": 1200,
+      "denominator": 13644
+    },
+    {
+      "first_candidate": "SCHUYLER HUDAK",
+      "second_candidate": "CATHERINE STEFANI",
+      "numerator": 1745,
+      "denominator": 4145
+    },
+    {
+      "first_candidate": "SCHUYLER HUDAK",
+      "second_candidate": "NICK JOSEFOWITZ",
+      "numerator": 1213,
+      "denominator": 4145
+    },
+    {
+      "first_candidate": "SCHUYLER HUDAK",
+      "second_candidate": "JOHN DENNIS",
+      "numerator": 597,
+      "denominator": 4145
+    },
+    {
+      "first_candidate": "JOHN DENNIS",
+      "second_candidate": "CATHERINE STEFANI",
+      "numerator": 594,
+      "denominator": 3108
+    },
+    {
+      "first_candidate": "JOHN DENNIS",
+      "second_candidate": "NICK JOSEFOWITZ",
+      "numerator": 698,
+      "denominator": 3108
+    },
+    {
+      "first_candidate": "JOHN DENNIS",
+      "second_candidate": "SCHUYLER HUDAK",
+      "numerator": 793,
+      "denominator": 3108
+    }
+  ],
+  "final_by_first": [
+    {
+      "first_candidate": "SCHUYLER HUDAK",
+      "second_candidate": "CATHERINE STEFANI",
+      "numerator": 1992,
+      "denominator": 4145
+    },
+    {
+      "first_candidate": "SCHUYLER HUDAK",
+      "second_candidate": "NICK JOSEFOWITZ",
+      "numerator": 1456,
+      "denominator": 4145
+    },
+    {
+      "first_candidate": "SCHUYLER HUDAK",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 697,
+      "denominator": 4145
+    },
+    {
+      "first_candidate": "JOHN DENNIS",
+      "second_candidate": "CATHERINE STEFANI",
+      "numerator": 933,
+      "denominator": 3108
+    },
+    {
+      "first_candidate": "JOHN DENNIS",
+      "second_candidate": "NICK JOSEFOWITZ",
+      "numerator": 961,
+      "denominator": 3108
+    },
+    {
+      "first_candidate": "JOHN DENNIS",
+      "second_candidate": "$UNDERVOTE",
+      "numerator": 1214,
+      "denominator": 3108
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "num_ballots": 17554,
+    "candidates": [
+      "AARON PESKIN",
+      "WILMA PANG",
+      "JULIE CHRISTENSEN",
+      "$WRITE_IN"
+    ],
+    "files": [
+      {
+        "name": "raw/us/ca/sfo/2015/11/20151119_masterlookup.txt",
+        "sha1": "32444f136a2aacecb740d70ecc02b99c9b0102fc"
+      },
+      {
+        "name": "raw/us/ca/sfo/2015/11/20151119_ballotimage.txt",
+        "sha1": "8f5079df4267c4c23c3432ff71ce148dc483f30a"
+      }
+    ],
+    "format": "us_ca_sfo"
+  },
+  "normalized_ballots": "us/ca/sfo/2015/11/d3.normalized.csv.gz",
+  "candidates": [
+    "AARON PESKIN",
+    "JULIE CHRISTENSEN",
+    "WILMA PANG"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "AARON PESKIN",
+        "JULIE CHRISTENSEN",
+        "WILMA PANG"
+      ],
+      "results": [
+        {
+          "name": "JULIE CHRISTENSEN",
+          "votes": 7267
+        },
+        {
+          "name": "AARON PESKIN",
+          "votes": 8767
+        },
+        {
+          "name": "WILMA PANG",
+          "votes": 660
+        }
+      ],
+      "undervote": 819,
+      "overvote": 41,
+      "continuing_ballots": 16694,
+      "eliminated": []
+    }
+  ],
+  "smith_set": [
+    "AARON PESKIN"
+  ],
+  "condorcet": "AARON PESKIN",
+  "graph": [
+    {
+      "source": "AARON PESKIN",
+      "edges": []
+    },
+    {
+      "source": "JULIE CHRISTENSEN",
+      "edges": [
+        "AARON PESKIN"
+      ]
+    },
+    {
+      "source": "WILMA PANG",
+      "edges": [
+        "JULIE CHRISTENSEN",
+        "AARON PESKIN"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "AARON PESKIN",
+      "second_candidate": "JULIE CHRISTENSEN",
+      "numerator": 8921,
+      "denominator": 16416
+    },
+    {
+      "first_candidate": "AARON PESKIN",
+      "second_candidate": "WILMA PANG",
+      "numerator": 10016,
+      "denominator": 12864
+    },
+    {
+      "first_candidate": "JULIE CHRISTENSEN",
+      "second_candidate": "AARON PESKIN",
+      "numerator": 7495,
+      "denominator": 16416
+    },
+    {
+      "first_candidate": "JULIE CHRISTENSEN",
+      "second_candidate": "WILMA PANG",
+      "numerator": 9107,
+      "denominator": 12087
+    },
+    {
+      "first_candidate": "WILMA PANG",
+      "second_candidate": "AARON PESKIN",
+      "numerator": 2848,
+      "denominator": 12864
+    },
+    {
+      "first_candidate": "WILMA PANG",
+      "second_candidate": "JULIE CHRISTENSEN",
+      "numerator": 2980,
+      "denominator": 12087
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "AARON PESKIN",
+      "second_candidate": "JULIE CHRISTENSEN",
+      "numerator": 1840,
+      "denominator": 8767
+    },
+    {
+      "first_candidate": "AARON PESKIN",
+      "second_candidate": "WILMA PANG",
+      "numerator": 2320,
+      "denominator": 8767
+    },
+    {
+      "first_candidate": "JULIE CHRISTENSEN",
+      "second_candidate": "AARON PESKIN",
+      "numerator": 1249,
+      "denominator": 7267
+    },
+    {
+      "first_candidate": "JULIE CHRISTENSEN",
+      "second_candidate": "WILMA PANG",
+      "numerator": 2188,
+      "denominator": 7267
+    },
+    {
+      "first_candidate": "WILMA PANG",
+      "second_candidate": "AARON PESKIN",
+      "numerator": 154,
+      "denominator": 660
+    },
+    {
+      "first_candidate": "WILMA PANG",
+      "second_candidate": "JULIE CHRISTENSEN",
+      "numerator": 228,
+      "denominator": 660
+    }
+  ],
+  "final_by_first": []
+}
