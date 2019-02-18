@@ -64,7 +64,8 @@
       "undervote": 2764,
       "overvote": 127,
       "continuing_ballots": 32054,
-      "eliminated": []
+      "eliminated": [],
+      "transfers": []
     }
   ],
   "smith_set": [
@@ -93,8 +94,8 @@
       "source": "ISWARI ESPA\u00d1A",
       "edges": [
         "HILLARY RONEN",
-        "MELISSA SAN MIGUEL",
-        "JOSHUA ARCE"
+        "JOSHUA ARCE",
+        "MELISSA SAN MIGUEL"
       ]
     }
   ],

@@ -82,7 +82,8 @@
       "undervote": 2907,
       "overvote": 156,
       "continuing_ballots": 23194,
-      "eliminated": []
+      "eliminated": [],
+      "transfers": []
     },
     {
       "round": 2,
@@ -113,6 +114,103 @@
         "GLORIA BERRY",
         "ASALE CHANDLER",
         "WRITE-IN NEO VEAVEA"
+      ],
+      "transfers": [
+        {
+          "from": "SHAMANN WALTON",
+          "to": "SHAMANN WALTON",
+          "count": 9585
+        },
+        {
+          "from": "TONY KELLY",
+          "to": "TONY KELLY",
+          "count": 5679
+        },
+        {
+          "from": "THEO ELLINGTON",
+          "to": "THEO ELLINGTON",
+          "count": 4820
+        },
+        {
+          "from": "UZURI PEASE-GREENE",
+          "to": "TONY KELLY",
+          "count": 406
+        },
+        {
+          "from": "UZURI PEASE-GREENE",
+          "to": "THEO ELLINGTON",
+          "count": 209
+        },
+        {
+          "from": "UZURI PEASE-GREENE",
+          "to": "SHAMANN WALTON",
+          "count": 405
+        },
+        {
+          "from": "UZURI PEASE-GREENE",
+          "to": "$UNDERVOTE",
+          "count": 291
+        },
+        {
+          "from": "GLORIA BERRY",
+          "to": "SHAMANN WALTON",
+          "count": 223
+        },
+        {
+          "from": "GLORIA BERRY",
+          "to": "TONY KELLY",
+          "count": 240
+        },
+        {
+          "from": "GLORIA BERRY",
+          "to": "THEO ELLINGTON",
+          "count": 193
+        },
+        {
+          "from": "GLORIA BERRY",
+          "to": "$UNDERVOTE",
+          "count": 310
+        },
+        {
+          "from": "ASALE CHANDLER",
+          "to": "SHAMANN WALTON",
+          "count": 172
+        },
+        {
+          "from": "ASALE CHANDLER",
+          "to": "$UNDERVOTE",
+          "count": 264
+        },
+        {
+          "from": "ASALE CHANDLER",
+          "to": "TONY KELLY",
+          "count": 207
+        },
+        {
+          "from": "ASALE CHANDLER",
+          "to": "THEO ELLINGTON",
+          "count": 159
+        },
+        {
+          "from": "WRITE-IN NEO VEAVEA",
+          "to": "THEO ELLINGTON",
+          "count": 6
+        },
+        {
+          "from": "WRITE-IN NEO VEAVEA",
+          "to": "TONY KELLY",
+          "count": 8
+        },
+        {
+          "from": "WRITE-IN NEO VEAVEA",
+          "to": "SHAMANN WALTON",
+          "count": 7
+        },
+        {
+          "from": "WRITE-IN NEO VEAVEA",
+          "to": "$UNDERVOTE",
+          "count": 10
+        }
       ]
     },
     {
@@ -136,6 +234,53 @@
       "continuing_ballots": 20647,
       "eliminated": [
         "THEO ELLINGTON"
+      ],
+      "transfers": [
+        {
+          "from": "SHAMANN WALTON",
+          "to": "SHAMANN WALTON",
+          "count": 10392
+        },
+        {
+          "from": "TONY KELLY",
+          "to": "TONY KELLY",
+          "count": 6540
+        },
+        {
+          "from": "THEO ELLINGTON",
+          "to": "$UNDERVOTE",
+          "count": 1672
+        },
+        {
+          "from": "THEO ELLINGTON",
+          "to": "SHAMANN WALTON",
+          "count": 2631
+        },
+        {
+          "from": "THEO ELLINGTON",
+          "to": "TONY KELLY",
+          "count": 1084
+        },
+        {
+          "from": "UZURI PEASE-GREENE",
+          "to": "UZURI PEASE-GREENE",
+          "count": 0
+        },
+        {
+          "from": "GLORIA BERRY",
+          "to": "GLORIA BERRY",
+          "count": 0
+        },
+        {
+          "from": "ASALE CHANDLER",
+          "to": "ASALE CHANDLER",
+          "count": 0
+        },
+        {
+          "from": "WRITE-IN NEO VEAVEA",
+          "to": "WRITE-IN NEO VEAVEA",
+          "count": 0
+        }
       ]
     }
   ],
@@ -165,37 +310,37 @@
       "source": "UZURI PEASE-GREENE",
       "edges": [
         "SHAMANN WALTON",
-        "TONY KELLY",
-        "THEO ELLINGTON"
+        "THEO ELLINGTON",
+        "TONY KELLY"
       ]
     },
     {
       "source": "GLORIA BERRY",
       "edges": [
         "SHAMANN WALTON",
+        "THEO ELLINGTON",
         "TONY KELLY",
-        "UZURI PEASE-GREENE",
-        "THEO ELLINGTON"
+        "UZURI PEASE-GREENE"
       ]
     },
     {
       "source": "ASALE CHANDLER",
       "edges": [
-        "TONY KELLY",
-        "THEO ELLINGTON",
-        "SHAMANN WALTON",
         "GLORIA BERRY",
+        "SHAMANN WALTON",
+        "THEO ELLINGTON",
+        "TONY KELLY",
         "UZURI PEASE-GREENE"
       ]
     },
     {
       "source": "WRITE-IN NEO VEAVEA",
       "edges": [
-        "TONY KELLY",
-        "THEO ELLINGTON",
-        "SHAMANN WALTON",
-        "GLORIA BERRY",
         "ASALE CHANDLER",
+        "GLORIA BERRY",
+        "SHAMANN WALTON",
+        "THEO ELLINGTON",
+        "TONY KELLY",
         "UZURI PEASE-GREENE"
       ]
     }

@@ -99,7 +99,8 @@
       "undervote": 2350,
       "overvote": 634,
       "continuing_ballots": 251032,
-      "eliminated": []
+      "eliminated": [],
+      "transfers": []
     },
     {
       "round": 2,
@@ -132,6 +133,128 @@
         "AMY FARAH WEISS",
         "MICHELLE BRAVO",
         "WRITE-IN ANTOINE R. ROGERS"
+      ],
+      "transfers": [
+        {
+          "from": "LONDON BREED",
+          "to": "LONDON BREED",
+          "count": 92121
+        },
+        {
+          "from": "MARK LENO",
+          "to": "MARK LENO",
+          "count": 61416
+        },
+        {
+          "from": "JANE KIM",
+          "to": "JANE KIM",
+          "count": 60738
+        },
+        {
+          "from": "ANGELA ALIOTO",
+          "to": "JANE KIM",
+          "count": 2503
+        },
+        {
+          "from": "ANGELA ALIOTO",
+          "to": "LONDON BREED",
+          "count": 5330
+        },
+        {
+          "from": "ANGELA ALIOTO",
+          "to": "$UNDERVOTE",
+          "count": 5635
+        },
+        {
+          "from": "ANGELA ALIOTO",
+          "to": "MARK LENO",
+          "count": 4084
+        },
+        {
+          "from": "ELLEN LEE ZHOU",
+          "to": "JANE KIM",
+          "count": 1436
+        },
+        {
+          "from": "ELLEN LEE ZHOU",
+          "to": "MARK LENO",
+          "count": 1356
+        },
+        {
+          "from": "ELLEN LEE ZHOU",
+          "to": "LONDON BREED",
+          "count": 3229
+        },
+        {
+          "from": "ELLEN LEE ZHOU",
+          "to": "$UNDERVOTE",
+          "count": 3555
+        },
+        {
+          "from": "RICHIE GREENBERG",
+          "to": "$UNDERVOTE",
+          "count": 3516
+        },
+        {
+          "from": "RICHIE GREENBERG",
+          "to": "LONDON BREED",
+          "count": 1668
+        },
+        {
+          "from": "RICHIE GREENBERG",
+          "to": "MARK LENO",
+          "count": 1270
+        },
+        {
+          "from": "RICHIE GREENBERG",
+          "to": "JANE KIM",
+          "count": 597
+        },
+        {
+          "from": "AMY FARAH WEISS",
+          "to": "MARK LENO",
+          "count": 397
+        },
+        {
+          "from": "AMY FARAH WEISS",
+          "to": "JANE KIM",
+          "count": 633
+        },
+        {
+          "from": "AMY FARAH WEISS",
+          "to": "LONDON BREED",
+          "count": 246
+        },
+        {
+          "from": "AMY FARAH WEISS",
+          "to": "$UNDERVOTE",
+          "count": 399
+        },
+        {
+          "from": "MICHELLE BRAVO",
+          "to": "$UNDERVOTE",
+          "count": 410
+        },
+        {
+          "from": "MICHELLE BRAVO",
+          "to": "JANE KIM",
+          "count": 136
+        },
+        {
+          "from": "MICHELLE BRAVO",
+          "to": "LONDON BREED",
+          "count": 170
+        },
+        {
+          "from": "MICHELLE BRAVO",
+          "to": "MARK LENO",
+          "count": 184
+        },
+        {
+          "from": "WRITE-IN ANTOINE R. ROGERS",
+          "to": "LONDON BREED",
+          "count": 3
+        }
       ]
     },
     {
@@ -155,6 +278,63 @@
       "continuing_ballots": 229408,
       "eliminated": [
         "JANE KIM"
+      ],
+      "transfers": [
+        {
+          "from": "LONDON BREED",
+          "to": "LONDON BREED",
+          "count": 102767
+        },
+        {
+          "from": "MARK LENO",
+          "to": "MARK LENO",
+          "count": 68707
+        },
+        {
+          "from": "JANE KIM",
+          "to": "MARK LENO",
+          "count": 44724
+        },
+        {
+          "from": "JANE KIM",
+          "to": "$UNDERVOTE",
+          "count": 8109
+        },
+        {
+          "from": "JANE KIM",
+          "to": "LONDON BREED",
+          "count": 13210
+        },
+        {
+          "from": "ANGELA ALIOTO",
+          "to": "ANGELA ALIOTO",
+          "count": 0
+        },
+        {
+          "from": "ELLEN LEE ZHOU",
+          "to": "ELLEN LEE ZHOU",
+          "count": 0
+        },
+        {
+          "from": "RICHIE GREENBERG",
+          "to": "RICHIE GREENBERG",
+          "count": 0
+        },
+        {
+          "from": "AMY FARAH WEISS",
+          "to": "AMY FARAH WEISS",
+          "count": 0
+        },
+        {
+          "from": "MICHELLE BRAVO",
+          "to": "MICHELLE BRAVO",
+          "count": 0
+        },
+        {
+          "from": "WRITE-IN ANTOINE R. ROGERS",
+          "to": "WRITE-IN ANTOINE R. ROGERS",
+          "count": 0
+        }
       ]
     }
   ],
@@ -183,64 +363,64 @@
     {
       "source": "ANGELA ALIOTO",
       "edges": [
+        "JANE KIM",
         "LONDON BREED",
-        "MARK LENO",
-        "JANE KIM"
+        "MARK LENO"
       ]
     },
     {
       "source": "ELLEN LEE ZHOU",
       "edges": [
-        "LONDON BREED",
+        "AMY FARAH WEISS",
         "ANGELA ALIOTO",
         "JANE KIM",
-        "AMY FARAH WEISS",
+        "LONDON BREED",
         "MARK LENO"
       ]
     },
     {
       "source": "RICHIE GREENBERG",
       "edges": [
-        "LONDON BREED",
-        "ELLEN LEE ZHOU",
-        "ANGELA ALIOTO",
-        "JANE KIM",
         "AMY FARAH WEISS",
+        "ANGELA ALIOTO",
+        "ELLEN LEE ZHOU",
+        "JANE KIM",
+        "LONDON BREED",
         "MARK LENO"
       ]
     },
     {
       "source": "AMY FARAH WEISS",
       "edges": [
-        "LONDON BREED",
-        "MARK LENO",
         "ANGELA ALIOTO",
-        "JANE KIM"
+        "JANE KIM",
+        "LONDON BREED",
+        "MARK LENO"
       ]
     },
     {
       "source": "MICHELLE BRAVO",
       "edges": [
-        "LONDON BREED",
-        "RICHIE GREENBERG",
-        "ELLEN LEE ZHOU",
-        "ANGELA ALIOTO",
-        "JANE KIM",
         "AMY FARAH WEISS",
-        "MARK LENO"
+        "ANGELA ALIOTO",
+        "ELLEN LEE ZHOU",
+        "JANE KIM",
+        "LONDON BREED",
+        "MARK LENO",
+        "RICHIE GREENBERG"
       ]
     },
     {
       "source": "WRITE-IN ANTOINE R. ROGERS",
       "edges": [
-        "LONDON BREED",
-        "RICHIE GREENBERG",
-        "ELLEN LEE ZHOU",
-        "ANGELA ALIOTO",
-        "JANE KIM",
         "AMY FARAH WEISS",
+        "ANGELA ALIOTO",
+        "ELLEN LEE ZHOU",
+        "JANE KIM",
+        "LONDON BREED",
         "MARK LENO",
-        "MICHELLE BRAVO"
+        "MICHELLE BRAVO",
+        "RICHIE GREENBERG"
       ]
     }
   ],

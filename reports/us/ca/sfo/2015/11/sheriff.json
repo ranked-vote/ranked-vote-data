@@ -57,7 +57,8 @@
       "undervote": 17001,
       "overvote": 237,
       "continuing_ballots": 185831,
-      "eliminated": []
+      "eliminated": [],
+      "transfers": []
     }
   ],
   "smith_set": [
@@ -78,8 +79,8 @@
     {
       "source": "JOHN ROBINSON",
       "edges": [
-        "VICKI HENNESSY",
-        "ROSS MIRKARIMI"
+        "ROSS MIRKARIMI",
+        "VICKI HENNESSY"
       ]
     }
   ],

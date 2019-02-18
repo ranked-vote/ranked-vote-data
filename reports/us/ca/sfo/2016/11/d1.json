@@ -106,7 +106,8 @@
       "undervote": 3236,
       "overvote": 192,
       "continuing_ballots": 31681,
-      "eliminated": []
+      "eliminated": [],
+      "transfers": []
     },
     {
       "round": 2,
@@ -136,6 +137,138 @@
         "JONATHAN LYENS",
         "SHERMAN R. D'SILVA",
         "ANDY THORNLEY"
+      ],
+      "transfers": [
+        {
+          "from": "SANDRA LEE FEWER",
+          "to": "SANDRA LEE FEWER",
+          "count": 12568
+        },
+        {
+          "from": "MARJAN PHILHOUR",
+          "to": "MARJAN PHILHOUR",
+          "count": 11099
+        },
+        {
+          "from": "DAVID LEE",
+          "to": "$UNDERVOTE",
+          "count": 1005
+        },
+        {
+          "from": "DAVID LEE",
+          "to": "SANDRA LEE FEWER",
+          "count": 1355
+        },
+        {
+          "from": "DAVID LEE",
+          "to": "MARJAN PHILHOUR",
+          "count": 1042
+        },
+        {
+          "from": "RICHIE GREENBERG",
+          "to": "SANDRA LEE FEWER",
+          "count": 145
+        },
+        {
+          "from": "RICHIE GREENBERG",
+          "to": "$UNDERVOTE",
+          "count": 558
+        },
+        {
+          "from": "RICHIE GREENBERG",
+          "to": "MARJAN PHILHOUR",
+          "count": 277
+        },
+        {
+          "from": "BRIAN J. LARKIN",
+          "to": "$UNDERVOTE",
+          "count": 398
+        },
+        {
+          "from": "BRIAN J. LARKIN",
+          "to": "SANDRA LEE FEWER",
+          "count": 164
+        },
+        {
+          "from": "BRIAN J. LARKIN",
+          "to": "MARJAN PHILHOUR",
+          "count": 185
+        },
+        {
+          "from": "SAMUEL KWONG",
+          "to": "MARJAN PHILHOUR",
+          "count": 250
+        },
+        {
+          "from": "SAMUEL KWONG",
+          "to": "SANDRA LEE FEWER",
+          "count": 178
+        },
+        {
+          "from": "SAMUEL KWONG",
+          "to": "$UNDERVOTE",
+          "count": 316
+        },
+        {
+          "from": "JASON JUNGREIS",
+          "to": "SANDRA LEE FEWER",
+          "count": 95
+        },
+        {
+          "from": "JASON JUNGREIS",
+          "to": "$UNDERVOTE",
+          "count": 348
+        },
+        {
+          "from": "JASON JUNGREIS",
+          "to": "MARJAN PHILHOUR",
+          "count": 169
+        },
+        {
+          "from": "JONATHAN LYENS",
+          "to": "$UNDERVOTE",
+          "count": 207
+        },
+        {
+          "from": "JONATHAN LYENS",
+          "to": "MARJAN PHILHOUR",
+          "count": 173
+        },
+        {
+          "from": "JONATHAN LYENS",
+          "to": "SANDRA LEE FEWER",
+          "count": 231
+        },
+        {
+          "from": "SHERMAN R. D'SILVA",
+          "to": "SANDRA LEE FEWER",
+          "count": 134
+        },
+        {
+          "from": "SHERMAN R. D'SILVA",
+          "to": "$UNDERVOTE",
+          "count": 249
+        },
+        {
+          "from": "SHERMAN R. D'SILVA",
+          "to": "MARJAN PHILHOUR",
+          "count": 175
+        },
+        {
+          "from": "ANDY THORNLEY",
+          "to": "$UNDERVOTE",
+          "count": 104
+        },
+        {
+          "from": "ANDY THORNLEY",
+          "to": "MARJAN PHILHOUR",
+          "count": 89
+        },
+        {
+          "from": "ANDY THORNLEY",
+          "to": "SANDRA LEE FEWER",
+          "count": 167
+        }
       ]
     }
   ],
@@ -157,85 +290,85 @@
     {
       "source": "DAVID LEE",
       "edges": [
-        "SANDRA LEE FEWER",
-        "MARJAN PHILHOUR"
+        "MARJAN PHILHOUR",
+        "SANDRA LEE FEWER"
       ]
     },
     {
       "source": "RICHIE GREENBERG",
       "edges": [
-        "SANDRA LEE FEWER",
-        "MARJAN PHILHOUR",
         "DAVID LEE",
-        "JONATHAN LYENS"
+        "JONATHAN LYENS",
+        "MARJAN PHILHOUR",
+        "SANDRA LEE FEWER"
       ]
     },
     {
       "source": "BRIAN J. LARKIN",
       "edges": [
-        "SANDRA LEE FEWER",
-        "RICHIE GREENBERG",
-        "MARJAN PHILHOUR",
+        "DAVID LEE",
         "JONATHAN LYENS",
+        "MARJAN PHILHOUR",
+        "RICHIE GREENBERG",
         "SAMUEL KWONG",
-        "DAVID LEE"
+        "SANDRA LEE FEWER"
       ]
     },
     {
       "source": "SAMUEL KWONG",
       "edges": [
-        "SANDRA LEE FEWER",
-        "RICHIE GREENBERG",
-        "MARJAN PHILHOUR",
+        "DAVID LEE",
         "JONATHAN LYENS",
-        "DAVID LEE"
+        "MARJAN PHILHOUR",
+        "RICHIE GREENBERG",
+        "SANDRA LEE FEWER"
       ]
     },
     {
       "source": "JASON JUNGREIS",
       "edges": [
-        "SANDRA LEE FEWER",
-        "RICHIE GREENBERG",
-        "SHERMAN R. D'SILVA",
-        "MARJAN PHILHOUR",
-        "JONATHAN LYENS",
         "BRIAN J. LARKIN",
+        "DAVID LEE",
+        "JONATHAN LYENS",
+        "MARJAN PHILHOUR",
+        "RICHIE GREENBERG",
         "SAMUEL KWONG",
-        "DAVID LEE"
+        "SANDRA LEE FEWER",
+        "SHERMAN R. D'SILVA"
       ]
     },
     {
       "source": "JONATHAN LYENS",
       "edges": [
-        "SANDRA LEE FEWER",
+        "DAVID LEE",
         "MARJAN PHILHOUR",
-        "DAVID LEE"
+        "SANDRA LEE FEWER"
       ]
     },
     {
       "source": "SHERMAN R. D'SILVA",
       "edges": [
-        "SANDRA LEE FEWER",
-        "RICHIE GREENBERG",
-        "MARJAN PHILHOUR",
-        "JONATHAN LYENS",
         "BRIAN J. LARKIN",
+        "DAVID LEE",
+        "JONATHAN LYENS",
+        "MARJAN PHILHOUR",
+        "RICHIE GREENBERG",
         "SAMUEL KWONG",
-        "DAVID LEE"
+        "SANDRA LEE FEWER"
       ]
     },
     {
       "source": "ANDY THORNLEY",
       "edges": [
-        "SANDRA LEE FEWER",
-        "RICHIE GREENBERG",
-        "SHERMAN R. D'SILVA",
-        "MARJAN PHILHOUR",
-        "JONATHAN LYENS",
         "BRIAN J. LARKIN",
-        "SAMUEL KWONG",
+        "DAVID LEE",
         "JASON JUNGREIS",
-        "DAVID LEE"
+        "JONATHAN LYENS",
+        "MARJAN PHILHOUR",
+        "RICHIE GREENBERG",
+        "SAMUEL KWONG",
+        "SANDRA LEE FEWER",
+        "SHERMAN R. D'SILVA"
       ]
     }
   ],

@@ -114,7 +114,8 @@
       "undervote": 12741,
       "overvote": 621,
       "continuing_ballots": 189707,
-      "eliminated": []
+      "eliminated": [],
+      "transfers": []
     }
   ],
   "smith_set": [
@@ -152,81 +153,81 @@
       "edges": [
         "AMY FARAH WEISS",
         "ED LEE",
-        "STUART SCHUFFMAN",
-        "FRANCISCO HERRERA"
+        "FRANCISCO HERRERA",
+        "STUART SCHUFFMAN"
       ]
     },
     {
       "source": "REED MARTIN",
       "edges": [
-        "ED LEE",
-        "KENT GRAHAM",
         "AMY FARAH WEISS",
-        "STUART SCHUFFMAN",
-        "FRANCISCO HERRERA"
+        "ED LEE",
+        "FRANCISCO HERRERA",
+        "KENT GRAHAM",
+        "STUART SCHUFFMAN"
       ]
     },
     {
       "source": "WRITE-IN - MICHAEL PETRELIS",
       "edges": [
+        "AMY FARAH WEISS",
         "ED LEE",
+        "FRANCISCO HERRERA",
         "KENT GRAHAM",
         "REED MARTIN",
-        "AMY FARAH WEISS",
-        "STUART SCHUFFMAN",
-        "FRANCISCO HERRERA"
+        "STUART SCHUFFMAN"
       ]
     },
     {
       "source": "WRITE-IN - ROBERT L. JORDAN, JR.",
       "edges": [
-        "ED LEE",
-        "WRITE-IN - DANIEL C KAPPLER",
-        "KENT GRAHAM",
-        "WRITE-IN - MICHAEL PETRELIS",
-        "REED MARTIN",
         "AMY FARAH WEISS",
+        "ED LEE",
+        "FRANCISCO HERRERA",
+        "KENT GRAHAM",
+        "REED MARTIN",
         "STUART SCHUFFMAN",
-        "FRANCISCO HERRERA"
+        "WRITE-IN - DANIEL C KAPPLER",
+        "WRITE-IN - MICHAEL PETRELIS"
       ]
     },
     {
       "source": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
       "edges": [
-        "ED LEE",
-        "WRITE-IN - DANIEL C KAPPLER",
-        "KENT GRAHAM",
-        "WRITE-IN - MICHAEL PETRELIS",
-        "REED MARTIN",
         "AMY FARAH WEISS",
+        "ED LEE",
+        "FRANCISCO HERRERA",
+        "KENT GRAHAM",
+        "REED MARTIN",
         "STUART SCHUFFMAN",
-        "FRANCISCO HERRERA"
+        "WRITE-IN - DANIEL C KAPPLER",
+        "WRITE-IN - MICHAEL PETRELIS"
       ]
     },
     {
       "source": "WRITE-IN - DANIEL C KAPPLER",
       "edges": [
-        "ED LEE",
-        "KENT GRAHAM",
-        "WRITE-IN - MICHAEL PETRELIS",
-        "REED MARTIN",
         "AMY FARAH WEISS",
+        "ED LEE",
+        "FRANCISCO HERRERA",
+        "KENT GRAHAM",
+        "REED MARTIN",
         "STUART SCHUFFMAN",
-        "FRANCISCO HERRERA"
+        "WRITE-IN - MICHAEL PETRELIS"
       ]
     },
     {
       "source": "WRITE-IN - JOHN E. FITCH",
       "edges": [
-        "ED LEE",
-        "WRITE-IN - DANIEL C KAPPLER",
-        "KENT GRAHAM",
-        "WRITE-IN - MICHAEL PETRELIS",
-        "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
-        "REED MARTIN",
         "AMY FARAH WEISS",
+        "ED LEE",
+        "FRANCISCO HERRERA",
+        "KENT GRAHAM",
+        "REED MARTIN",
         "STUART SCHUFFMAN",
-        "FRANCISCO HERRERA"
+        "WRITE-IN - DANIEL C KAPPLER",
+        "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+        "WRITE-IN - MICHAEL PETRELIS"
       ]
     }
   ],

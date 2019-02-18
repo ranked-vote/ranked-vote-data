@@ -50,7 +50,8 @@
       "undervote": 4472,
       "overvote": 50,
       "continuing_ballots": 41009,
-      "eliminated": []
+      "eliminated": [],
+      "transfers": []
     }
   ],
   "smith_set": [

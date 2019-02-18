@@ -61,7 +61,8 @@
       "undervote": 4515,
       "overvote": 79,
       "continuing_ballots": 35312,
-      "eliminated": []
+      "eliminated": [],
+      "transfers": []
     },
     {
       "round": 2,
@@ -85,6 +86,48 @@
       "eliminated": [
         "SCHUYLER HUDAK",
         "JOHN DENNIS"
+      ],
+      "transfers": [
+        {
+          "from": "CATHERINE STEFANI",
+          "to": "CATHERINE STEFANI",
+          "count": 14415
+        },
+        {
+          "from": "NICK JOSEFOWITZ",
+          "to": "NICK JOSEFOWITZ",
+          "count": 13644
+        },
+        {
+          "from": "SCHUYLER HUDAK",
+          "to": "CATHERINE STEFANI",
+          "count": 1992
+        },
+        {
+          "from": "SCHUYLER HUDAK",
+          "to": "NICK JOSEFOWITZ",
+          "count": 1456
+        },
+        {
+          "from": "SCHUYLER HUDAK",
+          "to": "$UNDERVOTE",
+          "count": 697
+        },
+        {
+          "from": "JOHN DENNIS",
+          "to": "$UNDERVOTE",
+          "count": 1214
+        },
+        {
+          "from": "JOHN DENNIS",
+          "to": "CATHERINE STEFANI",
+          "count": 933
+        },
+        {
+          "from": "JOHN DENNIS",
+          "to": "NICK JOSEFOWITZ",
+          "count": 961
+        }
       ]
     }
   ],
@@ -106,15 +149,15 @@
     {
       "source": "SCHUYLER HUDAK",
       "edges": [
-        "NICK JOSEFOWITZ",
-        "CATHERINE STEFANI"
+        "CATHERINE STEFANI",
+        "NICK JOSEFOWITZ"
       ]
     },
     {
       "source": "JOHN DENNIS",
       "edges": [
-        "NICK JOSEFOWITZ",
         "CATHERINE STEFANI",
+        "NICK JOSEFOWITZ",
         "SCHUYLER HUDAK"
       ]
     }

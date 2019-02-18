@@ -71,7 +71,8 @@
       "undervote": 2457,
       "overvote": 173,
       "continuing_ballots": 25380,
-      "eliminated": []
+      "eliminated": [],
+      "transfers": []
     },
     {
       "round": 2,
@@ -96,6 +97,63 @@
         "MAGDALENA DE GUZMAN",
         "FRANCISCO HERRERA",
         "BERTA HERNANDEZ"
+      ],
+      "transfers": [
+        {
+          "from": "AHSHA SAFAI",
+          "to": "AHSHA SAFAI",
+          "count": 9466
+        },
+        {
+          "from": "KIM ALVARENGA",
+          "to": "KIM ALVARENGA",
+          "count": 8670
+        },
+        {
+          "from": "MAGDALENA DE GUZMAN",
+          "to": "AHSHA SAFAI",
+          "count": 769
+        },
+        {
+          "from": "MAGDALENA DE GUZMAN",
+          "to": "$UNDERVOTE",
+          "count": 1438
+        },
+        {
+          "from": "MAGDALENA DE GUZMAN",
+          "to": "KIM ALVARENGA",
+          "count": 812
+        },
+        {
+          "from": "FRANCISCO HERRERA",
+          "to": "KIM ALVARENGA",
+          "count": 818
+        },
+        {
+          "from": "FRANCISCO HERRERA",
+          "to": "$UNDERVOTE",
+          "count": 1208
+        },
+        {
+          "from": "FRANCISCO HERRERA",
+          "to": "AHSHA SAFAI",
+          "count": 592
+        },
+        {
+          "from": "BERTA HERNANDEZ",
+          "to": "$UNDERVOTE",
+          "count": 703
+        },
+        {
+          "from": "BERTA HERNANDEZ",
+          "to": "KIM ALVARENGA",
+          "count": 509
+        },
+        {
+          "from": "BERTA HERNANDEZ",
+          "to": "AHSHA SAFAI",
+          "count": 395
+        }
       ]
     }
   ],
@@ -132,10 +190,10 @@
     {
       "source": "BERTA HERNANDEZ",
       "edges": [
-        "FRANCISCO HERRERA",
         "AHSHA SAFAI",
-        "MAGDALENA DE GUZMAN",
-        "KIM ALVARENGA"
+        "FRANCISCO HERRERA",
+        "KIM ALVARENGA",
+        "MAGDALENA DE GUZMAN"
       ]
     }
   ],

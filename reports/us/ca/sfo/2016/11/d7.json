@@ -71,7 +71,8 @@
       "undervote": 4084,
       "overvote": 128,
       "continuing_ballots": 35274,
-      "eliminated": []
+      "eliminated": [],
+      "transfers": []
     },
     {
       "round": 2,
@@ -104,6 +105,53 @@
       "continuing_ballots": 35037,
       "eliminated": [
         "MIKE YOUNG"
+      ],
+      "transfers": [
+        {
+          "from": "NORMAN YEE",
+          "to": "NORMAN YEE",
+          "count": 14179
+        },
+        {
+          "from": "JOEL ENGARDIO",
+          "to": "JOEL ENGARDIO",
+          "count": 7645
+        },
+        {
+          "from": "BEN MATRANGA",
+          "to": "BEN MATRANGA",
+          "count": 6498
+        },
+        {
+          "from": "JOHN FARRELL",
+          "to": "JOHN FARRELL",
+          "count": 4948
+        },
+        {
+          "from": "MIKE YOUNG",
+          "to": "$UNDERVOTE",
+          "count": 237
+        },
+        {
+          "from": "MIKE YOUNG",
+          "to": "JOHN FARRELL",
+          "count": 608
+        },
+        {
+          "from": "MIKE YOUNG",
+          "to": "JOEL ENGARDIO",
+          "count": 331
+        },
+        {
+          "from": "MIKE YOUNG",
+          "to": "NORMAN YEE",
+          "count": 493
+        },
+        {
+          "from": "MIKE YOUNG",
+          "to": "BEN MATRANGA",
+          "count": 335
+        }
       ]
     },
     {
@@ -132,6 +180,48 @@
       "continuing_ballots": 34063,
       "eliminated": [
         "JOHN FARRELL"
+      ],
+      "transfers": [
+        {
+          "from": "NORMAN YEE",
+          "to": "NORMAN YEE",
+          "count": 14672
+        },
+        {
+          "from": "JOEL ENGARDIO",
+          "to": "JOEL ENGARDIO",
+          "count": 7976
+        },
+        {
+          "from": "BEN MATRANGA",
+          "to": "BEN MATRANGA",
+          "count": 6833
+        },
+        {
+          "from": "JOHN FARRELL",
+          "to": "JOEL ENGARDIO",
+          "count": 1624
+        },
+        {
+          "from": "JOHN FARRELL",
+          "to": "$UNDERVOTE",
+          "count": 974
+        },
+        {
+          "from": "JOHN FARRELL",
+          "to": "BEN MATRANGA",
+          "count": 1834
+        },
+        {
+          "from": "JOHN FARRELL",
+          "to": "NORMAN YEE",
+          "count": 1124
+        },
+        {
+          "from": "MIKE YOUNG",
+          "to": "MIKE YOUNG",
+          "count": 0
+        }
       ]
     },
     {
@@ -155,6 +245,43 @@
       "continuing_ballots": 30507,
       "eliminated": [
         "BEN MATRANGA"
+      ],
+      "transfers": [
+        {
+          "from": "NORMAN YEE",
+          "to": "NORMAN YEE",
+          "count": 15796
+        },
+        {
+          "from": "JOEL ENGARDIO",
+          "to": "JOEL ENGARDIO",
+          "count": 9600
+        },
+        {
+          "from": "BEN MATRANGA",
+          "to": "JOEL ENGARDIO",
+          "count": 3215
+        },
+        {
+          "from": "BEN MATRANGA",
+          "to": "$UNDERVOTE",
+          "count": 3556
+        },
+        {
+          "from": "BEN MATRANGA",
+          "to": "NORMAN YEE",
+          "count": 1896
+        },
+        {
+          "from": "JOHN FARRELL",
+          "to": "JOHN FARRELL",
+          "count": 0
+        },
+        {
+          "from": "MIKE YOUNG",
+          "to": "MIKE YOUNG",
+          "count": 0
+        }
       ]
     }
   ],
@@ -183,18 +310,18 @@
     {
       "source": "JOHN FARRELL",
       "edges": [
-        "JOEL ENGARDIO",
         "BEN MATRANGA",
+        "JOEL ENGARDIO",
         "NORMAN YEE"
       ]
     },
     {
       "source": "MIKE YOUNG",
       "edges": [
-        "JOEL ENGARDIO",
         "BEN MATRANGA",
-        "NORMAN YEE",
-        "JOHN FARRELL"
+        "JOEL ENGARDIO",
+        "JOHN FARRELL",
+        "NORMAN YEE"
       ]
     }
   ],

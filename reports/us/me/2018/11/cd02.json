@@ -84,7 +84,8 @@
       "undervote": 6018,
       "overvote": 435,
       "continuing_ballots": 289624,
-      "eliminated": []
+      "eliminated": [],
+      "transfers": []
     },
     {
       "round": 2,
@@ -108,6 +109,48 @@
       "eliminated": [
         "Tiffany L. Bond",
         "William R.S. Hoar"
+      ],
+      "transfers": [
+        {
+          "from": "Bruce Poliquin",
+          "to": "Bruce Poliquin",
+          "count": 134184
+        },
+        {
+          "from": "Jared F. Golden",
+          "to": "Jared F. Golden",
+          "count": 132013
+        },
+        {
+          "from": "Tiffany L. Bond",
+          "to": "Jared F. Golden",
+          "count": 7862
+        },
+        {
+          "from": "Tiffany L. Bond",
+          "to": "$UNDERVOTE",
+          "count": 5573
+        },
+        {
+          "from": "Tiffany L. Bond",
+          "to": "Bruce Poliquin",
+          "count": 3117
+        },
+        {
+          "from": "William R.S. Hoar",
+          "to": "Bruce Poliquin",
+          "count": 1630
+        },
+        {
+          "from": "William R.S. Hoar",
+          "to": "Jared F. Golden",
+          "count": 2565
+        },
+        {
+          "from": "William R.S. Hoar",
+          "to": "$UNDERVOTE",
+          "count": 2680
+        }
       ]
     }
   ],
@@ -136,9 +179,9 @@
     {
       "source": "William R.S. Hoar",
       "edges": [
-        "Tiffany L. Bond",
         "Bruce Poliquin",
-        "Jared F. Golden"
+        "Jared F. Golden",
+        "Tiffany L. Bond"
       ]
     }
   ],

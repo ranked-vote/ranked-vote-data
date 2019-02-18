@@ -89,7 +89,8 @@
       "undervote": 2814,
       "overvote": 176,
       "continuing_ballots": 28422,
-      "eliminated": []
+      "eliminated": [],
+      "transfers": []
     },
     {
       "round": 2,
@@ -137,6 +138,83 @@
       "continuing_ballots": 28355,
       "eliminated": [
         "ADAM KIM"
+      ],
+      "transfers": [
+        {
+          "from": "GORDON MAR",
+          "to": "GORDON MAR",
+          "count": 10314
+        },
+        {
+          "from": "JESSICA HO",
+          "to": "JESSICA HO",
+          "count": 7444
+        },
+        {
+          "from": "TREVOR MCNEIL",
+          "to": "TREVOR MCNEIL",
+          "count": 3490
+        },
+        {
+          "from": "ARTHUR TOM",
+          "to": "ARTHUR TOM",
+          "count": 2441
+        },
+        {
+          "from": "LOU ANN BASSAN",
+          "to": "LOU ANN BASSAN",
+          "count": 2183
+        },
+        {
+          "from": "MIKE MURPHY",
+          "to": "MIKE MURPHY",
+          "count": 1182
+        },
+        {
+          "from": "TUAN NGUYEN",
+          "to": "TUAN NGUYEN",
+          "count": 853
+        },
+        {
+          "from": "ADAM KIM",
+          "to": "ARTHUR TOM",
+          "count": 72
+        },
+        {
+          "from": "ADAM KIM",
+          "to": "JESSICA HO",
+          "count": 112
+        },
+        {
+          "from": "ADAM KIM",
+          "to": "$UNDERVOTE",
+          "count": 67
+        },
+        {
+          "from": "ADAM KIM",
+          "to": "MIKE MURPHY",
+          "count": 51
+        },
+        {
+          "from": "ADAM KIM",
+          "to": "TUAN NGUYEN",
+          "count": 45
+        },
+        {
+          "from": "ADAM KIM",
+          "to": "LOU ANN BASSAN",
+          "count": 37
+        },
+        {
+          "from": "ADAM KIM",
+          "to": "TREVOR MCNEIL",
+          "count": 57
+        },
+        {
+          "from": "ADAM KIM",
+          "to": "GORDON MAR",
+          "count": 74
+        }
       ]
     },
     {
@@ -176,6 +254,98 @@
       "eliminated": [
         "MIKE MURPHY",
         "TUAN NGUYEN"
+      ],
+      "transfers": [
+        {
+          "from": "GORDON MAR",
+          "to": "GORDON MAR",
+          "count": 10388
+        },
+        {
+          "from": "JESSICA HO",
+          "to": "JESSICA HO",
+          "count": 7556
+        },
+        {
+          "from": "TREVOR MCNEIL",
+          "to": "TREVOR MCNEIL",
+          "count": 3547
+        },
+        {
+          "from": "ARTHUR TOM",
+          "to": "ARTHUR TOM",
+          "count": 2513
+        },
+        {
+          "from": "LOU ANN BASSAN",
+          "to": "LOU ANN BASSAN",
+          "count": 2220
+        },
+        {
+          "from": "MIKE MURPHY",
+          "to": "ARTHUR TOM",
+          "count": 118
+        },
+        {
+          "from": "MIKE MURPHY",
+          "to": "$UNDERVOTE",
+          "count": 273
+        },
+        {
+          "from": "MIKE MURPHY",
+          "to": "TREVOR MCNEIL",
+          "count": 295
+        },
+        {
+          "from": "MIKE MURPHY",
+          "to": "JESSICA HO",
+          "count": 123
+        },
+        {
+          "from": "MIKE MURPHY",
+          "to": "GORDON MAR",
+          "count": 251
+        },
+        {
+          "from": "MIKE MURPHY",
+          "to": "LOU ANN BASSAN",
+          "count": 173
+        },
+        {
+          "from": "TUAN NGUYEN",
+          "to": "$UNDERVOTE",
+          "count": 197
+        },
+        {
+          "from": "TUAN NGUYEN",
+          "to": "JESSICA HO",
+          "count": 179
+        },
+        {
+          "from": "TUAN NGUYEN",
+          "to": "LOU ANN BASSAN",
+          "count": 74
+        },
+        {
+          "from": "TUAN NGUYEN",
+          "to": "TREVOR MCNEIL",
+          "count": 145
+        },
+        {
+          "from": "TUAN NGUYEN",
+          "to": "GORDON MAR",
+          "count": 194
+        },
+        {
+          "from": "TUAN NGUYEN",
+          "to": "ARTHUR TOM",
+          "count": 109
+        },
+        {
+          "from": "ADAM KIM",
+          "to": "ADAM KIM",
+          "count": 0
+        }
       ]
     },
     {
@@ -209,6 +379,68 @@
       "continuing_ballots": 27101,
       "eliminated": [
         "LOU ANN BASSAN"
+      ],
+      "transfers": [
+        {
+          "from": "GORDON MAR",
+          "to": "GORDON MAR",
+          "count": 10833
+        },
+        {
+          "from": "JESSICA HO",
+          "to": "JESSICA HO",
+          "count": 7858
+        },
+        {
+          "from": "TREVOR MCNEIL",
+          "to": "TREVOR MCNEIL",
+          "count": 3987
+        },
+        {
+          "from": "ARTHUR TOM",
+          "to": "ARTHUR TOM",
+          "count": 2740
+        },
+        {
+          "from": "LOU ANN BASSAN",
+          "to": "JESSICA HO",
+          "count": 448
+        },
+        {
+          "from": "LOU ANN BASSAN",
+          "to": "GORDON MAR",
+          "count": 305
+        },
+        {
+          "from": "LOU ANN BASSAN",
+          "to": "TREVOR MCNEIL",
+          "count": 483
+        },
+        {
+          "from": "LOU ANN BASSAN",
+          "to": "ARTHUR TOM",
+          "count": 447
+        },
+        {
+          "from": "LOU ANN BASSAN",
+          "to": "$UNDERVOTE",
+          "count": 784
+        },
+        {
+          "from": "MIKE MURPHY",
+          "to": "MIKE MURPHY",
+          "count": 0
+        },
+        {
+          "from": "TUAN NGUYEN",
+          "to": "TUAN NGUYEN",
+          "count": 0
+        },
+        {
+          "from": "ADAM KIM",
+          "to": "ADAM KIM",
+          "count": 0
+        }
       ]
     },
     {
@@ -233,6 +465,68 @@
       "eliminated": [
         "TREVOR MCNEIL",
         "ARTHUR TOM"
+      ],
+      "transfers": [
+        {
+          "from": "GORDON MAR",
+          "to": "GORDON MAR",
+          "count": 11138
+        },
+        {
+          "from": "JESSICA HO",
+          "to": "JESSICA HO",
+          "count": 8306
+        },
+        {
+          "from": "TREVOR MCNEIL",
+          "to": "$UNDERVOTE",
+          "count": 2129
+        },
+        {
+          "from": "TREVOR MCNEIL",
+          "to": "GORDON MAR",
+          "count": 1352
+        },
+        {
+          "from": "TREVOR MCNEIL",
+          "to": "JESSICA HO",
+          "count": 989
+        },
+        {
+          "from": "ARTHUR TOM",
+          "to": "$UNDERVOTE",
+          "count": 1652
+        },
+        {
+          "from": "ARTHUR TOM",
+          "to": "GORDON MAR",
+          "count": 765
+        },
+        {
+          "from": "ARTHUR TOM",
+          "to": "JESSICA HO",
+          "count": 770
+        },
+        {
+          "from": "LOU ANN BASSAN",
+          "to": "LOU ANN BASSAN",
+          "count": 0
+        },
+        {
+          "from": "MIKE MURPHY",
+          "to": "MIKE MURPHY",
+          "count": 0
+        },
+        {
+          "from": "TUAN NGUYEN",
+          "to": "TUAN NGUYEN",
+          "count": 0
+        },
+        {
+          "from": "ADAM KIM",
+          "to": "ADAM KIM",
+          "count": 0
+        }
       ]
     }
   ],
@@ -254,58 +548,58 @@
     {
       "source": "TREVOR MCNEIL",
       "edges": [
-        "JESSICA HO",
-        "GORDON MAR"
+        "GORDON MAR",
+        "JESSICA HO"
       ]
     },
     {
       "source": "ARTHUR TOM",
       "edges": [
-        "TREVOR MCNEIL",
+        "GORDON MAR",
         "JESSICA HO",
-        "GORDON MAR"
+        "TREVOR MCNEIL"
       ]
     },
     {
       "source": "LOU ANN BASSAN",
       "edges": [
-        "TREVOR MCNEIL",
-        "JESSICA HO",
+        "ARTHUR TOM",
         "GORDON MAR",
-        "ARTHUR TOM"
+        "JESSICA HO",
+        "TREVOR MCNEIL"
       ]
     },
     {
       "source": "MIKE MURPHY",
       "edges": [
-        "TREVOR MCNEIL",
-        "LOU ANN BASSAN",
+        "ARTHUR TOM",
         "GORDON MAR",
         "JESSICA HO",
-        "ARTHUR TOM"
+        "LOU ANN BASSAN",
+        "TREVOR MCNEIL"
       ]
     },
     {
       "source": "TUAN NGUYEN",
       "edges": [
-        "TREVOR MCNEIL",
-        "LOU ANN BASSAN",
-        "MIKE MURPHY",
+        "ARTHUR TOM",
         "GORDON MAR",
         "JESSICA HO",
-        "ARTHUR TOM"
+        "LOU ANN BASSAN",
+        "MIKE MURPHY",
+        "TREVOR MCNEIL"
       ]
     },
     {
       "source": "ADAM KIM",
       "edges": [
-        "TREVOR MCNEIL",
-        "LOU ANN BASSAN",
-        "MIKE MURPHY",
-        "TUAN NGUYEN",
+        "ARTHUR TOM",
         "GORDON MAR",
         "JESSICA HO",
-        "ARTHUR TOM"
+        "LOU ANN BASSAN",
+        "MIKE MURPHY",
+        "TREVOR MCNEIL",
+        "TUAN NGUYEN"
       ]
     }
   ],

@@ -54,7 +54,8 @@
       "undervote": 3467,
       "overvote": 75,
       "continuing_ballots": 25330,
-      "eliminated": []
+      "eliminated": [],
+      "transfers": []
     }
   ],
   "smith_set": [
@@ -75,8 +76,8 @@
     {
       "source": "SONJA TRAUSS",
       "edges": [
-        "MATT HANEY",
-        "CHRISTINE JOHNSON"
+        "CHRISTINE JOHNSON",
+        "MATT HANEY"
       ]
     }
   ],
