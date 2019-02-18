@@ -1,5 +1,22 @@
 {
   "meta": {
+    "name": "San Francisco 2016 Municipal Election - District 1",
+    "date": "2016-11-08",
+    "format": "us_ca_sfo",
+    "tabulation": "eager_irv",
+    "params": {
+      "contest": 9
+    },
+    "files": [
+      {
+        "name": "raw/us/ca/sfo/2016/11/20161206_masterlookup.txt",
+        "sha1": "c1128b1b6a7319da871cad0a2a2429db64c8ed70"
+      },
+      {
+        "name": "raw/us/ca/sfo/2016/11/20161206_ballotimage.txt",
+        "sha1": "ff12479964e24b73aee8cc6e8fa68400361c971c"
+      }
+    ],
     "num_ballots": 35109,
     "candidates": [
       "SAMUEL KWONG",
@@ -14,19 +31,8 @@
       "JASON JUNGREIS",
       "$WRITE_IN"
     ],
-    "files": [
-      {
-        "name": "raw/us/ca/sfo/2016/11/20161206_masterlookup.txt",
-        "sha1": "c1128b1b6a7319da871cad0a2a2429db64c8ed70"
-      },
-      {
-        "name": "raw/us/ca/sfo/2016/11/20161206_ballotimage.txt",
-        "sha1": "ff12479964e24b73aee8cc6e8fa68400361c971c"
-      }
-    ],
-    "format": "us_ca_sfo"
+    "normalized_ballots": "us/ca/sfo/2016/11/d1.normalized.csv.gz"
   },
-  "normalized_ballots": "us/ca/sfo/2016/11/d1.normalized.csv.gz",
   "candidates": [
     "SANDRA LEE FEWER",
     "MARJAN PHILHOUR",
@@ -157,78 +163,78 @@
     {
       "source": "RICHIE GREENBERG",
       "edges": [
-        "MARJAN PHILHOUR",
-        "SANDRA LEE FEWER",
         "JONATHAN LYENS",
-        "DAVID LEE"
+        "DAVID LEE",
+        "MARJAN PHILHOUR",
+        "SANDRA LEE FEWER"
       ]
     },
     {
       "source": "BRIAN J. LARKIN",
       "edges": [
-        "SAMUEL KWONG",
+        "SANDRA LEE FEWER",
+        "DAVID LEE",
         "MARJAN PHILHOUR",
         "RICHIE GREENBERG",
         "JONATHAN LYENS",
-        "SANDRA LEE FEWER",
-        "DAVID LEE"
+        "SAMUEL KWONG"
       ]
     },
     {
       "source": "SAMUEL KWONG",
       "edges": [
+        "SANDRA LEE FEWER",
+        "DAVID LEE",
         "MARJAN PHILHOUR",
         "RICHIE GREENBERG",
-        "JONATHAN LYENS",
-        "SANDRA LEE FEWER",
-        "DAVID LEE"
+        "JONATHAN LYENS"
       ]
     },
     {
       "source": "JASON JUNGREIS",
       "edges": [
-        "SAMUEL KWONG",
-        "BRIAN J. LARKIN",
-        "MARJAN PHILHOUR",
-        "SHERMAN R. D'SILVA",
-        "RICHIE GREENBERG",
-        "JONATHAN LYENS",
         "SANDRA LEE FEWER",
-        "DAVID LEE"
+        "DAVID LEE",
+        "MARJAN PHILHOUR",
+        "BRIAN J. LARKIN",
+        "RICHIE GREENBERG",
+        "SHERMAN R. D'SILVA",
+        "JONATHAN LYENS",
+        "SAMUEL KWONG"
       ]
     },
     {
       "source": "JONATHAN LYENS",
       "edges": [
+        "DAVID LEE",
         "MARJAN PHILHOUR",
-        "SANDRA LEE FEWER",
-        "DAVID LEE"
+        "SANDRA LEE FEWER"
       ]
     },
     {
       "source": "SHERMAN R. D'SILVA",
       "edges": [
-        "SAMUEL KWONG",
-        "BRIAN J. LARKIN",
+        "SANDRA LEE FEWER",
+        "DAVID LEE",
         "MARJAN PHILHOUR",
+        "BRIAN J. LARKIN",
         "RICHIE GREENBERG",
         "JONATHAN LYENS",
-        "SANDRA LEE FEWER",
-        "DAVID LEE"
+        "SAMUEL KWONG"
       ]
     },
     {
       "source": "ANDY THORNLEY",
       "edges": [
-        "SAMUEL KWONG",
-        "BRIAN J. LARKIN",
-        "MARJAN PHILHOUR",
         "JASON JUNGREIS",
-        "SHERMAN R. D'SILVA",
-        "RICHIE GREENBERG",
-        "JONATHAN LYENS",
         "SANDRA LEE FEWER",
-        "DAVID LEE"
+        "DAVID LEE",
+        "MARJAN PHILHOUR",
+        "BRIAN J. LARKIN",
+        "RICHIE GREENBERG",
+        "SHERMAN R. D'SILVA",
+        "JONATHAN LYENS",
+        "SAMUEL KWONG"
       ]
     }
   ],

@@ -1,5 +1,22 @@
 {
   "meta": {
+    "name": "San Francisco 2018 Municipal Election - Mayor",
+    "date": "2018-06-05",
+    "format": "us_ca_sfo",
+    "tabulation": "eager_irv",
+    "params": {
+      "contest": 20
+    },
+    "files": [
+      {
+        "name": "raw/us/ca/sfo/2018/06/20180627_masterlookup.txt",
+        "sha1": "030176016a69434bcc4353a502fbe0935bea3a0e"
+      },
+      {
+        "name": "raw/us/ca/sfo/2018/06/20180627_ballotimage.txt",
+        "sha1": "9544df621e257046b94e011dcb1a95bdb0148143"
+      }
+    ],
     "num_ballots": 254016,
     "candidates": [
       "MICHELLE BRAVO",
@@ -13,19 +30,8 @@
       "$WRITE_IN",
       "WRITE-IN ANTOINE R. ROGERS"
     ],
-    "files": [
-      {
-        "name": "raw/us/ca/sfo/2018/06/20180627_masterlookup.txt",
-        "sha1": "030176016a69434bcc4353a502fbe0935bea3a0e"
-      },
-      {
-        "name": "raw/us/ca/sfo/2018/06/20180627_ballotimage.txt",
-        "sha1": "9544df621e257046b94e011dcb1a95bdb0148143"
-      }
-    ],
-    "format": "us_ca_sfo"
+    "normalized_ballots": "us/ca/sfo/2018/06/mayor.normalized.csv.gz"
   },
-  "normalized_ballots": "us/ca/sfo/2018/06/mayor.normalized.csv.gz",
   "candidates": [
     "LONDON BREED",
     "MARK LENO",
@@ -176,8 +182,8 @@
     {
       "source": "ANGELA ALIOTO",
       "edges": [
-        "JANE KIM",
         "MARK LENO",
+        "JANE KIM",
         "LONDON BREED"
       ]
     },
@@ -185,29 +191,29 @@
       "source": "ELLEN LEE ZHOU",
       "edges": [
         "JANE KIM",
+        "LONDON BREED",
         "ANGELA ALIOTO",
-        "MARK LENO",
         "AMY FARAH WEISS",
-        "LONDON BREED"
+        "MARK LENO"
       ]
     },
     {
       "source": "RICHIE GREENBERG",
       "edges": [
         "JANE KIM",
-        "ANGELA ALIOTO",
-        "MARK LENO",
-        "AMY FARAH WEISS",
+        "LONDON BREED",
         "ELLEN LEE ZHOU",
-        "LONDON BREED"
+        "ANGELA ALIOTO",
+        "AMY FARAH WEISS",
+        "MARK LENO"
       ]
     },
     {
       "source": "AMY FARAH WEISS",
       "edges": [
-        "JANE KIM",
-        "ANGELA ALIOTO",
         "MARK LENO",
+        "ANGELA ALIOTO",
+        "JANE KIM",
         "LONDON BREED"
       ]
     },
@@ -215,25 +221,25 @@
       "source": "MICHELLE BRAVO",
       "edges": [
         "JANE KIM",
-        "ANGELA ALIOTO",
-        "MARK LENO",
-        "RICHIE GREENBERG",
-        "AMY FARAH WEISS",
+        "LONDON BREED",
         "ELLEN LEE ZHOU",
-        "LONDON BREED"
+        "ANGELA ALIOTO",
+        "AMY FARAH WEISS",
+        "MARK LENO",
+        "RICHIE GREENBERG"
       ]
     },
     {
       "source": "WRITE-IN ANTOINE R. ROGERS",
       "edges": [
         "JANE KIM",
-        "ANGELA ALIOTO",
-        "MARK LENO",
-        "MICHELLE BRAVO",
-        "RICHIE GREENBERG",
-        "AMY FARAH WEISS",
+        "LONDON BREED",
         "ELLEN LEE ZHOU",
-        "LONDON BREED"
+        "ANGELA ALIOTO",
+        "AMY FARAH WEISS",
+        "MARK LENO",
+        "RICHIE GREENBERG",
+        "MICHELLE BRAVO"
       ]
     }
   ],

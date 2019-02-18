@@ -1,5 +1,19 @@
 {
   "meta": {
+    "name": "San Francisco 2018 Municipal Election - District 4",
+    "date": "2018-11-06",
+    "format": "us_ca_sfo",
+    "tabulation": "eager_irv",
+    "files": [
+      {
+        "name": "raw/us/ca/sfo/2018/11/20181127_masterlookup.txt",
+        "sha1": "a8e909a7cea653eea6ed3e450fa83cd41d0e11ed"
+      },
+      {
+        "name": "raw/us/ca/sfo/2018/11/20181127_d4_ballotimage.txt",
+        "sha1": "bbfe748c18b6c1b8b7ae108f266f1398d4e70377"
+      }
+    ],
     "num_ballots": 31412,
     "candidates": [
       "JESSICA HO",
@@ -12,19 +26,8 @@
       "LOU ANN BASSAN",
       "$WRITE_IN"
     ],
-    "files": [
-      {
-        "name": "raw/us/ca/sfo/2018/11/20181127_masterlookup.txt",
-        "sha1": "a8e909a7cea653eea6ed3e450fa83cd41d0e11ed"
-      },
-      {
-        "name": "raw/us/ca/sfo/2018/11/20181127_d4_ballotimage.txt",
-        "sha1": "bbfe748c18b6c1b8b7ae108f266f1398d4e70377"
-      }
-    ],
-    "format": "us_ca_sfo"
+    "normalized_ballots": "us/ca/sfo/2018/11/d4.normalized.csv.gz"
   },
-  "normalized_ballots": "us/ca/sfo/2018/11/d4.normalized.csv.gz",
   "candidates": [
     "GORDON MAR",
     "JESSICA HO",
@@ -250,58 +253,58 @@
     {
       "source": "TREVOR MCNEIL",
       "edges": [
-        "JESSICA HO",
-        "GORDON MAR"
+        "GORDON MAR",
+        "JESSICA HO"
       ]
     },
     {
       "source": "ARTHUR TOM",
       "edges": [
-        "JESSICA HO",
+        "GORDON MAR",
         "TREVOR MCNEIL",
-        "GORDON MAR"
+        "JESSICA HO"
       ]
     },
     {
       "source": "LOU ANN BASSAN",
       "edges": [
+        "GORDON MAR",
         "ARTHUR TOM",
-        "JESSICA HO",
         "TREVOR MCNEIL",
-        "GORDON MAR"
+        "JESSICA HO"
       ]
     },
     {
       "source": "MIKE MURPHY",
       "edges": [
-        "LOU ANN BASSAN",
-        "JESSICA HO",
+        "GORDON MAR",
         "ARTHUR TOM",
-        "TREVOR MCNEIL",
-        "GORDON MAR"
+        "JESSICA HO",
+        "LOU ANN BASSAN",
+        "TREVOR MCNEIL"
       ]
     },
     {
       "source": "TUAN NGUYEN",
       "edges": [
+        "GORDON MAR",
+        "ARTHUR TOM",
+        "JESSICA HO",
         "MIKE MURPHY",
         "LOU ANN BASSAN",
-        "JESSICA HO",
-        "ARTHUR TOM",
-        "TREVOR MCNEIL",
-        "GORDON MAR"
+        "TREVOR MCNEIL"
       ]
     },
     {
       "source": "ADAM KIM",
       "edges": [
+        "GORDON MAR",
+        "ARTHUR TOM",
+        "JESSICA HO",
         "MIKE MURPHY",
         "LOU ANN BASSAN",
-        "TUAN NGUYEN",
-        "JESSICA HO",
-        "ARTHUR TOM",
         "TREVOR MCNEIL",
-        "GORDON MAR"
+        "TUAN NGUYEN"
       ]
     }
   ],

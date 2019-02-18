@@ -1,11 +1,12 @@
 {
   "meta": {
-    "num_ballots": 45531,
-    "candidates": [
-      "DEAN PRESTON",
-      "LONDON BREED",
-      "$WRITE_IN"
-    ],
+    "name": "San Francisco 2016 Municipal Election - District 5",
+    "date": "2016-11-08",
+    "format": "us_ca_sfo",
+    "tabulation": "eager_irv",
+    "params": {
+      "contest": 11
+    },
     "files": [
       {
         "name": "raw/us/ca/sfo/2016/11/20161206_masterlookup.txt",
@@ -16,9 +17,14 @@
         "sha1": "ff12479964e24b73aee8cc6e8fa68400361c971c"
       }
     ],
-    "format": "us_ca_sfo"
+    "num_ballots": 45531,
+    "candidates": [
+      "DEAN PRESTON",
+      "LONDON BREED",
+      "$WRITE_IN"
+    ],
+    "normalized_ballots": "us/ca/sfo/2016/11/d5.normalized.csv.gz"
   },
-  "normalized_ballots": "us/ca/sfo/2016/11/d5.normalized.csv.gz",
   "candidates": [
     "LONDON BREED",
     "DEAN PRESTON"

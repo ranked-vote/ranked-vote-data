@@ -1,12 +1,9 @@
 {
   "meta": {
-    "num_ballots": 296077,
-    "candidates": [
-      "Bruce Poliquin",
-      "Jared F. Golden",
-      "Tiffany L. Bond",
-      "William R.S. Hoar"
-    ],
+    "name": "Maine 2018 Congress District 2 General Election",
+    "date": "2018-11-06",
+    "format": "us_me",
+    "tabulation": "eager_irv",
     "files": [
       {
         "name": "raw/us/me/2018/11/cd02/final/Nov18CVRExportFINAL1.xlsx",
@@ -41,9 +38,15 @@
         "sha1": "7c71574723e61c0eb1e13eea57c47eb24384da07"
       }
     ],
-    "format": "us_me"
+    "num_ballots": 296077,
+    "candidates": [
+      "Bruce Poliquin",
+      "Jared F. Golden",
+      "Tiffany L. Bond",
+      "William R.S. Hoar"
+    ],
+    "normalized_ballots": "us/me/2018/11/cd02.normalized.csv.gz"
   },
-  "normalized_ballots": "us/me/2018/11/cd02.normalized.csv.gz",
   "candidates": [
     "Bruce Poliquin",
     "Jared F. Golden",
@@ -132,8 +135,8 @@
     {
       "source": "William R.S. Hoar",
       "edges": [
-        "Bruce Poliquin",
         "Tiffany L. Bond",
+        "Bruce Poliquin",
         "Jared F. Golden"
       ]
     }

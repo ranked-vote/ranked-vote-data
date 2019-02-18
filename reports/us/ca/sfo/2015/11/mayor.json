@@ -1,5 +1,22 @@
 {
   "meta": {
+    "name": "San Francisco 2015 Municipal Election - Mayor",
+    "date": "2015-11-03",
+    "format": "us_ca_sfo",
+    "tabulation": "eager_irv",
+    "params": {
+      "contest": 1
+    },
+    "files": [
+      {
+        "name": "raw/us/ca/sfo/2015/11/20151119_masterlookup.txt",
+        "sha1": "32444f136a2aacecb740d70ecc02b99c9b0102fc"
+      },
+      {
+        "name": "raw/us/ca/sfo/2015/11/20151119_ballotimage.txt",
+        "sha1": "8f5079df4267c4c23c3432ff71ce148dc483f30a"
+      }
+    ],
     "num_ballots": 203069,
     "candidates": [
       "FRANCISCO HERRERA",
@@ -16,19 +33,8 @@
       "WRITE-IN - IGNACIO L. NUNEZ",
       "WRITE-IN - MICHAEL PETRELIS"
     ],
-    "files": [
-      {
-        "name": "raw/us/ca/sfo/2015/11/20151119_masterlookup.txt",
-        "sha1": "32444f136a2aacecb740d70ecc02b99c9b0102fc"
-      },
-      {
-        "name": "raw/us/ca/sfo/2015/11/20151119_ballotimage.txt",
-        "sha1": "8f5079df4267c4c23c3432ff71ce148dc483f30a"
-      }
-    ],
-    "format": "us_ca_sfo"
+    "normalized_ballots": "us/ca/sfo/2015/11/mayor.normalized.csv.gz"
   },
-  "normalized_ballots": "us/ca/sfo/2015/11/mayor.normalized.csv.gz",
   "candidates": [
     "ED LEE",
     "FRANCISCO HERRERA",
@@ -152,74 +158,74 @@
     {
       "source": "REED MARTIN",
       "edges": [
+        "FRANCISCO HERRERA",
         "ED LEE",
         "AMY FARAH WEISS",
-        "FRANCISCO HERRERA",
-        "KENT GRAHAM",
-        "STUART SCHUFFMAN"
+        "STUART SCHUFFMAN",
+        "KENT GRAHAM"
       ]
     },
     {
       "source": "WRITE-IN - MICHAEL PETRELIS",
       "edges": [
+        "REED MARTIN",
+        "FRANCISCO HERRERA",
         "ED LEE",
         "AMY FARAH WEISS",
-        "FRANCISCO HERRERA",
-        "KENT GRAHAM",
-        "REED MARTIN",
-        "STUART SCHUFFMAN"
+        "STUART SCHUFFMAN",
+        "KENT GRAHAM"
       ]
     },
     {
       "source": "WRITE-IN - ROBERT L. JORDAN, JR.",
       "edges": [
+        "WRITE-IN - MICHAEL PETRELIS",
+        "REED MARTIN",
+        "FRANCISCO HERRERA",
         "ED LEE",
         "AMY FARAH WEISS",
         "WRITE-IN - DANIEL C KAPPLER",
-        "FRANCISCO HERRERA",
-        "KENT GRAHAM",
-        "REED MARTIN",
         "STUART SCHUFFMAN",
-        "WRITE-IN - MICHAEL PETRELIS"
+        "KENT GRAHAM"
       ]
     },
     {
       "source": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
       "edges": [
+        "WRITE-IN - MICHAEL PETRELIS",
+        "REED MARTIN",
+        "FRANCISCO HERRERA",
         "ED LEE",
         "AMY FARAH WEISS",
         "WRITE-IN - DANIEL C KAPPLER",
-        "FRANCISCO HERRERA",
-        "KENT GRAHAM",
-        "REED MARTIN",
         "STUART SCHUFFMAN",
-        "WRITE-IN - MICHAEL PETRELIS"
+        "KENT GRAHAM"
       ]
     },
     {
       "source": "WRITE-IN - DANIEL C KAPPLER",
       "edges": [
+        "WRITE-IN - MICHAEL PETRELIS",
+        "REED MARTIN",
+        "FRANCISCO HERRERA",
         "ED LEE",
         "AMY FARAH WEISS",
-        "FRANCISCO HERRERA",
-        "KENT GRAHAM",
-        "REED MARTIN",
         "STUART SCHUFFMAN",
-        "WRITE-IN - MICHAEL PETRELIS"
+        "KENT GRAHAM"
       ]
     },
     {
       "source": "WRITE-IN - JOHN E. FITCH",
       "edges": [
-        "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+        "WRITE-IN - MICHAEL PETRELIS",
+        "REED MARTIN",
+        "FRANCISCO HERRERA",
         "ED LEE",
         "AMY FARAH WEISS",
         "WRITE-IN - DANIEL C KAPPLER",
-        "FRANCISCO HERRERA",
-        "KENT GRAHAM",
-        "REED MARTIN",
+        "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
         "STUART SCHUFFMAN",
-        "WRITE-IN - MICHAEL PETRELIS"
+        "KENT GRAHAM"
       ]
     }
   ],

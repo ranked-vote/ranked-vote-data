@@ -1,10 +1,9 @@
 {
   "meta": {
-    "num_ballots": 368578,
-    "candidates": [
-      "JEFF ADACHI",
-      "$WRITE_IN"
-    ],
+    "name": "San Francisco 2018 Municipal Election - Defender",
+    "date": "2018-11-06",
+    "format": "us_ca_sfo",
+    "tabulation": "eager_irv",
     "files": [
       {
         "name": "raw/us/ca/sfo/2018/11/20181127_masterlookup.txt",
@@ -15,9 +14,13 @@
         "sha1": "ba1b22adb8eabb95b3f6f6eb0d370794596ba0a6"
       }
     ],
-    "format": "us_ca_sfo"
+    "num_ballots": 368578,
+    "candidates": [
+      "JEFF ADACHI",
+      "$WRITE_IN"
+    ],
+    "normalized_ballots": "us/ca/sfo/2018/11/defender.normalized.csv.gz"
   },
-  "normalized_ballots": "us/ca/sfo/2018/11/defender.normalized.csv.gz",
   "candidates": [
     "JEFF ADACHI"
   ],

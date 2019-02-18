@@ -1,14 +1,12 @@
 {
   "meta": {
-    "num_ballots": 39486,
-    "candidates": [
-      "JOEL ENGARDIO",
-      "JOHN FARRELL",
-      "MIKE YOUNG",
-      "NORMAN YEE",
-      "BEN MATRANGA",
-      "$WRITE_IN"
-    ],
+    "name": "San Francisco 2016 Municipal Election - District 7",
+    "date": "2016-11-08",
+    "format": "us_ca_sfo",
+    "tabulation": "eager_irv",
+    "params": {
+      "contest": 12
+    },
     "files": [
       {
         "name": "raw/us/ca/sfo/2016/11/20161206_masterlookup.txt",
@@ -19,9 +17,17 @@
         "sha1": "ff12479964e24b73aee8cc6e8fa68400361c971c"
       }
     ],
-    "format": "us_ca_sfo"
+    "num_ballots": 39486,
+    "candidates": [
+      "JOEL ENGARDIO",
+      "JOHN FARRELL",
+      "MIKE YOUNG",
+      "NORMAN YEE",
+      "BEN MATRANGA",
+      "$WRITE_IN"
+    ],
+    "normalized_ballots": "us/ca/sfo/2016/11/d7.normalized.csv.gz"
   },
-  "normalized_ballots": "us/ca/sfo/2016/11/d7.normalized.csv.gz",
   "candidates": [
     "NORMAN YEE",
     "JOEL ENGARDIO",
@@ -176,18 +182,18 @@
     {
       "source": "JOHN FARRELL",
       "edges": [
-        "BEN MATRANGA",
         "NORMAN YEE",
-        "JOEL ENGARDIO"
+        "JOEL ENGARDIO",
+        "BEN MATRANGA"
       ]
     },
     {
       "source": "MIKE YOUNG",
       "edges": [
-        "JOHN FARRELL",
-        "BEN MATRANGA",
         "NORMAN YEE",
-        "JOEL ENGARDIO"
+        "JOHN FARRELL",
+        "JOEL ENGARDIO",
+        "BEN MATRANGA"
       ]
     }
   ],

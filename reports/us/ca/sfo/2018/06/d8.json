@@ -1,12 +1,12 @@
 {
   "meta": {
-    "num_ballots": 36067,
-    "candidates": [
-      "JEFF SHEEHY",
-      "LAWRENCE ''STARK'' DAGESSE",
-      "RAFAEL MANDELMAN",
-      "$WRITE_IN"
-    ],
+    "name": "San Francisco 2018 Municipal Election - District 8",
+    "date": "2018-06-05",
+    "format": "us_ca_sfo",
+    "tabulation": "eager_irv",
+    "params": {
+      "contest": 21
+    },
     "files": [
       {
         "name": "raw/us/ca/sfo/2018/06/20180627_masterlookup.txt",
@@ -17,9 +17,15 @@
         "sha1": "9544df621e257046b94e011dcb1a95bdb0148143"
       }
     ],
-    "format": "us_ca_sfo"
+    "num_ballots": 36067,
+    "candidates": [
+      "JEFF SHEEHY",
+      "LAWRENCE ''STARK'' DAGESSE",
+      "RAFAEL MANDELMAN",
+      "$WRITE_IN"
+    ],
+    "normalized_ballots": "us/ca/sfo/2018/06/d8.normalized.csv.gz"
   },
-  "normalized_ballots": "us/ca/sfo/2018/06/d8.normalized.csv.gz",
   "candidates": [
     "RAFAEL MANDELMAN",
     "JEFF SHEEHY",
@@ -71,8 +77,8 @@
     {
       "source": "LAWRENCE ''STARK'' DAGESSE",
       "edges": [
-        "JEFF SHEEHY",
-        "RAFAEL MANDELMAN"
+        "RAFAEL MANDELMAN",
+        "JEFF SHEEHY"
       ]
     }
   ],

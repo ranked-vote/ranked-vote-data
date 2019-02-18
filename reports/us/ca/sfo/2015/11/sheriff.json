@@ -1,12 +1,12 @@
 {
   "meta": {
-    "num_ballots": 203069,
-    "candidates": [
-      "VICKI HENNESSY",
-      "JOHN ROBINSON",
-      "ROSS MIRKARIMI",
-      "$WRITE_IN"
-    ],
+    "name": "San Francisco 2015 Municipal Election - Sheriff",
+    "date": "2015-11-03",
+    "format": "us_ca_sfo",
+    "tabulation": "eager_irv",
+    "params": {
+      "contest": 2
+    },
     "files": [
       {
         "name": "raw/us/ca/sfo/2015/11/20151119_masterlookup.txt",
@@ -17,9 +17,15 @@
         "sha1": "8f5079df4267c4c23c3432ff71ce148dc483f30a"
       }
     ],
-    "format": "us_ca_sfo"
+    "num_ballots": 203069,
+    "candidates": [
+      "VICKI HENNESSY",
+      "JOHN ROBINSON",
+      "ROSS MIRKARIMI",
+      "$WRITE_IN"
+    ],
+    "normalized_ballots": "us/ca/sfo/2015/11/sheriff.normalized.csv.gz"
   },
-  "normalized_ballots": "us/ca/sfo/2015/11/sheriff.normalized.csv.gz",
   "candidates": [
     "VICKI HENNESSY",
     "ROSS MIRKARIMI",

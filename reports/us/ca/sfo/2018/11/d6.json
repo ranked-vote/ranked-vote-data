@@ -1,12 +1,9 @@
 {
   "meta": {
-    "num_ballots": 28872,
-    "candidates": [
-      "CHRISTINE JOHNSON",
-      "MATT HANEY",
-      "SONJA TRAUSS",
-      "$WRITE_IN"
-    ],
+    "name": "San Francisco 2018 Municipal Election - District 6",
+    "date": "2018-11-06",
+    "format": "us_ca_sfo",
+    "tabulation": "eager_irv",
     "files": [
       {
         "name": "raw/us/ca/sfo/2018/11/20181127_masterlookup.txt",
@@ -17,9 +14,15 @@
         "sha1": "b749052240062e1e3b0f7102c963244ff74939fb"
       }
     ],
-    "format": "us_ca_sfo"
+    "num_ballots": 28872,
+    "candidates": [
+      "CHRISTINE JOHNSON",
+      "MATT HANEY",
+      "SONJA TRAUSS",
+      "$WRITE_IN"
+    ],
+    "normalized_ballots": "us/ca/sfo/2018/11/d6.normalized.csv.gz"
   },
-  "normalized_ballots": "us/ca/sfo/2018/11/d6.normalized.csv.gz",
   "candidates": [
     "MATT HANEY",
     "CHRISTINE JOHNSON",
@@ -71,8 +74,8 @@
     {
       "source": "SONJA TRAUSS",
       "edges": [
-        "CHRISTINE JOHNSON",
-        "MATT HANEY"
+        "MATT HANEY",
+        "CHRISTINE JOHNSON"
       ]
     }
   ],

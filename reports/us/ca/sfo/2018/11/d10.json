@@ -1,5 +1,19 @@
 {
   "meta": {
+    "name": "San Francisco 2018 Municipal Election - District 10",
+    "date": "2018-11-06",
+    "format": "us_ca_sfo",
+    "tabulation": "eager_irv",
+    "files": [
+      {
+        "name": "raw/us/ca/sfo/2018/11/20181127_masterlookup.txt",
+        "sha1": "a8e909a7cea653eea6ed3e450fa83cd41d0e11ed"
+      },
+      {
+        "name": "raw/us/ca/sfo/2018/11/20181127_d10_ballotimage.txt",
+        "sha1": "9f1177357c1b3be1a861ea496343b4cecc181250"
+      }
+    ],
     "num_ballots": 26257,
     "candidates": [
       "ASALE CHANDLER",
@@ -11,19 +25,8 @@
       "$WRITE_IN",
       "WRITE-IN NEO VEAVEA"
     ],
-    "files": [
-      {
-        "name": "raw/us/ca/sfo/2018/11/20181127_masterlookup.txt",
-        "sha1": "a8e909a7cea653eea6ed3e450fa83cd41d0e11ed"
-      },
-      {
-        "name": "raw/us/ca/sfo/2018/11/20181127_d10_ballotimage.txt",
-        "sha1": "9f1177357c1b3be1a861ea496343b4cecc181250"
-      }
-    ],
-    "format": "us_ca_sfo"
+    "normalized_ballots": "us/ca/sfo/2018/11/d10.normalized.csv.gz"
   },
-  "normalized_ballots": "us/ca/sfo/2018/11/d10.normalized.csv.gz",
   "candidates": [
     "SHAMANN WALTON",
     "TONY KELLY",
@@ -147,8 +150,8 @@
     {
       "source": "TONY KELLY",
       "edges": [
-        "THEO ELLINGTON",
-        "SHAMANN WALTON"
+        "SHAMANN WALTON",
+        "THEO ELLINGTON"
       ]
     },
     {
@@ -161,25 +164,25 @@
       "source": "UZURI PEASE-GREENE",
       "edges": [
         "TONY KELLY",
-        "THEO ELLINGTON",
-        "SHAMANN WALTON"
+        "SHAMANN WALTON",
+        "THEO ELLINGTON"
       ]
     },
     {
       "source": "GLORIA BERRY",
       "edges": [
-        "UZURI PEASE-GREENE",
         "TONY KELLY",
-        "THEO ELLINGTON",
-        "SHAMANN WALTON"
+        "SHAMANN WALTON",
+        "UZURI PEASE-GREENE",
+        "THEO ELLINGTON"
       ]
     },
     {
       "source": "ASALE CHANDLER",
       "edges": [
-        "UZURI PEASE-GREENE",
-        "SHAMANN WALTON",
         "TONY KELLY",
+        "SHAMANN WALTON",
+        "UZURI PEASE-GREENE",
         "GLORIA BERRY",
         "THEO ELLINGTON"
       ]
@@ -187,11 +190,11 @@
     {
       "source": "WRITE-IN NEO VEAVEA",
       "edges": [
-        "UZURI PEASE-GREENE",
-        "SHAMANN WALTON",
         "TONY KELLY",
-        "GLORIA BERRY",
+        "SHAMANN WALTON",
+        "UZURI PEASE-GREENE",
         "ASALE CHANDLER",
+        "GLORIA BERRY",
         "THEO ELLINGTON"
       ]
     }

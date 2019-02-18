@@ -1,13 +1,9 @@
 {
   "meta": {
-    "num_ballots": 39906,
-    "candidates": [
-      "NICK JOSEFOWITZ",
-      "JOHN DENNIS",
-      "SCHUYLER HUDAK",
-      "CATHERINE STEFANI",
-      "$WRITE_IN"
-    ],
+    "name": "San Francisco 2018 Municipal Election - District 2",
+    "date": "2018-11-06",
+    "format": "us_ca_sfo",
+    "tabulation": "eager_irv",
     "files": [
       {
         "name": "raw/us/ca/sfo/2018/11/20181127_masterlookup.txt",
@@ -18,9 +14,16 @@
         "sha1": "128cb76858fdc17fce3683613715b5a1428f36a8"
       }
     ],
-    "format": "us_ca_sfo"
+    "num_ballots": 39906,
+    "candidates": [
+      "NICK JOSEFOWITZ",
+      "JOHN DENNIS",
+      "SCHUYLER HUDAK",
+      "CATHERINE STEFANI",
+      "$WRITE_IN"
+    ],
+    "normalized_ballots": "us/ca/sfo/2018/11/d2.normalized.csv.gz"
   },
-  "normalized_ballots": "us/ca/sfo/2018/11/d2.normalized.csv.gz",
   "candidates": [
     "CATHERINE STEFANI",
     "NICK JOSEFOWITZ",
