@@ -31,6 +31,7 @@
     "JULIE CHRISTENSEN",
     "WILMA PANG"
   ],
+  "winner": "AARON PESKIN",
   "rounds": [
     {
       "round": 1,
@@ -158,5 +159,14 @@
       "denominator": 660
     }
   ],
-  "final_by_first": []
+  "final_by_first": {
+    "finalists": [
+      "AARON PESKIN",
+      "JULIE CHRISTENSEN",
+      "WILMA PANG",
+      "$UNDERVOTE"
+    ],
+    "eliminated": [],
+    "pairs": []
+  }
 }

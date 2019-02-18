@@ -29,6 +29,7 @@
     "AARON PESKIN",
     "TIM E. DONNELLY"
   ],
+  "winner": "AARON PESKIN",
   "rounds": [
     {
       "round": 1,
@@ -96,5 +97,13 @@
       "denominator": 7447
     }
   ],
-  "final_by_first": []
+  "final_by_first": {
+    "finalists": [
+      "AARON PESKIN",
+      "TIM E. DONNELLY",
+      "$UNDERVOTE"
+    ],
+    "eliminated": [],
+    "pairs": []
+  }
 }

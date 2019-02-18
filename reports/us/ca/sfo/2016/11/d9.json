@@ -33,6 +33,7 @@
     "MELISSA SAN MIGUEL",
     "ISWARI ESPA\u00d1A"
   ],
+  "winner": "HILLARY RONEN",
   "rounds": [
     {
       "round": 1,
@@ -92,8 +93,8 @@
       "source": "ISWARI ESPA\u00d1A",
       "edges": [
         "HILLARY RONEN",
-        "JOSHUA ARCE",
-        "MELISSA SAN MIGUEL"
+        "MELISSA SAN MIGUEL",
+        "JOSHUA ARCE"
       ]
     }
   ],
@@ -245,5 +246,15 @@
       "denominator": 545
     }
   ],
-  "final_by_first": []
+  "final_by_first": {
+    "finalists": [
+      "HILLARY RONEN",
+      "JOSHUA ARCE",
+      "MELISSA SAN MIGUEL",
+      "ISWARI ESPA\u00d1A",
+      "$UNDERVOTE"
+    ],
+    "eliminated": [],
+    "pairs": []
+  }
 }

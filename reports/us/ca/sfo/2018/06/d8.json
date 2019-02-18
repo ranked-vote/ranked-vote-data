@@ -31,6 +31,7 @@
     "JEFF SHEEHY",
     "LAWRENCE ''STARK'' DAGESSE"
   ],
+  "winner": "RAFAEL MANDELMAN",
   "rounds": [
     {
       "round": 1,
@@ -77,8 +78,8 @@
     {
       "source": "LAWRENCE ''STARK'' DAGESSE",
       "edges": [
-        "RAFAEL MANDELMAN",
-        "JEFF SHEEHY"
+        "JEFF SHEEHY",
+        "RAFAEL MANDELMAN"
       ]
     }
   ],
@@ -158,5 +159,14 @@
       "denominator": 597
     }
   ],
-  "final_by_first": []
+  "final_by_first": {
+    "finalists": [
+      "RAFAEL MANDELMAN",
+      "JEFF SHEEHY",
+      "LAWRENCE ''STARK'' DAGESSE",
+      "$UNDERVOTE"
+    ],
+    "eliminated": [],
+    "pairs": []
+  }
 }

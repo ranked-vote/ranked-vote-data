@@ -29,6 +29,7 @@
     "LONDON BREED",
     "DEAN PRESTON"
   ],
+  "winner": "LONDON BREED",
   "rounds": [
     {
       "round": 1,
@@ -96,5 +97,13 @@
       "denominator": 19610
     }
   ],
-  "final_by_first": []
+  "final_by_first": {
+    "finalists": [
+      "LONDON BREED",
+      "DEAN PRESTON",
+      "$UNDERVOTE"
+    ],
+    "eliminated": [],
+    "pairs": []
+  }
 }

@@ -24,6 +24,7 @@
   "candidates": [
     "JEFF ADACHI"
   ],
+  "winner": "JEFF ADACHI",
   "rounds": [
     {
       "round": 1,
@@ -54,5 +55,12 @@
   ],
   "pairwise": [],
   "first_alternates": [],
-  "final_by_first": []
+  "final_by_first": {
+    "finalists": [
+      "JEFF ADACHI",
+      "$UNDERVOTE"
+    ],
+    "eliminated": [],
+    "pairs": []
+  }
 }

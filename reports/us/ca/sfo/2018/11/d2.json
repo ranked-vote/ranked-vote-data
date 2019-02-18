@@ -30,6 +30,7 @@
     "SCHUYLER HUDAK",
     "JOHN DENNIS"
   ],
+  "winner": "CATHERINE STEFANI",
   "rounds": [
     {
       "round": 1,
@@ -112,9 +113,9 @@
     {
       "source": "JOHN DENNIS",
       "edges": [
-        "SCHUYLER HUDAK",
         "NICK JOSEFOWITZ",
-        "CATHERINE STEFANI"
+        "CATHERINE STEFANI",
+        "SCHUYLER HUDAK"
       ]
     }
   ],
@@ -266,42 +267,53 @@
       "denominator": 3108
     }
   ],
-  "final_by_first": [
-    {
-      "first_candidate": "SCHUYLER HUDAK",
-      "second_candidate": "CATHERINE STEFANI",
-      "numerator": 1992,
-      "denominator": 4145
-    },
-    {
-      "first_candidate": "SCHUYLER HUDAK",
-      "second_candidate": "NICK JOSEFOWITZ",
-      "numerator": 1456,
-      "denominator": 4145
-    },
-    {
-      "first_candidate": "SCHUYLER HUDAK",
-      "second_candidate": "$UNDERVOTE",
-      "numerator": 697,
-      "denominator": 4145
-    },
-    {
-      "first_candidate": "JOHN DENNIS",
-      "second_candidate": "CATHERINE STEFANI",
-      "numerator": 933,
-      "denominator": 3108
-    },
-    {
-      "first_candidate": "JOHN DENNIS",
-      "second_candidate": "NICK JOSEFOWITZ",
-      "numerator": 961,
-      "denominator": 3108
-    },
-    {
-      "first_candidate": "JOHN DENNIS",
-      "second_candidate": "$UNDERVOTE",
-      "numerator": 1214,
-      "denominator": 3108
-    }
-  ]
+  "final_by_first": {
+    "finalists": [
+      "CATHERINE STEFANI",
+      "NICK JOSEFOWITZ",
+      "$UNDERVOTE"
+    ],
+    "eliminated": [
+      "SCHUYLER HUDAK",
+      "JOHN DENNIS"
+    ],
+    "pairs": [
+      {
+        "first_candidate": "SCHUYLER HUDAK",
+        "second_candidate": "CATHERINE STEFANI",
+        "numerator": 1992,
+        "denominator": 4145
+      },
+      {
+        "first_candidate": "SCHUYLER HUDAK",
+        "second_candidate": "NICK JOSEFOWITZ",
+        "numerator": 1456,
+        "denominator": 4145
+      },
+      {
+        "first_candidate": "SCHUYLER HUDAK",
+        "second_candidate": "$UNDERVOTE",
+        "numerator": 697,
+        "denominator": 4145
+      },
+      {
+        "first_candidate": "JOHN DENNIS",
+        "second_candidate": "CATHERINE STEFANI",
+        "numerator": 933,
+        "denominator": 3108
+      },
+      {
+        "first_candidate": "JOHN DENNIS",
+        "second_candidate": "NICK JOSEFOWITZ",
+        "numerator": 961,
+        "denominator": 3108
+      },
+      {
+        "first_candidate": "JOHN DENNIS",
+        "second_candidate": "$UNDERVOTE",
+        "numerator": 1214,
+        "denominator": 3108
+      }
+    ]
+  }
 }

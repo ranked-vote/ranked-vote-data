@@ -38,6 +38,7 @@
     "TUAN NGUYEN",
     "ADAM KIM"
   ],
+  "winner": "GORDON MAR",
   "rounds": [
     {
       "round": 1,
@@ -253,58 +254,58 @@
     {
       "source": "TREVOR MCNEIL",
       "edges": [
-        "GORDON MAR",
-        "JESSICA HO"
+        "JESSICA HO",
+        "GORDON MAR"
       ]
     },
     {
       "source": "ARTHUR TOM",
       "edges": [
-        "GORDON MAR",
         "TREVOR MCNEIL",
-        "JESSICA HO"
+        "JESSICA HO",
+        "GORDON MAR"
       ]
     },
     {
       "source": "LOU ANN BASSAN",
       "edges": [
-        "GORDON MAR",
-        "ARTHUR TOM",
         "TREVOR MCNEIL",
-        "JESSICA HO"
+        "JESSICA HO",
+        "GORDON MAR",
+        "ARTHUR TOM"
       ]
     },
     {
       "source": "MIKE MURPHY",
       "edges": [
-        "GORDON MAR",
-        "ARTHUR TOM",
-        "JESSICA HO",
+        "TREVOR MCNEIL",
         "LOU ANN BASSAN",
-        "TREVOR MCNEIL"
+        "GORDON MAR",
+        "JESSICA HO",
+        "ARTHUR TOM"
       ]
     },
     {
       "source": "TUAN NGUYEN",
       "edges": [
-        "GORDON MAR",
-        "ARTHUR TOM",
-        "JESSICA HO",
-        "MIKE MURPHY",
+        "TREVOR MCNEIL",
         "LOU ANN BASSAN",
-        "TREVOR MCNEIL"
+        "MIKE MURPHY",
+        "GORDON MAR",
+        "JESSICA HO",
+        "ARTHUR TOM"
       ]
     },
     {
       "source": "ADAM KIM",
       "edges": [
-        "GORDON MAR",
-        "ARTHUR TOM",
-        "JESSICA HO",
-        "MIKE MURPHY",
-        "LOU ANN BASSAN",
         "TREVOR MCNEIL",
-        "TUAN NGUYEN"
+        "LOU ANN BASSAN",
+        "MIKE MURPHY",
+        "TUAN NGUYEN",
+        "GORDON MAR",
+        "JESSICA HO",
+        "ARTHUR TOM"
       ]
     }
   ],
@@ -984,114 +985,129 @@
       "denominator": 515
     }
   ],
-  "final_by_first": [
-    {
-      "first_candidate": "TREVOR MCNEIL",
-      "second_candidate": "GORDON MAR",
-      "numerator": 1211,
-      "denominator": 3490
-    },
-    {
-      "first_candidate": "TREVOR MCNEIL",
-      "second_candidate": "JESSICA HO",
-      "numerator": 903,
-      "denominator": 3490
-    },
-    {
-      "first_candidate": "TREVOR MCNEIL",
-      "second_candidate": "$UNDERVOTE",
-      "numerator": 1376,
-      "denominator": 3490
-    },
-    {
-      "first_candidate": "ARTHUR TOM",
-      "second_candidate": "GORDON MAR",
-      "numerator": 659,
-      "denominator": 2441
-    },
-    {
-      "first_candidate": "ARTHUR TOM",
-      "second_candidate": "JESSICA HO",
-      "numerator": 655,
-      "denominator": 2441
-    },
-    {
-      "first_candidate": "ARTHUR TOM",
-      "second_candidate": "$UNDERVOTE",
-      "numerator": 1127,
-      "denominator": 2441
-    },
-    {
-      "first_candidate": "LOU ANN BASSAN",
-      "second_candidate": "GORDON MAR",
-      "numerator": 389,
-      "denominator": 2183
-    },
-    {
-      "first_candidate": "LOU ANN BASSAN",
-      "second_candidate": "JESSICA HO",
-      "numerator": 511,
-      "denominator": 2183
-    },
-    {
-      "first_candidate": "LOU ANN BASSAN",
-      "second_candidate": "$UNDERVOTE",
-      "numerator": 1283,
-      "denominator": 2183
-    },
-    {
-      "first_candidate": "MIKE MURPHY",
-      "second_candidate": "GORDON MAR",
-      "numerator": 322,
-      "denominator": 1182
-    },
-    {
-      "first_candidate": "MIKE MURPHY",
-      "second_candidate": "JESSICA HO",
-      "numerator": 159,
-      "denominator": 1182
-    },
-    {
-      "first_candidate": "MIKE MURPHY",
-      "second_candidate": "$UNDERVOTE",
-      "numerator": 701,
-      "denominator": 1182
-    },
-    {
-      "first_candidate": "TUAN NGUYEN",
-      "second_candidate": "GORDON MAR",
-      "numerator": 247,
-      "denominator": 853
-    },
-    {
-      "first_candidate": "TUAN NGUYEN",
-      "second_candidate": "JESSICA HO",
-      "numerator": 221,
-      "denominator": 853
-    },
-    {
-      "first_candidate": "TUAN NGUYEN",
-      "second_candidate": "$UNDERVOTE",
-      "numerator": 385,
-      "denominator": 853
-    },
-    {
-      "first_candidate": "ADAM KIM",
-      "second_candidate": "GORDON MAR",
-      "numerator": 113,
-      "denominator": 515
-    },
-    {
-      "first_candidate": "ADAM KIM",
-      "second_candidate": "JESSICA HO",
-      "numerator": 172,
-      "denominator": 515
-    },
-    {
-      "first_candidate": "ADAM KIM",
-      "second_candidate": "$UNDERVOTE",
-      "numerator": 230,
-      "denominator": 515
-    }
-  ]
+  "final_by_first": {
+    "finalists": [
+      "GORDON MAR",
+      "JESSICA HO",
+      "$UNDERVOTE"
+    ],
+    "eliminated": [
+      "TREVOR MCNEIL",
+      "ARTHUR TOM",
+      "LOU ANN BASSAN",
+      "MIKE MURPHY",
+      "TUAN NGUYEN",
+      "ADAM KIM"
+    ],
+    "pairs": [
+      {
+        "first_candidate": "TREVOR MCNEIL",
+        "second_candidate": "GORDON MAR",
+        "numerator": 1211,
+        "denominator": 3490
+      },
+      {
+        "first_candidate": "TREVOR MCNEIL",
+        "second_candidate": "JESSICA HO",
+        "numerator": 903,
+        "denominator": 3490
+      },
+      {
+        "first_candidate": "TREVOR MCNEIL",
+        "second_candidate": "$UNDERVOTE",
+        "numerator": 1376,
+        "denominator": 3490
+      },
+      {
+        "first_candidate": "ARTHUR TOM",
+        "second_candidate": "GORDON MAR",
+        "numerator": 659,
+        "denominator": 2441
+      },
+      {
+        "first_candidate": "ARTHUR TOM",
+        "second_candidate": "JESSICA HO",
+        "numerator": 655,
+        "denominator": 2441
+      },
+      {
+        "first_candidate": "ARTHUR TOM",
+        "second_candidate": "$UNDERVOTE",
+        "numerator": 1127,
+        "denominator": 2441
+      },
+      {
+        "first_candidate": "LOU ANN BASSAN",
+        "second_candidate": "GORDON MAR",
+        "numerator": 389,
+        "denominator": 2183
+      },
+      {
+        "first_candidate": "LOU ANN BASSAN",
+        "second_candidate": "JESSICA HO",
+        "numerator": 511,
+        "denominator": 2183
+      },
+      {
+        "first_candidate": "LOU ANN BASSAN",
+        "second_candidate": "$UNDERVOTE",
+        "numerator": 1283,
+        "denominator": 2183
+      },
+      {
+        "first_candidate": "MIKE MURPHY",
+        "second_candidate": "GORDON MAR",
+        "numerator": 322,
+        "denominator": 1182
+      },
+      {
+        "first_candidate": "MIKE MURPHY",
+        "second_candidate": "JESSICA HO",
+        "numerator": 159,
+        "denominator": 1182
+      },
+      {
+        "first_candidate": "MIKE MURPHY",
+        "second_candidate": "$UNDERVOTE",
+        "numerator": 701,
+        "denominator": 1182
+      },
+      {
+        "first_candidate": "TUAN NGUYEN",
+        "second_candidate": "GORDON MAR",
+        "numerator": 247,
+        "denominator": 853
+      },
+      {
+        "first_candidate": "TUAN NGUYEN",
+        "second_candidate": "JESSICA HO",
+        "numerator": 221,
+        "denominator": 853
+      },
+      {
+        "first_candidate": "TUAN NGUYEN",
+        "second_candidate": "$UNDERVOTE",
+        "numerator": 385,
+        "denominator": 853
+      },
+      {
+        "first_candidate": "ADAM KIM",
+        "second_candidate": "GORDON MAR",
+        "numerator": 113,
+        "denominator": 515
+      },
+      {
+        "first_candidate": "ADAM KIM",
+        "second_candidate": "JESSICA HO",
+        "numerator": 172,
+        "denominator": 515
+      },
+      {
+        "first_candidate": "ADAM KIM",
+        "second_candidate": "$UNDERVOTE",
+        "numerator": 230,
+        "denominator": 515
+      }
+    ]
+  }
 }

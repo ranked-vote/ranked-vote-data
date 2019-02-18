@@ -48,6 +48,7 @@
     "WRITE-IN - DANIEL C KAPPLER",
     "WRITE-IN - JOHN E. FITCH"
   ],
+  "winner": "ED LEE",
   "rounds": [
     {
       "round": 1,
@@ -128,8 +129,8 @@
     {
       "source": "FRANCISCO HERRERA",
       "edges": [
-        "ED LEE",
-        "AMY FARAH WEISS"
+        "AMY FARAH WEISS",
+        "ED LEE"
       ]
     },
     {
@@ -141,91 +142,91 @@
     {
       "source": "STUART SCHUFFMAN",
       "edges": [
-        "FRANCISCO HERRERA",
+        "AMY FARAH WEISS",
         "ED LEE",
-        "AMY FARAH WEISS"
+        "FRANCISCO HERRERA"
       ]
     },
     {
       "source": "KENT GRAHAM",
       "edges": [
-        "FRANCISCO HERRERA",
-        "ED LEE",
         "AMY FARAH WEISS",
-        "STUART SCHUFFMAN"
+        "ED LEE",
+        "STUART SCHUFFMAN",
+        "FRANCISCO HERRERA"
       ]
     },
     {
       "source": "REED MARTIN",
       "edges": [
-        "FRANCISCO HERRERA",
         "ED LEE",
+        "KENT GRAHAM",
         "AMY FARAH WEISS",
         "STUART SCHUFFMAN",
-        "KENT GRAHAM"
+        "FRANCISCO HERRERA"
       ]
     },
     {
       "source": "WRITE-IN - MICHAEL PETRELIS",
       "edges": [
-        "REED MARTIN",
-        "FRANCISCO HERRERA",
         "ED LEE",
+        "KENT GRAHAM",
+        "REED MARTIN",
         "AMY FARAH WEISS",
         "STUART SCHUFFMAN",
-        "KENT GRAHAM"
+        "FRANCISCO HERRERA"
       ]
     },
     {
       "source": "WRITE-IN - ROBERT L. JORDAN, JR.",
       "edges": [
+        "ED LEE",
+        "WRITE-IN - DANIEL C KAPPLER",
+        "KENT GRAHAM",
         "WRITE-IN - MICHAEL PETRELIS",
         "REED MARTIN",
-        "FRANCISCO HERRERA",
-        "ED LEE",
         "AMY FARAH WEISS",
-        "WRITE-IN - DANIEL C KAPPLER",
         "STUART SCHUFFMAN",
-        "KENT GRAHAM"
+        "FRANCISCO HERRERA"
       ]
     },
     {
       "source": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
       "edges": [
+        "ED LEE",
+        "WRITE-IN - DANIEL C KAPPLER",
+        "KENT GRAHAM",
         "WRITE-IN - MICHAEL PETRELIS",
         "REED MARTIN",
-        "FRANCISCO HERRERA",
-        "ED LEE",
         "AMY FARAH WEISS",
-        "WRITE-IN - DANIEL C KAPPLER",
         "STUART SCHUFFMAN",
-        "KENT GRAHAM"
+        "FRANCISCO HERRERA"
       ]
     },
     {
       "source": "WRITE-IN - DANIEL C KAPPLER",
       "edges": [
+        "ED LEE",
+        "KENT GRAHAM",
         "WRITE-IN - MICHAEL PETRELIS",
         "REED MARTIN",
-        "FRANCISCO HERRERA",
-        "ED LEE",
         "AMY FARAH WEISS",
         "STUART SCHUFFMAN",
-        "KENT GRAHAM"
+        "FRANCISCO HERRERA"
       ]
     },
     {
       "source": "WRITE-IN - JOHN E. FITCH",
       "edges": [
-        "WRITE-IN - MICHAEL PETRELIS",
-        "REED MARTIN",
-        "FRANCISCO HERRERA",
         "ED LEE",
-        "AMY FARAH WEISS",
         "WRITE-IN - DANIEL C KAPPLER",
+        "KENT GRAHAM",
+        "WRITE-IN - MICHAEL PETRELIS",
         "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+        "REED MARTIN",
+        "AMY FARAH WEISS",
         "STUART SCHUFFMAN",
-        "KENT GRAHAM"
+        "FRANCISCO HERRERA"
       ]
     }
   ],
@@ -1553,5 +1554,22 @@
       "denominator": 5
     }
   ],
-  "final_by_first": []
+  "final_by_first": {
+    "finalists": [
+      "ED LEE",
+      "FRANCISCO HERRERA",
+      "AMY FARAH WEISS",
+      "STUART SCHUFFMAN",
+      "KENT GRAHAM",
+      "REED MARTIN",
+      "WRITE-IN - MICHAEL PETRELIS",
+      "WRITE-IN - ROBERT L. JORDAN, JR.",
+      "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+      "WRITE-IN - DANIEL C KAPPLER",
+      "WRITE-IN - JOHN E. FITCH",
+      "$UNDERVOTE"
+    ],
+    "eliminated": [],
+    "pairs": []
+  }
 }

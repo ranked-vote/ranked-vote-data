@@ -35,6 +35,7 @@
     "FRANCISCO HERRERA",
     "BERTA HERNANDEZ"
   ],
+  "winner": "AHSHA SAFAI",
   "rounds": [
     {
       "round": 1,
@@ -116,25 +117,25 @@
     {
       "source": "MAGDALENA DE GUZMAN",
       "edges": [
-        "KIM ALVARENGA",
+        "AHSHA SAFAI",
         "FRANCISCO HERRERA",
-        "AHSHA SAFAI"
+        "KIM ALVARENGA"
       ]
     },
     {
       "source": "FRANCISCO HERRERA",
       "edges": [
-        "KIM ALVARENGA",
-        "AHSHA SAFAI"
+        "AHSHA SAFAI",
+        "KIM ALVARENGA"
       ]
     },
     {
       "source": "BERTA HERNANDEZ",
       "edges": [
-        "KIM ALVARENGA",
         "FRANCISCO HERRERA",
         "AHSHA SAFAI",
-        "MAGDALENA DE GUZMAN"
+        "MAGDALENA DE GUZMAN",
+        "KIM ALVARENGA"
       ]
     }
   ],
@@ -382,60 +383,72 @@
       "denominator": 1607
     }
   ],
-  "final_by_first": [
-    {
-      "first_candidate": "MAGDALENA DE GUZMAN",
-      "second_candidate": "AHSHA SAFAI",
-      "numerator": 769,
-      "denominator": 3019
-    },
-    {
-      "first_candidate": "MAGDALENA DE GUZMAN",
-      "second_candidate": "KIM ALVARENGA",
-      "numerator": 812,
-      "denominator": 3019
-    },
-    {
-      "first_candidate": "MAGDALENA DE GUZMAN",
-      "second_candidate": "$UNDERVOTE",
-      "numerator": 1438,
-      "denominator": 3019
-    },
-    {
-      "first_candidate": "FRANCISCO HERRERA",
-      "second_candidate": "AHSHA SAFAI",
-      "numerator": 592,
-      "denominator": 2618
-    },
-    {
-      "first_candidate": "FRANCISCO HERRERA",
-      "second_candidate": "KIM ALVARENGA",
-      "numerator": 818,
-      "denominator": 2618
-    },
-    {
-      "first_candidate": "FRANCISCO HERRERA",
-      "second_candidate": "$UNDERVOTE",
-      "numerator": 1208,
-      "denominator": 2618
-    },
-    {
-      "first_candidate": "BERTA HERNANDEZ",
-      "second_candidate": "AHSHA SAFAI",
-      "numerator": 395,
-      "denominator": 1607
-    },
-    {
-      "first_candidate": "BERTA HERNANDEZ",
-      "second_candidate": "KIM ALVARENGA",
-      "numerator": 509,
-      "denominator": 1607
-    },
-    {
-      "first_candidate": "BERTA HERNANDEZ",
-      "second_candidate": "$UNDERVOTE",
-      "numerator": 703,
-      "denominator": 1607
-    }
-  ]
+  "final_by_first": {
+    "finalists": [
+      "AHSHA SAFAI",
+      "KIM ALVARENGA",
+      "$UNDERVOTE"
+    ],
+    "eliminated": [
+      "MAGDALENA DE GUZMAN",
+      "FRANCISCO HERRERA",
+      "BERTA HERNANDEZ"
+    ],
+    "pairs": [
+      {
+        "first_candidate": "MAGDALENA DE GUZMAN",
+        "second_candidate": "AHSHA SAFAI",
+        "numerator": 769,
+        "denominator": 3019
+      },
+      {
+        "first_candidate": "MAGDALENA DE GUZMAN",
+        "second_candidate": "KIM ALVARENGA",
+        "numerator": 812,
+        "denominator": 3019
+      },
+      {
+        "first_candidate": "MAGDALENA DE GUZMAN",
+        "second_candidate": "$UNDERVOTE",
+        "numerator": 1438,
+        "denominator": 3019
+      },
+      {
+        "first_candidate": "FRANCISCO HERRERA",
+        "second_candidate": "AHSHA SAFAI",
+        "numerator": 592,
+        "denominator": 2618
+      },
+      {
+        "first_candidate": "FRANCISCO HERRERA",
+        "second_candidate": "KIM ALVARENGA",
+        "numerator": 818,
+        "denominator": 2618
+      },
+      {
+        "first_candidate": "FRANCISCO HERRERA",
+        "second_candidate": "$UNDERVOTE",
+        "numerator": 1208,
+        "denominator": 2618
+      },
+      {
+        "first_candidate": "BERTA HERNANDEZ",
+        "second_candidate": "AHSHA SAFAI",
+        "numerator": 395,
+        "denominator": 1607
+      },
+      {
+        "first_candidate": "BERTA HERNANDEZ",
+        "second_candidate": "KIM ALVARENGA",
+        "numerator": 509,
+        "denominator": 1607
+      },
+      {
+        "first_candidate": "BERTA HERNANDEZ",
+        "second_candidate": "$UNDERVOTE",
+        "numerator": 703,
+        "denominator": 1607
+      }
+    ]
+  }
 }

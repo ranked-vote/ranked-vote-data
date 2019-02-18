@@ -28,6 +28,7 @@
     "CHRISTINE JOHNSON",
     "SONJA TRAUSS"
   ],
+  "winner": "MATT HANEY",
   "rounds": [
     {
       "round": 1,
@@ -155,5 +156,14 @@
       "denominator": 4775
     }
   ],
-  "final_by_first": []
+  "final_by_first": {
+    "finalists": [
+      "MATT HANEY",
+      "CHRISTINE JOHNSON",
+      "SONJA TRAUSS",
+      "$UNDERVOTE"
+    ],
+    "eliminated": [],
+    "pairs": []
+  }
 }

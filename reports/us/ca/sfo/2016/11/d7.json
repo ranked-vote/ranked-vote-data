@@ -35,6 +35,7 @@
     "JOHN FARRELL",
     "MIKE YOUNG"
   ],
+  "winner": "NORMAN YEE",
   "rounds": [
     {
       "round": 1,
@@ -175,25 +176,25 @@
     {
       "source": "BEN MATRANGA",
       "edges": [
-        "NORMAN YEE",
-        "JOEL ENGARDIO"
+        "JOEL ENGARDIO",
+        "NORMAN YEE"
       ]
     },
     {
       "source": "JOHN FARRELL",
       "edges": [
-        "NORMAN YEE",
         "JOEL ENGARDIO",
-        "BEN MATRANGA"
+        "BEN MATRANGA",
+        "NORMAN YEE"
       ]
     },
     {
       "source": "MIKE YOUNG",
       "edges": [
-        "NORMAN YEE",
-        "JOHN FARRELL",
         "JOEL ENGARDIO",
-        "BEN MATRANGA"
+        "BEN MATRANGA",
+        "NORMAN YEE",
+        "JOHN FARRELL"
       ]
     }
   ],
@@ -441,60 +442,72 @@
       "denominator": 2004
     }
   ],
-  "final_by_first": [
-    {
-      "first_candidate": "BEN MATRANGA",
-      "second_candidate": "NORMAN YEE",
-      "numerator": 1558,
-      "denominator": 6498
-    },
-    {
-      "first_candidate": "BEN MATRANGA",
-      "second_candidate": "JOEL ENGARDIO",
-      "numerator": 2696,
-      "denominator": 6498
-    },
-    {
-      "first_candidate": "BEN MATRANGA",
-      "second_candidate": "$UNDERVOTE",
-      "numerator": 2244,
-      "denominator": 6498
-    },
-    {
-      "first_candidate": "JOHN FARRELL",
-      "second_candidate": "NORMAN YEE",
-      "numerator": 1248,
-      "denominator": 4948
-    },
-    {
-      "first_candidate": "JOHN FARRELL",
-      "second_candidate": "JOEL ENGARDIO",
-      "numerator": 1818,
-      "denominator": 4948
-    },
-    {
-      "first_candidate": "JOHN FARRELL",
-      "second_candidate": "$UNDERVOTE",
-      "numerator": 1882,
-      "denominator": 4948
-    },
-    {
-      "first_candidate": "MIKE YOUNG",
-      "second_candidate": "NORMAN YEE",
-      "numerator": 707,
-      "denominator": 2004
-    },
-    {
-      "first_candidate": "MIKE YOUNG",
-      "second_candidate": "JOEL ENGARDIO",
-      "numerator": 656,
-      "denominator": 2004
-    },
-    {
-      "first_candidate": "MIKE YOUNG",
-      "second_candidate": "$UNDERVOTE",
-      "numerator": 641,
-      "denominator": 2004
-    }
-  ]
+  "final_by_first": {
+    "finalists": [
+      "NORMAN YEE",
+      "JOEL ENGARDIO",
+      "$UNDERVOTE"
+    ],
+    "eliminated": [
+      "BEN MATRANGA",
+      "JOHN FARRELL",
+      "MIKE YOUNG"
+    ],
+    "pairs": [
+      {
+        "first_candidate": "BEN MATRANGA",
+        "second_candidate": "NORMAN YEE",
+        "numerator": 1558,
+        "denominator": 6498
+      },
+      {
+        "first_candidate": "BEN MATRANGA",
+        "second_candidate": "JOEL ENGARDIO",
+        "numerator": 2696,
+        "denominator": 6498
+      },
+      {
+        "first_candidate": "BEN MATRANGA",
+        "second_candidate": "$UNDERVOTE",
+        "numerator": 2244,
+        "denominator": 6498
+      },
+      {
+        "first_candidate": "JOHN FARRELL",
+        "second_candidate": "NORMAN YEE",
+        "numerator": 1248,
+        "denominator": 4948
+      },
+      {
+        "first_candidate": "JOHN FARRELL",
+        "second_candidate": "JOEL ENGARDIO",
+        "numerator": 1818,
+        "denominator": 4948
+      },
+      {
+        "first_candidate": "JOHN FARRELL",
+        "second_candidate": "$UNDERVOTE",
+        "numerator": 1882,
+        "denominator": 4948
+      },
+      {
+        "first_candidate": "MIKE YOUNG",
+        "second_candidate": "NORMAN YEE",
+        "numerator": 707,
+        "denominator": 2004
+      },
+      {
+        "first_candidate": "MIKE YOUNG",
+        "second_candidate": "JOEL ENGARDIO",
+        "numerator": 656,
+        "denominator": 2004
+      },
+      {
+        "first_candidate": "MIKE YOUNG",
+        "second_candidate": "$UNDERVOTE",
+        "numerator": 641,
+        "denominator": 2004
+      }
+    ]
+  }
 }

@@ -26,6 +26,7 @@
     "RAFAEL MANDELMAN",
     "LAWRENCE ''STARK'' DAGESSE"
   ],
+  "winner": "RAFAEL MANDELMAN",
   "rounds": [
     {
       "round": 1,
@@ -93,5 +94,13 @@
       "denominator": 3598
     }
   ],
-  "final_by_first": []
+  "final_by_first": {
+    "finalists": [
+      "RAFAEL MANDELMAN",
+      "LAWRENCE ''STARK'' DAGESSE",
+      "$UNDERVOTE"
+    ],
+    "eliminated": [],
+    "pairs": []
+  }
 }

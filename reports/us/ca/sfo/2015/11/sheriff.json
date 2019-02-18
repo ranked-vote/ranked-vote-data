@@ -31,6 +31,7 @@
     "ROSS MIRKARIMI",
     "JOHN ROBINSON"
   ],
+  "winner": "VICKI HENNESSY",
   "rounds": [
     {
       "round": 1,
@@ -158,5 +159,14 @@
       "denominator": 11036
     }
   ],
-  "final_by_first": []
+  "final_by_first": {
+    "finalists": [
+      "VICKI HENNESSY",
+      "ROSS MIRKARIMI",
+      "JOHN ROBINSON",
+      "$UNDERVOTE"
+    ],
+    "eliminated": [],
+    "pairs": []
+  }
 }

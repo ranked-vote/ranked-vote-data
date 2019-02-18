@@ -53,6 +53,7 @@
     "Tiffany L. Bond",
     "William R.S. Hoar"
   ],
+  "winner": "Jared F. Golden",
   "rounds": [
     {
       "round": 1,
@@ -289,42 +290,53 @@
       "denominator": 6875
     }
   ],
-  "final_by_first": [
-    {
-      "first_candidate": "Tiffany L. Bond",
-      "second_candidate": "Jared F. Golden",
-      "numerator": 7862,
-      "denominator": 16552
-    },
-    {
-      "first_candidate": "Tiffany L. Bond",
-      "second_candidate": "Bruce Poliquin",
-      "numerator": 3117,
-      "denominator": 16552
-    },
-    {
-      "first_candidate": "Tiffany L. Bond",
-      "second_candidate": "$UNDERVOTE",
-      "numerator": 5573,
-      "denominator": 16552
-    },
-    {
-      "first_candidate": "William R.S. Hoar",
-      "second_candidate": "Jared F. Golden",
-      "numerator": 2565,
-      "denominator": 6875
-    },
-    {
-      "first_candidate": "William R.S. Hoar",
-      "second_candidate": "Bruce Poliquin",
-      "numerator": 1630,
-      "denominator": 6875
-    },
-    {
-      "first_candidate": "William R.S. Hoar",
-      "second_candidate": "$UNDERVOTE",
-      "numerator": 2680,
-      "denominator": 6875
-    }
-  ]
+  "final_by_first": {
+    "finalists": [
+      "Jared F. Golden",
+      "Bruce Poliquin",
+      "$UNDERVOTE"
+    ],
+    "eliminated": [
+      "Tiffany L. Bond",
+      "William R.S. Hoar"
+    ],
+    "pairs": [
+      {
+        "first_candidate": "Tiffany L. Bond",
+        "second_candidate": "Jared F. Golden",
+        "numerator": 7862,
+        "denominator": 16552
+      },
+      {
+        "first_candidate": "Tiffany L. Bond",
+        "second_candidate": "Bruce Poliquin",
+        "numerator": 3117,
+        "denominator": 16552
+      },
+      {
+        "first_candidate": "Tiffany L. Bond",
+        "second_candidate": "$UNDERVOTE",
+        "numerator": 5573,
+        "denominator": 16552
+      },
+      {
+        "first_candidate": "William R.S. Hoar",
+        "second_candidate": "Jared F. Golden",
+        "numerator": 2565,
+        "denominator": 6875
+      },
+      {
+        "first_candidate": "William R.S. Hoar",
+        "second_candidate": "Bruce Poliquin",
+        "numerator": 1630,
+        "denominator": 6875
+      },
+      {
+        "first_candidate": "William R.S. Hoar",
+        "second_candidate": "$UNDERVOTE",
+        "numerator": 2680,
+        "denominator": 6875
+      }
+    ]
+  }
 }

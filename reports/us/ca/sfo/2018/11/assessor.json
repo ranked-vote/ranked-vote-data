@@ -26,6 +26,7 @@
     "CARMEN CHU",
     "PAUL BELLAR"
   ],
+  "winner": "CARMEN CHU",
   "rounds": [
     {
       "round": 1,
@@ -93,5 +94,13 @@
       "denominator": 80479
     }
   ],
-  "final_by_first": []
+  "final_by_first": {
+    "finalists": [
+      "CARMEN CHU",
+      "PAUL BELLAR",
+      "$UNDERVOTE"
+    ],
+    "eliminated": [],
+    "pairs": []
+  }
 }
