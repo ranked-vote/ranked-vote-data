@@ -1,0 +1,13 @@
+{
+    "name": "Maine 2018 Congress Gubernatorial Election",
+    "date": "2018-06-12",
+    "format": "us_me",
+    "tabulation": "eager_irv",
+    "files": [
+        "us/me/2018/06/gov-primary/govd-1.xlsx",
+        "us/me/2018/06/gov-primary/govd-2.xlsx",
+        "us/me/2018/06/gov-primary/govd-3.xlsx",
+        "us/me/2018/06/gov-primary/govd-4.xlsx",
+        "us/me/2018/06/gov-primary/govd-5.xlsx"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Maine 2018 Congress District 2 Primary Election",
+    "date": "2018-06-12",
+    "format": "us_me",
+    "tabulation": "eager_irv",
+    "files": [
+        "us/me/2018/06/cd02-primary/congressd2-1.xlsx",
+        "us/me/2018/06/cd02-primary/congressd2-2.xlsx",
+        "us/me/2018/06/cd02-primary/congressd2-3.xlsx",
+        "us/me/2018/06/cd02-primary/congressd2-4.xlsx"
+    ]
+}

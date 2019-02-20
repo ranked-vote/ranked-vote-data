@@ -1,0 +1,428 @@
+{
+  "meta": {
+    "name": "Maine 2018 Congress District 2 Primary Election",
+    "date": "2018-06-12",
+    "format": "us_me",
+    "tabulation": "eager_irv",
+    "files": [
+      {
+        "name": "raw/us/me/2018/06/cd02-primary/congressd2-1.xlsx",
+        "sha1": "f786b367746fdd4dca007de54e6e3885cb2a4b7a"
+      },
+      {
+        "name": "raw/us/me/2018/06/cd02-primary/congressd2-2.xlsx",
+        "sha1": "4ac61981e6710d413ba4a4c7f6d83c6af342b679"
+      },
+      {
+        "name": "raw/us/me/2018/06/cd02-primary/congressd2-3.xlsx",
+        "sha1": "8385c8d36ecbcadef405aee0f67d5f4bbde3bea7"
+      },
+      {
+        "name": "raw/us/me/2018/06/cd02-primary/congressd2-4.xlsx",
+        "sha1": "d1940f36c21191411141db9bb27166419e78f2e3"
+      }
+    ],
+    "num_ballots": 50845,
+    "candidate_ids": [
+      "Craig R. Olson",
+      "Jared F. Golden",
+      "Lucas R. St. Clair",
+      "Jonathan S. Fulford"
+    ],
+    "normalized_ballots": "us/me/2018/06/cd02-primary/us_me_2018_06_cd02-primary.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "Jared F. Golden",
+        "name": "Jared F. Golden",
+        "write_in": false
+      },
+      {
+        "id": "Lucas R. St. Clair",
+        "name": "Lucas R. St. Clair",
+        "write_in": false
+      },
+      {
+        "id": "Craig R. Olson",
+        "name": "Craig R. Olson",
+        "write_in": false
+      },
+      {
+        "id": "Jonathan S. Fulford",
+        "name": "Jonathan S. Fulford",
+        "write_in": false
+      }
+    ]
+  },
+  "candidates": [
+    "Jared F. Golden",
+    "Lucas R. St. Clair",
+    "Craig R. Olson",
+    "Jonathan S. Fulford"
+  ],
+  "winner": "Jared F. Golden",
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "Jared F. Golden",
+        "Lucas R. St. Clair",
+        "Craig R. Olson",
+        "Jonathan S. Fulford"
+      ],
+      "results": [
+        {
+          "name": "Jared F. Golden",
+          "votes": 20987
+        },
+        {
+          "name": "Lucas R. St. Clair",
+          "votes": 17742
+        },
+        {
+          "name": "Craig R. Olson",
+          "votes": 3993
+        },
+        {
+          "name": "Jonathan S. Fulford",
+          "votes": 2489
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 5634
+        }
+      ],
+      "undervote": 5526,
+      "overvote": 108,
+      "continuing_ballots": 45211,
+      "eliminated": [],
+      "transfers": []
+    },
+    {
+      "round": 2,
+      "candidates": [
+        "Jared F. Golden",
+        "Lucas R. St. Clair"
+      ],
+      "results": [
+        {
+          "name": "Jared F. Golden",
+          "votes": 23611
+        },
+        {
+          "name": "Lucas R. St. Clair",
+          "votes": 19853
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 7381
+        }
+      ],
+      "undervote": 7247,
+      "overvote": 134,
+      "continuing_ballots": 43464,
+      "eliminated": [
+        "Craig R. Olson",
+        "Jonathan S. Fulford"
+      ],
+      "transfers": [
+        {
+          "from": "Jared F. Golden",
+          "to": "Jared F. Golden",
+          "count": 20987
+        },
+        {
+          "from": "Lucas R. St. Clair",
+          "to": "Lucas R. St. Clair",
+          "count": 17742
+        },
+        {
+          "from": "Craig R. Olson",
+          "to": "Jared F. Golden",
+          "count": 1513
+        },
+        {
+          "from": "Craig R. Olson",
+          "to": "$EXHAUSTED",
+          "count": 1028
+        },
+        {
+          "from": "Craig R. Olson",
+          "to": "Lucas R. St. Clair",
+          "count": 1452
+        },
+        {
+          "from": "Jonathan S. Fulford",
+          "to": "Lucas R. St. Clair",
+          "count": 659
+        },
+        {
+          "from": "Jonathan S. Fulford",
+          "to": "Jared F. Golden",
+          "count": 1111
+        },
+        {
+          "from": "Jonathan S. Fulford",
+          "to": "$EXHAUSTED",
+          "count": 719
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 5634
+        }
+      ]
+    }
+  ],
+  "smith_set": [
+    "Jared F. Golden"
+  ],
+  "condorcet": "Jared F. Golden",
+  "graph": [
+    {
+      "source": "Jared F. Golden",
+      "edges": []
+    },
+    {
+      "source": "Lucas R. St. Clair",
+      "edges": [
+        "Jared F. Golden"
+      ]
+    },
+    {
+      "source": "Craig R. Olson",
+      "edges": [
+        "Jared F. Golden",
+        "Lucas R. St. Clair"
+      ]
+    },
+    {
+      "source": "Jonathan S. Fulford",
+      "edges": [
+        "Craig R. Olson",
+        "Jared F. Golden",
+        "Lucas R. St. Clair"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "Jared F. Golden",
+      "second_candidate": "Lucas R. St. Clair",
+      "numerator": 23611,
+      "denominator": 43464
+    },
+    {
+      "first_candidate": "Jared F. Golden",
+      "second_candidate": "Craig R. Olson",
+      "numerator": 30499,
+      "denominator": 39490
+    },
+    {
+      "first_candidate": "Jared F. Golden",
+      "second_candidate": "Jonathan S. Fulford",
+      "numerator": 33313,
+      "denominator": 38629
+    },
+    {
+      "first_candidate": "Lucas R. St. Clair",
+      "second_candidate": "Jared F. Golden",
+      "numerator": 19853,
+      "denominator": 43464
+    },
+    {
+      "first_candidate": "Lucas R. St. Clair",
+      "second_candidate": "Craig R. Olson",
+      "numerator": 28028,
+      "denominator": 38527
+    },
+    {
+      "first_candidate": "Lucas R. St. Clair",
+      "second_candidate": "Jonathan S. Fulford",
+      "numerator": 31254,
+      "denominator": 37539
+    },
+    {
+      "first_candidate": "Craig R. Olson",
+      "second_candidate": "Jared F. Golden",
+      "numerator": 8991,
+      "denominator": 39490
+    },
+    {
+      "first_candidate": "Craig R. Olson",
+      "second_candidate": "Lucas R. St. Clair",
+      "numerator": 10499,
+      "denominator": 38527
+    },
+    {
+      "first_candidate": "Craig R. Olson",
+      "second_candidate": "Jonathan S. Fulford",
+      "numerator": 20144,
+      "denominator": 28366
+    },
+    {
+      "first_candidate": "Jonathan S. Fulford",
+      "second_candidate": "Jared F. Golden",
+      "numerator": 5316,
+      "denominator": 38629
+    },
+    {
+      "first_candidate": "Jonathan S. Fulford",
+      "second_candidate": "Lucas R. St. Clair",
+      "numerator": 6285,
+      "denominator": 37539
+    },
+    {
+      "first_candidate": "Jonathan S. Fulford",
+      "second_candidate": "Craig R. Olson",
+      "numerator": 8222,
+      "denominator": 28366
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "Jared F. Golden",
+      "second_candidate": "Lucas R. St. Clair",
+      "numerator": 9263,
+      "denominator": 20987
+    },
+    {
+      "first_candidate": "Jared F. Golden",
+      "second_candidate": "Craig R. Olson",
+      "numerator": 4182,
+      "denominator": 20987
+    },
+    {
+      "first_candidate": "Jared F. Golden",
+      "second_candidate": "Jonathan S. Fulford",
+      "numerator": 1798,
+      "denominator": 20987
+    },
+    {
+      "first_candidate": "Jared F. Golden",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 5744,
+      "denominator": 20987
+    },
+    {
+      "first_candidate": "Lucas R. St. Clair",
+      "second_candidate": "Jared F. Golden",
+      "numerator": 7904,
+      "denominator": 17742
+    },
+    {
+      "first_candidate": "Lucas R. St. Clair",
+      "second_candidate": "Craig R. Olson",
+      "numerator": 3827,
+      "denominator": 17742
+    },
+    {
+      "first_candidate": "Lucas R. St. Clair",
+      "second_candidate": "Jonathan S. Fulford",
+      "numerator": 1300,
+      "denominator": 17742
+    },
+    {
+      "first_candidate": "Lucas R. St. Clair",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 4711,
+      "denominator": 17742
+    },
+    {
+      "first_candidate": "Craig R. Olson",
+      "second_candidate": "Jared F. Golden",
+      "numerator": 1270,
+      "denominator": 3993
+    },
+    {
+      "first_candidate": "Craig R. Olson",
+      "second_candidate": "Lucas R. St. Clair",
+      "numerator": 1306,
+      "denominator": 3993
+    },
+    {
+      "first_candidate": "Craig R. Olson",
+      "second_candidate": "Jonathan S. Fulford",
+      "numerator": 458,
+      "denominator": 3993
+    },
+    {
+      "first_candidate": "Craig R. Olson",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 959,
+      "denominator": 3993
+    },
+    {
+      "first_candidate": "Jonathan S. Fulford",
+      "second_candidate": "Jared F. Golden",
+      "numerator": 853,
+      "denominator": 2489
+    },
+    {
+      "first_candidate": "Jonathan S. Fulford",
+      "second_candidate": "Lucas R. St. Clair",
+      "numerator": 467,
+      "denominator": 2489
+    },
+    {
+      "first_candidate": "Jonathan S. Fulford",
+      "second_candidate": "Craig R. Olson",
+      "numerator": 529,
+      "denominator": 2489
+    },
+    {
+      "first_candidate": "Jonathan S. Fulford",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 640,
+      "denominator": 2489
+    }
+  ],
+  "final_by_first": {
+    "finalists": [
+      "Jared F. Golden",
+      "Lucas R. St. Clair",
+      "$EXHAUSTED"
+    ],
+    "eliminated": [
+      "Craig R. Olson",
+      "Jonathan S. Fulford"
+    ],
+    "pairs": [
+      {
+        "first_candidate": "Craig R. Olson",
+        "second_candidate": "Jared F. Golden",
+        "numerator": 1513,
+        "denominator": 3993
+      },
+      {
+        "first_candidate": "Craig R. Olson",
+        "second_candidate": "Lucas R. St. Clair",
+        "numerator": 1452,
+        "denominator": 3993
+      },
+      {
+        "first_candidate": "Craig R. Olson",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 1028,
+        "denominator": 3993
+      },
+      {
+        "first_candidate": "Jonathan S. Fulford",
+        "second_candidate": "Jared F. Golden",
+        "numerator": 1111,
+        "denominator": 2489
+      },
+      {
+        "first_candidate": "Jonathan S. Fulford",
+        "second_candidate": "Lucas R. St. Clair",
+        "numerator": 659,
+        "denominator": 2489
+      },
+      {
+        "first_candidate": "Jonathan S. Fulford",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 719,
+        "denominator": 2489
+      }
+    ]
+  }
+}
