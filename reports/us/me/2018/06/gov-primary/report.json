@@ -72,6 +72,11 @@
         "id": "Donna J. Dion",
         "name": "Donna J. Dion",
         "write_in": false
+      },
+      {
+        "id": "$WRITE_IN",
+        "name": "Write-in",
+        "write_in": true
       }
     ]
   },
@@ -82,7 +87,8 @@
     "Mark W. Eves",
     "Mark N. Dion",
     "Diane Marie Russell",
-    "Donna J. Dion"
+    "Donna J. Dion",
+    "$WRITE_IN"
   ],
   "winner": "Janet T. Mills",
   "rounds": [
@@ -128,6 +134,10 @@
           "votes": 1596
         },
         {
+          "name": "$WRITE_IN",
+          "votes": 748
+        },
+        {
           "name": "$EXHAUSTED",
           "votes": 6111
         }
@@ -144,34 +154,33 @@
         "Janet T. Mills",
         "Adam Roland Cote",
         "Elizabeth A. Sweet",
-        "Mark W. Eves",
-        "$WRITE_IN"
+        "Mark W. Eves"
       ],
       "results": [
         {
           "name": "Janet T. Mills",
-          "votes": 43963
+          "votes": 44042
         },
         {
           "name": "Adam Roland Cote",
-          "votes": 37457
+          "votes": 37543
         },
         {
           "name": "Elizabeth A. Sweet",
-          "votes": 22925
+          "votes": 22987
         },
         {
           "name": "Mark W. Eves",
-          "votes": 19482
+          "votes": 19521
         },
         {
           "name": "$EXHAUSTED",
-          "votes": 7675
+          "votes": 8157
         }
       ],
-      "undervote": 7209,
-      "overvote": 466,
-      "continuing_ballots": 124575,
+      "undervote": 7685,
+      "overvote": 472,
+      "continuing_ballots": 124093,
       "eliminated": [
         "Mark N. Dion",
         "Diane Marie Russell",
@@ -275,6 +284,31 @@
           "count": 362
         },
         {
+          "from": "$WRITE_IN",
+          "to": "$EXHAUSTED",
+          "count": 482
+        },
+        {
+          "from": "$WRITE_IN",
+          "to": "Adam Roland Cote",
+          "count": 86
+        },
+        {
+          "from": "$WRITE_IN",
+          "to": "Janet T. Mills",
+          "count": 79
+        },
+        {
+          "from": "$WRITE_IN",
+          "to": "Elizabeth A. Sweet",
+          "count": 62
+        },
+        {
+          "from": "$WRITE_IN",
+          "to": "Mark W. Eves",
+          "count": 39
+        },
+        {
           "from": "$EXHAUSTED",
           "to": "$EXHAUSTED",
           "count": 6111
@@ -286,74 +320,72 @@
       "candidates": [
         "Janet T. Mills",
         "Adam Roland Cote",
-        "Elizabeth A. Sweet",
-        "$WRITE_IN"
+        "Elizabeth A. Sweet"
       ],
       "results": [
         {
           "name": "Janet T. Mills",
-          "votes": 49859
+          "votes": 49945
         },
         {
           "name": "Adam Roland Cote",
-          "votes": 42523
+          "votes": 42623
         },
         {
           "name": "Elizabeth A. Sweet",
-          "votes": 29873
+          "votes": 29944
         },
         {
           "name": "$EXHAUSTED",
-          "votes": 9247
+          "votes": 9738
         }
       ],
-      "undervote": 8747,
-      "overvote": 500,
-      "continuing_ballots": 123003,
+      "undervote": 9231,
+      "overvote": 507,
+      "continuing_ballots": 122512,
       "eliminated": [
-        "Mark W. Eves",
-        "$WRITE_IN"
+        "Mark W. Eves"
       ],
       "transfers": [
         {
           "from": "Janet T. Mills",
           "to": "Janet T. Mills",
-          "count": 43963
+          "count": 44042
         },
         {
           "from": "Adam Roland Cote",
           "to": "Adam Roland Cote",
-          "count": 37457
+          "count": 37543
         },
         {
           "from": "Elizabeth A. Sweet",
           "to": "Elizabeth A. Sweet",
-          "count": 22925
+          "count": 22987
         },
         {
           "from": "Mark W. Eves",
           "to": "Janet T. Mills",
-          "count": 5896
+          "count": 5903
         },
         {
           "from": "Mark W. Eves",
           "to": "Adam Roland Cote",
-          "count": 5066
+          "count": 5080
         },
         {
           "from": "Mark W. Eves",
           "to": "$EXHAUSTED",
-          "count": 1572
+          "count": 1581
         },
         {
           "from": "Mark W. Eves",
           "to": "Elizabeth A. Sweet",
-          "count": 6948
+          "count": 6957
         },
         {
           "from": "$EXHAUSTED",
           "to": "$EXHAUSTED",
-          "count": 7675
+          "count": 8157
         }
       ]
     },
@@ -361,60 +393,58 @@
       "round": 4,
       "candidates": [
         "Janet T. Mills",
-        "Adam Roland Cote",
-        "$WRITE_IN"
+        "Adam Roland Cote"
       ],
       "results": [
         {
           "name": "Janet T. Mills",
-          "votes": 63266
+          "votes": 63387
         },
         {
           "name": "Adam Roland Cote",
-          "votes": 53745
+          "votes": 53866
         },
         {
           "name": "$EXHAUSTED",
-          "votes": 14491
+          "votes": 14997
         }
       ],
-      "undervote": 13920,
-      "overvote": 571,
-      "continuing_ballots": 117759,
+      "undervote": 14417,
+      "overvote": 580,
+      "continuing_ballots": 117253,
       "eliminated": [
-        "Elizabeth A. Sweet",
-        "$WRITE_IN"
+        "Elizabeth A. Sweet"
       ],
       "transfers": [
         {
           "from": "Janet T. Mills",
           "to": "Janet T. Mills",
-          "count": 49859
+          "count": 49945
         },
         {
           "from": "Adam Roland Cote",
           "to": "Adam Roland Cote",
-          "count": 42523
+          "count": 42623
         },
         {
           "from": "Elizabeth A. Sweet",
           "to": "Adam Roland Cote",
-          "count": 11222
+          "count": 11243
         },
         {
           "from": "Elizabeth A. Sweet",
           "to": "Janet T. Mills",
-          "count": 13407
+          "count": 13442
         },
         {
           "from": "Elizabeth A. Sweet",
           "to": "$EXHAUSTED",
-          "count": 5244
+          "count": 5259
         },
         {
           "from": "$EXHAUSTED",
           "to": "$EXHAUSTED",
-          "count": 9247
+          "count": 9738
         }
       ]
     }
@@ -478,6 +508,18 @@
         "Mark N. Dion",
         "Mark W. Eves"
       ]
+    },
+    {
+      "source": "$WRITE_IN",
+      "edges": [
+        "Adam Roland Cote",
+        "Diane Marie Russell",
+        "Donna J. Dion",
+        "Elizabeth A. Sweet",
+        "Janet T. Mills",
+        "Mark N. Dion",
+        "Mark W. Eves"
+      ]
     }
   ],
   "pairwise": [
@@ -518,6 +560,12 @@
       "denominator": 102873
     },
     {
+      "first_candidate": "Janet T. Mills",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 99285,
+      "denominator": 100627
+    },
+    {
       "first_candidate": "Adam Roland Cote",
       "second_candidate": "Janet T. Mills",
       "numerator": 53866,
@@ -552,6 +600,12 @@
       "second_candidate": "Donna J. Dion",
       "numerator": 81101,
       "denominator": 96425
+    },
+    {
+      "first_candidate": "Adam Roland Cote",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 92348,
+      "denominator": 93553
     },
     {
       "first_candidate": "Elizabeth A. Sweet",
@@ -590,6 +644,12 @@
       "denominator": 91219
     },
     {
+      "first_candidate": "Elizabeth A. Sweet",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 87826,
+      "denominator": 89015
+    },
+    {
       "first_candidate": "Mark W. Eves",
       "second_candidate": "Janet T. Mills",
       "numerator": 44838,
@@ -624,6 +684,12 @@
       "second_candidate": "Donna J. Dion",
       "numerator": 75044,
       "denominator": 91802
+    },
+    {
+      "first_candidate": "Mark W. Eves",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 86669,
+      "denominator": 87879
     },
     {
       "first_candidate": "Mark N. Dion",
@@ -662,6 +728,12 @@
       "denominator": 69365
     },
     {
+      "first_candidate": "Mark N. Dion",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 63534,
+      "denominator": 64927
+    },
+    {
       "first_candidate": "Diane Marie Russell",
       "second_candidate": "Janet T. Mills",
       "numerator": 16793,
@@ -698,6 +770,12 @@
       "denominator": 61131
     },
     {
+      "first_candidate": "Diane Marie Russell",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 54574,
+      "denominator": 56035
+    },
+    {
       "first_candidate": "Donna J. Dion",
       "second_candidate": "Janet T. Mills",
       "numerator": 12971,
@@ -732,6 +810,54 @@
       "second_candidate": "Diane Marie Russell",
       "numerator": 26975,
       "denominator": 61131
+    },
+    {
+      "first_candidate": "Donna J. Dion",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 50497,
+      "denominator": 52037
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "Janet T. Mills",
+      "numerator": 1342,
+      "denominator": 100627
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "Adam Roland Cote",
+      "numerator": 1205,
+      "denominator": 93553
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "Elizabeth A. Sweet",
+      "numerator": 1189,
+      "denominator": 89015
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "Mark W. Eves",
+      "numerator": 1210,
+      "denominator": 87879
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "Mark N. Dion",
+      "numerator": 1393,
+      "denominator": 64927
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "Diane Marie Russell",
+      "numerator": 1461,
+      "denominator": 56035
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "Donna J. Dion",
+      "numerator": 1540,
+      "denominator": 52037
     }
   ],
   "first_alternates": [
@@ -773,8 +899,14 @@
     },
     {
       "first_candidate": "Janet T. Mills",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 46,
+      "denominator": 41735
+    },
+    {
+      "first_candidate": "Janet T. Mills",
       "second_candidate": "$EXHAUSTED",
-      "numerator": 6583,
+      "numerator": 6537,
       "denominator": 41735
     },
     {
@@ -815,8 +947,14 @@
     },
     {
       "first_candidate": "Adam Roland Cote",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 53,
+      "denominator": 35478
+    },
+    {
+      "first_candidate": "Adam Roland Cote",
       "second_candidate": "$EXHAUSTED",
-      "numerator": 5018,
+      "numerator": 4965,
       "denominator": 35478
     },
     {
@@ -857,8 +995,14 @@
     },
     {
       "first_candidate": "Elizabeth A. Sweet",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 29,
+      "denominator": 20767
+    },
+    {
+      "first_candidate": "Elizabeth A. Sweet",
       "second_candidate": "$EXHAUSTED",
-      "numerator": 1607,
+      "numerator": 1578,
       "denominator": 20767
     },
     {
@@ -899,8 +1043,14 @@
     },
     {
       "first_candidate": "Mark W. Eves",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 17,
+      "denominator": 17887
+    },
+    {
+      "first_candidate": "Mark W. Eves",
       "second_candidate": "$EXHAUSTED",
-      "numerator": 1227,
+      "numerator": 1210,
       "denominator": 17887
     },
     {
@@ -941,8 +1091,14 @@
     },
     {
       "first_candidate": "Mark N. Dion",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 6,
+      "denominator": 5200
+    },
+    {
+      "first_candidate": "Mark N. Dion",
       "second_candidate": "$EXHAUSTED",
-      "numerator": 822,
+      "numerator": 816,
       "denominator": 5200
     },
     {
@@ -983,8 +1139,14 @@
     },
     {
       "first_candidate": "Diane Marie Russell",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 4,
+      "denominator": 2728
+    },
+    {
+      "first_candidate": "Diane Marie Russell",
       "second_candidate": "$EXHAUSTED",
-      "numerator": 220,
+      "numerator": 216,
       "denominator": 2728
     },
     {
@@ -1025,16 +1187,69 @@
     },
     {
       "first_candidate": "Donna J. Dion",
-      "second_candidate": "$EXHAUSTED",
-      "numerator": 324,
+      "second_candidate": "$WRITE_IN",
+      "numerator": 6,
       "denominator": 1596
+    },
+    {
+      "first_candidate": "Donna J. Dion",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 318,
+      "denominator": 1596
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "Janet T. Mills",
+      "numerator": 70,
+      "denominator": 748
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "Adam Roland Cote",
+      "numerator": 69,
+      "denominator": 748
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "Elizabeth A. Sweet",
+      "numerator": 54,
+      "denominator": 748
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "Mark W. Eves",
+      "numerator": 31,
+      "denominator": 748
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "Mark N. Dion",
+      "numerator": 29,
+      "denominator": 748
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "Diane Marie Russell",
+      "numerator": 11,
+      "denominator": 748
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "Donna J. Dion",
+      "numerator": 19,
+      "denominator": 748
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 465,
+      "denominator": 748
     }
   ],
   "final_by_first": {
     "finalists": [
       "Janet T. Mills",
       "Adam Roland Cote",
-      "$WRITE_IN",
       "$EXHAUSTED"
     ],
     "eliminated": [
@@ -1042,128 +1257,117 @@
       "Mark W. Eves",
       "Mark N. Dion",
       "Diane Marie Russell",
-      "Donna J. Dion"
+      "Donna J. Dion",
+      "$WRITE_IN"
     ],
     "pairs": [
       {
         "first_candidate": "Elizabeth A. Sweet",
         "second_candidate": "Janet T. Mills",
-        "numerator": 9773,
+        "numerator": 9788,
         "denominator": 20767
       },
       {
         "first_candidate": "Elizabeth A. Sweet",
         "second_candidate": "Adam Roland Cote",
-        "numerator": 7523,
-        "denominator": 20767
-      },
-      {
-        "first_candidate": "Elizabeth A. Sweet",
-        "second_candidate": "$WRITE_IN",
-        "numerator": 70,
+        "numerator": 7549,
         "denominator": 20767
       },
       {
         "first_candidate": "Elizabeth A. Sweet",
         "second_candidate": "$EXHAUSTED",
-        "numerator": 3401,
+        "numerator": 3430,
         "denominator": 20767
       },
       {
         "first_candidate": "Mark W. Eves",
         "second_candidate": "Janet T. Mills",
-        "numerator": 7866,
+        "numerator": 7877,
         "denominator": 17887
       },
       {
         "first_candidate": "Mark W. Eves",
         "second_candidate": "Adam Roland Cote",
-        "numerator": 7337,
-        "denominator": 17887
-      },
-      {
-        "first_candidate": "Mark W. Eves",
-        "second_candidate": "$WRITE_IN",
-        "numerator": 32,
+        "numerator": 7350,
         "denominator": 17887
       },
       {
         "first_candidate": "Mark W. Eves",
         "second_candidate": "$EXHAUSTED",
-        "numerator": 2652,
+        "numerator": 2660,
         "denominator": 17887
       },
       {
         "first_candidate": "Mark N. Dion",
         "second_candidate": "Janet T. Mills",
-        "numerator": 2083,
+        "numerator": 2085,
         "denominator": 5200
       },
       {
         "first_candidate": "Mark N. Dion",
         "second_candidate": "Adam Roland Cote",
-        "numerator": 1907,
-        "denominator": 5200
-      },
-      {
-        "first_candidate": "Mark N. Dion",
-        "second_candidate": "$WRITE_IN",
-        "numerator": 12,
+        "numerator": 1914,
         "denominator": 5200
       },
       {
         "first_candidate": "Mark N. Dion",
         "second_candidate": "$EXHAUSTED",
-        "numerator": 1198,
+        "numerator": 1201,
         "denominator": 5200
       },
       {
         "first_candidate": "Diane Marie Russell",
         "second_candidate": "Janet T. Mills",
-        "numerator": 1222,
+        "numerator": 1225,
         "denominator": 2728
       },
       {
         "first_candidate": "Diane Marie Russell",
         "second_candidate": "Adam Roland Cote",
-        "numerator": 897,
-        "denominator": 2728
-      },
-      {
-        "first_candidate": "Diane Marie Russell",
-        "second_candidate": "$WRITE_IN",
-        "numerator": 16,
+        "numerator": 906,
         "denominator": 2728
       },
       {
         "first_candidate": "Diane Marie Russell",
         "second_candidate": "$EXHAUSTED",
-        "numerator": 593,
+        "numerator": 597,
         "denominator": 2728
       },
       {
         "first_candidate": "Donna J. Dion",
         "second_candidate": "Janet T. Mills",
-        "numerator": 552,
+        "numerator": 556,
         "denominator": 1596
       },
       {
         "first_candidate": "Donna J. Dion",
         "second_candidate": "Adam Roland Cote",
-        "numerator": 541,
-        "denominator": 1596
-      },
-      {
-        "first_candidate": "Donna J. Dion",
-        "second_candidate": "$WRITE_IN",
-        "numerator": 18,
+        "numerator": 548,
         "denominator": 1596
       },
       {
         "first_candidate": "Donna J. Dion",
         "second_candidate": "$EXHAUSTED",
-        "numerator": 485,
+        "numerator": 492,
         "denominator": 1596
+      },
+      {
+        "first_candidate": "$WRITE_IN",
+        "second_candidate": "Janet T. Mills",
+        "numerator": 121,
+        "denominator": 748
+      },
+      {
+        "first_candidate": "$WRITE_IN",
+        "second_candidate": "Adam Roland Cote",
+        "numerator": 121,
+        "denominator": 748
+      },
+      {
+        "first_candidate": "$WRITE_IN",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 506,
+        "denominator": 748
       }
     ]
   }
