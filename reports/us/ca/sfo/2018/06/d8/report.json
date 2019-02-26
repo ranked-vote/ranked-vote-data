@@ -3,7 +3,7 @@
     "name": "San Francisco 2018 Municipal Election - District 8",
     "date": "2018-06-05",
     "format": "us_ca_sfo",
-    "tabulation": "eager_irv",
+    "tabulation": "irv",
     "params": {
       "contest": 21
     },

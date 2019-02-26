@@ -3,7 +3,7 @@
     "name": "San Francisco 2018 Municipal Election - District 10",
     "date": "2018-11-06",
     "format": "us_ca_sfo",
-    "tabulation": "eager_irv",
+    "tabulation": "irv",
     "files": [
       {
         "name": "raw/us/ca/sfo/2018/11/20181127_masterlookup.txt",
@@ -131,6 +131,313 @@
       "candidates": [
         "SHAMANN WALTON",
         "TONY KELLY",
+        "THEO ELLINGTON",
+        "UZURI PEASE-GREENE",
+        "GLORIA BERRY",
+        "ASALE CHANDLER"
+      ],
+      "results": [
+        {
+          "name": "SHAMANN WALTON",
+          "votes": 9591
+        },
+        {
+          "name": "TONY KELLY",
+          "votes": 5687
+        },
+        {
+          "name": "THEO ELLINGTON",
+          "votes": 4825
+        },
+        {
+          "name": "UZURI PEASE-GREENE",
+          "votes": 1314
+        },
+        {
+          "name": "GLORIA BERRY",
+          "votes": 966
+        },
+        {
+          "name": "ASALE CHANDLER",
+          "votes": 803
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 3071
+        }
+      ],
+      "undervote": 2915,
+      "overvote": 156,
+      "continuing_ballots": 23186,
+      "eliminated": [
+        "WRITE-IN NEO VEAVEA"
+      ],
+      "transfers": [
+        {
+          "from": "SHAMANN WALTON",
+          "to": "SHAMANN WALTON",
+          "count": 9585
+        },
+        {
+          "from": "TONY KELLY",
+          "to": "TONY KELLY",
+          "count": 5679
+        },
+        {
+          "from": "THEO ELLINGTON",
+          "to": "THEO ELLINGTON",
+          "count": 4820
+        },
+        {
+          "from": "UZURI PEASE-GREENE",
+          "to": "UZURI PEASE-GREENE",
+          "count": 1311
+        },
+        {
+          "from": "GLORIA BERRY",
+          "to": "GLORIA BERRY",
+          "count": 966
+        },
+        {
+          "from": "ASALE CHANDLER",
+          "to": "ASALE CHANDLER",
+          "count": 802
+        },
+        {
+          "from": "WRITE-IN NEO VEAVEA",
+          "to": "THEO ELLINGTON",
+          "count": 5
+        },
+        {
+          "from": "WRITE-IN NEO VEAVEA",
+          "to": "TONY KELLY",
+          "count": 8
+        },
+        {
+          "from": "WRITE-IN NEO VEAVEA",
+          "to": "SHAMANN WALTON",
+          "count": 6
+        },
+        {
+          "from": "WRITE-IN NEO VEAVEA",
+          "to": "$EXHAUSTED",
+          "count": 8
+        },
+        {
+          "from": "WRITE-IN NEO VEAVEA",
+          "to": "ASALE CHANDLER",
+          "count": 1
+        },
+        {
+          "from": "WRITE-IN NEO VEAVEA",
+          "to": "UZURI PEASE-GREENE",
+          "count": 3
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 3063
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "candidates": [
+        "SHAMANN WALTON",
+        "TONY KELLY",
+        "THEO ELLINGTON",
+        "UZURI PEASE-GREENE",
+        "GLORIA BERRY"
+      ],
+      "results": [
+        {
+          "name": "SHAMANN WALTON",
+          "votes": 9704
+        },
+        {
+          "name": "TONY KELLY",
+          "votes": 5819
+        },
+        {
+          "name": "THEO ELLINGTON",
+          "votes": 4918
+        },
+        {
+          "name": "UZURI PEASE-GREENE",
+          "votes": 1416
+        },
+        {
+          "name": "GLORIA BERRY",
+          "votes": 1184
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 3216
+        }
+      ],
+      "undervote": 3057,
+      "overvote": 159,
+      "continuing_ballots": 23041,
+      "eliminated": [
+        "ASALE CHANDLER"
+      ],
+      "transfers": [
+        {
+          "from": "SHAMANN WALTON",
+          "to": "SHAMANN WALTON",
+          "count": 9591
+        },
+        {
+          "from": "TONY KELLY",
+          "to": "TONY KELLY",
+          "count": 5687
+        },
+        {
+          "from": "THEO ELLINGTON",
+          "to": "THEO ELLINGTON",
+          "count": 4825
+        },
+        {
+          "from": "UZURI PEASE-GREENE",
+          "to": "UZURI PEASE-GREENE",
+          "count": 1314
+        },
+        {
+          "from": "GLORIA BERRY",
+          "to": "GLORIA BERRY",
+          "count": 966
+        },
+        {
+          "from": "ASALE CHANDLER",
+          "to": "UZURI PEASE-GREENE",
+          "count": 102
+        },
+        {
+          "from": "ASALE CHANDLER",
+          "to": "GLORIA BERRY",
+          "count": 218
+        },
+        {
+          "from": "ASALE CHANDLER",
+          "to": "$EXHAUSTED",
+          "count": 145
+        },
+        {
+          "from": "ASALE CHANDLER",
+          "to": "SHAMANN WALTON",
+          "count": 113
+        },
+        {
+          "from": "ASALE CHANDLER",
+          "to": "TONY KELLY",
+          "count": 132
+        },
+        {
+          "from": "ASALE CHANDLER",
+          "to": "THEO ELLINGTON",
+          "count": 93
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 3071
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "candidates": [
+        "SHAMANN WALTON",
+        "TONY KELLY",
+        "THEO ELLINGTON",
+        "UZURI PEASE-GREENE"
+      ],
+      "results": [
+        {
+          "name": "SHAMANN WALTON",
+          "votes": 9945
+        },
+        {
+          "name": "TONY KELLY",
+          "votes": 6092
+        },
+        {
+          "name": "THEO ELLINGTON",
+          "votes": 5143
+        },
+        {
+          "name": "UZURI PEASE-GREENE",
+          "votes": 1576
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 3501
+        }
+      ],
+      "undervote": 3339,
+      "overvote": 162,
+      "continuing_ballots": 22756,
+      "eliminated": [
+        "GLORIA BERRY"
+      ],
+      "transfers": [
+        {
+          "from": "SHAMANN WALTON",
+          "to": "SHAMANN WALTON",
+          "count": 9704
+        },
+        {
+          "from": "TONY KELLY",
+          "to": "TONY KELLY",
+          "count": 5819
+        },
+        {
+          "from": "THEO ELLINGTON",
+          "to": "THEO ELLINGTON",
+          "count": 4918
+        },
+        {
+          "from": "UZURI PEASE-GREENE",
+          "to": "UZURI PEASE-GREENE",
+          "count": 1416
+        },
+        {
+          "from": "GLORIA BERRY",
+          "to": "SHAMANN WALTON",
+          "count": 241
+        },
+        {
+          "from": "GLORIA BERRY",
+          "to": "TONY KELLY",
+          "count": 273
+        },
+        {
+          "from": "GLORIA BERRY",
+          "to": "THEO ELLINGTON",
+          "count": 225
+        },
+        {
+          "from": "GLORIA BERRY",
+          "to": "$EXHAUSTED",
+          "count": 285
+        },
+        {
+          "from": "GLORIA BERRY",
+          "to": "UZURI PEASE-GREENE",
+          "count": 160
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 3216
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "candidates": [
+        "SHAMANN WALTON",
+        "TONY KELLY",
         "THEO ELLINGTON"
       ],
       "results": [
@@ -155,116 +462,53 @@
       "overvote": 166,
       "continuing_ballots": 22319,
       "eliminated": [
-        "UZURI PEASE-GREENE",
-        "GLORIA BERRY",
-        "ASALE CHANDLER",
-        "WRITE-IN NEO VEAVEA"
+        "UZURI PEASE-GREENE"
       ],
       "transfers": [
         {
           "from": "SHAMANN WALTON",
           "to": "SHAMANN WALTON",
-          "count": 9585
+          "count": 9945
         },
         {
           "from": "TONY KELLY",
           "to": "TONY KELLY",
-          "count": 5679
+          "count": 6092
         },
         {
           "from": "THEO ELLINGTON",
           "to": "THEO ELLINGTON",
-          "count": 4820
+          "count": 5143
         },
         {
           "from": "UZURI PEASE-GREENE",
           "to": "TONY KELLY",
-          "count": 406
+          "count": 448
         },
         {
           "from": "UZURI PEASE-GREENE",
           "to": "THEO ELLINGTON",
-          "count": 209
+          "count": 244
         },
         {
           "from": "UZURI PEASE-GREENE",
           "to": "SHAMANN WALTON",
-          "count": 405
+          "count": 447
         },
         {
           "from": "UZURI PEASE-GREENE",
           "to": "$EXHAUSTED",
-          "count": 291
-        },
-        {
-          "from": "GLORIA BERRY",
-          "to": "SHAMANN WALTON",
-          "count": 223
-        },
-        {
-          "from": "GLORIA BERRY",
-          "to": "TONY KELLY",
-          "count": 240
-        },
-        {
-          "from": "GLORIA BERRY",
-          "to": "THEO ELLINGTON",
-          "count": 193
-        },
-        {
-          "from": "GLORIA BERRY",
-          "to": "$EXHAUSTED",
-          "count": 310
-        },
-        {
-          "from": "ASALE CHANDLER",
-          "to": "SHAMANN WALTON",
-          "count": 172
-        },
-        {
-          "from": "ASALE CHANDLER",
-          "to": "$EXHAUSTED",
-          "count": 264
-        },
-        {
-          "from": "ASALE CHANDLER",
-          "to": "TONY KELLY",
-          "count": 207
-        },
-        {
-          "from": "ASALE CHANDLER",
-          "to": "THEO ELLINGTON",
-          "count": 159
-        },
-        {
-          "from": "WRITE-IN NEO VEAVEA",
-          "to": "THEO ELLINGTON",
-          "count": 6
-        },
-        {
-          "from": "WRITE-IN NEO VEAVEA",
-          "to": "TONY KELLY",
-          "count": 8
-        },
-        {
-          "from": "WRITE-IN NEO VEAVEA",
-          "to": "SHAMANN WALTON",
-          "count": 7
-        },
-        {
-          "from": "WRITE-IN NEO VEAVEA",
-          "to": "$EXHAUSTED",
-          "count": 10
+          "count": 437
         },
         {
           "from": "$EXHAUSTED",
           "to": "$EXHAUSTED",
-          "count": 3063
+          "count": 3501
         }
       ]
     },
     {
-      "round": 3,
+      "round": 6,
       "candidates": [
         "SHAMANN WALTON",
         "TONY KELLY"

@@ -3,7 +3,7 @@
     "name": "San Francisco 2015 Municipal Election - Mayor",
     "date": "2015-11-03",
     "format": "us_ca_sfo",
-    "tabulation": "eager_irv",
+    "tabulation": "irv",
     "params": {
       "contest": 1
     },

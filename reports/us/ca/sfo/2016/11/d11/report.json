@@ -3,7 +3,7 @@
     "name": "San Francisco 2016 Municipal Election - District 11",
     "date": "2016-11-08",
     "format": "us_ca_sfo",
-    "tabulation": "eager_irv",
+    "tabulation": "irv",
     "params": {
       "contest": 14
     },
@@ -109,6 +109,169 @@
       "round": 2,
       "candidates": [
         "AHSHA SAFAI",
+        "KIM ALVARENGA",
+        "MAGDALENA DE GUZMAN",
+        "FRANCISCO HERRERA"
+      ],
+      "results": [
+        {
+          "name": "AHSHA SAFAI",
+          "votes": 9697
+        },
+        {
+          "name": "KIM ALVARENGA",
+          "votes": 8961
+        },
+        {
+          "name": "MAGDALENA DE GUZMAN",
+          "votes": 3497
+        },
+        {
+          "name": "FRANCISCO HERRERA",
+          "votes": 3058
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 2797
+        }
+      ],
+      "undervote": 2618,
+      "overvote": 179,
+      "continuing_ballots": 25213,
+      "eliminated": [
+        "BERTA HERNANDEZ"
+      ],
+      "transfers": [
+        {
+          "from": "AHSHA SAFAI",
+          "to": "AHSHA SAFAI",
+          "count": 9466
+        },
+        {
+          "from": "KIM ALVARENGA",
+          "to": "KIM ALVARENGA",
+          "count": 8670
+        },
+        {
+          "from": "MAGDALENA DE GUZMAN",
+          "to": "MAGDALENA DE GUZMAN",
+          "count": 3019
+        },
+        {
+          "from": "FRANCISCO HERRERA",
+          "to": "FRANCISCO HERRERA",
+          "count": 2618
+        },
+        {
+          "from": "BERTA HERNANDEZ",
+          "to": "$EXHAUSTED",
+          "count": 167
+        },
+        {
+          "from": "BERTA HERNANDEZ",
+          "to": "FRANCISCO HERRERA",
+          "count": 440
+        },
+        {
+          "from": "BERTA HERNANDEZ",
+          "to": "MAGDALENA DE GUZMAN",
+          "count": 478
+        },
+        {
+          "from": "BERTA HERNANDEZ",
+          "to": "KIM ALVARENGA",
+          "count": 291
+        },
+        {
+          "from": "BERTA HERNANDEZ",
+          "to": "AHSHA SAFAI",
+          "count": 231
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 2630
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "candidates": [
+        "AHSHA SAFAI",
+        "KIM ALVARENGA",
+        "MAGDALENA DE GUZMAN"
+      ],
+      "results": [
+        {
+          "name": "AHSHA SAFAI",
+          "votes": 10252
+        },
+        {
+          "name": "KIM ALVARENGA",
+          "votes": 9756
+        },
+        {
+          "name": "MAGDALENA DE GUZMAN",
+          "votes": 4705
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 3297
+        }
+      ],
+      "undervote": 3099,
+      "overvote": 198,
+      "continuing_ballots": 24713,
+      "eliminated": [
+        "FRANCISCO HERRERA"
+      ],
+      "transfers": [
+        {
+          "from": "AHSHA SAFAI",
+          "to": "AHSHA SAFAI",
+          "count": 9697
+        },
+        {
+          "from": "KIM ALVARENGA",
+          "to": "KIM ALVARENGA",
+          "count": 8961
+        },
+        {
+          "from": "MAGDALENA DE GUZMAN",
+          "to": "MAGDALENA DE GUZMAN",
+          "count": 3497
+        },
+        {
+          "from": "FRANCISCO HERRERA",
+          "to": "KIM ALVARENGA",
+          "count": 795
+        },
+        {
+          "from": "FRANCISCO HERRERA",
+          "to": "MAGDALENA DE GUZMAN",
+          "count": 1208
+        },
+        {
+          "from": "FRANCISCO HERRERA",
+          "to": "AHSHA SAFAI",
+          "count": 555
+        },
+        {
+          "from": "FRANCISCO HERRERA",
+          "to": "$EXHAUSTED",
+          "count": 500
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 2797
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "candidates": [
+        "AHSHA SAFAI",
         "KIM ALVARENGA"
       ],
       "results": [
@@ -129,70 +292,38 @@
       "overvote": 205,
       "continuing_ballots": 22031,
       "eliminated": [
-        "MAGDALENA DE GUZMAN",
-        "FRANCISCO HERRERA",
-        "BERTA HERNANDEZ"
+        "MAGDALENA DE GUZMAN"
       ],
       "transfers": [
         {
           "from": "AHSHA SAFAI",
           "to": "AHSHA SAFAI",
-          "count": 9466
+          "count": 10252
         },
         {
           "from": "KIM ALVARENGA",
           "to": "KIM ALVARENGA",
-          "count": 8670
+          "count": 9756
         },
         {
           "from": "MAGDALENA DE GUZMAN",
           "to": "AHSHA SAFAI",
-          "count": 769
+          "count": 970
         },
         {
           "from": "MAGDALENA DE GUZMAN",
           "to": "$EXHAUSTED",
-          "count": 1438
+          "count": 2682
         },
         {
           "from": "MAGDALENA DE GUZMAN",
           "to": "KIM ALVARENGA",
-          "count": 812
-        },
-        {
-          "from": "FRANCISCO HERRERA",
-          "to": "KIM ALVARENGA",
-          "count": 818
-        },
-        {
-          "from": "FRANCISCO HERRERA",
-          "to": "$EXHAUSTED",
-          "count": 1208
-        },
-        {
-          "from": "FRANCISCO HERRERA",
-          "to": "AHSHA SAFAI",
-          "count": 592
-        },
-        {
-          "from": "BERTA HERNANDEZ",
-          "to": "$EXHAUSTED",
-          "count": 703
-        },
-        {
-          "from": "BERTA HERNANDEZ",
-          "to": "KIM ALVARENGA",
-          "count": 509
-        },
-        {
-          "from": "BERTA HERNANDEZ",
-          "to": "AHSHA SAFAI",
-          "count": 395
+          "count": 1053
         },
         {
           "from": "$EXHAUSTED",
           "to": "$EXHAUSTED",
-          "count": 2630
+          "count": 3297
         }
       ]
     }

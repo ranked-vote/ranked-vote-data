@@ -2,7 +2,7 @@
     "name": "San Francisco 2018 Municipal Election - District 6",
     "date": "2018-11-06",
     "format": "us_ca_sfo",
-    "tabulation": "eager_irv",
+    "tabulation": "irv",
     "files": [
         "us/ca/sfo/2018/11/20181127_masterlookup.txt",
         "us/ca/sfo/2018/11/20181127_d6_ballotimage.txt"

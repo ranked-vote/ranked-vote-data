@@ -3,7 +3,7 @@
     "name": "San Francisco 2018 Municipal Election - Mayor",
     "date": "2018-06-05",
     "format": "us_ca_sfo",
-    "tabulation": "eager_irv",
+    "tabulation": "irv",
     "params": {
       "contest": 20
     },
@@ -158,6 +158,561 @@
       "candidates": [
         "LONDON BREED",
         "MARK LENO",
+        "JANE KIM",
+        "ANGELA ALIOTO",
+        "ELLEN LEE ZHOU",
+        "RICHIE GREENBERG",
+        "AMY FARAH WEISS",
+        "MICHELLE BRAVO"
+      ],
+      "results": [
+        {
+          "name": "LONDON BREED",
+          "votes": 92124
+        },
+        {
+          "name": "MARK LENO",
+          "votes": 61416
+        },
+        {
+          "name": "JANE KIM",
+          "votes": 60738
+        },
+        {
+          "name": "ANGELA ALIOTO",
+          "votes": 17552
+        },
+        {
+          "name": "ELLEN LEE ZHOU",
+          "votes": 9576
+        },
+        {
+          "name": "RICHIE GREENBERG",
+          "votes": 7051
+        },
+        {
+          "name": "AMY FARAH WEISS",
+          "votes": 1675
+        },
+        {
+          "name": "MICHELLE BRAVO",
+          "votes": 900
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 2984
+        }
+      ],
+      "undervote": 2350,
+      "overvote": 634,
+      "continuing_ballots": 251032,
+      "eliminated": [
+        "WRITE-IN ANTOINE R. ROGERS"
+      ],
+      "transfers": [
+        {
+          "from": "LONDON BREED",
+          "to": "LONDON BREED",
+          "count": 92121
+        },
+        {
+          "from": "MARK LENO",
+          "to": "MARK LENO",
+          "count": 61416
+        },
+        {
+          "from": "JANE KIM",
+          "to": "JANE KIM",
+          "count": 60738
+        },
+        {
+          "from": "ANGELA ALIOTO",
+          "to": "ANGELA ALIOTO",
+          "count": 17552
+        },
+        {
+          "from": "ELLEN LEE ZHOU",
+          "to": "ELLEN LEE ZHOU",
+          "count": 9576
+        },
+        {
+          "from": "RICHIE GREENBERG",
+          "to": "RICHIE GREENBERG",
+          "count": 7051
+        },
+        {
+          "from": "AMY FARAH WEISS",
+          "to": "AMY FARAH WEISS",
+          "count": 1675
+        },
+        {
+          "from": "MICHELLE BRAVO",
+          "to": "MICHELLE BRAVO",
+          "count": 900
+        },
+        {
+          "from": "WRITE-IN ANTOINE R. ROGERS",
+          "to": "LONDON BREED",
+          "count": 3
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 2984
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "candidates": [
+        "LONDON BREED",
+        "MARK LENO",
+        "JANE KIM",
+        "ANGELA ALIOTO",
+        "ELLEN LEE ZHOU",
+        "RICHIE GREENBERG",
+        "AMY FARAH WEISS"
+      ],
+      "results": [
+        {
+          "name": "LONDON BREED",
+          "votes": 92243
+        },
+        {
+          "name": "MARK LENO",
+          "votes": 61533
+        },
+        {
+          "name": "JANE KIM",
+          "votes": 60829
+        },
+        {
+          "name": "ANGELA ALIOTO",
+          "votes": 17737
+        },
+        {
+          "name": "ELLEN LEE ZHOU",
+          "votes": 9687
+        },
+        {
+          "name": "RICHIE GREENBERG",
+          "votes": 7128
+        },
+        {
+          "name": "AMY FARAH WEISS",
+          "votes": 1735
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 3124
+        }
+      ],
+      "undervote": 2486,
+      "overvote": 638,
+      "continuing_ballots": 250892,
+      "eliminated": [
+        "MICHELLE BRAVO"
+      ],
+      "transfers": [
+        {
+          "from": "LONDON BREED",
+          "to": "LONDON BREED",
+          "count": 92124
+        },
+        {
+          "from": "MARK LENO",
+          "to": "MARK LENO",
+          "count": 61416
+        },
+        {
+          "from": "JANE KIM",
+          "to": "JANE KIM",
+          "count": 60738
+        },
+        {
+          "from": "ANGELA ALIOTO",
+          "to": "ANGELA ALIOTO",
+          "count": 17552
+        },
+        {
+          "from": "ELLEN LEE ZHOU",
+          "to": "ELLEN LEE ZHOU",
+          "count": 9576
+        },
+        {
+          "from": "RICHIE GREENBERG",
+          "to": "RICHIE GREENBERG",
+          "count": 7051
+        },
+        {
+          "from": "AMY FARAH WEISS",
+          "to": "AMY FARAH WEISS",
+          "count": 1675
+        },
+        {
+          "from": "MICHELLE BRAVO",
+          "to": "ANGELA ALIOTO",
+          "count": 185
+        },
+        {
+          "from": "MICHELLE BRAVO",
+          "to": "JANE KIM",
+          "count": 91
+        },
+        {
+          "from": "MICHELLE BRAVO",
+          "to": "LONDON BREED",
+          "count": 119
+        },
+        {
+          "from": "MICHELLE BRAVO",
+          "to": "ELLEN LEE ZHOU",
+          "count": 111
+        },
+        {
+          "from": "MICHELLE BRAVO",
+          "to": "$EXHAUSTED",
+          "count": 140
+        },
+        {
+          "from": "MICHELLE BRAVO",
+          "to": "MARK LENO",
+          "count": 117
+        },
+        {
+          "from": "MICHELLE BRAVO",
+          "to": "RICHIE GREENBERG",
+          "count": 77
+        },
+        {
+          "from": "MICHELLE BRAVO",
+          "to": "AMY FARAH WEISS",
+          "count": 60
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 2984
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "candidates": [
+        "LONDON BREED",
+        "MARK LENO",
+        "JANE KIM",
+        "ANGELA ALIOTO",
+        "ELLEN LEE ZHOU",
+        "RICHIE GREENBERG"
+      ],
+      "results": [
+        {
+          "name": "LONDON BREED",
+          "votes": 92442
+        },
+        {
+          "name": "MARK LENO",
+          "votes": 61881
+        },
+        {
+          "name": "JANE KIM",
+          "votes": 61422
+        },
+        {
+          "name": "ANGELA ALIOTO",
+          "votes": 17929
+        },
+        {
+          "name": "ELLEN LEE ZHOU",
+          "votes": 9829
+        },
+        {
+          "name": "RICHIE GREENBERG",
+          "votes": 7242
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 3271
+        }
+      ],
+      "undervote": 2630,
+      "overvote": 641,
+      "continuing_ballots": 250745,
+      "eliminated": [
+        "AMY FARAH WEISS"
+      ],
+      "transfers": [
+        {
+          "from": "LONDON BREED",
+          "to": "LONDON BREED",
+          "count": 92243
+        },
+        {
+          "from": "MARK LENO",
+          "to": "MARK LENO",
+          "count": 61533
+        },
+        {
+          "from": "JANE KIM",
+          "to": "JANE KIM",
+          "count": 60829
+        },
+        {
+          "from": "ANGELA ALIOTO",
+          "to": "ANGELA ALIOTO",
+          "count": 17737
+        },
+        {
+          "from": "ELLEN LEE ZHOU",
+          "to": "ELLEN LEE ZHOU",
+          "count": 9687
+        },
+        {
+          "from": "RICHIE GREENBERG",
+          "to": "RICHIE GREENBERG",
+          "count": 7128
+        },
+        {
+          "from": "AMY FARAH WEISS",
+          "to": "MARK LENO",
+          "count": 348
+        },
+        {
+          "from": "AMY FARAH WEISS",
+          "to": "JANE KIM",
+          "count": 593
+        },
+        {
+          "from": "AMY FARAH WEISS",
+          "to": "LONDON BREED",
+          "count": 199
+        },
+        {
+          "from": "AMY FARAH WEISS",
+          "to": "ELLEN LEE ZHOU",
+          "count": 142
+        },
+        {
+          "from": "AMY FARAH WEISS",
+          "to": "RICHIE GREENBERG",
+          "count": 114
+        },
+        {
+          "from": "AMY FARAH WEISS",
+          "to": "ANGELA ALIOTO",
+          "count": 192
+        },
+        {
+          "from": "AMY FARAH WEISS",
+          "to": "$EXHAUSTED",
+          "count": 147
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 3124
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "candidates": [
+        "LONDON BREED",
+        "MARK LENO",
+        "JANE KIM",
+        "ANGELA ALIOTO",
+        "ELLEN LEE ZHOU"
+      ],
+      "results": [
+        {
+          "name": "LONDON BREED",
+          "votes": 93605
+        },
+        {
+          "name": "MARK LENO",
+          "votes": 62861
+        },
+        {
+          "name": "JANE KIM",
+          "votes": 61843
+        },
+        {
+          "name": "ANGELA ALIOTO",
+          "votes": 19626
+        },
+        {
+          "name": "ELLEN LEE ZHOU",
+          "votes": 10637
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 5444
+        }
+      ],
+      "undervote": 4795,
+      "overvote": 649,
+      "continuing_ballots": 248572,
+      "eliminated": [
+        "RICHIE GREENBERG"
+      ],
+      "transfers": [
+        {
+          "from": "LONDON BREED",
+          "to": "LONDON BREED",
+          "count": 92442
+        },
+        {
+          "from": "MARK LENO",
+          "to": "MARK LENO",
+          "count": 61881
+        },
+        {
+          "from": "JANE KIM",
+          "to": "JANE KIM",
+          "count": 61422
+        },
+        {
+          "from": "ANGELA ALIOTO",
+          "to": "ANGELA ALIOTO",
+          "count": 17929
+        },
+        {
+          "from": "ELLEN LEE ZHOU",
+          "to": "ELLEN LEE ZHOU",
+          "count": 9829
+        },
+        {
+          "from": "RICHIE GREENBERG",
+          "to": "ELLEN LEE ZHOU",
+          "count": 808
+        },
+        {
+          "from": "RICHIE GREENBERG",
+          "to": "ANGELA ALIOTO",
+          "count": 1697
+        },
+        {
+          "from": "RICHIE GREENBERG",
+          "to": "LONDON BREED",
+          "count": 1163
+        },
+        {
+          "from": "RICHIE GREENBERG",
+          "to": "MARK LENO",
+          "count": 980
+        },
+        {
+          "from": "RICHIE GREENBERG",
+          "to": "$EXHAUSTED",
+          "count": 2173
+        },
+        {
+          "from": "RICHIE GREENBERG",
+          "to": "JANE KIM",
+          "count": 421
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 3271
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "candidates": [
+        "LONDON BREED",
+        "MARK LENO",
+        "JANE KIM",
+        "ANGELA ALIOTO"
+      ],
+      "results": [
+        {
+          "name": "LONDON BREED",
+          "votes": 96392
+        },
+        {
+          "name": "MARK LENO",
+          "votes": 64128
+        },
+        {
+          "name": "JANE KIM",
+          "votes": 63261
+        },
+        {
+          "name": "ANGELA ALIOTO",
+          "votes": 21981
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 8254
+        }
+      ],
+      "undervote": 7587,
+      "overvote": 667,
+      "continuing_ballots": 245762,
+      "eliminated": [
+        "ELLEN LEE ZHOU"
+      ],
+      "transfers": [
+        {
+          "from": "LONDON BREED",
+          "to": "LONDON BREED",
+          "count": 93605
+        },
+        {
+          "from": "MARK LENO",
+          "to": "MARK LENO",
+          "count": 62861
+        },
+        {
+          "from": "JANE KIM",
+          "to": "JANE KIM",
+          "count": 61843
+        },
+        {
+          "from": "ANGELA ALIOTO",
+          "to": "ANGELA ALIOTO",
+          "count": 19626
+        },
+        {
+          "from": "ELLEN LEE ZHOU",
+          "to": "JANE KIM",
+          "count": 1418
+        },
+        {
+          "from": "ELLEN LEE ZHOU",
+          "to": "MARK LENO",
+          "count": 1267
+        },
+        {
+          "from": "ELLEN LEE ZHOU",
+          "to": "LONDON BREED",
+          "count": 2787
+        },
+        {
+          "from": "ELLEN LEE ZHOU",
+          "to": "$EXHAUSTED",
+          "count": 2810
+        },
+        {
+          "from": "ELLEN LEE ZHOU",
+          "to": "ANGELA ALIOTO",
+          "count": 2355
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 5444
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "candidates": [
+        "LONDON BREED",
+        "MARK LENO",
         "JANE KIM"
       ],
       "results": [
@@ -182,143 +737,53 @@
       "overvote": 693,
       "continuing_ballots": 237517,
       "eliminated": [
-        "ANGELA ALIOTO",
-        "ELLEN LEE ZHOU",
-        "RICHIE GREENBERG",
-        "AMY FARAH WEISS",
-        "MICHELLE BRAVO",
-        "WRITE-IN ANTOINE R. ROGERS"
+        "ANGELA ALIOTO"
       ],
       "transfers": [
         {
           "from": "LONDON BREED",
           "to": "LONDON BREED",
-          "count": 92121
+          "count": 96392
         },
         {
           "from": "MARK LENO",
           "to": "MARK LENO",
-          "count": 61416
+          "count": 64128
         },
         {
           "from": "JANE KIM",
           "to": "JANE KIM",
-          "count": 60738
+          "count": 63261
         },
         {
           "from": "ANGELA ALIOTO",
           "to": "JANE KIM",
-          "count": 2503
+          "count": 2782
         },
         {
           "from": "ANGELA ALIOTO",
           "to": "LONDON BREED",
-          "count": 5330
+          "count": 6375
         },
         {
           "from": "ANGELA ALIOTO",
           "to": "$EXHAUSTED",
-          "count": 5635
+          "count": 8245
         },
         {
           "from": "ANGELA ALIOTO",
           "to": "MARK LENO",
-          "count": 4084
-        },
-        {
-          "from": "ELLEN LEE ZHOU",
-          "to": "JANE KIM",
-          "count": 1436
-        },
-        {
-          "from": "ELLEN LEE ZHOU",
-          "to": "MARK LENO",
-          "count": 1356
-        },
-        {
-          "from": "ELLEN LEE ZHOU",
-          "to": "LONDON BREED",
-          "count": 3229
-        },
-        {
-          "from": "ELLEN LEE ZHOU",
-          "to": "$EXHAUSTED",
-          "count": 3555
-        },
-        {
-          "from": "RICHIE GREENBERG",
-          "to": "$EXHAUSTED",
-          "count": 3516
-        },
-        {
-          "from": "RICHIE GREENBERG",
-          "to": "LONDON BREED",
-          "count": 1668
-        },
-        {
-          "from": "RICHIE GREENBERG",
-          "to": "MARK LENO",
-          "count": 1270
-        },
-        {
-          "from": "RICHIE GREENBERG",
-          "to": "JANE KIM",
-          "count": 597
-        },
-        {
-          "from": "AMY FARAH WEISS",
-          "to": "MARK LENO",
-          "count": 397
-        },
-        {
-          "from": "AMY FARAH WEISS",
-          "to": "JANE KIM",
-          "count": 633
-        },
-        {
-          "from": "AMY FARAH WEISS",
-          "to": "LONDON BREED",
-          "count": 246
-        },
-        {
-          "from": "AMY FARAH WEISS",
-          "to": "$EXHAUSTED",
-          "count": 399
-        },
-        {
-          "from": "MICHELLE BRAVO",
-          "to": "$EXHAUSTED",
-          "count": 410
-        },
-        {
-          "from": "MICHELLE BRAVO",
-          "to": "JANE KIM",
-          "count": 136
-        },
-        {
-          "from": "MICHELLE BRAVO",
-          "to": "LONDON BREED",
-          "count": 170
-        },
-        {
-          "from": "MICHELLE BRAVO",
-          "to": "MARK LENO",
-          "count": 184
-        },
-        {
-          "from": "WRITE-IN ANTOINE R. ROGERS",
-          "to": "LONDON BREED",
-          "count": 3
+          "count": 4579
         },
         {
           "from": "$EXHAUSTED",
           "to": "$EXHAUSTED",
-          "count": 2984
+          "count": 8254
         }
       ]
     },
     {
-      "round": 3,
+      "round": 8,
       "candidates": [
         "LONDON BREED",
         "MARK LENO"

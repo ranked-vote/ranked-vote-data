@@ -3,7 +3,7 @@
     "name": "San Francisco 2018 Municipal Election - District 4",
     "date": "2018-11-06",
     "format": "us_ca_sfo",
-    "tabulation": "eager_irv",
+    "tabulation": "irv",
     "files": [
       {
         "name": "raw/us/ca/sfo/2018/11/20181127_masterlookup.txt",
@@ -279,6 +279,125 @@
         "JESSICA HO",
         "TREVOR MCNEIL",
         "ARTHUR TOM",
+        "LOU ANN BASSAN",
+        "MIKE MURPHY"
+      ],
+      "results": [
+        {
+          "name": "GORDON MAR",
+          "votes": 10575
+        },
+        {
+          "name": "JESSICA HO",
+          "votes": 7728
+        },
+        {
+          "name": "TREVOR MCNEIL",
+          "votes": 3683
+        },
+        {
+          "name": "ARTHUR TOM",
+          "votes": 2620
+        },
+        {
+          "name": "LOU ANN BASSAN",
+          "votes": 2281
+        },
+        {
+          "name": "MIKE MURPHY",
+          "votes": 1290
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 3235
+        }
+      ],
+      "undervote": 3054,
+      "overvote": 181,
+      "continuing_ballots": 28177,
+      "eliminated": [
+        "TUAN NGUYEN"
+      ],
+      "transfers": [
+        {
+          "from": "GORDON MAR",
+          "to": "GORDON MAR",
+          "count": 10388
+        },
+        {
+          "from": "JESSICA HO",
+          "to": "JESSICA HO",
+          "count": 7556
+        },
+        {
+          "from": "TREVOR MCNEIL",
+          "to": "TREVOR MCNEIL",
+          "count": 3547
+        },
+        {
+          "from": "ARTHUR TOM",
+          "to": "ARTHUR TOM",
+          "count": 2513
+        },
+        {
+          "from": "LOU ANN BASSAN",
+          "to": "LOU ANN BASSAN",
+          "count": 2220
+        },
+        {
+          "from": "MIKE MURPHY",
+          "to": "MIKE MURPHY",
+          "count": 1233
+        },
+        {
+          "from": "TUAN NGUYEN",
+          "to": "$EXHAUSTED",
+          "count": 178
+        },
+        {
+          "from": "TUAN NGUYEN",
+          "to": "JESSICA HO",
+          "count": 172
+        },
+        {
+          "from": "TUAN NGUYEN",
+          "to": "LOU ANN BASSAN",
+          "count": 61
+        },
+        {
+          "from": "TUAN NGUYEN",
+          "to": "TREVOR MCNEIL",
+          "count": 136
+        },
+        {
+          "from": "TUAN NGUYEN",
+          "to": "GORDON MAR",
+          "count": 187
+        },
+        {
+          "from": "TUAN NGUYEN",
+          "to": "ARTHUR TOM",
+          "count": 107
+        },
+        {
+          "from": "TUAN NGUYEN",
+          "to": "MIKE MURPHY",
+          "count": 57
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 3057
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "candidates": [
+        "GORDON MAR",
+        "JESSICA HO",
+        "TREVOR MCNEIL",
+        "ARTHUR TOM",
         "LOU ANN BASSAN"
       ],
       "results": [
@@ -311,104 +430,73 @@
       "overvote": 183,
       "continuing_ballots": 27885,
       "eliminated": [
-        "MIKE MURPHY",
-        "TUAN NGUYEN"
+        "MIKE MURPHY"
       ],
       "transfers": [
         {
           "from": "GORDON MAR",
           "to": "GORDON MAR",
-          "count": 10388
+          "count": 10575
         },
         {
           "from": "JESSICA HO",
           "to": "JESSICA HO",
-          "count": 7556
+          "count": 7728
         },
         {
           "from": "TREVOR MCNEIL",
           "to": "TREVOR MCNEIL",
-          "count": 3547
+          "count": 3683
         },
         {
           "from": "ARTHUR TOM",
           "to": "ARTHUR TOM",
-          "count": 2513
+          "count": 2620
         },
         {
           "from": "LOU ANN BASSAN",
           "to": "LOU ANN BASSAN",
-          "count": 2220
+          "count": 2281
         },
         {
           "from": "MIKE MURPHY",
           "to": "ARTHUR TOM",
-          "count": 118
+          "count": 120
         },
         {
           "from": "MIKE MURPHY",
           "to": "$EXHAUSTED",
-          "count": 273
+          "count": 292
         },
         {
           "from": "MIKE MURPHY",
           "to": "TREVOR MCNEIL",
-          "count": 295
+          "count": 304
         },
         {
           "from": "MIKE MURPHY",
           "to": "JESSICA HO",
-          "count": 123
+          "count": 130
         },
         {
           "from": "MIKE MURPHY",
           "to": "GORDON MAR",
-          "count": 251
+          "count": 258
         },
         {
           "from": "MIKE MURPHY",
           "to": "LOU ANN BASSAN",
-          "count": 173
-        },
-        {
-          "from": "TUAN NGUYEN",
-          "to": "$EXHAUSTED",
-          "count": 197
-        },
-        {
-          "from": "TUAN NGUYEN",
-          "to": "JESSICA HO",
-          "count": 179
-        },
-        {
-          "from": "TUAN NGUYEN",
-          "to": "LOU ANN BASSAN",
-          "count": 74
-        },
-        {
-          "from": "TUAN NGUYEN",
-          "to": "TREVOR MCNEIL",
-          "count": 145
-        },
-        {
-          "from": "TUAN NGUYEN",
-          "to": "GORDON MAR",
-          "count": 194
-        },
-        {
-          "from": "TUAN NGUYEN",
-          "to": "ARTHUR TOM",
-          "count": 109
+          "count": 186
         },
         {
           "from": "$EXHAUSTED",
           "to": "$EXHAUSTED",
-          "count": 3057
+          "count": 3235
         }
       ]
     },
     {
-      "round": 4,
+      "round": 5,
       "candidates": [
         "GORDON MAR",
         "JESSICA HO",
@@ -497,7 +585,81 @@
       ]
     },
     {
-      "round": 5,
+      "round": 6,
+      "candidates": [
+        "GORDON MAR",
+        "JESSICA HO",
+        "TREVOR MCNEIL"
+      ],
+      "results": [
+        {
+          "name": "GORDON MAR",
+          "votes": 11803
+        },
+        {
+          "name": "JESSICA HO",
+          "votes": 9013
+        },
+        {
+          "name": "TREVOR MCNEIL",
+          "votes": 5055
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 5541
+        }
+      ],
+      "undervote": 5352,
+      "overvote": 189,
+      "continuing_ballots": 25871,
+      "eliminated": [
+        "ARTHUR TOM"
+      ],
+      "transfers": [
+        {
+          "from": "GORDON MAR",
+          "to": "GORDON MAR",
+          "count": 11138
+        },
+        {
+          "from": "JESSICA HO",
+          "to": "JESSICA HO",
+          "count": 8306
+        },
+        {
+          "from": "TREVOR MCNEIL",
+          "to": "TREVOR MCNEIL",
+          "count": 4470
+        },
+        {
+          "from": "ARTHUR TOM",
+          "to": "TREVOR MCNEIL",
+          "count": 585
+        },
+        {
+          "from": "ARTHUR TOM",
+          "to": "$EXHAUSTED",
+          "count": 1230
+        },
+        {
+          "from": "ARTHUR TOM",
+          "to": "GORDON MAR",
+          "count": 665
+        },
+        {
+          "from": "ARTHUR TOM",
+          "to": "JESSICA HO",
+          "count": 707
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 4311
+        }
+      ]
+    },
+    {
+      "round": 7,
       "candidates": [
         "GORDON MAR",
         "JESSICA HO"
@@ -520,54 +682,38 @@
       "overvote": 200,
       "continuing_ballots": 23320,
       "eliminated": [
-        "TREVOR MCNEIL",
-        "ARTHUR TOM"
+        "TREVOR MCNEIL"
       ],
       "transfers": [
         {
           "from": "GORDON MAR",
           "to": "GORDON MAR",
-          "count": 11138
+          "count": 11803
         },
         {
           "from": "JESSICA HO",
           "to": "JESSICA HO",
-          "count": 8306
+          "count": 9013
         },
         {
           "from": "TREVOR MCNEIL",
           "to": "$EXHAUSTED",
-          "count": 2129
+          "count": 2551
         },
         {
           "from": "TREVOR MCNEIL",
           "to": "GORDON MAR",
-          "count": 1352
+          "count": 1452
         },
         {
           "from": "TREVOR MCNEIL",
           "to": "JESSICA HO",
-          "count": 989
-        },
-        {
-          "from": "ARTHUR TOM",
-          "to": "$EXHAUSTED",
-          "count": 1652
-        },
-        {
-          "from": "ARTHUR TOM",
-          "to": "GORDON MAR",
-          "count": 765
-        },
-        {
-          "from": "ARTHUR TOM",
-          "to": "JESSICA HO",
-          "count": 770
+          "count": 1052
         },
         {
           "from": "$EXHAUSTED",
           "to": "$EXHAUSTED",
-          "count": 4311
+          "count": 5541
         }
       ]
     }

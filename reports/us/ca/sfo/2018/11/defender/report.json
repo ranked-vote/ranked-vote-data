@@ -3,7 +3,7 @@
     "name": "San Francisco 2018 Municipal Election - Defender",
     "date": "2018-11-06",
     "format": "us_ca_sfo",
-    "tabulation": "eager_irv",
+    "tabulation": "irv",
     "files": [
       {
         "name": "raw/us/ca/sfo/2018/11/20181127_masterlookup.txt",

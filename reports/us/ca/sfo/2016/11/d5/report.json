@@ -3,7 +3,7 @@
     "name": "San Francisco 2016 Municipal Election - District 5",
     "date": "2016-11-08",
     "format": "us_ca_sfo",
-    "tabulation": "eager_irv",
+    "tabulation": "irv",
     "params": {
       "contest": 11
     },

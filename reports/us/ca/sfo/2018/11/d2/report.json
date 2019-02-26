@@ -3,7 +3,7 @@
     "name": "San Francisco 2018 Municipal Election - District 2",
     "date": "2018-11-06",
     "format": "us_ca_sfo",
-    "tabulation": "eager_irv",
+    "tabulation": "irv",
     "files": [
       {
         "name": "raw/us/ca/sfo/2018/11/20181127_masterlookup.txt",
@@ -94,6 +94,80 @@
       "round": 2,
       "candidates": [
         "CATHERINE STEFANI",
+        "NICK JOSEFOWITZ",
+        "SCHUYLER HUDAK"
+      ],
+      "results": [
+        {
+          "name": "CATHERINE STEFANI",
+          "votes": 15009
+        },
+        {
+          "name": "NICK JOSEFOWITZ",
+          "votes": 14342
+        },
+        {
+          "name": "SCHUYLER HUDAK",
+          "votes": 4938
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 5617
+        }
+      ],
+      "undervote": 5533,
+      "overvote": 84,
+      "continuing_ballots": 34289,
+      "eliminated": [
+        "JOHN DENNIS"
+      ],
+      "transfers": [
+        {
+          "from": "CATHERINE STEFANI",
+          "to": "CATHERINE STEFANI",
+          "count": 14415
+        },
+        {
+          "from": "NICK JOSEFOWITZ",
+          "to": "NICK JOSEFOWITZ",
+          "count": 13644
+        },
+        {
+          "from": "SCHUYLER HUDAK",
+          "to": "SCHUYLER HUDAK",
+          "count": 4145
+        },
+        {
+          "from": "JOHN DENNIS",
+          "to": "$EXHAUSTED",
+          "count": 1023
+        },
+        {
+          "from": "JOHN DENNIS",
+          "to": "CATHERINE STEFANI",
+          "count": 594
+        },
+        {
+          "from": "JOHN DENNIS",
+          "to": "NICK JOSEFOWITZ",
+          "count": 698
+        },
+        {
+          "from": "JOHN DENNIS",
+          "to": "SCHUYLER HUDAK",
+          "count": 793
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 4594
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "candidates": [
+        "CATHERINE STEFANI",
         "NICK JOSEFOWITZ"
       ],
       "results": [
@@ -114,54 +188,38 @@
       "overvote": 97,
       "continuing_ballots": 33401,
       "eliminated": [
-        "SCHUYLER HUDAK",
-        "JOHN DENNIS"
+        "SCHUYLER HUDAK"
       ],
       "transfers": [
         {
           "from": "CATHERINE STEFANI",
           "to": "CATHERINE STEFANI",
-          "count": 14415
+          "count": 15009
         },
         {
           "from": "NICK JOSEFOWITZ",
           "to": "NICK JOSEFOWITZ",
-          "count": 13644
+          "count": 14342
         },
         {
           "from": "SCHUYLER HUDAK",
           "to": "CATHERINE STEFANI",
-          "count": 1992
+          "count": 2331
         },
         {
           "from": "SCHUYLER HUDAK",
           "to": "NICK JOSEFOWITZ",
-          "count": 1456
+          "count": 1719
         },
         {
           "from": "SCHUYLER HUDAK",
           "to": "$EXHAUSTED",
-          "count": 697
-        },
-        {
-          "from": "JOHN DENNIS",
-          "to": "$EXHAUSTED",
-          "count": 1214
-        },
-        {
-          "from": "JOHN DENNIS",
-          "to": "CATHERINE STEFANI",
-          "count": 933
-        },
-        {
-          "from": "JOHN DENNIS",
-          "to": "NICK JOSEFOWITZ",
-          "count": 961
+          "count": 888
         },
         {
           "from": "$EXHAUSTED",
           "to": "$EXHAUSTED",
-          "count": 4594
+          "count": 5617
         }
       ]
     }
