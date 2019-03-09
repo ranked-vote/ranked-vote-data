@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "name": "Santa Fe 2018 Councilor 4 Election",
+    "date": "2018-03-06",
+    "format": "us_nm_saf",
+    "tabulation": "irv",
+    "files": [
+      {
+        "name": "raw/us/nm/saf/2018/03/csvFiles.zip",
+        "sha1": "820f869796ccd3c551667f8a8f72f7a41df3b7aa"
+      }
+    ],
+    "params": {
+      "contest": "COUNCILOR DISTRICT 4"
+    },
+    "num_ballots": 5080,
+    "candidate_ids": [
+      "Eric John Holmes",
+      "Greg Scargall",
+      "JoAnne Vigil Coppler"
+    ],
+    "normalized_ballots": "us/nm/2018/03/councilor4/us_nm_2018_03_councilor4.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "JoAnne Vigil Coppler",
+        "name": "Joanne Vigil Coppler",
+        "write_in": false
+      },
+      {
+        "id": "Greg Scargall",
+        "name": "Greg Scargall",
+        "write_in": false
+      },
+      {
+        "id": "Eric John Holmes",
+        "name": "Eric John Holmes",
+        "write_in": false
+      }
+    ]
+  },
+  "candidates": [
+    "JoAnne Vigil Coppler",
+    "Greg Scargall",
+    "Eric John Holmes"
+  ],
+  "winner": "JoAnne Vigil Coppler",
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "JoAnne Vigil Coppler",
+        "Greg Scargall",
+        "Eric John Holmes"
+      ],
+      "results": [
+        {
+          "name": "JoAnne Vigil Coppler",
+          "votes": 2121
+        },
+        {
+          "name": "Greg Scargall",
+          "votes": 1473
+        },
+        {
+          "name": "Eric John Holmes",
+          "votes": 1305
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 181
+        }
+      ],
+      "undervote": 173,
+      "overvote": 8,
+      "continuing_ballots": 4899,
+      "eliminated": [],
+      "transfers": []
+    },
+    {
+      "round": 2,
+      "candidates": [
+        "JoAnne Vigil Coppler",
+        "Greg Scargall"
+      ],
+      "results": [
+        {
+          "name": "JoAnne Vigil Coppler",
+          "votes": 2565
+        },
+        {
+          "name": "Greg Scargall",
+          "votes": 1978
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 537
+        }
+      ],
+      "undervote": 525,
+      "overvote": 12,
+      "continuing_ballots": 4543,
+      "eliminated": [
+        "Eric John Holmes"
+      ],
+      "transfers": [
+        {
+          "from": "JoAnne Vigil Coppler",
+          "to": "JoAnne Vigil Coppler",
+          "count": 2121
+        },
+        {
+          "from": "Greg Scargall",
+          "to": "Greg Scargall",
+          "count": 1473
+        },
+        {
+          "from": "Eric John Holmes",
+          "to": "Greg Scargall",
+          "count": 505
+        },
+        {
+          "from": "Eric John Holmes",
+          "to": "JoAnne Vigil Coppler",
+          "count": 444
+        },
+        {
+          "from": "Eric John Holmes",
+          "to": "$EXHAUSTED",
+          "count": 356
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 181
+        }
+      ]
+    }
+  ],
+  "smith_set": [
+    "JoAnne Vigil Coppler"
+  ],
+  "condorcet": "JoAnne Vigil Coppler",
+  "graph": [
+    {
+      "source": "JoAnne Vigil Coppler",
+      "edges": []
+    },
+    {
+      "source": "Greg Scargall",
+      "edges": [
+        "JoAnne Vigil Coppler"
+      ]
+    },
+    {
+      "source": "Eric John Holmes",
+      "edges": [
+        "Greg Scargall",
+        "JoAnne Vigil Coppler"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "JoAnne Vigil Coppler",
+      "second_candidate": "Greg Scargall",
+      "numerator": 2565,
+      "denominator": 4543
+    },
+    {
+      "first_candidate": "JoAnne Vigil Coppler",
+      "second_candidate": "Eric John Holmes",
+      "numerator": 2791,
+      "denominator": 4619
+    },
+    {
+      "first_candidate": "Greg Scargall",
+      "second_candidate": "JoAnne Vigil Coppler",
+      "numerator": 1978,
+      "denominator": 4543
+    },
+    {
+      "first_candidate": "Greg Scargall",
+      "second_candidate": "Eric John Holmes",
+      "numerator": 2354,
+      "denominator": 4445
+    },
+    {
+      "first_candidate": "Eric John Holmes",
+      "second_candidate": "JoAnne Vigil Coppler",
+      "numerator": 1828,
+      "denominator": 4619
+    },
+    {
+      "first_candidate": "Eric John Holmes",
+      "second_candidate": "Greg Scargall",
+      "numerator": 2091,
+      "denominator": 4445
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "JoAnne Vigil Coppler",
+      "second_candidate": "Greg Scargall",
+      "numerator": 881,
+      "denominator": 2121
+    },
+    {
+      "first_candidate": "JoAnne Vigil Coppler",
+      "second_candidate": "Eric John Holmes",
+      "numerator": 786,
+      "denominator": 2121
+    },
+    {
+      "first_candidate": "JoAnne Vigil Coppler",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 454,
+      "denominator": 2121
+    },
+    {
+      "first_candidate": "Greg Scargall",
+      "second_candidate": "JoAnne Vigil Coppler",
+      "numerator": 670,
+      "denominator": 1473
+    },
+    {
+      "first_candidate": "Greg Scargall",
+      "second_candidate": "Eric John Holmes",
+      "numerator": 523,
+      "denominator": 1473
+    },
+    {
+      "first_candidate": "Greg Scargall",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 280,
+      "denominator": 1473
+    },
+    {
+      "first_candidate": "Eric John Holmes",
+      "second_candidate": "JoAnne Vigil Coppler",
+      "numerator": 444,
+      "denominator": 1305
+    },
+    {
+      "first_candidate": "Eric John Holmes",
+      "second_candidate": "Greg Scargall",
+      "numerator": 505,
+      "denominator": 1305
+    },
+    {
+      "first_candidate": "Eric John Holmes",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 356,
+      "denominator": 1305
+    }
+  ],
+  "final_by_first": {
+    "finalists": [
+      "JoAnne Vigil Coppler",
+      "Greg Scargall",
+      "$EXHAUSTED"
+    ],
+    "eliminated": [
+      "Eric John Holmes"
+    ],
+    "pairs": [
+      {
+        "first_candidate": "Eric John Holmes",
+        "second_candidate": "JoAnne Vigil Coppler",
+        "numerator": 444,
+        "denominator": 1305
+      },
+      {
+        "first_candidate": "Eric John Holmes",
+        "second_candidate": "Greg Scargall",
+        "numerator": 505,
+        "denominator": 1305
+      },
+      {
+        "first_candidate": "Eric John Holmes",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 356,
+        "denominator": 1305
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "name": "Santa Fe 2018 Councilor 3 Election",
+    "date": "2018-03-06",
+    "format": "us_nm_saf",
+    "tabulation": "irv",
+    "files": [
+      {
+        "name": "raw/us/nm/saf/2018/03/csvFiles.zip",
+        "sha1": "820f869796ccd3c551667f8a8f72f7a41df3b7aa"
+      }
+    ],
+    "params": {
+      "contest": "COUNCILOR DISTRICT 3"
+    },
+    "num_ballots": 1940,
+    "candidate_ids": [
+      "Roman \"Tiger\" Abeyta"
+    ],
+    "normalized_ballots": "us/nm/2018/03/councilor3/us_nm_2018_03_councilor3.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "Roman \"Tiger\" Abeyta",
+        "name": "Roman \"Tiger\" Abeyta",
+        "write_in": false
+      }
+    ]
+  },
+  "candidates": [
+    "Roman \"Tiger\" Abeyta"
+  ],
+  "winner": "Roman \"Tiger\" Abeyta",
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "Roman \"Tiger\" Abeyta"
+      ],
+      "results": [
+        {
+          "name": "Roman \"Tiger\" Abeyta",
+          "votes": 1410
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 530
+        }
+      ],
+      "undervote": 530,
+      "overvote": 0,
+      "continuing_ballots": 1410,
+      "eliminated": [],
+      "transfers": []
+    }
+  ],
+  "smith_set": [
+    "Roman \"Tiger\" Abeyta"
+  ],
+  "condorcet": "Roman \"Tiger\" Abeyta",
+  "graph": [
+    {
+      "source": "Roman \"Tiger\" Abeyta",
+      "edges": []
+    }
+  ],
+  "pairwise": [],
+  "first_alternates": [
+    {
+      "first_candidate": "Roman \"Tiger\" Abeyta",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 1410,
+      "denominator": 1410
+    }
+  ],
+  "final_by_first": {
+    "finalists": [
+      "Roman \"Tiger\" Abeyta",
+      "$EXHAUSTED"
+    ],
+    "eliminated": [],
+    "pairs": []
+  }
+}

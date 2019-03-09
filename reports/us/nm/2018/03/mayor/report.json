@@ -1,0 +1,708 @@
+{
+  "meta": {
+    "name": "Santa Fe 2018 Mayoral Election",
+    "date": "2018-03-06",
+    "format": "us_nm_saf",
+    "tabulation": "irv",
+    "files": [
+      {
+        "name": "raw/us/nm/saf/2018/03/csvFiles.zip",
+        "sha1": "820f869796ccd3c551667f8a8f72f7a41df3b7aa"
+      }
+    ],
+    "params": {
+      "contest": "MAYOR"
+    },
+    "num_ballots": 20670,
+    "candidate_ids": [
+      "Peter N. Ives",
+      "Alan Webber",
+      "Kate I. Noble",
+      "Joseph M. Maestas",
+      "Ronald S. Trujillo"
+    ],
+    "normalized_ballots": "us/nm/2018/03/mayor/us_nm_2018_03_mayor.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "Alan Webber",
+        "name": "Alan Webber",
+        "write_in": false
+      },
+      {
+        "id": "Ronald S. Trujillo",
+        "name": "Ronald S. Trujillo",
+        "write_in": false
+      },
+      {
+        "id": "Kate I. Noble",
+        "name": "Kate I. Noble",
+        "write_in": false
+      },
+      {
+        "id": "Joseph M. Maestas",
+        "name": "Joseph M. Maestas",
+        "write_in": false
+      },
+      {
+        "id": "Peter N. Ives",
+        "name": "Peter N. Ives",
+        "write_in": false
+      }
+    ]
+  },
+  "candidates": [
+    "Alan Webber",
+    "Ronald S. Trujillo",
+    "Kate I. Noble",
+    "Joseph M. Maestas",
+    "Peter N. Ives"
+  ],
+  "winner": "Alan Webber",
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "Alan Webber",
+        "Ronald S. Trujillo",
+        "Kate I. Noble",
+        "Joseph M. Maestas",
+        "Peter N. Ives"
+      ],
+      "results": [
+        {
+          "name": "Alan Webber",
+          "votes": 8080
+        },
+        {
+          "name": "Ronald S. Trujillo",
+          "votes": 5026
+        },
+        {
+          "name": "Kate I. Noble",
+          "votes": 4611
+        },
+        {
+          "name": "Joseph M. Maestas",
+          "votes": 1649
+        },
+        {
+          "name": "Peter N. Ives",
+          "votes": 1238
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 66
+        }
+      ],
+      "undervote": 40,
+      "overvote": 26,
+      "continuing_ballots": 20604,
+      "eliminated": [],
+      "transfers": []
+    },
+    {
+      "round": 2,
+      "candidates": [
+        "Alan Webber",
+        "Ronald S. Trujillo",
+        "Kate I. Noble",
+        "Joseph M. Maestas"
+      ],
+      "results": [
+        {
+          "name": "Alan Webber",
+          "votes": 8474
+        },
+        {
+          "name": "Ronald S. Trujillo",
+          "votes": 5241
+        },
+        {
+          "name": "Kate I. Noble",
+          "votes": 4928
+        },
+        {
+          "name": "Joseph M. Maestas",
+          "votes": 1818
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 209
+        }
+      ],
+      "undervote": 181,
+      "overvote": 28,
+      "continuing_ballots": 20461,
+      "eliminated": [
+        "Peter N. Ives"
+      ],
+      "transfers": [
+        {
+          "from": "Alan Webber",
+          "to": "Alan Webber",
+          "count": 8080
+        },
+        {
+          "from": "Ronald S. Trujillo",
+          "to": "Ronald S. Trujillo",
+          "count": 5026
+        },
+        {
+          "from": "Kate I. Noble",
+          "to": "Kate I. Noble",
+          "count": 4611
+        },
+        {
+          "from": "Joseph M. Maestas",
+          "to": "Joseph M. Maestas",
+          "count": 1649
+        },
+        {
+          "from": "Peter N. Ives",
+          "to": "Ronald S. Trujillo",
+          "count": 215
+        },
+        {
+          "from": "Peter N. Ives",
+          "to": "Alan Webber",
+          "count": 394
+        },
+        {
+          "from": "Peter N. Ives",
+          "to": "Kate I. Noble",
+          "count": 317
+        },
+        {
+          "from": "Peter N. Ives",
+          "to": "$EXHAUSTED",
+          "count": 143
+        },
+        {
+          "from": "Peter N. Ives",
+          "to": "Joseph M. Maestas",
+          "count": 169
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 66
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "candidates": [
+        "Alan Webber",
+        "Ronald S. Trujillo",
+        "Kate I. Noble"
+      ],
+      "results": [
+        {
+          "name": "Alan Webber",
+          "votes": 9092
+        },
+        {
+          "name": "Ronald S. Trujillo",
+          "votes": 5654
+        },
+        {
+          "name": "Kate I. Noble",
+          "votes": 5565
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 359
+        }
+      ],
+      "undervote": 323,
+      "overvote": 36,
+      "continuing_ballots": 20311,
+      "eliminated": [
+        "Joseph M. Maestas"
+      ],
+      "transfers": [
+        {
+          "from": "Alan Webber",
+          "to": "Alan Webber",
+          "count": 8474
+        },
+        {
+          "from": "Ronald S. Trujillo",
+          "to": "Ronald S. Trujillo",
+          "count": 5241
+        },
+        {
+          "from": "Kate I. Noble",
+          "to": "Kate I. Noble",
+          "count": 4928
+        },
+        {
+          "from": "Joseph M. Maestas",
+          "to": "Kate I. Noble",
+          "count": 637
+        },
+        {
+          "from": "Joseph M. Maestas",
+          "to": "Ronald S. Trujillo",
+          "count": 413
+        },
+        {
+          "from": "Joseph M. Maestas",
+          "to": "Alan Webber",
+          "count": 618
+        },
+        {
+          "from": "Joseph M. Maestas",
+          "to": "$EXHAUSTED",
+          "count": 150
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 209
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "candidates": [
+        "Alan Webber",
+        "Ronald S. Trujillo"
+      ],
+      "results": [
+        {
+          "name": "Alan Webber",
+          "votes": 13088
+        },
+        {
+          "name": "Ronald S. Trujillo",
+          "votes": 6686
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 896
+        }
+      ],
+      "undervote": 844,
+      "overvote": 52,
+      "continuing_ballots": 19774,
+      "eliminated": [
+        "Kate I. Noble"
+      ],
+      "transfers": [
+        {
+          "from": "Alan Webber",
+          "to": "Alan Webber",
+          "count": 9092
+        },
+        {
+          "from": "Ronald S. Trujillo",
+          "to": "Ronald S. Trujillo",
+          "count": 5654
+        },
+        {
+          "from": "Kate I. Noble",
+          "to": "$EXHAUSTED",
+          "count": 537
+        },
+        {
+          "from": "Kate I. Noble",
+          "to": "Ronald S. Trujillo",
+          "count": 1032
+        },
+        {
+          "from": "Kate I. Noble",
+          "to": "Alan Webber",
+          "count": 3996
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 359
+        }
+      ]
+    }
+  ],
+  "smith_set": [
+    "Alan Webber"
+  ],
+  "condorcet": "Alan Webber",
+  "graph": [
+    {
+      "source": "Alan Webber",
+      "edges": []
+    },
+    {
+      "source": "Ronald S. Trujillo",
+      "edges": [
+        "Alan Webber",
+        "Joseph M. Maestas",
+        "Kate I. Noble",
+        "Peter N. Ives"
+      ]
+    },
+    {
+      "source": "Kate I. Noble",
+      "edges": [
+        "Alan Webber"
+      ]
+    },
+    {
+      "source": "Joseph M. Maestas",
+      "edges": [
+        "Alan Webber",
+        "Kate I. Noble"
+      ]
+    },
+    {
+      "source": "Peter N. Ives",
+      "edges": [
+        "Alan Webber",
+        "Joseph M. Maestas",
+        "Kate I. Noble"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "Alan Webber",
+      "second_candidate": "Ronald S. Trujillo",
+      "numerator": 13088,
+      "denominator": 19774
+    },
+    {
+      "first_candidate": "Alan Webber",
+      "second_candidate": "Kate I. Noble",
+      "numerator": 10854,
+      "denominator": 18531
+    },
+    {
+      "first_candidate": "Alan Webber",
+      "second_candidate": "Joseph M. Maestas",
+      "numerator": 12701,
+      "denominator": 18403
+    },
+    {
+      "first_candidate": "Alan Webber",
+      "second_candidate": "Peter N. Ives",
+      "numerator": 13763,
+      "denominator": 18251
+    },
+    {
+      "first_candidate": "Ronald S. Trujillo",
+      "second_candidate": "Alan Webber",
+      "numerator": 6686,
+      "denominator": 19774
+    },
+    {
+      "first_candidate": "Ronald S. Trujillo",
+      "second_candidate": "Kate I. Noble",
+      "numerator": 7118,
+      "denominator": 18927
+    },
+    {
+      "first_candidate": "Ronald S. Trujillo",
+      "second_candidate": "Joseph M. Maestas",
+      "numerator": 7952,
+      "denominator": 17738
+    },
+    {
+      "first_candidate": "Ronald S. Trujillo",
+      "second_candidate": "Peter N. Ives",
+      "numerator": 8397,
+      "denominator": 17833
+    },
+    {
+      "first_candidate": "Kate I. Noble",
+      "second_candidate": "Alan Webber",
+      "numerator": 7677,
+      "denominator": 18531
+    },
+    {
+      "first_candidate": "Kate I. Noble",
+      "second_candidate": "Ronald S. Trujillo",
+      "numerator": 11809,
+      "denominator": 18927
+    },
+    {
+      "first_candidate": "Kate I. Noble",
+      "second_candidate": "Joseph M. Maestas",
+      "numerator": 10970,
+      "denominator": 17774
+    },
+    {
+      "first_candidate": "Kate I. Noble",
+      "second_candidate": "Peter N. Ives",
+      "numerator": 11728,
+      "denominator": 17661
+    },
+    {
+      "first_candidate": "Joseph M. Maestas",
+      "second_candidate": "Alan Webber",
+      "numerator": 5702,
+      "denominator": 18403
+    },
+    {
+      "first_candidate": "Joseph M. Maestas",
+      "second_candidate": "Ronald S. Trujillo",
+      "numerator": 9786,
+      "denominator": 17738
+    },
+    {
+      "first_candidate": "Joseph M. Maestas",
+      "second_candidate": "Kate I. Noble",
+      "numerator": 6804,
+      "denominator": 17774
+    },
+    {
+      "first_candidate": "Joseph M. Maestas",
+      "second_candidate": "Peter N. Ives",
+      "numerator": 9226,
+      "denominator": 16906
+    },
+    {
+      "first_candidate": "Peter N. Ives",
+      "second_candidate": "Alan Webber",
+      "numerator": 4488,
+      "denominator": 18251
+    },
+    {
+      "first_candidate": "Peter N. Ives",
+      "second_candidate": "Ronald S. Trujillo",
+      "numerator": 9436,
+      "denominator": 17833
+    },
+    {
+      "first_candidate": "Peter N. Ives",
+      "second_candidate": "Kate I. Noble",
+      "numerator": 5933,
+      "denominator": 17661
+    },
+    {
+      "first_candidate": "Peter N. Ives",
+      "second_candidate": "Joseph M. Maestas",
+      "numerator": 7680,
+      "denominator": 16906
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "Alan Webber",
+      "second_candidate": "Ronald S. Trujillo",
+      "numerator": 562,
+      "denominator": 8080
+    },
+    {
+      "first_candidate": "Alan Webber",
+      "second_candidate": "Kate I. Noble",
+      "numerator": 3350,
+      "denominator": 8080
+    },
+    {
+      "first_candidate": "Alan Webber",
+      "second_candidate": "Joseph M. Maestas",
+      "numerator": 1746,
+      "denominator": 8080
+    },
+    {
+      "first_candidate": "Alan Webber",
+      "second_candidate": "Peter N. Ives",
+      "numerator": 1642,
+      "denominator": 8080
+    },
+    {
+      "first_candidate": "Alan Webber",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 780,
+      "denominator": 8080
+    },
+    {
+      "first_candidate": "Ronald S. Trujillo",
+      "second_candidate": "Alan Webber",
+      "numerator": 731,
+      "denominator": 5026
+    },
+    {
+      "first_candidate": "Ronald S. Trujillo",
+      "second_candidate": "Kate I. Noble",
+      "numerator": 716,
+      "denominator": 5026
+    },
+    {
+      "first_candidate": "Ronald S. Trujillo",
+      "second_candidate": "Joseph M. Maestas",
+      "numerator": 1538,
+      "denominator": 5026
+    },
+    {
+      "first_candidate": "Ronald S. Trujillo",
+      "second_candidate": "Peter N. Ives",
+      "numerator": 676,
+      "denominator": 5026
+    },
+    {
+      "first_candidate": "Ronald S. Trujillo",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 1365,
+      "denominator": 5026
+    },
+    {
+      "first_candidate": "Kate I. Noble",
+      "second_candidate": "Alan Webber",
+      "numerator": 2232,
+      "denominator": 4611
+    },
+    {
+      "first_candidate": "Kate I. Noble",
+      "second_candidate": "Ronald S. Trujillo",
+      "numerator": 412,
+      "denominator": 4611
+    },
+    {
+      "first_candidate": "Kate I. Noble",
+      "second_candidate": "Joseph M. Maestas",
+      "numerator": 990,
+      "denominator": 4611
+    },
+    {
+      "first_candidate": "Kate I. Noble",
+      "second_candidate": "Peter N. Ives",
+      "numerator": 638,
+      "denominator": 4611
+    },
+    {
+      "first_candidate": "Kate I. Noble",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 339,
+      "denominator": 4611
+    },
+    {
+      "first_candidate": "Joseph M. Maestas",
+      "second_candidate": "Alan Webber",
+      "numerator": 502,
+      "denominator": 1649
+    },
+    {
+      "first_candidate": "Joseph M. Maestas",
+      "second_candidate": "Ronald S. Trujillo",
+      "numerator": 313,
+      "denominator": 1649
+    },
+    {
+      "first_candidate": "Joseph M. Maestas",
+      "second_candidate": "Kate I. Noble",
+      "numerator": 508,
+      "denominator": 1649
+    },
+    {
+      "first_candidate": "Joseph M. Maestas",
+      "second_candidate": "Peter N. Ives",
+      "numerator": 203,
+      "denominator": 1649
+    },
+    {
+      "first_candidate": "Joseph M. Maestas",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 123,
+      "denominator": 1649
+    },
+    {
+      "first_candidate": "Peter N. Ives",
+      "second_candidate": "Alan Webber",
+      "numerator": 394,
+      "denominator": 1238
+    },
+    {
+      "first_candidate": "Peter N. Ives",
+      "second_candidate": "Ronald S. Trujillo",
+      "numerator": 215,
+      "denominator": 1238
+    },
+    {
+      "first_candidate": "Peter N. Ives",
+      "second_candidate": "Kate I. Noble",
+      "numerator": 317,
+      "denominator": 1238
+    },
+    {
+      "first_candidate": "Peter N. Ives",
+      "second_candidate": "Joseph M. Maestas",
+      "numerator": 169,
+      "denominator": 1238
+    },
+    {
+      "first_candidate": "Peter N. Ives",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 143,
+      "denominator": 1238
+    }
+  ],
+  "final_by_first": {
+    "finalists": [
+      "Alan Webber",
+      "Ronald S. Trujillo",
+      "$EXHAUSTED"
+    ],
+    "eliminated": [
+      "Kate I. Noble",
+      "Joseph M. Maestas",
+      "Peter N. Ives"
+    ],
+    "pairs": [
+      {
+        "first_candidate": "Kate I. Noble",
+        "second_candidate": "Alan Webber",
+        "numerator": 3353,
+        "denominator": 4611
+      },
+      {
+        "first_candidate": "Kate I. Noble",
+        "second_candidate": "Ronald S. Trujillo",
+        "numerator": 799,
+        "denominator": 4611
+      },
+      {
+        "first_candidate": "Kate I. Noble",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 459,
+        "denominator": 4611
+      },
+      {
+        "first_candidate": "Joseph M. Maestas",
+        "second_candidate": "Alan Webber",
+        "numerator": 980,
+        "denominator": 1649
+      },
+      {
+        "first_candidate": "Joseph M. Maestas",
+        "second_candidate": "Ronald S. Trujillo",
+        "numerator": 485,
+        "denominator": 1649
+      },
+      {
+        "first_candidate": "Joseph M. Maestas",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 184,
+        "denominator": 1649
+      },
+      {
+        "first_candidate": "Peter N. Ives",
+        "second_candidate": "Alan Webber",
+        "numerator": 675,
+        "denominator": 1238
+      },
+      {
+        "first_candidate": "Peter N. Ives",
+        "second_candidate": "Ronald S. Trujillo",
+        "numerator": 376,
+        "denominator": 1238
+      },
+      {
+        "first_candidate": "Peter N. Ives",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 187,
+        "denominator": 1238
+      }
+    ]
+  }
+}

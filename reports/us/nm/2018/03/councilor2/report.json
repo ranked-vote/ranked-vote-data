@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "name": "Santa Fe 2018 Councilor 2 Election",
+    "date": "2018-03-06",
+    "format": "us_nm_saf",
+    "tabulation": "irv",
+    "files": [
+      {
+        "name": "raw/us/nm/saf/2018/03/csvFiles.zip",
+        "sha1": "820f869796ccd3c551667f8a8f72f7a41df3b7aa"
+      }
+    ],
+    "params": {
+      "contest": "COUNCILOR DISTRICT 2"
+    },
+    "num_ballots": 6433,
+    "candidate_ids": [
+      "Nate Downey",
+      "Carol Romero-Wirth",
+      "Joe H. Arellano"
+    ],
+    "normalized_ballots": "us/nm/2018/03/councilor2/us_nm_2018_03_councilor2.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "Carol Romero-Wirth",
+        "name": "Carol Romero-Wirth",
+        "write_in": false
+      },
+      {
+        "id": "Nate Downey",
+        "name": "Nate Downey",
+        "write_in": false
+      },
+      {
+        "id": "Joe H. Arellano",
+        "name": "Joe H. Arellano",
+        "write_in": false
+      }
+    ]
+  },
+  "candidates": [
+    "Carol Romero-Wirth",
+    "Nate Downey",
+    "Joe H. Arellano"
+  ],
+  "winner": "Carol Romero-Wirth",
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "Carol Romero-Wirth",
+        "Nate Downey",
+        "Joe H. Arellano"
+      ],
+      "results": [
+        {
+          "name": "Carol Romero-Wirth",
+          "votes": 3310
+        },
+        {
+          "name": "Nate Downey",
+          "votes": 2023
+        },
+        {
+          "name": "Joe H. Arellano",
+          "votes": 923
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 177
+        }
+      ],
+      "undervote": 173,
+      "overvote": 4,
+      "continuing_ballots": 6256,
+      "eliminated": [],
+      "transfers": []
+    }
+  ],
+  "smith_set": [
+    "Carol Romero-Wirth"
+  ],
+  "condorcet": "Carol Romero-Wirth",
+  "graph": [
+    {
+      "source": "Carol Romero-Wirth",
+      "edges": []
+    },
+    {
+      "source": "Nate Downey",
+      "edges": [
+        "Carol Romero-Wirth"
+      ]
+    },
+    {
+      "source": "Joe H. Arellano",
+      "edges": [
+        "Carol Romero-Wirth",
+        "Nate Downey"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "Carol Romero-Wirth",
+      "second_candidate": "Nate Downey",
+      "numerator": 3707,
+      "denominator": 5996
+    },
+    {
+      "first_candidate": "Carol Romero-Wirth",
+      "second_candidate": "Joe H. Arellano",
+      "numerator": 4754,
+      "denominator": 5980
+    },
+    {
+      "first_candidate": "Nate Downey",
+      "second_candidate": "Carol Romero-Wirth",
+      "numerator": 2289,
+      "denominator": 5996
+    },
+    {
+      "first_candidate": "Nate Downey",
+      "second_candidate": "Joe H. Arellano",
+      "numerator": 4188,
+      "denominator": 5675
+    },
+    {
+      "first_candidate": "Joe H. Arellano",
+      "second_candidate": "Carol Romero-Wirth",
+      "numerator": 1226,
+      "denominator": 5980
+    },
+    {
+      "first_candidate": "Joe H. Arellano",
+      "second_candidate": "Nate Downey",
+      "numerator": 1487,
+      "denominator": 5675
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "Carol Romero-Wirth",
+      "second_candidate": "Nate Downey",
+      "numerator": 2165,
+      "denominator": 3310
+    },
+    {
+      "first_candidate": "Carol Romero-Wirth",
+      "second_candidate": "Joe H. Arellano",
+      "numerator": 564,
+      "denominator": 3310
+    },
+    {
+      "first_candidate": "Carol Romero-Wirth",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 581,
+      "denominator": 3310
+    },
+    {
+      "first_candidate": "Nate Downey",
+      "second_candidate": "Carol Romero-Wirth",
+      "numerator": 1444,
+      "denominator": 2023
+    },
+    {
+      "first_candidate": "Nate Downey",
+      "second_candidate": "Joe H. Arellano",
+      "numerator": 303,
+      "denominator": 2023
+    },
+    {
+      "first_candidate": "Nate Downey",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 276,
+      "denominator": 2023
+    },
+    {
+      "first_candidate": "Joe H. Arellano",
+      "second_candidate": "Carol Romero-Wirth",
+      "numerator": 397,
+      "denominator": 923
+    },
+    {
+      "first_candidate": "Joe H. Arellano",
+      "second_candidate": "Nate Downey",
+      "numerator": 266,
+      "denominator": 923
+    },
+    {
+      "first_candidate": "Joe H. Arellano",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 260,
+      "denominator": 923
+    }
+  ],
+  "final_by_first": {
+    "finalists": [
+      "Carol Romero-Wirth",
+      "Nate Downey",
+      "Joe H. Arellano",
+      "$EXHAUSTED"
+    ],
+    "eliminated": [],
+    "pairs": []
+  }
+}

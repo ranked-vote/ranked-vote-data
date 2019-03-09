@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "name": "Santa Fe 2018 Councilor 1 Election",
+    "date": "2018-03-06",
+    "format": "us_nm_saf",
+    "tabulation": "irv",
+    "files": [
+      {
+        "name": "raw/us/nm/saf/2018/03/csvFiles.zip",
+        "sha1": "820f869796ccd3c551667f8a8f72f7a41df3b7aa"
+      }
+    ],
+    "params": {
+      "contest": "COUNCILOR DISTRICT 1"
+    },
+    "num_ballots": 7217,
+    "candidate_ids": [
+      "Signe I. Lindell",
+      "Marie Campos"
+    ],
+    "normalized_ballots": "us/nm/2018/03/councilor1/us_nm_2018_03_councilor1.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "Signe I. Lindell",
+        "name": "Signe I. Lindell",
+        "write_in": false
+      },
+      {
+        "id": "Marie Campos",
+        "name": "Marie Campos",
+        "write_in": false
+      }
+    ]
+  },
+  "candidates": [
+    "Signe I. Lindell",
+    "Marie Campos"
+  ],
+  "winner": "Signe I. Lindell",
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "Signe I. Lindell",
+        "Marie Campos"
+      ],
+      "results": [
+        {
+          "name": "Signe I. Lindell",
+          "votes": 4628
+        },
+        {
+          "name": "Marie Campos",
+          "votes": 2142
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 447
+        }
+      ],
+      "undervote": 447,
+      "overvote": 0,
+      "continuing_ballots": 6770,
+      "eliminated": [],
+      "transfers": []
+    }
+  ],
+  "smith_set": [
+    "Signe I. Lindell"
+  ],
+  "condorcet": "Signe I. Lindell",
+  "graph": [
+    {
+      "source": "Signe I. Lindell",
+      "edges": []
+    },
+    {
+      "source": "Marie Campos",
+      "edges": [
+        "Signe I. Lindell"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "Signe I. Lindell",
+      "second_candidate": "Marie Campos",
+      "numerator": 4628,
+      "denominator": 6770
+    },
+    {
+      "first_candidate": "Marie Campos",
+      "second_candidate": "Signe I. Lindell",
+      "numerator": 2142,
+      "denominator": 6770
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "Signe I. Lindell",
+      "second_candidate": "Marie Campos",
+      "numerator": 0,
+      "denominator": 4628
+    },
+    {
+      "first_candidate": "Signe I. Lindell",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 4628,
+      "denominator": 4628
+    },
+    {
+      "first_candidate": "Marie Campos",
+      "second_candidate": "Signe I. Lindell",
+      "numerator": 0,
+      "denominator": 2142
+    },
+    {
+      "first_candidate": "Marie Campos",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 2142,
+      "denominator": 2142
+    }
+  ],
+  "final_by_first": {
+    "finalists": [
+      "Signe I. Lindell",
+      "Marie Campos",
+      "$EXHAUSTED"
+    ],
+    "eliminated": [],
+    "pairs": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Santa Fe 2018 Councilor 1 Election",
+    "date": "2018-03-06",
+    "format": "us_nm_saf",
+    "tabulation": "irv",
+    "files": [
+        "us/nm/saf/2018/03/csvFiles.zip"
+    ],
+    "params": {
+        "contest": "COUNCILOR DISTRICT 1"
+    }
+}
