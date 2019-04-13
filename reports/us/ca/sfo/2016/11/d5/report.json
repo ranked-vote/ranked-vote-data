@@ -134,5 +134,22 @@
     ],
     "eliminated": [],
     "pairs": []
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "LONDON BREED",
+        "other_candidate": "DEAN PRESTON",
+        "candidate_votes": 30621,
+        "other_candidate_votes": 19610
+      },
+      {
+        "candidate": "DEAN PRESTON",
+        "other_candidate": "LONDON BREED",
+        "candidate_votes": 29312,
+        "other_candidate_votes": 21399
+      }
+    ],
+    "approval_set_compliment": []
   }
 }

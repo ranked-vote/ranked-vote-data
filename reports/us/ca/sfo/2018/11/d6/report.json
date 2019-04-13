@@ -205,5 +205,28 @@
     ],
     "eliminated": [],
     "pairs": []
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "MATT HANEY",
+        "other_candidate": "CHRISTINE JOHNSON",
+        "candidate_votes": 21755,
+        "other_candidate_votes": 8232
+      },
+      {
+        "candidate": "CHRISTINE JOHNSON",
+        "other_candidate": "MATT HANEY",
+        "candidate_votes": 17969,
+        "other_candidate_votes": 15331
+      },
+      {
+        "candidate": "SONJA TRAUSS",
+        "other_candidate": "MATT HANEY",
+        "candidate_votes": 17057,
+        "other_candidate_votes": 16008
+      }
+    ],
+    "approval_set_compliment": []
   }
 }

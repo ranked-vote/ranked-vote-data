@@ -81,5 +81,16 @@
     ],
     "eliminated": [],
     "pairs": []
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "JEFF ADACHI",
+        "other_candidate": "$UNDERVOTE",
+        "candidate_votes": 292864,
+        "other_candidate_votes": 75631
+      }
+    ],
+    "approval_set_compliment": []
   }
 }

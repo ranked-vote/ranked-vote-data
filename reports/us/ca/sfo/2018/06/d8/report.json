@@ -208,5 +208,29 @@
     ],
     "eliminated": [],
     "pairs": []
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "RAFAEL MANDELMAN",
+        "other_candidate": "JEFF SHEEHY",
+        "candidate_votes": 28860,
+        "other_candidate_votes": 12841
+      },
+      {
+        "candidate": "JEFF SHEEHY",
+        "other_candidate": "RAFAEL MANDELMAN",
+        "candidate_votes": 25553,
+        "other_candidate_votes": 20208
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "LAWRENCE ''STARK'' DAGESSE",
+        "other_candidate": "RAFAEL MANDELMAN",
+        "candidate_votes": 14025,
+        "other_candidate_votes": 24122
+      }
+    ]
   }
 }

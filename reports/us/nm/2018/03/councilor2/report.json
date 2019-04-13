@@ -203,5 +203,28 @@
     ],
     "eliminated": [],
     "pairs": []
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "Carol Romero-Wirth",
+        "other_candidate": "Nate Downey",
+        "candidate_votes": 5649,
+        "other_candidate_votes": 2252
+      },
+      {
+        "candidate": "Nate Downey",
+        "other_candidate": "Carol Romero-Wirth",
+        "candidate_votes": 5312,
+        "other_candidate_votes": 3659
+      },
+      {
+        "candidate": "Joe H. Arellano",
+        "other_candidate": "Carol Romero-Wirth",
+        "candidate_votes": 4714,
+        "other_candidate_votes": 4508
+      }
+    ],
+    "approval_set_compliment": []
   }
 }

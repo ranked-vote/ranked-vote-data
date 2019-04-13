@@ -134,5 +134,23 @@
     ],
     "eliminated": [],
     "pairs": []
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "AARON PESKIN",
+        "other_candidate": "TIM E. DONNELLY",
+        "candidate_votes": 22511,
+        "other_candidate_votes": 7447
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "TIM E. DONNELLY",
+        "other_candidate": "AARON PESKIN",
+        "candidate_votes": 14912,
+        "other_candidate_votes": 19211
+      }
+    ]
   }
 }

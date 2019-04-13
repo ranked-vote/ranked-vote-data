@@ -131,5 +131,23 @@
     ],
     "eliminated": [],
     "pairs": []
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "CARMEN CHU",
+        "other_candidate": "PAUL BELLAR",
+        "candidate_votes": 271104,
+        "other_candidate_votes": 80479
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "PAUL BELLAR",
+        "other_candidate": "CARMEN CHU",
+        "candidate_votes": 179233,
+        "other_candidate_votes": 236697
+      }
+    ]
   }
 }

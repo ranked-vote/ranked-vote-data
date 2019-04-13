@@ -424,5 +424,35 @@
         "denominator": 2489
       }
     ]
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "Jared F. Golden",
+        "other_candidate": "Lucas R. St. Clair",
+        "candidate_votes": 37074,
+        "other_candidate_votes": 19313
+      },
+      {
+        "candidate": "Lucas R. St. Clair",
+        "other_candidate": "Jared F. Golden",
+        "candidate_votes": 35854,
+        "other_candidate_votes": 23084
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "Craig R. Olson",
+        "other_candidate": "Jared F. Golden",
+        "candidate_votes": 26131,
+        "other_candidate_votes": 27109
+      },
+      {
+        "candidate": "Jonathan S. Fulford",
+        "other_candidate": "Jared F. Golden",
+        "candidate_votes": 18911,
+        "other_candidate_votes": 26974
+      }
+    ]
   }
 }

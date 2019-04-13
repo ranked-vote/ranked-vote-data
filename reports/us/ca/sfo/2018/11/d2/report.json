@@ -475,5 +475,35 @@
         "denominator": 3108
       }
     ]
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "CATHERINE STEFANI",
+        "other_candidate": "NICK JOSEFOWITZ",
+        "candidate_votes": 26430,
+        "other_candidate_votes": 14634
+      },
+      {
+        "candidate": "NICK JOSEFOWITZ",
+        "other_candidate": "CATHERINE STEFANI",
+        "candidate_votes": 23886,
+        "other_candidate_votes": 15490
+      },
+      {
+        "candidate": "SCHUYLER HUDAK",
+        "other_candidate": "CATHERINE STEFANI",
+        "candidate_votes": 19217,
+        "other_candidate_votes": 17579
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "JOHN DENNIS",
+        "other_candidate": "CATHERINE STEFANI",
+        "candidate_votes": 9912,
+        "other_candidate_votes": 15511
+      }
+    ]
   }
 }

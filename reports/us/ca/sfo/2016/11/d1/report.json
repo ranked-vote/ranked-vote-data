@@ -2464,5 +2464,71 @@
         "denominator": 360
       }
     ]
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "SANDRA LEE FEWER",
+        "other_candidate": "MARJAN PHILHOUR",
+        "candidate_votes": 20974,
+        "other_candidate_votes": 11663
+      },
+      {
+        "candidate": "MARJAN PHILHOUR",
+        "other_candidate": "SANDRA LEE FEWER",
+        "candidate_votes": 19783,
+        "other_candidate_votes": 13229
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "DAVID LEE",
+        "other_candidate": "SANDRA LEE FEWER",
+        "candidate_votes": 13630,
+        "other_candidate_votes": 14369
+      },
+      {
+        "candidate": "RICHIE GREENBERG",
+        "other_candidate": "SANDRA LEE FEWER",
+        "candidate_votes": 3804,
+        "other_candidate_votes": 12909
+      },
+      {
+        "candidate": "BRIAN J. LARKIN",
+        "other_candidate": "SANDRA LEE FEWER",
+        "candidate_votes": 3168,
+        "other_candidate_votes": 12810
+      },
+      {
+        "candidate": "SAMUEL KWONG",
+        "other_candidate": "SANDRA LEE FEWER",
+        "candidate_votes": 3715,
+        "other_candidate_votes": 12934
+      },
+      {
+        "candidate": "JASON JUNGREIS",
+        "other_candidate": "SANDRA LEE FEWER",
+        "candidate_votes": 2286,
+        "other_candidate_votes": 12748
+      },
+      {
+        "candidate": "JONATHAN LYENS",
+        "other_candidate": "SANDRA LEE FEWER",
+        "candidate_votes": 4230,
+        "other_candidate_votes": 13005
+      },
+      {
+        "candidate": "SHERMAN R. D'SILVA",
+        "other_candidate": "SANDRA LEE FEWER",
+        "candidate_votes": 2570,
+        "other_candidate_votes": 12830
+      },
+      {
+        "candidate": "ANDY THORNLEY",
+        "other_candidate": "SANDRA LEE FEWER",
+        "candidate_votes": 1753,
+        "other_candidate_votes": 12699
+      }
+    ]
   }
 }

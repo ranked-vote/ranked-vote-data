@@ -1283,5 +1283,53 @@
         "denominator": 31
       }
     ]
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "SHAMANN WALTON",
+        "other_candidate": "TONY KELLY",
+        "candidate_votes": 15891,
+        "other_candidate_votes": 6207
+      },
+      {
+        "candidate": "TONY KELLY",
+        "other_candidate": "SHAMANN WALTON",
+        "candidate_votes": 11255,
+        "other_candidate_votes": 10346
+      },
+      {
+        "candidate": "THEO ELLINGTON",
+        "other_candidate": "SHAMANN WALTON",
+        "candidate_votes": 12599,
+        "other_candidate_votes": 10354
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "UZURI PEASE-GREENE",
+        "other_candidate": "SHAMANN WALTON",
+        "candidate_votes": 7020,
+        "other_candidate_votes": 10409
+      },
+      {
+        "candidate": "GLORIA BERRY",
+        "other_candidate": "SHAMANN WALTON",
+        "candidate_votes": 4161,
+        "other_candidate_votes": 9994
+      },
+      {
+        "candidate": "ASALE CHANDLER",
+        "other_candidate": "SHAMANN WALTON",
+        "candidate_votes": 2969,
+        "other_candidate_votes": 9801
+      },
+      {
+        "candidate": "WRITE-IN NEO VEAVEA",
+        "other_candidate": "SHAMANN WALTON",
+        "candidate_votes": 60,
+        "other_candidate_votes": 9593
+      }
+    ]
   }
 }

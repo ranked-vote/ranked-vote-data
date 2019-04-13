@@ -704,5 +704,40 @@
         "denominator": 1238
       }
     ]
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "Alan Webber",
+        "other_candidate": "Kate I. Noble",
+        "candidate_votes": 17587,
+        "other_candidate_votes": 7315
+      },
+      {
+        "candidate": "Ronald S. Trujillo",
+        "other_candidate": "Alan Webber",
+        "candidate_votes": 15936,
+        "other_candidate_votes": 11955
+      },
+      {
+        "candidate": "Kate I. Noble",
+        "other_candidate": "Alan Webber",
+        "candidate_votes": 16686,
+        "other_candidate_votes": 10454
+      },
+      {
+        "candidate": "Joseph M. Maestas",
+        "other_candidate": "Alan Webber",
+        "candidate_votes": 15548,
+        "other_candidate_votes": 11814
+      },
+      {
+        "candidate": "Peter N. Ives",
+        "other_candidate": "Alan Webber",
+        "candidate_votes": 15488,
+        "other_candidate_votes": 12891
+      }
+    ],
+    "approval_set_compliment": []
   }
 }

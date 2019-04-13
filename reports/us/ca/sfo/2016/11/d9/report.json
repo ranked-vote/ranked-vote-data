@@ -307,5 +307,35 @@
     ],
     "eliminated": [],
     "pairs": []
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "HILLARY RONEN",
+        "other_candidate": "JOSHUA ARCE",
+        "candidate_votes": 26437,
+        "other_candidate_votes": 10228
+      },
+      {
+        "candidate": "JOSHUA ARCE",
+        "other_candidate": "HILLARY RONEN",
+        "candidate_votes": 20847,
+        "other_candidate_votes": 19239
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "MELISSA SAN MIGUEL",
+        "other_candidate": "HILLARY RONEN",
+        "candidate_votes": 19411,
+        "other_candidate_votes": 20910
+      },
+      {
+        "candidate": "ISWARI ESPA\u00d1A",
+        "other_candidate": "HILLARY RONEN",
+        "candidate_votes": 6432,
+        "other_candidate_votes": 19299
+      }
+    ]
   }
 }

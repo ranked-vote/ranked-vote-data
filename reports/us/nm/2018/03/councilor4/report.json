@@ -282,5 +282,28 @@
         "denominator": 1305
       }
     ]
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "JoAnne Vigil Coppler",
+        "other_candidate": "Greg Scargall",
+        "candidate_votes": 4191,
+        "other_candidate_votes": 1947
+      },
+      {
+        "candidate": "Greg Scargall",
+        "other_candidate": "JoAnne Vigil Coppler",
+        "candidate_votes": 3943,
+        "other_candidate_votes": 2515
+      },
+      {
+        "candidate": "Eric John Holmes",
+        "other_candidate": "JoAnne Vigil Coppler",
+        "candidate_votes": 4021,
+        "other_candidate_votes": 2721
+      }
+    ],
+    "approval_set_compliment": []
   }
 }

@@ -79,5 +79,16 @@
     ],
     "eliminated": [],
     "pairs": []
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "Roman \"Tiger\" Abeyta",
+        "other_candidate": "$UNDERVOTE",
+        "candidate_votes": 1410,
+        "other_candidate_votes": 530
+      }
+    ],
+    "approval_set_compliment": []
   }
 }

@@ -709,5 +709,41 @@
         "denominator": 2004
       }
     ]
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "NORMAN YEE",
+        "other_candidate": "JOEL ENGARDIO",
+        "candidate_votes": 21237,
+        "other_candidate_votes": 8331
+      },
+      {
+        "candidate": "JOEL ENGARDIO",
+        "other_candidate": "NORMAN YEE",
+        "candidate_votes": 18065,
+        "other_candidate_votes": 14807
+      },
+      {
+        "candidate": "BEN MATRANGA",
+        "other_candidate": "NORMAN YEE",
+        "candidate_votes": 18490,
+        "other_candidate_votes": 15223
+      },
+      {
+        "candidate": "JOHN FARRELL",
+        "other_candidate": "NORMAN YEE",
+        "candidate_votes": 15572,
+        "other_candidate_votes": 14939
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "MIKE YOUNG",
+        "other_candidate": "NORMAN YEE",
+        "candidate_votes": 11018,
+        "other_candidate_votes": 14753
+      }
+    ]
   }
 }

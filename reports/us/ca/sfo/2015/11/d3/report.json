@@ -208,5 +208,29 @@
     ],
     "eliminated": [],
     "pairs": []
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "AARON PESKIN",
+        "other_candidate": "JULIE CHRISTENSEN",
+        "candidate_votes": 11178,
+        "other_candidate_votes": 7391
+      },
+      {
+        "candidate": "JULIE CHRISTENSEN",
+        "other_candidate": "AARON PESKIN",
+        "candidate_votes": 10728,
+        "other_candidate_votes": 8874
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "WILMA PANG",
+        "other_candidate": "AARON PESKIN",
+        "candidate_votes": 7245,
+        "other_candidate_votes": 9588
+      }
+    ]
   }
 }

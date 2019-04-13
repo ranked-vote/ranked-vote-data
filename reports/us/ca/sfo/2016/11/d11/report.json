@@ -709,5 +709,41 @@
         "denominator": 1607
       }
     ]
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "AHSHA SAFAI",
+        "other_candidate": "KIM ALVARENGA",
+        "candidate_votes": 14687,
+        "other_candidate_votes": 9038
+      },
+      {
+        "candidate": "KIM ALVARENGA",
+        "other_candidate": "AHSHA SAFAI",
+        "candidate_votes": 15177,
+        "other_candidate_votes": 9874
+      },
+      {
+        "candidate": "MAGDALENA DE GUZMAN",
+        "other_candidate": "AHSHA SAFAI",
+        "candidate_votes": 10622,
+        "other_candidate_votes": 10215
+      },
+      {
+        "candidate": "FRANCISCO HERRERA",
+        "other_candidate": "AHSHA SAFAI",
+        "candidate_votes": 11226,
+        "other_candidate_votes": 10219
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "BERTA HERNANDEZ",
+        "other_candidate": "AHSHA SAFAI",
+        "candidate_votes": 9113,
+        "other_candidate_votes": 10207
+      }
+    ]
   }
 }

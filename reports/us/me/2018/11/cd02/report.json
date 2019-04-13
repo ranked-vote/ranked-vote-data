@@ -440,5 +440,35 @@
         "denominator": 6875
       }
     ]
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "Bruce Poliquin",
+        "other_candidate": "Jared F. Golden",
+        "candidate_votes": 188293,
+        "other_candidate_votes": 138935
+      },
+      {
+        "candidate": "Jared F. Golden",
+        "other_candidate": "Bruce Poliquin",
+        "candidate_votes": 179501,
+        "other_candidate_votes": 137566
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "Tiffany L. Bond",
+        "other_candidate": "Jared F. Golden",
+        "candidate_votes": 131186,
+        "other_candidate_votes": 141312
+      },
+      {
+        "candidate": "William R.S. Hoar",
+        "other_candidate": "Jared F. Golden",
+        "candidate_votes": 119248,
+        "other_candidate_votes": 143566
+      }
+    ]
   }
 }

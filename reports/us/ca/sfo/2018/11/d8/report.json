@@ -131,5 +131,23 @@
     ],
     "eliminated": [],
     "pairs": []
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "RAFAEL MANDELMAN",
+        "other_candidate": "$UNDERVOTE",
+        "candidate_votes": 40476,
+        "other_candidate_votes": 6007
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "LAWRENCE ''STARK'' DAGESSE",
+        "other_candidate": "RAFAEL MANDELMAN",
+        "candidate_votes": 13440,
+        "other_candidate_votes": 38406
+      }
+    ]
   }
 }

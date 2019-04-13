@@ -208,5 +208,29 @@
     ],
     "eliminated": [],
     "pairs": []
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "VICKI HENNESSY",
+        "other_candidate": "ROSS MIRKARIMI",
+        "candidate_votes": 148023,
+        "other_candidate_votes": 62916
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "ROSS MIRKARIMI",
+        "other_candidate": "VICKI HENNESSY",
+        "candidate_votes": 101192,
+        "other_candidate_votes": 116172
+      },
+      {
+        "candidate": "JOHN ROBINSON",
+        "other_candidate": "VICKI HENNESSY",
+        "candidate_votes": 80631,
+        "other_candidate_votes": 128963
+      }
+    ]
   }
 }

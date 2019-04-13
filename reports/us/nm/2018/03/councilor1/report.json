@@ -129,5 +129,23 @@
     ],
     "eliminated": [],
     "pairs": []
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "Signe I. Lindell",
+        "other_candidate": "Marie Campos",
+        "candidate_votes": 4628,
+        "other_candidate_votes": 2142
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "Marie Campos",
+        "other_candidate": "Signe I. Lindell",
+        "candidate_votes": 2142,
+        "other_candidate_votes": 4628
+      }
+    ]
   }
 }

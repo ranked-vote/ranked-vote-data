@@ -1639,5 +1639,59 @@
         "denominator": 515
       }
     ]
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "GORDON MAR",
+        "other_candidate": "JESSICA HO",
+        "candidate_votes": 16540,
+        "other_candidate_votes": 7919
+      },
+      {
+        "candidate": "JESSICA HO",
+        "other_candidate": "GORDON MAR",
+        "candidate_votes": 13869,
+        "other_candidate_votes": 10864
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "TREVOR MCNEIL",
+        "other_candidate": "GORDON MAR",
+        "candidate_votes": 10297,
+        "other_candidate_votes": 10914
+      },
+      {
+        "candidate": "ARTHUR TOM",
+        "other_candidate": "GORDON MAR",
+        "candidate_votes": 7838,
+        "other_candidate_votes": 10962
+      },
+      {
+        "candidate": "LOU ANN BASSAN",
+        "other_candidate": "GORDON MAR",
+        "candidate_votes": 6225,
+        "other_candidate_votes": 10642
+      },
+      {
+        "candidate": "MIKE MURPHY",
+        "other_candidate": "GORDON MAR",
+        "candidate_votes": 5712,
+        "other_candidate_votes": 10739
+      },
+      {
+        "candidate": "TUAN NGUYEN",
+        "other_candidate": "GORDON MAR",
+        "candidate_votes": 3656,
+        "other_candidate_votes": 10588
+      },
+      {
+        "candidate": "ADAM KIM",
+        "other_candidate": "GORDON MAR",
+        "candidate_votes": 3377,
+        "other_candidate_votes": 10520
+      }
+    ]
   }
 }

@@ -1993,5 +1993,65 @@
         "denominator": 3
       }
     ]
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "LONDON BREED",
+        "other_candidate": "MARK LENO",
+        "candidate_votes": 157326,
+        "other_candidate_votes": 73640
+      },
+      {
+        "candidate": "MARK LENO",
+        "other_candidate": "LONDON BREED",
+        "candidate_votes": 165463,
+        "other_candidate_votes": 100219
+      },
+      {
+        "candidate": "JANE KIM",
+        "other_candidate": "LONDON BREED",
+        "candidate_votes": 146193,
+        "other_candidate_votes": 101356
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "ANGELA ALIOTO",
+        "other_candidate": "LONDON BREED",
+        "candidate_votes": 76914,
+        "other_candidate_votes": 98197
+      },
+      {
+        "candidate": "ELLEN LEE ZHOU",
+        "other_candidate": "LONDON BREED",
+        "candidate_votes": 27505,
+        "other_candidate_votes": 93725
+      },
+      {
+        "candidate": "RICHIE GREENBERG",
+        "other_candidate": "LONDON BREED",
+        "candidate_votes": 20967,
+        "other_candidate_votes": 93354
+      },
+      {
+        "candidate": "AMY FARAH WEISS",
+        "other_candidate": "LONDON BREED",
+        "candidate_votes": 35072,
+        "other_candidate_votes": 93396
+      },
+      {
+        "candidate": "MICHELLE BRAVO",
+        "other_candidate": "LONDON BREED",
+        "candidate_votes": 9254,
+        "other_candidate_votes": 92729
+      },
+      {
+        "candidate": "WRITE-IN ANTOINE R. ROGERS",
+        "other_candidate": "LONDON BREED",
+        "candidate_votes": 17,
+        "other_candidate_votes": 92121
+      }
+    ]
   }
 }

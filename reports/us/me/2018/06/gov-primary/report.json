@@ -1370,5 +1370,59 @@
         "denominator": 748
       }
     ]
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "Janet T. Mills",
+        "other_candidate": "Adam Roland Cote",
+        "candidate_votes": 99942,
+        "other_candidate_votes": 47935
+      },
+      {
+        "candidate": "Adam Roland Cote",
+        "other_candidate": "Janet T. Mills",
+        "candidate_votes": 92854,
+        "other_candidate_votes": 55663
+      },
+      {
+        "candidate": "Elizabeth A. Sweet",
+        "other_candidate": "Janet T. Mills",
+        "candidate_votes": 88291,
+        "other_candidate_votes": 60155
+      },
+      {
+        "candidate": "Mark W. Eves",
+        "other_candidate": "Janet T. Mills",
+        "candidate_votes": 87108,
+        "other_candidate_votes": 58694
+      },
+      {
+        "candidate": "Mark N. Dion",
+        "other_candidate": "Janet T. Mills",
+        "candidate_votes": 64105,
+        "other_candidate_votes": 63832
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "Diane Marie Russell",
+        "other_candidate": "Janet T. Mills",
+        "candidate_votes": 55181,
+        "other_candidate_votes": 64155
+      },
+      {
+        "candidate": "Donna J. Dion",
+        "other_candidate": "Janet T. Mills",
+        "candidate_votes": 51172,
+        "other_candidate_votes": 64584
+      },
+      {
+        "candidate": "$WRITE_IN",
+        "other_candidate": "Janet T. Mills",
+        "candidate_votes": 3407,
+        "other_candidate_votes": 43084
+      }
+    ]
   }
 }

@@ -1699,5 +1699,77 @@
     ],
     "eliminated": [],
     "pairs": []
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "ED LEE",
+        "other_candidate": "FRANCISCO HERRERA",
+        "candidate_votes": 118309,
+        "other_candidate_votes": 30209
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "FRANCISCO HERRERA",
+        "other_candidate": "ED LEE",
+        "candidate_votes": 70684,
+        "other_candidate_votes": 106669
+      },
+      {
+        "candidate": "AMY FARAH WEISS",
+        "other_candidate": "ED LEE",
+        "candidate_votes": 77028,
+        "other_candidate_votes": 107067
+      },
+      {
+        "candidate": "STUART SCHUFFMAN",
+        "other_candidate": "ED LEE",
+        "candidate_votes": 56967,
+        "other_candidate_votes": 106416
+      },
+      {
+        "candidate": "KENT GRAHAM",
+        "other_candidate": "ED LEE",
+        "candidate_votes": 31261,
+        "other_candidate_votes": 106366
+      },
+      {
+        "candidate": "REED MARTIN",
+        "other_candidate": "ED LEE",
+        "candidate_votes": 22987,
+        "other_candidate_votes": 106301
+      },
+      {
+        "candidate": "WRITE-IN - MICHAEL PETRELIS",
+        "other_candidate": "ED LEE",
+        "candidate_votes": 50,
+        "other_candidate_votes": 105771
+      },
+      {
+        "candidate": "WRITE-IN - ROBERT L. JORDAN, JR.",
+        "other_candidate": "ED LEE",
+        "candidate_votes": 9,
+        "other_candidate_votes": 105771
+      },
+      {
+        "candidate": "WRITE-IN - KARLA GOTTSCHALK (a.k.a BELLE STARR)",
+        "other_candidate": "ED LEE",
+        "candidate_votes": 9,
+        "other_candidate_votes": 105771
+      },
+      {
+        "candidate": "WRITE-IN - DANIEL C KAPPLER",
+        "other_candidate": "ED LEE",
+        "candidate_votes": 17,
+        "other_candidate_votes": 105771
+      },
+      {
+        "candidate": "WRITE-IN - JOHN E. FITCH",
+        "other_candidate": "ED LEE",
+        "candidate_votes": 8,
+        "other_candidate_votes": 105771
+      }
+    ]
   }
 }
