@@ -2,3 +2,4 @@ raw
 .idea
 *.csv.gz
 *.ipynb
+notebooks

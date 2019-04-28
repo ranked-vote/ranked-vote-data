@@ -1,0 +1,870 @@
+{
+  "meta": {
+    "name": "Burlington 2009 Mayoral Election",
+    "date": "2009-03-03",
+    "format": "us_vt_bvt",
+    "tabulation": "eager_irv",
+    "files": [
+      {
+        "name": "raw/us/vt/bvt/2009/03/2009 Mayor Reports.zip",
+        "sha1": "6db59ff407060f286032dfdee66e71107e96f7b2"
+      }
+    ],
+    "params": {
+      "report_path": "Reports/2009 Burlington Mayor Final Piles Report.txt"
+    },
+    "num_ballots": 8980,
+    "candidate_ids": [
+      "Bob Kiss",
+      "Andy Montroll",
+      "James Simpson",
+      "Dan Smith",
+      "Kurt Wright",
+      "Write-in"
+    ],
+    "normalized_ballots": "us/vt/bvt/2009/03/mayor/us_vt_bvt_2009_03_mayor.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "Kurt Wright",
+        "name": "Kurt Wright",
+        "write_in": false
+      },
+      {
+        "id": "Bob Kiss",
+        "name": "Bob Kiss",
+        "write_in": false
+      },
+      {
+        "id": "Andy Montroll",
+        "name": "Andy Montroll",
+        "write_in": false
+      },
+      {
+        "id": "Dan Smith",
+        "name": "Dan Smith",
+        "write_in": false
+      },
+      {
+        "id": "Write-in",
+        "name": "Write-In",
+        "write_in": false
+      },
+      {
+        "id": "James Simpson",
+        "name": "James Simpson",
+        "write_in": false
+      }
+    ]
+  },
+  "candidates": [
+    "Kurt Wright",
+    "Bob Kiss",
+    "Andy Montroll",
+    "Dan Smith",
+    "Write-in",
+    "James Simpson"
+  ],
+  "winner": "Bob Kiss",
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "Kurt Wright",
+        "Bob Kiss",
+        "Andy Montroll",
+        "Dan Smith",
+        "Write-in",
+        "James Simpson"
+      ],
+      "results": [
+        {
+          "name": "Kurt Wright",
+          "votes": 2951
+        },
+        {
+          "name": "Bob Kiss",
+          "votes": 2585
+        },
+        {
+          "name": "Andy Montroll",
+          "votes": 2063
+        },
+        {
+          "name": "Dan Smith",
+          "votes": 1306
+        },
+        {
+          "name": "Write-in",
+          "votes": 36
+        },
+        {
+          "name": "James Simpson",
+          "votes": 35
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 4
+        }
+      ],
+      "undervote": 0,
+      "overvote": 4,
+      "continuing_ballots": 8976,
+      "eliminated": [],
+      "transfers": []
+    },
+    {
+      "round": 2,
+      "candidates": [
+        "Kurt Wright",
+        "Bob Kiss",
+        "Andy Montroll"
+      ],
+      "results": [
+        {
+          "name": "Kurt Wright",
+          "votes": 3294
+        },
+        {
+          "name": "Bob Kiss",
+          "votes": 2981
+        },
+        {
+          "name": "Andy Montroll",
+          "votes": 2554
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 151
+        }
+      ],
+      "undervote": 147,
+      "overvote": 4,
+      "continuing_ballots": 8829,
+      "eliminated": [
+        "Dan Smith",
+        "Write-in",
+        "James Simpson"
+      ],
+      "transfers": [
+        {
+          "from": "Kurt Wright",
+          "to": "Kurt Wright",
+          "count": 2951
+        },
+        {
+          "from": "Bob Kiss",
+          "to": "Bob Kiss",
+          "count": 2585
+        },
+        {
+          "from": "Andy Montroll",
+          "to": "Andy Montroll",
+          "count": 2063
+        },
+        {
+          "from": "Dan Smith",
+          "to": "Bob Kiss",
+          "count": 370
+        },
+        {
+          "from": "Dan Smith",
+          "to": "Andy Montroll",
+          "count": 472
+        },
+        {
+          "from": "Dan Smith",
+          "to": "Kurt Wright",
+          "count": 332
+        },
+        {
+          "from": "Dan Smith",
+          "to": "$EXHAUSTED",
+          "count": 132
+        },
+        {
+          "from": "Write-in",
+          "to": "Bob Kiss",
+          "count": 7
+        },
+        {
+          "from": "Write-in",
+          "to": "Andy Montroll",
+          "count": 13
+        },
+        {
+          "from": "Write-in",
+          "to": "Kurt Wright",
+          "count": 5
+        },
+        {
+          "from": "Write-in",
+          "to": "$EXHAUSTED",
+          "count": 11
+        },
+        {
+          "from": "James Simpson",
+          "to": "Bob Kiss",
+          "count": 19
+        },
+        {
+          "from": "James Simpson",
+          "to": "Andy Montroll",
+          "count": 6
+        },
+        {
+          "from": "James Simpson",
+          "to": "Kurt Wright",
+          "count": 6
+        },
+        {
+          "from": "James Simpson",
+          "to": "$EXHAUSTED",
+          "count": 4
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "candidates": [
+        "Bob Kiss",
+        "Kurt Wright"
+      ],
+      "results": [
+        {
+          "name": "Bob Kiss",
+          "votes": 4313
+        },
+        {
+          "name": "Kurt Wright",
+          "votes": 4060
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 607
+        }
+      ],
+      "undervote": 602,
+      "overvote": 5,
+      "continuing_ballots": 8373,
+      "eliminated": [
+        "Andy Montroll"
+      ],
+      "transfers": [
+        {
+          "from": "Kurt Wright",
+          "to": "Kurt Wright",
+          "count": 3294
+        },
+        {
+          "from": "Bob Kiss",
+          "to": "Bob Kiss",
+          "count": 2981
+        },
+        {
+          "from": "Andy Montroll",
+          "to": "Bob Kiss",
+          "count": 1332
+        },
+        {
+          "from": "Andy Montroll",
+          "to": "Kurt Wright",
+          "count": 766
+        },
+        {
+          "from": "Andy Montroll",
+          "to": "$EXHAUSTED",
+          "count": 456
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 151
+        }
+      ]
+    }
+  ],
+  "smith_set": [
+    "Andy Montroll"
+  ],
+  "condorcet": "Andy Montroll",
+  "graph": [
+    {
+      "source": "Kurt Wright",
+      "edges": [
+        "Andy Montroll",
+        "Bob Kiss"
+      ]
+    },
+    {
+      "source": "Bob Kiss",
+      "edges": [
+        "Andy Montroll"
+      ]
+    },
+    {
+      "source": "Andy Montroll",
+      "edges": []
+    },
+    {
+      "source": "Dan Smith",
+      "edges": [
+        "Andy Montroll",
+        "Bob Kiss",
+        "Kurt Wright"
+      ]
+    },
+    {
+      "source": "Write-in",
+      "edges": [
+        "Andy Montroll",
+        "Bob Kiss",
+        "Dan Smith",
+        "James Simpson",
+        "Kurt Wright"
+      ]
+    },
+    {
+      "source": "James Simpson",
+      "edges": [
+        "Andy Montroll",
+        "Bob Kiss",
+        "Dan Smith",
+        "Kurt Wright"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "Kurt Wright",
+      "second_candidate": "Bob Kiss",
+      "numerator": 4060,
+      "denominator": 8373
+    },
+    {
+      "first_candidate": "Kurt Wright",
+      "second_candidate": "Andy Montroll",
+      "numerator": 3664,
+      "denominator": 8261
+    },
+    {
+      "first_candidate": "Kurt Wright",
+      "second_candidate": "Dan Smith",
+      "numerator": 3971,
+      "denominator": 7764
+    },
+    {
+      "first_candidate": "Kurt Wright",
+      "second_candidate": "Write-in",
+      "numerator": 6062,
+      "denominator": 6224
+    },
+    {
+      "first_candidate": "Kurt Wright",
+      "second_candidate": "James Simpson",
+      "numerator": 5270,
+      "denominator": 6579
+    },
+    {
+      "first_candidate": "Bob Kiss",
+      "second_candidate": "Kurt Wright",
+      "numerator": 4313,
+      "denominator": 8373
+    },
+    {
+      "first_candidate": "Bob Kiss",
+      "second_candidate": "Andy Montroll",
+      "numerator": 3476,
+      "denominator": 7540
+    },
+    {
+      "first_candidate": "Bob Kiss",
+      "second_candidate": "Dan Smith",
+      "numerator": 3944,
+      "denominator": 7520
+    },
+    {
+      "first_candidate": "Bob Kiss",
+      "second_candidate": "Write-in",
+      "numerator": 6147,
+      "denominator": 6260
+    },
+    {
+      "first_candidate": "Bob Kiss",
+      "second_candidate": "James Simpson",
+      "numerator": 5514,
+      "denominator": 6357
+    },
+    {
+      "first_candidate": "Andy Montroll",
+      "second_candidate": "Kurt Wright",
+      "numerator": 4597,
+      "denominator": 8261
+    },
+    {
+      "first_candidate": "Andy Montroll",
+      "second_candidate": "Bob Kiss",
+      "numerator": 4064,
+      "denominator": 7540
+    },
+    {
+      "first_candidate": "Andy Montroll",
+      "second_candidate": "Dan Smith",
+      "numerator": 4570,
+      "denominator": 7567
+    },
+    {
+      "first_candidate": "Andy Montroll",
+      "second_candidate": "Write-in",
+      "numerator": 6657,
+      "denominator": 6757
+    },
+    {
+      "first_candidate": "Andy Montroll",
+      "second_candidate": "James Simpson",
+      "numerator": 6262,
+      "denominator": 6853
+    },
+    {
+      "first_candidate": "Dan Smith",
+      "second_candidate": "Kurt Wright",
+      "numerator": 3793,
+      "denominator": 7764
+    },
+    {
+      "first_candidate": "Dan Smith",
+      "second_candidate": "Bob Kiss",
+      "numerator": 3576,
+      "denominator": 7520
+    },
+    {
+      "first_candidate": "Dan Smith",
+      "second_candidate": "Andy Montroll",
+      "numerator": 2997,
+      "denominator": 7567
+    },
+    {
+      "first_candidate": "Dan Smith",
+      "second_candidate": "Write-in",
+      "numerator": 6057,
+      "denominator": 6170
+    },
+    {
+      "first_candidate": "Dan Smith",
+      "second_candidate": "James Simpson",
+      "numerator": 5570,
+      "denominator": 6291
+    },
+    {
+      "first_candidate": "Write-in",
+      "second_candidate": "Kurt Wright",
+      "numerator": 162,
+      "denominator": 6224
+    },
+    {
+      "first_candidate": "Write-in",
+      "second_candidate": "Bob Kiss",
+      "numerator": 113,
+      "denominator": 6260
+    },
+    {
+      "first_candidate": "Write-in",
+      "second_candidate": "Andy Montroll",
+      "numerator": 100,
+      "denominator": 6757
+    },
+    {
+      "first_candidate": "Write-in",
+      "second_candidate": "Dan Smith",
+      "numerator": 113,
+      "denominator": 6170
+    },
+    {
+      "first_candidate": "Write-in",
+      "second_candidate": "James Simpson",
+      "numerator": 161,
+      "denominator": 3498
+    },
+    {
+      "first_candidate": "James Simpson",
+      "second_candidate": "Kurt Wright",
+      "numerator": 1309,
+      "denominator": 6579
+    },
+    {
+      "first_candidate": "James Simpson",
+      "second_candidate": "Bob Kiss",
+      "numerator": 843,
+      "denominator": 6357
+    },
+    {
+      "first_candidate": "James Simpson",
+      "second_candidate": "Andy Montroll",
+      "numerator": 591,
+      "denominator": 6853
+    },
+    {
+      "first_candidate": "James Simpson",
+      "second_candidate": "Dan Smith",
+      "numerator": 721,
+      "denominator": 6291
+    },
+    {
+      "first_candidate": "James Simpson",
+      "second_candidate": "Write-in",
+      "numerator": 3337,
+      "denominator": 3498
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "Kurt Wright",
+      "second_candidate": "Bob Kiss",
+      "numerator": 281,
+      "denominator": 2951
+    },
+    {
+      "first_candidate": "Kurt Wright",
+      "second_candidate": "Andy Montroll",
+      "numerator": 849,
+      "denominator": 2951
+    },
+    {
+      "first_candidate": "Kurt Wright",
+      "second_candidate": "Dan Smith",
+      "numerator": 883,
+      "denominator": 2951
+    },
+    {
+      "first_candidate": "Kurt Wright",
+      "second_candidate": "Write-in",
+      "numerator": 20,
+      "denominator": 2951
+    },
+    {
+      "first_candidate": "Kurt Wright",
+      "second_candidate": "James Simpson",
+      "numerator": 78,
+      "denominator": 2951
+    },
+    {
+      "first_candidate": "Kurt Wright",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 840,
+      "denominator": 2951
+    },
+    {
+      "first_candidate": "Bob Kiss",
+      "second_candidate": "Kurt Wright",
+      "numerator": 234,
+      "denominator": 2585
+    },
+    {
+      "first_candidate": "Bob Kiss",
+      "second_candidate": "Andy Montroll",
+      "numerator": 1321,
+      "denominator": 2585
+    },
+    {
+      "first_candidate": "Bob Kiss",
+      "second_candidate": "Dan Smith",
+      "numerator": 571,
+      "denominator": 2585
+    },
+    {
+      "first_candidate": "Bob Kiss",
+      "second_candidate": "Write-in",
+      "numerator": 14,
+      "denominator": 2585
+    },
+    {
+      "first_candidate": "Bob Kiss",
+      "second_candidate": "James Simpson",
+      "numerator": 119,
+      "denominator": 2585
+    },
+    {
+      "first_candidate": "Bob Kiss",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 326,
+      "denominator": 2585
+    },
+    {
+      "first_candidate": "Andy Montroll",
+      "second_candidate": "Kurt Wright",
+      "numerator": 424,
+      "denominator": 2063
+    },
+    {
+      "first_candidate": "Andy Montroll",
+      "second_candidate": "Bob Kiss",
+      "numerator": 747,
+      "denominator": 2063
+    },
+    {
+      "first_candidate": "Andy Montroll",
+      "second_candidate": "Dan Smith",
+      "numerator": 642,
+      "denominator": 2063
+    },
+    {
+      "first_candidate": "Andy Montroll",
+      "second_candidate": "Write-in",
+      "numerator": 10,
+      "denominator": 2063
+    },
+    {
+      "first_candidate": "Andy Montroll",
+      "second_candidate": "James Simpson",
+      "numerator": 62,
+      "denominator": 2063
+    },
+    {
+      "first_candidate": "Andy Montroll",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 178,
+      "denominator": 2063
+    },
+    {
+      "first_candidate": "Dan Smith",
+      "second_candidate": "Kurt Wright",
+      "numerator": 327,
+      "denominator": 1306
+    },
+    {
+      "first_candidate": "Dan Smith",
+      "second_candidate": "Bob Kiss",
+      "numerator": 356,
+      "denominator": 1306
+    },
+    {
+      "first_candidate": "Dan Smith",
+      "second_candidate": "Andy Montroll",
+      "numerator": 450,
+      "denominator": 1306
+    },
+    {
+      "first_candidate": "Dan Smith",
+      "second_candidate": "Write-in",
+      "numerator": 1,
+      "denominator": 1306
+    },
+    {
+      "first_candidate": "Dan Smith",
+      "second_candidate": "James Simpson",
+      "numerator": 48,
+      "denominator": 1306
+    },
+    {
+      "first_candidate": "Dan Smith",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 124,
+      "denominator": 1306
+    },
+    {
+      "first_candidate": "Write-in",
+      "second_candidate": "Kurt Wright",
+      "numerator": 5,
+      "denominator": 36
+    },
+    {
+      "first_candidate": "Write-in",
+      "second_candidate": "Bob Kiss",
+      "numerator": 6,
+      "denominator": 36
+    },
+    {
+      "first_candidate": "Write-in",
+      "second_candidate": "Andy Montroll",
+      "numerator": 13,
+      "denominator": 36
+    },
+    {
+      "first_candidate": "Write-in",
+      "second_candidate": "Dan Smith",
+      "numerator": 2,
+      "denominator": 36
+    },
+    {
+      "first_candidate": "Write-in",
+      "second_candidate": "James Simpson",
+      "numerator": 0,
+      "denominator": 36
+    },
+    {
+      "first_candidate": "Write-in",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 10,
+      "denominator": 36
+    },
+    {
+      "first_candidate": "James Simpson",
+      "second_candidate": "Kurt Wright",
+      "numerator": 4,
+      "denominator": 35
+    },
+    {
+      "first_candidate": "James Simpson",
+      "second_candidate": "Bob Kiss",
+      "numerator": 14,
+      "denominator": 35
+    },
+    {
+      "first_candidate": "James Simpson",
+      "second_candidate": "Andy Montroll",
+      "numerator": 4,
+      "denominator": 35
+    },
+    {
+      "first_candidate": "James Simpson",
+      "second_candidate": "Dan Smith",
+      "numerator": 9,
+      "denominator": 35
+    },
+    {
+      "first_candidate": "James Simpson",
+      "second_candidate": "Write-in",
+      "numerator": 1,
+      "denominator": 35
+    },
+    {
+      "first_candidate": "James Simpson",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 3,
+      "denominator": 35
+    }
+  ],
+  "final_by_first": {
+    "finalists": [
+      "Bob Kiss",
+      "Kurt Wright",
+      "$EXHAUSTED"
+    ],
+    "eliminated": [
+      "Andy Montroll",
+      "Dan Smith",
+      "Write-in",
+      "James Simpson"
+    ],
+    "pairs": [
+      {
+        "first_candidate": "Andy Montroll",
+        "second_candidate": "Bob Kiss",
+        "numerator": 1081,
+        "denominator": 2063
+      },
+      {
+        "first_candidate": "Andy Montroll",
+        "second_candidate": "Kurt Wright",
+        "numerator": 636,
+        "denominator": 2063
+      },
+      {
+        "first_candidate": "Andy Montroll",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 346,
+        "denominator": 2063
+      },
+      {
+        "first_candidate": "Dan Smith",
+        "second_candidate": "Bob Kiss",
+        "numerator": 612,
+        "denominator": 1306
+      },
+      {
+        "first_candidate": "Dan Smith",
+        "second_candidate": "Kurt Wright",
+        "numerator": 459,
+        "denominator": 1306
+      },
+      {
+        "first_candidate": "Dan Smith",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 235,
+        "denominator": 1306
+      },
+      {
+        "first_candidate": "Write-in",
+        "second_candidate": "Bob Kiss",
+        "numerator": 15,
+        "denominator": 36
+      },
+      {
+        "first_candidate": "Write-in",
+        "second_candidate": "Kurt Wright",
+        "numerator": 5,
+        "denominator": 36
+      },
+      {
+        "first_candidate": "Write-in",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 16,
+        "denominator": 36
+      },
+      {
+        "first_candidate": "James Simpson",
+        "second_candidate": "Bob Kiss",
+        "numerator": 20,
+        "denominator": 35
+      },
+      {
+        "first_candidate": "James Simpson",
+        "second_candidate": "Kurt Wright",
+        "numerator": 9,
+        "denominator": 35
+      },
+      {
+        "first_candidate": "James Simpson",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 6,
+        "denominator": 35
+      }
+    ]
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "Kurt Wright",
+        "other_candidate": "Bob Kiss",
+        "candidate_votes": 6085,
+        "other_candidate_votes": 3480
+      },
+      {
+        "candidate": "Bob Kiss",
+        "other_candidate": "Kurt Wright",
+        "candidate_votes": 6180,
+        "other_candidate_votes": 3616
+      },
+      {
+        "candidate": "Andy Montroll",
+        "other_candidate": "Kurt Wright",
+        "candidate_votes": 6701,
+        "other_candidate_votes": 3422
+      },
+      {
+        "candidate": "Dan Smith",
+        "other_candidate": "Andy Montroll",
+        "candidate_votes": 6091,
+        "other_candidate_votes": 3696
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "Write-in",
+        "other_candidate": "Kurt Wright",
+        "candidate_votes": 239,
+        "other_candidate_votes": 2983
+      },
+      {
+        "candidate": "James Simpson",
+        "other_candidate": "Kurt Wright",
+        "candidate_votes": 3388,
+        "other_candidate_votes": 4101
+      }
+    ]
+  }
+}

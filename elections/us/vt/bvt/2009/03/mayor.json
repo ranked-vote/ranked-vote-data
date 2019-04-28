@@ -1,0 +1,12 @@
+{
+    "name": "Burlington 2009 Mayoral Election",
+    "date": "2009-03-03",
+    "format": "us_vt_bvt",
+    "tabulation": "eager_irv",
+    "files": [
+        "us/vt/bvt/2009/03/2009 Mayor Reports.zip"
+    ],
+    "params": {
+        "report_path": "Reports/2009 Burlington Mayor Final Piles Report.txt"
+    }
+}
