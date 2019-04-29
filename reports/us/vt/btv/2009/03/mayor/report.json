@@ -6,7 +6,7 @@
     "tabulation": "eager_irv",
     "files": [
       {
-        "name": "raw/us/vt/bvt/2009/03/2009 Mayor Reports.zip",
+        "name": "raw/us/vt/btv/2009/03/2009 Mayor Reports.zip",
         "sha1": "6db59ff407060f286032dfdee66e71107e96f7b2"
       }
     ],
@@ -22,7 +22,7 @@
       "Kurt Wright",
       "Write-in"
     ],
-    "normalized_ballots": "us/vt/bvt/2009/03/mayor/us_vt_bvt_2009_03_mayor.normalized.csv.gz",
+    "normalized_ballots": "us/vt/btv/2009/03/mayor/us_vt_btv_2009_03_mayor.normalized.csv.gz",
     "candidates": [
       {
         "id": "Kurt Wright",
