@@ -1,0 +1,617 @@
+{
+  "meta": {
+    "name": "San Francisco 2010 Municipal Election - District 8",
+    "date": "2010-11-02",
+    "format": "us_ca_sfo",
+    "tabulation": "eager_irv",
+    "params": {
+      "contest": 10
+    },
+    "files": [
+      {
+        "name": "raw/us/ca/sfo/2010/11/MasterLookup-D8.txt",
+        "sha1": "ff3686d5fc8c1d05320fac925038c92b0a5301e4"
+      },
+      {
+        "name": "raw/us/ca/sfo/2010/11/BallotImage-D8.txt",
+        "sha1": "2d4bcc45600ba662aa50ae53c7acf540babf8991"
+      }
+    ],
+    "num_ballots": 38551,
+    "candidate_ids": [
+      "SCOTT WIENER",
+      "REBECCA PROZAN",
+      "RAFAEL MANDELMAN",
+      "BILL HEMENGER",
+      "$WRITE_IN"
+    ],
+    "normalized_ballots": "us/ca/sfo/2010/11/d8/us_ca_sfo_2010_11_d8.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "SCOTT WIENER",
+        "name": "Scott Wiener",
+        "write_in": false
+      },
+      {
+        "id": "RAFAEL MANDELMAN",
+        "name": "Rafael Mandelman",
+        "write_in": false
+      },
+      {
+        "id": "REBECCA PROZAN",
+        "name": "Rebecca Prozan",
+        "write_in": false
+      },
+      {
+        "id": "BILL HEMENGER",
+        "name": "Bill Hemenger",
+        "write_in": false
+      },
+      {
+        "id": "$WRITE_IN",
+        "name": "Write-in",
+        "write_in": true
+      }
+    ]
+  },
+  "candidates": [
+    "SCOTT WIENER",
+    "RAFAEL MANDELMAN",
+    "REBECCA PROZAN",
+    "BILL HEMENGER",
+    "$WRITE_IN"
+  ],
+  "winner": "SCOTT WIENER",
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "SCOTT WIENER",
+        "RAFAEL MANDELMAN",
+        "REBECCA PROZAN",
+        "BILL HEMENGER",
+        "$WRITE_IN"
+      ],
+      "results": [
+        {
+          "name": "SCOTT WIENER",
+          "votes": 14813
+        },
+        {
+          "name": "RAFAEL MANDELMAN",
+          "votes": 12433
+        },
+        {
+          "name": "REBECCA PROZAN",
+          "votes": 5872
+        },
+        {
+          "name": "BILL HEMENGER",
+          "votes": 1802
+        },
+        {
+          "name": "$WRITE_IN",
+          "votes": 30
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 3601
+        }
+      ],
+      "undervote": 3522,
+      "overvote": 79,
+      "continuing_ballots": 34950,
+      "eliminated": [],
+      "transfers": []
+    },
+    {
+      "round": 2,
+      "candidates": [
+        "SCOTT WIENER",
+        "RAFAEL MANDELMAN"
+      ],
+      "results": [
+        {
+          "name": "SCOTT WIENER",
+          "votes": 18239
+        },
+        {
+          "name": "RAFAEL MANDELMAN",
+          "votes": 14687
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 5625
+        }
+      ],
+      "undervote": 5531,
+      "overvote": 94,
+      "continuing_ballots": 32926,
+      "eliminated": [
+        "REBECCA PROZAN",
+        "BILL HEMENGER",
+        "$WRITE_IN"
+      ],
+      "transfers": [
+        {
+          "from": "SCOTT WIENER",
+          "to": "SCOTT WIENER",
+          "count": 14813
+        },
+        {
+          "from": "RAFAEL MANDELMAN",
+          "to": "RAFAEL MANDELMAN",
+          "count": 12433
+        },
+        {
+          "from": "REBECCA PROZAN",
+          "to": "RAFAEL MANDELMAN",
+          "count": 1966
+        },
+        {
+          "from": "REBECCA PROZAN",
+          "to": "SCOTT WIENER",
+          "count": 2633
+        },
+        {
+          "from": "REBECCA PROZAN",
+          "to": "$EXHAUSTED",
+          "count": 1273
+        },
+        {
+          "from": "BILL HEMENGER",
+          "to": "SCOTT WIENER",
+          "count": 791
+        },
+        {
+          "from": "BILL HEMENGER",
+          "to": "$EXHAUSTED",
+          "count": 724
+        },
+        {
+          "from": "BILL HEMENGER",
+          "to": "RAFAEL MANDELMAN",
+          "count": 287
+        },
+        {
+          "from": "$WRITE_IN",
+          "to": "$EXHAUSTED",
+          "count": 27
+        },
+        {
+          "from": "$WRITE_IN",
+          "to": "SCOTT WIENER",
+          "count": 2
+        },
+        {
+          "from": "$WRITE_IN",
+          "to": "RAFAEL MANDELMAN",
+          "count": 1
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 3601
+        }
+      ]
+    }
+  ],
+  "smith_set": [
+    "SCOTT WIENER"
+  ],
+  "condorcet": "SCOTT WIENER",
+  "graph": [
+    {
+      "source": "SCOTT WIENER",
+      "edges": []
+    },
+    {
+      "source": "RAFAEL MANDELMAN",
+      "edges": [
+        "SCOTT WIENER"
+      ]
+    },
+    {
+      "source": "REBECCA PROZAN",
+      "edges": [
+        "RAFAEL MANDELMAN",
+        "SCOTT WIENER"
+      ]
+    },
+    {
+      "source": "BILL HEMENGER",
+      "edges": [
+        "RAFAEL MANDELMAN",
+        "REBECCA PROZAN",
+        "SCOTT WIENER"
+      ]
+    },
+    {
+      "source": "$WRITE_IN",
+      "edges": [
+        "BILL HEMENGER",
+        "RAFAEL MANDELMAN",
+        "REBECCA PROZAN",
+        "SCOTT WIENER"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "SCOTT WIENER",
+      "second_candidate": "RAFAEL MANDELMAN",
+      "numerator": 18239,
+      "denominator": 32926
+    },
+    {
+      "first_candidate": "SCOTT WIENER",
+      "second_candidate": "REBECCA PROZAN",
+      "numerator": 18344,
+      "denominator": 30036
+    },
+    {
+      "first_candidate": "SCOTT WIENER",
+      "second_candidate": "BILL HEMENGER",
+      "numerator": 23737,
+      "denominator": 26916
+    },
+    {
+      "first_candidate": "SCOTT WIENER",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 24838,
+      "denominator": 24958
+    },
+    {
+      "first_candidate": "RAFAEL MANDELMAN",
+      "second_candidate": "SCOTT WIENER",
+      "numerator": 14687,
+      "denominator": 32926
+    },
+    {
+      "first_candidate": "RAFAEL MANDELMAN",
+      "second_candidate": "REBECCA PROZAN",
+      "numerator": 15865,
+      "denominator": 29832
+    },
+    {
+      "first_candidate": "RAFAEL MANDELMAN",
+      "second_candidate": "BILL HEMENGER",
+      "numerator": 21359,
+      "denominator": 26839
+    },
+    {
+      "first_candidate": "RAFAEL MANDELMAN",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 22030,
+      "denominator": 22112
+    },
+    {
+      "first_candidate": "REBECCA PROZAN",
+      "second_candidate": "SCOTT WIENER",
+      "numerator": 11692,
+      "denominator": 30036
+    },
+    {
+      "first_candidate": "REBECCA PROZAN",
+      "second_candidate": "RAFAEL MANDELMAN",
+      "numerator": 13967,
+      "denominator": 29832
+    },
+    {
+      "first_candidate": "REBECCA PROZAN",
+      "second_candidate": "BILL HEMENGER",
+      "numerator": 21561,
+      "denominator": 25547
+    },
+    {
+      "first_candidate": "REBECCA PROZAN",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 23100,
+      "denominator": 23221
+    },
+    {
+      "first_candidate": "BILL HEMENGER",
+      "second_candidate": "SCOTT WIENER",
+      "numerator": 3179,
+      "denominator": 26916
+    },
+    {
+      "first_candidate": "BILL HEMENGER",
+      "second_candidate": "RAFAEL MANDELMAN",
+      "numerator": 5480,
+      "denominator": 26839
+    },
+    {
+      "first_candidate": "BILL HEMENGER",
+      "second_candidate": "REBECCA PROZAN",
+      "numerator": 3986,
+      "denominator": 25547
+    },
+    {
+      "first_candidate": "BILL HEMENGER",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 7043,
+      "denominator": 7188
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "SCOTT WIENER",
+      "numerator": 120,
+      "denominator": 24958
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "RAFAEL MANDELMAN",
+      "numerator": 82,
+      "denominator": 22112
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "REBECCA PROZAN",
+      "numerator": 121,
+      "denominator": 23221
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "BILL HEMENGER",
+      "numerator": 145,
+      "denominator": 7188
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "SCOTT WIENER",
+      "second_candidate": "RAFAEL MANDELMAN",
+      "numerator": 2916,
+      "denominator": 14813
+    },
+    {
+      "first_candidate": "SCOTT WIENER",
+      "second_candidate": "REBECCA PROZAN",
+      "numerator": 6800,
+      "denominator": 14813
+    },
+    {
+      "first_candidate": "SCOTT WIENER",
+      "second_candidate": "BILL HEMENGER",
+      "numerator": 1294,
+      "denominator": 14813
+    },
+    {
+      "first_candidate": "SCOTT WIENER",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 12,
+      "denominator": 14813
+    },
+    {
+      "first_candidate": "SCOTT WIENER",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 3791,
+      "denominator": 14813
+    },
+    {
+      "first_candidate": "RAFAEL MANDELMAN",
+      "second_candidate": "SCOTT WIENER",
+      "numerator": 2756,
+      "denominator": 12433
+    },
+    {
+      "first_candidate": "RAFAEL MANDELMAN",
+      "second_candidate": "REBECCA PROZAN",
+      "numerator": 5220,
+      "denominator": 12433
+    },
+    {
+      "first_candidate": "RAFAEL MANDELMAN",
+      "second_candidate": "BILL HEMENGER",
+      "numerator": 359,
+      "denominator": 12433
+    },
+    {
+      "first_candidate": "RAFAEL MANDELMAN",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 35,
+      "denominator": 12433
+    },
+    {
+      "first_candidate": "RAFAEL MANDELMAN",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 4063,
+      "denominator": 12433
+    },
+    {
+      "first_candidate": "REBECCA PROZAN",
+      "second_candidate": "SCOTT WIENER",
+      "numerator": 2484,
+      "denominator": 5872
+    },
+    {
+      "first_candidate": "REBECCA PROZAN",
+      "second_candidate": "RAFAEL MANDELMAN",
+      "numerator": 1881,
+      "denominator": 5872
+    },
+    {
+      "first_candidate": "REBECCA PROZAN",
+      "second_candidate": "BILL HEMENGER",
+      "numerator": 335,
+      "denominator": 5872
+    },
+    {
+      "first_candidate": "REBECCA PROZAN",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 3,
+      "denominator": 5872
+    },
+    {
+      "first_candidate": "REBECCA PROZAN",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 1169,
+      "denominator": 5872
+    },
+    {
+      "first_candidate": "BILL HEMENGER",
+      "second_candidate": "SCOTT WIENER",
+      "numerator": 604,
+      "denominator": 1802
+    },
+    {
+      "first_candidate": "BILL HEMENGER",
+      "second_candidate": "RAFAEL MANDELMAN",
+      "numerator": 215,
+      "denominator": 1802
+    },
+    {
+      "first_candidate": "BILL HEMENGER",
+      "second_candidate": "REBECCA PROZAN",
+      "numerator": 345,
+      "denominator": 1802
+    },
+    {
+      "first_candidate": "BILL HEMENGER",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 6,
+      "denominator": 1802
+    },
+    {
+      "first_candidate": "BILL HEMENGER",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 632,
+      "denominator": 1802
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "SCOTT WIENER",
+      "numerator": 2,
+      "denominator": 30
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "RAFAEL MANDELMAN",
+      "numerator": 1,
+      "denominator": 30
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "REBECCA PROZAN",
+      "numerator": 1,
+      "denominator": 30
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "BILL HEMENGER",
+      "numerator": 0,
+      "denominator": 30
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 26,
+      "denominator": 30
+    }
+  ],
+  "final_by_first": {
+    "finalists": [
+      "SCOTT WIENER",
+      "RAFAEL MANDELMAN",
+      "$EXHAUSTED"
+    ],
+    "eliminated": [
+      "REBECCA PROZAN",
+      "BILL HEMENGER",
+      "$WRITE_IN"
+    ],
+    "pairs": [
+      {
+        "first_candidate": "REBECCA PROZAN",
+        "second_candidate": "SCOTT WIENER",
+        "numerator": 2633,
+        "denominator": 5872
+      },
+      {
+        "first_candidate": "REBECCA PROZAN",
+        "second_candidate": "RAFAEL MANDELMAN",
+        "numerator": 1966,
+        "denominator": 5872
+      },
+      {
+        "first_candidate": "REBECCA PROZAN",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 1273,
+        "denominator": 5872
+      },
+      {
+        "first_candidate": "BILL HEMENGER",
+        "second_candidate": "SCOTT WIENER",
+        "numerator": 791,
+        "denominator": 1802
+      },
+      {
+        "first_candidate": "BILL HEMENGER",
+        "second_candidate": "RAFAEL MANDELMAN",
+        "numerator": 287,
+        "denominator": 1802
+      },
+      {
+        "first_candidate": "BILL HEMENGER",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 724,
+        "denominator": 1802
+      },
+      {
+        "first_candidate": "$WRITE_IN",
+        "second_candidate": "SCOTT WIENER",
+        "numerator": 2,
+        "denominator": 30
+      },
+      {
+        "first_candidate": "$WRITE_IN",
+        "second_candidate": "RAFAEL MANDELMAN",
+        "numerator": 1,
+        "denominator": 30
+      },
+      {
+        "first_candidate": "$WRITE_IN",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 27,
+        "denominator": 30
+      }
+    ]
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "SCOTT WIENER",
+        "other_candidate": "RAFAEL MANDELMAN",
+        "candidate_votes": 24843,
+        "other_candidate_votes": 13617
+      },
+      {
+        "candidate": "RAFAEL MANDELMAN",
+        "other_candidate": "SCOTT WIENER",
+        "candidate_votes": 22031,
+        "other_candidate_votes": 16161
+      },
+      {
+        "candidate": "REBECCA PROZAN",
+        "other_candidate": "SCOTT WIENER",
+        "candidate_votes": 23105,
+        "other_candidate_votes": 16959
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "BILL HEMENGER",
+        "other_candidate": "SCOTT WIENER",
+        "candidate_votes": 7048,
+        "other_candidate_votes": 15444
+      },
+      {
+        "candidate": "$WRITE_IN",
+        "other_candidate": "SCOTT WIENER",
+        "candidate_votes": 176,
+        "other_candidate_votes": 14828
+      }
+    ]
+  }
+}

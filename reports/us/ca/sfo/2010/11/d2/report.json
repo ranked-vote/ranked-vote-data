@@ -1,0 +1,1020 @@
+{
+  "meta": {
+    "name": "San Francisco 2010 Municipal Election - District 10",
+    "date": "2010-11-02",
+    "format": "us_ca_sfo",
+    "tabulation": "eager_irv",
+    "params": {
+      "contest": 7
+    },
+    "files": [
+      {
+        "name": "raw/us/ca/sfo/2010/11/MasterLookup-D2.txt",
+        "sha1": "46b3858b83cbcdc464722b8d4807a5656675834a"
+      },
+      {
+        "name": "raw/us/ca/sfo/2010/11/BallotImage-D2.txt",
+        "sha1": "a0f201f82f0cda53812156f5d0569d97ec8d6a1d"
+      }
+    ],
+    "num_ballots": 28911,
+    "candidate_ids": [
+      "JANET REILLY",
+      "VILMA B. GUINTO PEORO",
+      "BARBARA BERWICK",
+      "MARK FARRELL",
+      "ABRAHAM SIMMONS",
+      "KAT ANDERSON",
+      "$WRITE_IN"
+    ],
+    "normalized_ballots": "us/ca/sfo/2010/11/d2/us_ca_sfo_2010_11_d2.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "JANET REILLY",
+        "name": "Janet Reilly",
+        "write_in": false
+      },
+      {
+        "id": "MARK FARRELL",
+        "name": "Mark Farrell",
+        "write_in": false
+      },
+      {
+        "id": "ABRAHAM SIMMONS",
+        "name": "Abraham Simmons",
+        "write_in": false
+      },
+      {
+        "id": "KAT ANDERSON",
+        "name": "Kat Anderson",
+        "write_in": false
+      },
+      {
+        "id": "BARBARA BERWICK",
+        "name": "Barbara Berwick",
+        "write_in": false
+      },
+      {
+        "id": "VILMA B. GUINTO PEORO",
+        "name": "Vilma B. Guinto Peoro",
+        "write_in": false
+      },
+      {
+        "id": "$WRITE_IN",
+        "name": "Write-in",
+        "write_in": true
+      }
+    ]
+  },
+  "candidates": [
+    "JANET REILLY",
+    "MARK FARRELL",
+    "ABRAHAM SIMMONS",
+    "KAT ANDERSON",
+    "BARBARA BERWICK",
+    "VILMA B. GUINTO PEORO",
+    "$WRITE_IN"
+  ],
+  "winner": "MARK FARRELL",
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "JANET REILLY",
+        "MARK FARRELL",
+        "ABRAHAM SIMMONS",
+        "KAT ANDERSON",
+        "BARBARA BERWICK",
+        "VILMA B. GUINTO PEORO",
+        "$WRITE_IN"
+      ],
+      "results": [
+        {
+          "name": "JANET REILLY",
+          "votes": 9898
+        },
+        {
+          "name": "MARK FARRELL",
+          "votes": 9700
+        },
+        {
+          "name": "ABRAHAM SIMMONS",
+          "votes": 2074
+        },
+        {
+          "name": "KAT ANDERSON",
+          "votes": 1707
+        },
+        {
+          "name": "BARBARA BERWICK",
+          "votes": 537
+        },
+        {
+          "name": "VILMA B. GUINTO PEORO",
+          "votes": 160
+        },
+        {
+          "name": "$WRITE_IN",
+          "votes": 18
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 4817
+        }
+      ],
+      "undervote": 4731,
+      "overvote": 86,
+      "continuing_ballots": 24094,
+      "eliminated": [],
+      "transfers": []
+    },
+    {
+      "round": 2,
+      "candidates": [
+        "MARK FARRELL",
+        "JANET REILLY"
+      ],
+      "results": [
+        {
+          "name": "MARK FARRELL",
+          "votes": 11426
+        },
+        {
+          "name": "JANET REILLY",
+          "votes": 11168
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 6317
+        }
+      ],
+      "undervote": 6220,
+      "overvote": 97,
+      "continuing_ballots": 22594,
+      "eliminated": [
+        "ABRAHAM SIMMONS",
+        "KAT ANDERSON",
+        "BARBARA BERWICK",
+        "VILMA B. GUINTO PEORO",
+        "$WRITE_IN"
+      ],
+      "transfers": [
+        {
+          "from": "JANET REILLY",
+          "to": "JANET REILLY",
+          "count": 9898
+        },
+        {
+          "from": "MARK FARRELL",
+          "to": "MARK FARRELL",
+          "count": 9700
+        },
+        {
+          "from": "ABRAHAM SIMMONS",
+          "to": "JANET REILLY",
+          "count": 651
+        },
+        {
+          "from": "ABRAHAM SIMMONS",
+          "to": "MARK FARRELL",
+          "count": 750
+        },
+        {
+          "from": "ABRAHAM SIMMONS",
+          "to": "$EXHAUSTED",
+          "count": 673
+        },
+        {
+          "from": "KAT ANDERSON",
+          "to": "$EXHAUSTED",
+          "count": 550
+        },
+        {
+          "from": "KAT ANDERSON",
+          "to": "JANET REILLY",
+          "count": 445
+        },
+        {
+          "from": "KAT ANDERSON",
+          "to": "MARK FARRELL",
+          "count": 712
+        },
+        {
+          "from": "BARBARA BERWICK",
+          "to": "MARK FARRELL",
+          "count": 215
+        },
+        {
+          "from": "BARBARA BERWICK",
+          "to": "$EXHAUSTED",
+          "count": 189
+        },
+        {
+          "from": "BARBARA BERWICK",
+          "to": "JANET REILLY",
+          "count": 133
+        },
+        {
+          "from": "VILMA B. GUINTO PEORO",
+          "to": "$EXHAUSTED",
+          "count": 75
+        },
+        {
+          "from": "VILMA B. GUINTO PEORO",
+          "to": "MARK FARRELL",
+          "count": 46
+        },
+        {
+          "from": "VILMA B. GUINTO PEORO",
+          "to": "JANET REILLY",
+          "count": 39
+        },
+        {
+          "from": "$WRITE_IN",
+          "to": "JANET REILLY",
+          "count": 2
+        },
+        {
+          "from": "$WRITE_IN",
+          "to": "MARK FARRELL",
+          "count": 3
+        },
+        {
+          "from": "$WRITE_IN",
+          "to": "$EXHAUSTED",
+          "count": 13
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 4817
+        }
+      ]
+    }
+  ],
+  "smith_set": [
+    "MARK FARRELL"
+  ],
+  "condorcet": "MARK FARRELL",
+  "graph": [
+    {
+      "source": "JANET REILLY",
+      "edges": [
+        "MARK FARRELL"
+      ]
+    },
+    {
+      "source": "MARK FARRELL",
+      "edges": []
+    },
+    {
+      "source": "ABRAHAM SIMMONS",
+      "edges": [
+        "JANET REILLY",
+        "MARK FARRELL"
+      ]
+    },
+    {
+      "source": "KAT ANDERSON",
+      "edges": [
+        "ABRAHAM SIMMONS",
+        "JANET REILLY",
+        "MARK FARRELL"
+      ]
+    },
+    {
+      "source": "BARBARA BERWICK",
+      "edges": [
+        "ABRAHAM SIMMONS",
+        "JANET REILLY",
+        "KAT ANDERSON",
+        "MARK FARRELL"
+      ]
+    },
+    {
+      "source": "VILMA B. GUINTO PEORO",
+      "edges": [
+        "ABRAHAM SIMMONS",
+        "BARBARA BERWICK",
+        "JANET REILLY",
+        "KAT ANDERSON",
+        "MARK FARRELL"
+      ]
+    },
+    {
+      "source": "$WRITE_IN",
+      "edges": [
+        "ABRAHAM SIMMONS",
+        "BARBARA BERWICK",
+        "JANET REILLY",
+        "KAT ANDERSON",
+        "MARK FARRELL",
+        "VILMA B. GUINTO PEORO"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "JANET REILLY",
+      "second_candidate": "MARK FARRELL",
+      "numerator": 11168,
+      "denominator": 22594
+    },
+    {
+      "first_candidate": "JANET REILLY",
+      "second_candidate": "ABRAHAM SIMMONS",
+      "numerator": 12811,
+      "denominator": 18159
+    },
+    {
+      "first_candidate": "JANET REILLY",
+      "second_candidate": "KAT ANDERSON",
+      "numerator": 13015,
+      "denominator": 17819
+    },
+    {
+      "first_candidate": "JANET REILLY",
+      "second_candidate": "BARBARA BERWICK",
+      "numerator": 13661,
+      "denominator": 16082
+    },
+    {
+      "first_candidate": "JANET REILLY",
+      "second_candidate": "VILMA B. GUINTO PEORO",
+      "numerator": 13943,
+      "denominator": 14800
+    },
+    {
+      "first_candidate": "JANET REILLY",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 14017,
+      "denominator": 14074
+    },
+    {
+      "first_candidate": "MARK FARRELL",
+      "second_candidate": "JANET REILLY",
+      "numerator": 11426,
+      "denominator": 22594
+    },
+    {
+      "first_candidate": "MARK FARRELL",
+      "second_candidate": "ABRAHAM SIMMONS",
+      "numerator": 13328,
+      "denominator": 17297
+    },
+    {
+      "first_candidate": "MARK FARRELL",
+      "second_candidate": "KAT ANDERSON",
+      "numerator": 13390,
+      "denominator": 17383
+    },
+    {
+      "first_candidate": "MARK FARRELL",
+      "second_candidate": "BARBARA BERWICK",
+      "numerator": 14099,
+      "denominator": 16108
+    },
+    {
+      "first_candidate": "MARK FARRELL",
+      "second_candidate": "VILMA B. GUINTO PEORO",
+      "numerator": 14495,
+      "denominator": 15126
+    },
+    {
+      "first_candidate": "MARK FARRELL",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 14592,
+      "denominator": 14633
+    },
+    {
+      "first_candidate": "ABRAHAM SIMMONS",
+      "second_candidate": "JANET REILLY",
+      "numerator": 5348,
+      "denominator": 18159
+    },
+    {
+      "first_candidate": "ABRAHAM SIMMONS",
+      "second_candidate": "MARK FARRELL",
+      "numerator": 3969,
+      "denominator": 17297
+    },
+    {
+      "first_candidate": "ABRAHAM SIMMONS",
+      "second_candidate": "KAT ANDERSON",
+      "numerator": 6460,
+      "denominator": 12133
+    },
+    {
+      "first_candidate": "ABRAHAM SIMMONS",
+      "second_candidate": "BARBARA BERWICK",
+      "numerator": 7306,
+      "denominator": 10461
+    },
+    {
+      "first_candidate": "ABRAHAM SIMMONS",
+      "second_candidate": "VILMA B. GUINTO PEORO",
+      "numerator": 7639,
+      "denominator": 8592
+    },
+    {
+      "first_candidate": "ABRAHAM SIMMONS",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 7725,
+      "denominator": 7795
+    },
+    {
+      "first_candidate": "KAT ANDERSON",
+      "second_candidate": "JANET REILLY",
+      "numerator": 4804,
+      "denominator": 17819
+    },
+    {
+      "first_candidate": "KAT ANDERSON",
+      "second_candidate": "MARK FARRELL",
+      "numerator": 3993,
+      "denominator": 17383
+    },
+    {
+      "first_candidate": "KAT ANDERSON",
+      "second_candidate": "ABRAHAM SIMMONS",
+      "numerator": 5673,
+      "denominator": 12133
+    },
+    {
+      "first_candidate": "KAT ANDERSON",
+      "second_candidate": "BARBARA BERWICK",
+      "numerator": 6903,
+      "denominator": 9866
+    },
+    {
+      "first_candidate": "KAT ANDERSON",
+      "second_candidate": "VILMA B. GUINTO PEORO",
+      "numerator": 7322,
+      "denominator": 8309
+    },
+    {
+      "first_candidate": "KAT ANDERSON",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 7415,
+      "denominator": 7486
+    },
+    {
+      "first_candidate": "BARBARA BERWICK",
+      "second_candidate": "JANET REILLY",
+      "numerator": 2421,
+      "denominator": 16082
+    },
+    {
+      "first_candidate": "BARBARA BERWICK",
+      "second_candidate": "MARK FARRELL",
+      "numerator": 2009,
+      "denominator": 16108
+    },
+    {
+      "first_candidate": "BARBARA BERWICK",
+      "second_candidate": "ABRAHAM SIMMONS",
+      "numerator": 3155,
+      "denominator": 10461
+    },
+    {
+      "first_candidate": "BARBARA BERWICK",
+      "second_candidate": "KAT ANDERSON",
+      "numerator": 2963,
+      "denominator": 9866
+    },
+    {
+      "first_candidate": "BARBARA BERWICK",
+      "second_candidate": "VILMA B. GUINTO PEORO",
+      "numerator": 3692,
+      "denominator": 4579
+    },
+    {
+      "first_candidate": "BARBARA BERWICK",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 3878,
+      "denominator": 3958
+    },
+    {
+      "first_candidate": "VILMA B. GUINTO PEORO",
+      "second_candidate": "JANET REILLY",
+      "numerator": 857,
+      "denominator": 14800
+    },
+    {
+      "first_candidate": "VILMA B. GUINTO PEORO",
+      "second_candidate": "MARK FARRELL",
+      "numerator": 631,
+      "denominator": 15126
+    },
+    {
+      "first_candidate": "VILMA B. GUINTO PEORO",
+      "second_candidate": "ABRAHAM SIMMONS",
+      "numerator": 953,
+      "denominator": 8592
+    },
+    {
+      "first_candidate": "VILMA B. GUINTO PEORO",
+      "second_candidate": "KAT ANDERSON",
+      "numerator": 987,
+      "denominator": 8309
+    },
+    {
+      "first_candidate": "VILMA B. GUINTO PEORO",
+      "second_candidate": "BARBARA BERWICK",
+      "numerator": 887,
+      "denominator": 4579
+    },
+    {
+      "first_candidate": "VILMA B. GUINTO PEORO",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 1205,
+      "denominator": 1289
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "JANET REILLY",
+      "numerator": 57,
+      "denominator": 14074
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "MARK FARRELL",
+      "numerator": 41,
+      "denominator": 14633
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "ABRAHAM SIMMONS",
+      "numerator": 70,
+      "denominator": 7795
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "KAT ANDERSON",
+      "numerator": 71,
+      "denominator": 7486
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "BARBARA BERWICK",
+      "numerator": 80,
+      "denominator": 3958
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "VILMA B. GUINTO PEORO",
+      "numerator": 84,
+      "denominator": 1289
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "JANET REILLY",
+      "second_candidate": "MARK FARRELL",
+      "numerator": 2219,
+      "denominator": 9898
+    },
+    {
+      "first_candidate": "JANET REILLY",
+      "second_candidate": "ABRAHAM SIMMONS",
+      "numerator": 1033,
+      "denominator": 9898
+    },
+    {
+      "first_candidate": "JANET REILLY",
+      "second_candidate": "KAT ANDERSON",
+      "numerator": 1085,
+      "denominator": 9898
+    },
+    {
+      "first_candidate": "JANET REILLY",
+      "second_candidate": "BARBARA BERWICK",
+      "numerator": 508,
+      "denominator": 9898
+    },
+    {
+      "first_candidate": "JANET REILLY",
+      "second_candidate": "VILMA B. GUINTO PEORO",
+      "numerator": 118,
+      "denominator": 9898
+    },
+    {
+      "first_candidate": "JANET REILLY",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 13,
+      "denominator": 9898
+    },
+    {
+      "first_candidate": "JANET REILLY",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 4922,
+      "denominator": 9898
+    },
+    {
+      "first_candidate": "MARK FARRELL",
+      "second_candidate": "JANET REILLY",
+      "numerator": 1787,
+      "denominator": 9700
+    },
+    {
+      "first_candidate": "MARK FARRELL",
+      "second_candidate": "ABRAHAM SIMMONS",
+      "numerator": 2025,
+      "denominator": 9700
+    },
+    {
+      "first_candidate": "MARK FARRELL",
+      "second_candidate": "KAT ANDERSON",
+      "numerator": 1502,
+      "denominator": 9700
+    },
+    {
+      "first_candidate": "MARK FARRELL",
+      "second_candidate": "BARBARA BERWICK",
+      "numerator": 662,
+      "denominator": 9700
+    },
+    {
+      "first_candidate": "MARK FARRELL",
+      "second_candidate": "VILMA B. GUINTO PEORO",
+      "numerator": 146,
+      "denominator": 9700
+    },
+    {
+      "first_candidate": "MARK FARRELL",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 13,
+      "denominator": 9700
+    },
+    {
+      "first_candidate": "MARK FARRELL",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 3565,
+      "denominator": 9700
+    },
+    {
+      "first_candidate": "ABRAHAM SIMMONS",
+      "second_candidate": "JANET REILLY",
+      "numerator": 511,
+      "denominator": 2074
+    },
+    {
+      "first_candidate": "ABRAHAM SIMMONS",
+      "second_candidate": "MARK FARRELL",
+      "numerator": 582,
+      "denominator": 2074
+    },
+    {
+      "first_candidate": "ABRAHAM SIMMONS",
+      "second_candidate": "KAT ANDERSON",
+      "numerator": 341,
+      "denominator": 2074
+    },
+    {
+      "first_candidate": "ABRAHAM SIMMONS",
+      "second_candidate": "BARBARA BERWICK",
+      "numerator": 135,
+      "denominator": 2074
+    },
+    {
+      "first_candidate": "ABRAHAM SIMMONS",
+      "second_candidate": "VILMA B. GUINTO PEORO",
+      "numerator": 46,
+      "denominator": 2074
+    },
+    {
+      "first_candidate": "ABRAHAM SIMMONS",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 4,
+      "denominator": 2074
+    },
+    {
+      "first_candidate": "ABRAHAM SIMMONS",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 455,
+      "denominator": 2074
+    },
+    {
+      "first_candidate": "KAT ANDERSON",
+      "second_candidate": "JANET REILLY",
+      "numerator": 321,
+      "denominator": 1707
+    },
+    {
+      "first_candidate": "KAT ANDERSON",
+      "second_candidate": "MARK FARRELL",
+      "numerator": 547,
+      "denominator": 1707
+    },
+    {
+      "first_candidate": "KAT ANDERSON",
+      "second_candidate": "ABRAHAM SIMMONS",
+      "numerator": 256,
+      "denominator": 1707
+    },
+    {
+      "first_candidate": "KAT ANDERSON",
+      "second_candidate": "BARBARA BERWICK",
+      "numerator": 189,
+      "denominator": 1707
+    },
+    {
+      "first_candidate": "KAT ANDERSON",
+      "second_candidate": "VILMA B. GUINTO PEORO",
+      "numerator": 21,
+      "denominator": 1707
+    },
+    {
+      "first_candidate": "KAT ANDERSON",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 1,
+      "denominator": 1707
+    },
+    {
+      "first_candidate": "KAT ANDERSON",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 372,
+      "denominator": 1707
+    },
+    {
+      "first_candidate": "BARBARA BERWICK",
+      "second_candidate": "JANET REILLY",
+      "numerator": 90,
+      "denominator": 537
+    },
+    {
+      "first_candidate": "BARBARA BERWICK",
+      "second_candidate": "MARK FARRELL",
+      "numerator": 167,
+      "denominator": 537
+    },
+    {
+      "first_candidate": "BARBARA BERWICK",
+      "second_candidate": "ABRAHAM SIMMONS",
+      "numerator": 64,
+      "denominator": 537
+    },
+    {
+      "first_candidate": "BARBARA BERWICK",
+      "second_candidate": "KAT ANDERSON",
+      "numerator": 75,
+      "denominator": 537
+    },
+    {
+      "first_candidate": "BARBARA BERWICK",
+      "second_candidate": "VILMA B. GUINTO PEORO",
+      "numerator": 39,
+      "denominator": 537
+    },
+    {
+      "first_candidate": "BARBARA BERWICK",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 0,
+      "denominator": 537
+    },
+    {
+      "first_candidate": "BARBARA BERWICK",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 102,
+      "denominator": 537
+    },
+    {
+      "first_candidate": "VILMA B. GUINTO PEORO",
+      "second_candidate": "JANET REILLY",
+      "numerator": 29,
+      "denominator": 160
+    },
+    {
+      "first_candidate": "VILMA B. GUINTO PEORO",
+      "second_candidate": "MARK FARRELL",
+      "numerator": 30,
+      "denominator": 160
+    },
+    {
+      "first_candidate": "VILMA B. GUINTO PEORO",
+      "second_candidate": "ABRAHAM SIMMONS",
+      "numerator": 16,
+      "denominator": 160
+    },
+    {
+      "first_candidate": "VILMA B. GUINTO PEORO",
+      "second_candidate": "KAT ANDERSON",
+      "numerator": 15,
+      "denominator": 160
+    },
+    {
+      "first_candidate": "VILMA B. GUINTO PEORO",
+      "second_candidate": "BARBARA BERWICK",
+      "numerator": 30,
+      "denominator": 160
+    },
+    {
+      "first_candidate": "VILMA B. GUINTO PEORO",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 0,
+      "denominator": 160
+    },
+    {
+      "first_candidate": "VILMA B. GUINTO PEORO",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 40,
+      "denominator": 160
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "JANET REILLY",
+      "numerator": 1,
+      "denominator": 18
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "MARK FARRELL",
+      "numerator": 1,
+      "denominator": 18
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "ABRAHAM SIMMONS",
+      "numerator": 1,
+      "denominator": 18
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "KAT ANDERSON",
+      "numerator": 2,
+      "denominator": 18
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "BARBARA BERWICK",
+      "numerator": 0,
+      "denominator": 18
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "VILMA B. GUINTO PEORO",
+      "numerator": 2,
+      "denominator": 18
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 11,
+      "denominator": 18
+    }
+  ],
+  "final_by_first": {
+    "finalists": [
+      "MARK FARRELL",
+      "JANET REILLY",
+      "$EXHAUSTED"
+    ],
+    "eliminated": [
+      "ABRAHAM SIMMONS",
+      "KAT ANDERSON",
+      "BARBARA BERWICK",
+      "VILMA B. GUINTO PEORO",
+      "$WRITE_IN"
+    ],
+    "pairs": [
+      {
+        "first_candidate": "ABRAHAM SIMMONS",
+        "second_candidate": "MARK FARRELL",
+        "numerator": 750,
+        "denominator": 2074
+      },
+      {
+        "first_candidate": "ABRAHAM SIMMONS",
+        "second_candidate": "JANET REILLY",
+        "numerator": 651,
+        "denominator": 2074
+      },
+      {
+        "first_candidate": "ABRAHAM SIMMONS",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 673,
+        "denominator": 2074
+      },
+      {
+        "first_candidate": "KAT ANDERSON",
+        "second_candidate": "MARK FARRELL",
+        "numerator": 712,
+        "denominator": 1707
+      },
+      {
+        "first_candidate": "KAT ANDERSON",
+        "second_candidate": "JANET REILLY",
+        "numerator": 445,
+        "denominator": 1707
+      },
+      {
+        "first_candidate": "KAT ANDERSON",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 550,
+        "denominator": 1707
+      },
+      {
+        "first_candidate": "BARBARA BERWICK",
+        "second_candidate": "MARK FARRELL",
+        "numerator": 215,
+        "denominator": 537
+      },
+      {
+        "first_candidate": "BARBARA BERWICK",
+        "second_candidate": "JANET REILLY",
+        "numerator": 133,
+        "denominator": 537
+      },
+      {
+        "first_candidate": "BARBARA BERWICK",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 189,
+        "denominator": 537
+      },
+      {
+        "first_candidate": "VILMA B. GUINTO PEORO",
+        "second_candidate": "MARK FARRELL",
+        "numerator": 46,
+        "denominator": 160
+      },
+      {
+        "first_candidate": "VILMA B. GUINTO PEORO",
+        "second_candidate": "JANET REILLY",
+        "numerator": 39,
+        "denominator": 160
+      },
+      {
+        "first_candidate": "VILMA B. GUINTO PEORO",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 75,
+        "denominator": 160
+      },
+      {
+        "first_candidate": "$WRITE_IN",
+        "second_candidate": "MARK FARRELL",
+        "numerator": 3,
+        "denominator": 18
+      },
+      {
+        "first_candidate": "$WRITE_IN",
+        "second_candidate": "JANET REILLY",
+        "numerator": 2,
+        "denominator": 18
+      },
+      {
+        "first_candidate": "$WRITE_IN",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 13,
+        "denominator": 18
+      }
+    ]
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "JANET REILLY",
+        "other_candidate": "MARK FARRELL",
+        "candidate_votes": 14020,
+        "other_candidate_votes": 10016
+      },
+      {
+        "candidate": "MARK FARRELL",
+        "other_candidate": "JANET REILLY",
+        "candidate_votes": 14596,
+        "other_candidate_votes": 10154
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "ABRAHAM SIMMONS",
+        "other_candidate": "MARK FARRELL",
+        "candidate_votes": 7726,
+        "other_candidate_votes": 10407
+      },
+      {
+        "candidate": "KAT ANDERSON",
+        "other_candidate": "MARK FARRELL",
+        "candidate_votes": 7419,
+        "other_candidate_votes": 10429
+      },
+      {
+        "candidate": "BARBARA BERWICK",
+        "other_candidate": "JANET REILLY",
+        "candidate_votes": 3880,
+        "other_candidate_votes": 10201
+      },
+      {
+        "candidate": "VILMA B. GUINTO PEORO",
+        "other_candidate": "JANET REILLY",
+        "candidate_votes": 1207,
+        "other_candidate_votes": 9962
+      },
+      {
+        "candidate": "$WRITE_IN",
+        "other_candidate": "JANET REILLY",
+        "candidate_votes": 84,
+        "other_candidate_votes": 9903
+      }
+    ]
+  }
+}

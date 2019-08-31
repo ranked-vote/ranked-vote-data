@@ -1,0 +1,13 @@
+{
+    "name": "San Francisco 2010 Municipal Election - District 10",
+    "date": "2010-11-02",
+    "format": "us_ca_sfo",
+    "tabulation": "eager_irv",
+    "params": {
+        "contest": 6
+    },
+    "files": [
+        "us/ca/sfo/2010/11/MasterLookup-D10.txt",
+        "us/ca/sfo/2010/11/BallotImage-D10.txt"
+    ]
+}

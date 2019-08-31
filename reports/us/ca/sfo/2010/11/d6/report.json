@@ -1,0 +1,5117 @@
+{
+  "meta": {
+    "name": "San Francisco 2010 Municipal Election - District 6",
+    "date": "2010-11-02",
+    "format": "us_ca_sfo",
+    "tabulation": "eager_irv",
+    "params": {
+      "contest": 9
+    },
+    "files": [
+      {
+        "name": "raw/us/ca/sfo/2010/11/MasterLookup-D6.txt",
+        "sha1": "b10fed89fabb544fdc0d5cae907c2921d6a21c0f"
+      },
+      {
+        "name": "raw/us/ca/sfo/2010/11/BallotImage-D6.txt",
+        "sha1": "bbbd670db2c583dda13fb4d314902b94b2b08936"
+      }
+    ],
+    "num_ballots": 25057,
+    "candidate_ids": [
+      "DEAN CLARK",
+      "DEBRA WALKER",
+      "JAMES KEYS",
+      "JANE KIM",
+      "H. BROWN",
+      "GEORGE VAZHAPPALLY",
+      "THERESA SPARKS",
+      "FORTUNATE ''NATE'' PAYNE",
+      "ELAINE ZAMORA",
+      "JIM MEKO",
+      "MATT ASHE",
+      "MATT DRAKE",
+      "GEORGE DAVIS",
+      "GLENDON ''ANNA CONDA'' HYDE",
+      "$WRITE_IN"
+    ],
+    "normalized_ballots": "us/ca/sfo/2010/11/d6/us_ca_sfo_2010_11_d6.normalized.csv.gz",
+    "candidates": [
+      {
+        "id": "JANE KIM",
+        "name": "Jane Kim",
+        "write_in": false
+      },
+      {
+        "id": "DEBRA WALKER",
+        "name": "Debra Walker",
+        "write_in": false
+      },
+      {
+        "id": "THERESA SPARKS",
+        "name": "Theresa Sparks",
+        "write_in": false
+      },
+      {
+        "id": "JAMES KEYS",
+        "name": "James Keys",
+        "write_in": false
+      },
+      {
+        "id": "MATT DRAKE",
+        "name": "Matt Drake",
+        "write_in": false
+      },
+      {
+        "id": "GLENDON ''ANNA CONDA'' HYDE",
+        "name": "Glendon ''Anna Conda'' Hyde",
+        "write_in": false
+      },
+      {
+        "id": "ELAINE ZAMORA",
+        "name": "Elaine Zamora",
+        "write_in": false
+      },
+      {
+        "id": "DEAN CLARK",
+        "name": "Dean Clark",
+        "write_in": false
+      },
+      {
+        "id": "JIM MEKO",
+        "name": "Jim Meko",
+        "write_in": false
+      },
+      {
+        "id": "GEORGE VAZHAPPALLY",
+        "name": "George Vazhappally",
+        "write_in": false
+      },
+      {
+        "id": "MATT ASHE",
+        "name": "Matt Ashe",
+        "write_in": false
+      },
+      {
+        "id": "H. BROWN",
+        "name": "H. Brown",
+        "write_in": false
+      },
+      {
+        "id": "GEORGE DAVIS",
+        "name": "George Davis",
+        "write_in": false
+      },
+      {
+        "id": "FORTUNATE ''NATE'' PAYNE",
+        "name": "Fortunate ''Nate'' Payne",
+        "write_in": false
+      },
+      {
+        "id": "$WRITE_IN",
+        "name": "Write-in",
+        "write_in": true
+      }
+    ]
+  },
+  "candidates": [
+    "JANE KIM",
+    "DEBRA WALKER",
+    "THERESA SPARKS",
+    "JAMES KEYS",
+    "MATT DRAKE",
+    "GLENDON ''ANNA CONDA'' HYDE",
+    "ELAINE ZAMORA",
+    "DEAN CLARK",
+    "JIM MEKO",
+    "GEORGE VAZHAPPALLY",
+    "MATT ASHE",
+    "H. BROWN",
+    "GEORGE DAVIS",
+    "FORTUNATE ''NATE'' PAYNE",
+    "$WRITE_IN"
+  ],
+  "winner": "JANE KIM",
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        "JANE KIM",
+        "DEBRA WALKER",
+        "THERESA SPARKS",
+        "JAMES KEYS",
+        "MATT DRAKE",
+        "GLENDON ''ANNA CONDA'' HYDE",
+        "ELAINE ZAMORA",
+        "DEAN CLARK",
+        "JIM MEKO",
+        "GEORGE VAZHAPPALLY",
+        "MATT ASHE",
+        "H. BROWN",
+        "GEORGE DAVIS",
+        "FORTUNATE ''NATE'' PAYNE",
+        "$WRITE_IN"
+      ],
+      "results": [
+        {
+          "name": "JANE KIM",
+          "votes": 6621
+        },
+        {
+          "name": "DEBRA WALKER",
+          "votes": 5669
+        },
+        {
+          "name": "THERESA SPARKS",
+          "votes": 3605
+        },
+        {
+          "name": "JAMES KEYS",
+          "votes": 960
+        },
+        {
+          "name": "MATT DRAKE",
+          "votes": 947
+        },
+        {
+          "name": "GLENDON ''ANNA CONDA'' HYDE",
+          "votes": 692
+        },
+        {
+          "name": "ELAINE ZAMORA",
+          "votes": 637
+        },
+        {
+          "name": "DEAN CLARK",
+          "votes": 602
+        },
+        {
+          "name": "JIM MEKO",
+          "votes": 407
+        },
+        {
+          "name": "GEORGE VAZHAPPALLY",
+          "votes": 242
+        },
+        {
+          "name": "MATT ASHE",
+          "votes": 185
+        },
+        {
+          "name": "H. BROWN",
+          "votes": 182
+        },
+        {
+          "name": "GEORGE DAVIS",
+          "votes": 158
+        },
+        {
+          "name": "FORTUNATE ''NATE'' PAYNE",
+          "votes": 150
+        },
+        {
+          "name": "$WRITE_IN",
+          "votes": 29
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 3971
+        }
+      ],
+      "undervote": 3614,
+      "overvote": 357,
+      "continuing_ballots": 21086,
+      "eliminated": [],
+      "transfers": []
+    },
+    {
+      "round": 2,
+      "candidates": [
+        "JANE KIM",
+        "DEBRA WALKER",
+        "THERESA SPARKS",
+        "JAMES KEYS",
+        "MATT DRAKE",
+        "GLENDON ''ANNA CONDA'' HYDE",
+        "ELAINE ZAMORA",
+        "DEAN CLARK",
+        "JIM MEKO",
+        "GEORGE VAZHAPPALLY",
+        "MATT ASHE",
+        "H. BROWN",
+        "GEORGE DAVIS",
+        "FORTUNATE ''NATE'' PAYNE"
+      ],
+      "results": [
+        {
+          "name": "JANE KIM",
+          "votes": 6623
+        },
+        {
+          "name": "DEBRA WALKER",
+          "votes": 5670
+        },
+        {
+          "name": "THERESA SPARKS",
+          "votes": 3605
+        },
+        {
+          "name": "JAMES KEYS",
+          "votes": 960
+        },
+        {
+          "name": "MATT DRAKE",
+          "votes": 947
+        },
+        {
+          "name": "GLENDON ''ANNA CONDA'' HYDE",
+          "votes": 693
+        },
+        {
+          "name": "ELAINE ZAMORA",
+          "votes": 637
+        },
+        {
+          "name": "DEAN CLARK",
+          "votes": 602
+        },
+        {
+          "name": "JIM MEKO",
+          "votes": 407
+        },
+        {
+          "name": "GEORGE VAZHAPPALLY",
+          "votes": 242
+        },
+        {
+          "name": "MATT ASHE",
+          "votes": 186
+        },
+        {
+          "name": "H. BROWN",
+          "votes": 182
+        },
+        {
+          "name": "GEORGE DAVIS",
+          "votes": 158
+        },
+        {
+          "name": "FORTUNATE ''NATE'' PAYNE",
+          "votes": 150
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 3995
+        }
+      ],
+      "undervote": 3638,
+      "overvote": 357,
+      "continuing_ballots": 21062,
+      "eliminated": [
+        "$WRITE_IN"
+      ],
+      "transfers": [
+        {
+          "from": "JANE KIM",
+          "to": "JANE KIM",
+          "count": 6621
+        },
+        {
+          "from": "DEBRA WALKER",
+          "to": "DEBRA WALKER",
+          "count": 5669
+        },
+        {
+          "from": "THERESA SPARKS",
+          "to": "THERESA SPARKS",
+          "count": 3605
+        },
+        {
+          "from": "JAMES KEYS",
+          "to": "JAMES KEYS",
+          "count": 960
+        },
+        {
+          "from": "MATT DRAKE",
+          "to": "MATT DRAKE",
+          "count": 947
+        },
+        {
+          "from": "GLENDON ''ANNA CONDA'' HYDE",
+          "to": "GLENDON ''ANNA CONDA'' HYDE",
+          "count": 692
+        },
+        {
+          "from": "ELAINE ZAMORA",
+          "to": "ELAINE ZAMORA",
+          "count": 637
+        },
+        {
+          "from": "DEAN CLARK",
+          "to": "DEAN CLARK",
+          "count": 602
+        },
+        {
+          "from": "JIM MEKO",
+          "to": "JIM MEKO",
+          "count": 407
+        },
+        {
+          "from": "GEORGE VAZHAPPALLY",
+          "to": "GEORGE VAZHAPPALLY",
+          "count": 242
+        },
+        {
+          "from": "MATT ASHE",
+          "to": "MATT ASHE",
+          "count": 185
+        },
+        {
+          "from": "H. BROWN",
+          "to": "H. BROWN",
+          "count": 182
+        },
+        {
+          "from": "GEORGE DAVIS",
+          "to": "GEORGE DAVIS",
+          "count": 158
+        },
+        {
+          "from": "FORTUNATE ''NATE'' PAYNE",
+          "to": "FORTUNATE ''NATE'' PAYNE",
+          "count": 150
+        },
+        {
+          "from": "$WRITE_IN",
+          "to": "$EXHAUSTED",
+          "count": 24
+        },
+        {
+          "from": "$WRITE_IN",
+          "to": "JANE KIM",
+          "count": 2
+        },
+        {
+          "from": "$WRITE_IN",
+          "to": "DEBRA WALKER",
+          "count": 1
+        },
+        {
+          "from": "$WRITE_IN",
+          "to": "MATT ASHE",
+          "count": 1
+        },
+        {
+          "from": "$WRITE_IN",
+          "to": "GLENDON ''ANNA CONDA'' HYDE",
+          "count": 1
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 3971
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "candidates": [
+        "JANE KIM",
+        "DEBRA WALKER",
+        "THERESA SPARKS",
+        "JAMES KEYS",
+        "MATT DRAKE",
+        "GLENDON ''ANNA CONDA'' HYDE",
+        "ELAINE ZAMORA",
+        "DEAN CLARK",
+        "JIM MEKO",
+        "GEORGE VAZHAPPALLY",
+        "MATT ASHE",
+        "H. BROWN",
+        "GEORGE DAVIS"
+      ],
+      "results": [
+        {
+          "name": "JANE KIM",
+          "votes": 6635
+        },
+        {
+          "name": "DEBRA WALKER",
+          "votes": 5689
+        },
+        {
+          "name": "THERESA SPARKS",
+          "votes": 3611
+        },
+        {
+          "name": "JAMES KEYS",
+          "votes": 966
+        },
+        {
+          "name": "MATT DRAKE",
+          "votes": 955
+        },
+        {
+          "name": "GLENDON ''ANNA CONDA'' HYDE",
+          "votes": 709
+        },
+        {
+          "name": "ELAINE ZAMORA",
+          "votes": 640
+        },
+        {
+          "name": "DEAN CLARK",
+          "votes": 612
+        },
+        {
+          "name": "JIM MEKO",
+          "votes": 420
+        },
+        {
+          "name": "GEORGE VAZHAPPALLY",
+          "votes": 261
+        },
+        {
+          "name": "MATT ASHE",
+          "votes": 188
+        },
+        {
+          "name": "H. BROWN",
+          "votes": 187
+        },
+        {
+          "name": "GEORGE DAVIS",
+          "votes": 160
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 4024
+        }
+      ],
+      "undervote": 3665,
+      "overvote": 359,
+      "continuing_ballots": 21033,
+      "eliminated": [
+        "FORTUNATE ''NATE'' PAYNE"
+      ],
+      "transfers": [
+        {
+          "from": "JANE KIM",
+          "to": "JANE KIM",
+          "count": 6623
+        },
+        {
+          "from": "DEBRA WALKER",
+          "to": "DEBRA WALKER",
+          "count": 5670
+        },
+        {
+          "from": "THERESA SPARKS",
+          "to": "THERESA SPARKS",
+          "count": 3605
+        },
+        {
+          "from": "JAMES KEYS",
+          "to": "JAMES KEYS",
+          "count": 960
+        },
+        {
+          "from": "MATT DRAKE",
+          "to": "MATT DRAKE",
+          "count": 947
+        },
+        {
+          "from": "GLENDON ''ANNA CONDA'' HYDE",
+          "to": "GLENDON ''ANNA CONDA'' HYDE",
+          "count": 693
+        },
+        {
+          "from": "ELAINE ZAMORA",
+          "to": "ELAINE ZAMORA",
+          "count": 637
+        },
+        {
+          "from": "DEAN CLARK",
+          "to": "DEAN CLARK",
+          "count": 602
+        },
+        {
+          "from": "JIM MEKO",
+          "to": "JIM MEKO",
+          "count": 407
+        },
+        {
+          "from": "GEORGE VAZHAPPALLY",
+          "to": "GEORGE VAZHAPPALLY",
+          "count": 242
+        },
+        {
+          "from": "MATT ASHE",
+          "to": "MATT ASHE",
+          "count": 186
+        },
+        {
+          "from": "H. BROWN",
+          "to": "H. BROWN",
+          "count": 182
+        },
+        {
+          "from": "GEORGE DAVIS",
+          "to": "GEORGE DAVIS",
+          "count": 158
+        },
+        {
+          "from": "FORTUNATE ''NATE'' PAYNE",
+          "to": "$EXHAUSTED",
+          "count": 29
+        },
+        {
+          "from": "FORTUNATE ''NATE'' PAYNE",
+          "to": "JANE KIM",
+          "count": 12
+        },
+        {
+          "from": "FORTUNATE ''NATE'' PAYNE",
+          "to": "GEORGE VAZHAPPALLY",
+          "count": 19
+        },
+        {
+          "from": "FORTUNATE ''NATE'' PAYNE",
+          "to": "JIM MEKO",
+          "count": 13
+        },
+        {
+          "from": "FORTUNATE ''NATE'' PAYNE",
+          "to": "DEBRA WALKER",
+          "count": 19
+        },
+        {
+          "from": "FORTUNATE ''NATE'' PAYNE",
+          "to": "DEAN CLARK",
+          "count": 10
+        },
+        {
+          "from": "FORTUNATE ''NATE'' PAYNE",
+          "to": "MATT DRAKE",
+          "count": 8
+        },
+        {
+          "from": "FORTUNATE ''NATE'' PAYNE",
+          "to": "H. BROWN",
+          "count": 5
+        },
+        {
+          "from": "FORTUNATE ''NATE'' PAYNE",
+          "to": "THERESA SPARKS",
+          "count": 6
+        },
+        {
+          "from": "FORTUNATE ''NATE'' PAYNE",
+          "to": "JAMES KEYS",
+          "count": 6
+        },
+        {
+          "from": "FORTUNATE ''NATE'' PAYNE",
+          "to": "GLENDON ''ANNA CONDA'' HYDE",
+          "count": 16
+        },
+        {
+          "from": "FORTUNATE ''NATE'' PAYNE",
+          "to": "ELAINE ZAMORA",
+          "count": 3
+        },
+        {
+          "from": "FORTUNATE ''NATE'' PAYNE",
+          "to": "MATT ASHE",
+          "count": 2
+        },
+        {
+          "from": "FORTUNATE ''NATE'' PAYNE",
+          "to": "GEORGE DAVIS",
+          "count": 2
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 3995
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "candidates": [
+        "JANE KIM",
+        "DEBRA WALKER",
+        "THERESA SPARKS",
+        "JAMES KEYS",
+        "MATT DRAKE",
+        "GLENDON ''ANNA CONDA'' HYDE",
+        "ELAINE ZAMORA",
+        "DEAN CLARK",
+        "JIM MEKO",
+        "GEORGE VAZHAPPALLY",
+        "H. BROWN",
+        "MATT ASHE"
+      ],
+      "results": [
+        {
+          "name": "JANE KIM",
+          "votes": 6646
+        },
+        {
+          "name": "DEBRA WALKER",
+          "votes": 5716
+        },
+        {
+          "name": "THERESA SPARKS",
+          "votes": 3623
+        },
+        {
+          "name": "JAMES KEYS",
+          "votes": 974
+        },
+        {
+          "name": "MATT DRAKE",
+          "votes": 962
+        },
+        {
+          "name": "GLENDON ''ANNA CONDA'' HYDE",
+          "votes": 723
+        },
+        {
+          "name": "ELAINE ZAMORA",
+          "votes": 649
+        },
+        {
+          "name": "DEAN CLARK",
+          "votes": 623
+        },
+        {
+          "name": "JIM MEKO",
+          "votes": 424
+        },
+        {
+          "name": "GEORGE VAZHAPPALLY",
+          "votes": 270
+        },
+        {
+          "name": "H. BROWN",
+          "votes": 198
+        },
+        {
+          "name": "MATT ASHE",
+          "votes": 191
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 4058
+        }
+      ],
+      "undervote": 3698,
+      "overvote": 360,
+      "continuing_ballots": 20999,
+      "eliminated": [
+        "GEORGE DAVIS"
+      ],
+      "transfers": [
+        {
+          "from": "JANE KIM",
+          "to": "JANE KIM",
+          "count": 6635
+        },
+        {
+          "from": "DEBRA WALKER",
+          "to": "DEBRA WALKER",
+          "count": 5689
+        },
+        {
+          "from": "THERESA SPARKS",
+          "to": "THERESA SPARKS",
+          "count": 3611
+        },
+        {
+          "from": "JAMES KEYS",
+          "to": "JAMES KEYS",
+          "count": 966
+        },
+        {
+          "from": "MATT DRAKE",
+          "to": "MATT DRAKE",
+          "count": 955
+        },
+        {
+          "from": "GLENDON ''ANNA CONDA'' HYDE",
+          "to": "GLENDON ''ANNA CONDA'' HYDE",
+          "count": 709
+        },
+        {
+          "from": "ELAINE ZAMORA",
+          "to": "ELAINE ZAMORA",
+          "count": 640
+        },
+        {
+          "from": "DEAN CLARK",
+          "to": "DEAN CLARK",
+          "count": 612
+        },
+        {
+          "from": "JIM MEKO",
+          "to": "JIM MEKO",
+          "count": 420
+        },
+        {
+          "from": "GEORGE VAZHAPPALLY",
+          "to": "GEORGE VAZHAPPALLY",
+          "count": 261
+        },
+        {
+          "from": "MATT ASHE",
+          "to": "MATT ASHE",
+          "count": 188
+        },
+        {
+          "from": "H. BROWN",
+          "to": "H. BROWN",
+          "count": 187
+        },
+        {
+          "from": "GEORGE DAVIS",
+          "to": "JANE KIM",
+          "count": 11
+        },
+        {
+          "from": "GEORGE DAVIS",
+          "to": "DEAN CLARK",
+          "count": 11
+        },
+        {
+          "from": "GEORGE DAVIS",
+          "to": "DEBRA WALKER",
+          "count": 27
+        },
+        {
+          "from": "GEORGE DAVIS",
+          "to": "GLENDON ''ANNA CONDA'' HYDE",
+          "count": 14
+        },
+        {
+          "from": "GEORGE DAVIS",
+          "to": "THERESA SPARKS",
+          "count": 12
+        },
+        {
+          "from": "GEORGE DAVIS",
+          "to": "ELAINE ZAMORA",
+          "count": 9
+        },
+        {
+          "from": "GEORGE DAVIS",
+          "to": "$EXHAUSTED",
+          "count": 34
+        },
+        {
+          "from": "GEORGE DAVIS",
+          "to": "MATT ASHE",
+          "count": 3
+        },
+        {
+          "from": "GEORGE DAVIS",
+          "to": "MATT DRAKE",
+          "count": 7
+        },
+        {
+          "from": "GEORGE DAVIS",
+          "to": "GEORGE VAZHAPPALLY",
+          "count": 9
+        },
+        {
+          "from": "GEORGE DAVIS",
+          "to": "H. BROWN",
+          "count": 11
+        },
+        {
+          "from": "GEORGE DAVIS",
+          "to": "JIM MEKO",
+          "count": 4
+        },
+        {
+          "from": "GEORGE DAVIS",
+          "to": "JAMES KEYS",
+          "count": 8
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 4024
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "candidates": [
+        "JANE KIM",
+        "DEBRA WALKER",
+        "THERESA SPARKS",
+        "MATT DRAKE",
+        "JAMES KEYS",
+        "GLENDON ''ANNA CONDA'' HYDE",
+        "ELAINE ZAMORA",
+        "DEAN CLARK",
+        "JIM MEKO",
+        "GEORGE VAZHAPPALLY",
+        "H. BROWN"
+      ],
+      "results": [
+        {
+          "name": "JANE KIM",
+          "votes": 6674
+        },
+        {
+          "name": "DEBRA WALKER",
+          "votes": 5741
+        },
+        {
+          "name": "THERESA SPARKS",
+          "votes": 3642
+        },
+        {
+          "name": "MATT DRAKE",
+          "votes": 986
+        },
+        {
+          "name": "JAMES KEYS",
+          "votes": 980
+        },
+        {
+          "name": "GLENDON ''ANNA CONDA'' HYDE",
+          "votes": 740
+        },
+        {
+          "name": "ELAINE ZAMORA",
+          "votes": 657
+        },
+        {
+          "name": "DEAN CLARK",
+          "votes": 629
+        },
+        {
+          "name": "JIM MEKO",
+          "votes": 436
+        },
+        {
+          "name": "GEORGE VAZHAPPALLY",
+          "votes": 277
+        },
+        {
+          "name": "H. BROWN",
+          "votes": 205
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 4090
+        }
+      ],
+      "undervote": 3729,
+      "overvote": 361,
+      "continuing_ballots": 20967,
+      "eliminated": [
+        "MATT ASHE"
+      ],
+      "transfers": [
+        {
+          "from": "JANE KIM",
+          "to": "JANE KIM",
+          "count": 6646
+        },
+        {
+          "from": "DEBRA WALKER",
+          "to": "DEBRA WALKER",
+          "count": 5716
+        },
+        {
+          "from": "THERESA SPARKS",
+          "to": "THERESA SPARKS",
+          "count": 3623
+        },
+        {
+          "from": "JAMES KEYS",
+          "to": "JAMES KEYS",
+          "count": 974
+        },
+        {
+          "from": "MATT DRAKE",
+          "to": "MATT DRAKE",
+          "count": 962
+        },
+        {
+          "from": "GLENDON ''ANNA CONDA'' HYDE",
+          "to": "GLENDON ''ANNA CONDA'' HYDE",
+          "count": 723
+        },
+        {
+          "from": "ELAINE ZAMORA",
+          "to": "ELAINE ZAMORA",
+          "count": 649
+        },
+        {
+          "from": "DEAN CLARK",
+          "to": "DEAN CLARK",
+          "count": 623
+        },
+        {
+          "from": "JIM MEKO",
+          "to": "JIM MEKO",
+          "count": 424
+        },
+        {
+          "from": "GEORGE VAZHAPPALLY",
+          "to": "GEORGE VAZHAPPALLY",
+          "count": 270
+        },
+        {
+          "from": "MATT ASHE",
+          "to": "THERESA SPARKS",
+          "count": 19
+        },
+        {
+          "from": "MATT ASHE",
+          "to": "JAMES KEYS",
+          "count": 6
+        },
+        {
+          "from": "MATT ASHE",
+          "to": "DEAN CLARK",
+          "count": 6
+        },
+        {
+          "from": "MATT ASHE",
+          "to": "DEBRA WALKER",
+          "count": 25
+        },
+        {
+          "from": "MATT ASHE",
+          "to": "JANE KIM",
+          "count": 28
+        },
+        {
+          "from": "MATT ASHE",
+          "to": "MATT DRAKE",
+          "count": 24
+        },
+        {
+          "from": "MATT ASHE",
+          "to": "ELAINE ZAMORA",
+          "count": 8
+        },
+        {
+          "from": "MATT ASHE",
+          "to": "$EXHAUSTED",
+          "count": 32
+        },
+        {
+          "from": "MATT ASHE",
+          "to": "JIM MEKO",
+          "count": 12
+        },
+        {
+          "from": "MATT ASHE",
+          "to": "GLENDON ''ANNA CONDA'' HYDE",
+          "count": 17
+        },
+        {
+          "from": "MATT ASHE",
+          "to": "GEORGE VAZHAPPALLY",
+          "count": 7
+        },
+        {
+          "from": "MATT ASHE",
+          "to": "H. BROWN",
+          "count": 7
+        },
+        {
+          "from": "H. BROWN",
+          "to": "H. BROWN",
+          "count": 198
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 4058
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "candidates": [
+        "JANE KIM",
+        "DEBRA WALKER",
+        "THERESA SPARKS",
+        "MATT DRAKE",
+        "JAMES KEYS",
+        "GLENDON ''ANNA CONDA'' HYDE",
+        "ELAINE ZAMORA",
+        "DEAN CLARK",
+        "JIM MEKO",
+        "GEORGE VAZHAPPALLY"
+      ],
+      "results": [
+        {
+          "name": "JANE KIM",
+          "votes": 6697
+        },
+        {
+          "name": "DEBRA WALKER",
+          "votes": 5763
+        },
+        {
+          "name": "THERESA SPARKS",
+          "votes": 3655
+        },
+        {
+          "name": "MATT DRAKE",
+          "votes": 996
+        },
+        {
+          "name": "JAMES KEYS",
+          "votes": 995
+        },
+        {
+          "name": "GLENDON ''ANNA CONDA'' HYDE",
+          "votes": 748
+        },
+        {
+          "name": "ELAINE ZAMORA",
+          "votes": 673
+        },
+        {
+          "name": "DEAN CLARK",
+          "votes": 662
+        },
+        {
+          "name": "JIM MEKO",
+          "votes": 447
+        },
+        {
+          "name": "GEORGE VAZHAPPALLY",
+          "votes": 284
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 4137
+        }
+      ],
+      "undervote": 3774,
+      "overvote": 363,
+      "continuing_ballots": 20920,
+      "eliminated": [
+        "H. BROWN"
+      ],
+      "transfers": [
+        {
+          "from": "JANE KIM",
+          "to": "JANE KIM",
+          "count": 6674
+        },
+        {
+          "from": "DEBRA WALKER",
+          "to": "DEBRA WALKER",
+          "count": 5741
+        },
+        {
+          "from": "THERESA SPARKS",
+          "to": "THERESA SPARKS",
+          "count": 3642
+        },
+        {
+          "from": "JAMES KEYS",
+          "to": "JAMES KEYS",
+          "count": 980
+        },
+        {
+          "from": "MATT DRAKE",
+          "to": "MATT DRAKE",
+          "count": 986
+        },
+        {
+          "from": "GLENDON ''ANNA CONDA'' HYDE",
+          "to": "GLENDON ''ANNA CONDA'' HYDE",
+          "count": 740
+        },
+        {
+          "from": "ELAINE ZAMORA",
+          "to": "ELAINE ZAMORA",
+          "count": 657
+        },
+        {
+          "from": "DEAN CLARK",
+          "to": "DEAN CLARK",
+          "count": 629
+        },
+        {
+          "from": "JIM MEKO",
+          "to": "JIM MEKO",
+          "count": 436
+        },
+        {
+          "from": "GEORGE VAZHAPPALLY",
+          "to": "GEORGE VAZHAPPALLY",
+          "count": 277
+        },
+        {
+          "from": "H. BROWN",
+          "to": "JIM MEKO",
+          "count": 11
+        },
+        {
+          "from": "H. BROWN",
+          "to": "$EXHAUSTED",
+          "count": 47
+        },
+        {
+          "from": "H. BROWN",
+          "to": "MATT DRAKE",
+          "count": 10
+        },
+        {
+          "from": "H. BROWN",
+          "to": "GEORGE VAZHAPPALLY",
+          "count": 7
+        },
+        {
+          "from": "H. BROWN",
+          "to": "THERESA SPARKS",
+          "count": 13
+        },
+        {
+          "from": "H. BROWN",
+          "to": "DEBRA WALKER",
+          "count": 22
+        },
+        {
+          "from": "H. BROWN",
+          "to": "GLENDON ''ANNA CONDA'' HYDE",
+          "count": 8
+        },
+        {
+          "from": "H. BROWN",
+          "to": "DEAN CLARK",
+          "count": 33
+        },
+        {
+          "from": "H. BROWN",
+          "to": "ELAINE ZAMORA",
+          "count": 16
+        },
+        {
+          "from": "H. BROWN",
+          "to": "JANE KIM",
+          "count": 23
+        },
+        {
+          "from": "H. BROWN",
+          "to": "JAMES KEYS",
+          "count": 15
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 4090
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "candidates": [
+        "JANE KIM",
+        "DEBRA WALKER",
+        "THERESA SPARKS",
+        "MATT DRAKE",
+        "JAMES KEYS",
+        "GLENDON ''ANNA CONDA'' HYDE",
+        "DEAN CLARK",
+        "ELAINE ZAMORA",
+        "JIM MEKO"
+      ],
+      "results": [
+        {
+          "name": "JANE KIM",
+          "votes": 6720
+        },
+        {
+          "name": "DEBRA WALKER",
+          "votes": 5781
+        },
+        {
+          "name": "THERESA SPARKS",
+          "votes": 3671
+        },
+        {
+          "name": "MATT DRAKE",
+          "votes": 1031
+        },
+        {
+          "name": "JAMES KEYS",
+          "votes": 1002
+        },
+        {
+          "name": "GLENDON ''ANNA CONDA'' HYDE",
+          "votes": 757
+        },
+        {
+          "name": "DEAN CLARK",
+          "votes": 697
+        },
+        {
+          "name": "ELAINE ZAMORA",
+          "votes": 695
+        },
+        {
+          "name": "JIM MEKO",
+          "votes": 498
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 4205
+        }
+      ],
+      "undervote": 3842,
+      "overvote": 363,
+      "continuing_ballots": 20852,
+      "eliminated": [
+        "GEORGE VAZHAPPALLY"
+      ],
+      "transfers": [
+        {
+          "from": "JANE KIM",
+          "to": "JANE KIM",
+          "count": 6697
+        },
+        {
+          "from": "DEBRA WALKER",
+          "to": "DEBRA WALKER",
+          "count": 5763
+        },
+        {
+          "from": "THERESA SPARKS",
+          "to": "THERESA SPARKS",
+          "count": 3655
+        },
+        {
+          "from": "JAMES KEYS",
+          "to": "JAMES KEYS",
+          "count": 995
+        },
+        {
+          "from": "MATT DRAKE",
+          "to": "MATT DRAKE",
+          "count": 996
+        },
+        {
+          "from": "GLENDON ''ANNA CONDA'' HYDE",
+          "to": "GLENDON ''ANNA CONDA'' HYDE",
+          "count": 748
+        },
+        {
+          "from": "ELAINE ZAMORA",
+          "to": "ELAINE ZAMORA",
+          "count": 673
+        },
+        {
+          "from": "DEAN CLARK",
+          "to": "DEAN CLARK",
+          "count": 662
+        },
+        {
+          "from": "JIM MEKO",
+          "to": "JIM MEKO",
+          "count": 447
+        },
+        {
+          "from": "GEORGE VAZHAPPALLY",
+          "to": "MATT DRAKE",
+          "count": 35
+        },
+        {
+          "from": "GEORGE VAZHAPPALLY",
+          "to": "ELAINE ZAMORA",
+          "count": 22
+        },
+        {
+          "from": "GEORGE VAZHAPPALLY",
+          "to": "DEBRA WALKER",
+          "count": 18
+        },
+        {
+          "from": "GEORGE VAZHAPPALLY",
+          "to": "DEAN CLARK",
+          "count": 35
+        },
+        {
+          "from": "GEORGE VAZHAPPALLY",
+          "to": "$EXHAUSTED",
+          "count": 68
+        },
+        {
+          "from": "GEORGE VAZHAPPALLY",
+          "to": "JANE KIM",
+          "count": 23
+        },
+        {
+          "from": "GEORGE VAZHAPPALLY",
+          "to": "THERESA SPARKS",
+          "count": 16
+        },
+        {
+          "from": "GEORGE VAZHAPPALLY",
+          "to": "JIM MEKO",
+          "count": 51
+        },
+        {
+          "from": "GEORGE VAZHAPPALLY",
+          "to": "JAMES KEYS",
+          "count": 7
+        },
+        {
+          "from": "GEORGE VAZHAPPALLY",
+          "to": "GLENDON ''ANNA CONDA'' HYDE",
+          "count": 9
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 4137
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "candidates": [
+        "JANE KIM",
+        "DEBRA WALKER",
+        "THERESA SPARKS",
+        "MATT DRAKE",
+        "JAMES KEYS",
+        "GLENDON ''ANNA CONDA'' HYDE",
+        "ELAINE ZAMORA",
+        "DEAN CLARK"
+      ],
+      "results": [
+        {
+          "name": "JANE KIM",
+          "votes": 6800
+        },
+        {
+          "name": "DEBRA WALKER",
+          "votes": 5857
+        },
+        {
+          "name": "THERESA SPARKS",
+          "votes": 3719
+        },
+        {
+          "name": "MATT DRAKE",
+          "votes": 1077
+        },
+        {
+          "name": "JAMES KEYS",
+          "votes": 1043
+        },
+        {
+          "name": "GLENDON ''ANNA CONDA'' HYDE",
+          "votes": 779
+        },
+        {
+          "name": "ELAINE ZAMORA",
+          "votes": 714
+        },
+        {
+          "name": "DEAN CLARK",
+          "votes": 713
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 4355
+        }
+      ],
+      "undervote": 3992,
+      "overvote": 363,
+      "continuing_ballots": 20702,
+      "eliminated": [
+        "JIM MEKO"
+      ],
+      "transfers": [
+        {
+          "from": "JANE KIM",
+          "to": "JANE KIM",
+          "count": 6720
+        },
+        {
+          "from": "DEBRA WALKER",
+          "to": "DEBRA WALKER",
+          "count": 5781
+        },
+        {
+          "from": "THERESA SPARKS",
+          "to": "THERESA SPARKS",
+          "count": 3671
+        },
+        {
+          "from": "JAMES KEYS",
+          "to": "JAMES KEYS",
+          "count": 1002
+        },
+        {
+          "from": "MATT DRAKE",
+          "to": "MATT DRAKE",
+          "count": 1031
+        },
+        {
+          "from": "GLENDON ''ANNA CONDA'' HYDE",
+          "to": "GLENDON ''ANNA CONDA'' HYDE",
+          "count": 757
+        },
+        {
+          "from": "ELAINE ZAMORA",
+          "to": "ELAINE ZAMORA",
+          "count": 695
+        },
+        {
+          "from": "DEAN CLARK",
+          "to": "DEAN CLARK",
+          "count": 697
+        },
+        {
+          "from": "JIM MEKO",
+          "to": "$EXHAUSTED",
+          "count": 150
+        },
+        {
+          "from": "JIM MEKO",
+          "to": "GLENDON ''ANNA CONDA'' HYDE",
+          "count": 22
+        },
+        {
+          "from": "JIM MEKO",
+          "to": "THERESA SPARKS",
+          "count": 48
+        },
+        {
+          "from": "JIM MEKO",
+          "to": "JANE KIM",
+          "count": 80
+        },
+        {
+          "from": "JIM MEKO",
+          "to": "ELAINE ZAMORA",
+          "count": 19
+        },
+        {
+          "from": "JIM MEKO",
+          "to": "DEAN CLARK",
+          "count": 16
+        },
+        {
+          "from": "JIM MEKO",
+          "to": "JAMES KEYS",
+          "count": 41
+        },
+        {
+          "from": "JIM MEKO",
+          "to": "DEBRA WALKER",
+          "count": 76
+        },
+        {
+          "from": "JIM MEKO",
+          "to": "MATT DRAKE",
+          "count": 46
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 4205
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "candidates": [
+        "JANE KIM",
+        "DEBRA WALKER",
+        "THERESA SPARKS",
+        "MATT DRAKE",
+        "JAMES KEYS",
+        "GLENDON ''ANNA CONDA'' HYDE",
+        "ELAINE ZAMORA"
+      ],
+      "results": [
+        {
+          "name": "JANE KIM",
+          "votes": 6908
+        },
+        {
+          "name": "DEBRA WALKER",
+          "votes": 5994
+        },
+        {
+          "name": "THERESA SPARKS",
+          "votes": 3781
+        },
+        {
+          "name": "MATT DRAKE",
+          "votes": 1133
+        },
+        {
+          "name": "JAMES KEYS",
+          "votes": 1102
+        },
+        {
+          "name": "GLENDON ''ANNA CONDA'' HYDE",
+          "votes": 804
+        },
+        {
+          "name": "ELAINE ZAMORA",
+          "votes": 746
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 4589
+        }
+      ],
+      "undervote": 4225,
+      "overvote": 364,
+      "continuing_ballots": 20468,
+      "eliminated": [
+        "DEAN CLARK"
+      ],
+      "transfers": [
+        {
+          "from": "JANE KIM",
+          "to": "JANE KIM",
+          "count": 6800
+        },
+        {
+          "from": "DEBRA WALKER",
+          "to": "DEBRA WALKER",
+          "count": 5857
+        },
+        {
+          "from": "THERESA SPARKS",
+          "to": "THERESA SPARKS",
+          "count": 3719
+        },
+        {
+          "from": "JAMES KEYS",
+          "to": "JAMES KEYS",
+          "count": 1043
+        },
+        {
+          "from": "MATT DRAKE",
+          "to": "MATT DRAKE",
+          "count": 1077
+        },
+        {
+          "from": "GLENDON ''ANNA CONDA'' HYDE",
+          "to": "GLENDON ''ANNA CONDA'' HYDE",
+          "count": 779
+        },
+        {
+          "from": "ELAINE ZAMORA",
+          "to": "ELAINE ZAMORA",
+          "count": 714
+        },
+        {
+          "from": "DEAN CLARK",
+          "to": "$EXHAUSTED",
+          "count": 234
+        },
+        {
+          "from": "DEAN CLARK",
+          "to": "ELAINE ZAMORA",
+          "count": 32
+        },
+        {
+          "from": "DEAN CLARK",
+          "to": "DEBRA WALKER",
+          "count": 137
+        },
+        {
+          "from": "DEAN CLARK",
+          "to": "JAMES KEYS",
+          "count": 59
+        },
+        {
+          "from": "DEAN CLARK",
+          "to": "JANE KIM",
+          "count": 108
+        },
+        {
+          "from": "DEAN CLARK",
+          "to": "THERESA SPARKS",
+          "count": 62
+        },
+        {
+          "from": "DEAN CLARK",
+          "to": "MATT DRAKE",
+          "count": 56
+        },
+        {
+          "from": "DEAN CLARK",
+          "to": "GLENDON ''ANNA CONDA'' HYDE",
+          "count": 25
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 4355
+        }
+      ]
+    },
+    {
+      "round": 10,
+      "candidates": [
+        "JANE KIM",
+        "DEBRA WALKER",
+        "THERESA SPARKS",
+        "MATT DRAKE",
+        "JAMES KEYS",
+        "GLENDON ''ANNA CONDA'' HYDE"
+      ],
+      "results": [
+        {
+          "name": "JANE KIM",
+          "votes": 7039
+        },
+        {
+          "name": "DEBRA WALKER",
+          "votes": 6101
+        },
+        {
+          "name": "THERESA SPARKS",
+          "votes": 3882
+        },
+        {
+          "name": "MATT DRAKE",
+          "votes": 1200
+        },
+        {
+          "name": "JAMES KEYS",
+          "votes": 1148
+        },
+        {
+          "name": "GLENDON ''ANNA CONDA'' HYDE",
+          "votes": 839
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 4848
+        }
+      ],
+      "undervote": 4481,
+      "overvote": 367,
+      "continuing_ballots": 20209,
+      "eliminated": [
+        "ELAINE ZAMORA"
+      ],
+      "transfers": [
+        {
+          "from": "JANE KIM",
+          "to": "JANE KIM",
+          "count": 6908
+        },
+        {
+          "from": "DEBRA WALKER",
+          "to": "DEBRA WALKER",
+          "count": 5994
+        },
+        {
+          "from": "THERESA SPARKS",
+          "to": "THERESA SPARKS",
+          "count": 3781
+        },
+        {
+          "from": "JAMES KEYS",
+          "to": "JAMES KEYS",
+          "count": 1102
+        },
+        {
+          "from": "MATT DRAKE",
+          "to": "MATT DRAKE",
+          "count": 1133
+        },
+        {
+          "from": "GLENDON ''ANNA CONDA'' HYDE",
+          "to": "GLENDON ''ANNA CONDA'' HYDE",
+          "count": 804
+        },
+        {
+          "from": "ELAINE ZAMORA",
+          "to": "MATT DRAKE",
+          "count": 67
+        },
+        {
+          "from": "ELAINE ZAMORA",
+          "to": "DEBRA WALKER",
+          "count": 107
+        },
+        {
+          "from": "ELAINE ZAMORA",
+          "to": "$EXHAUSTED",
+          "count": 259
+        },
+        {
+          "from": "ELAINE ZAMORA",
+          "to": "THERESA SPARKS",
+          "count": 101
+        },
+        {
+          "from": "ELAINE ZAMORA",
+          "to": "JANE KIM",
+          "count": 131
+        },
+        {
+          "from": "ELAINE ZAMORA",
+          "to": "JAMES KEYS",
+          "count": 46
+        },
+        {
+          "from": "ELAINE ZAMORA",
+          "to": "GLENDON ''ANNA CONDA'' HYDE",
+          "count": 35
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 4589
+        }
+      ]
+    },
+    {
+      "round": 11,
+      "candidates": [
+        "JANE KIM",
+        "DEBRA WALKER",
+        "THERESA SPARKS"
+      ],
+      "results": [
+        {
+          "name": "JANE KIM",
+          "votes": 7767
+        },
+        {
+          "name": "DEBRA WALKER",
+          "votes": 6701
+        },
+        {
+          "name": "THERESA SPARKS",
+          "votes": 4334
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 6255
+        }
+      ],
+      "undervote": 5876,
+      "overvote": 379,
+      "continuing_ballots": 18802,
+      "eliminated": [
+        "MATT DRAKE",
+        "JAMES KEYS",
+        "GLENDON ''ANNA CONDA'' HYDE"
+      ],
+      "transfers": [
+        {
+          "from": "JANE KIM",
+          "to": "JANE KIM",
+          "count": 7039
+        },
+        {
+          "from": "DEBRA WALKER",
+          "to": "DEBRA WALKER",
+          "count": 6101
+        },
+        {
+          "from": "THERESA SPARKS",
+          "to": "THERESA SPARKS",
+          "count": 3882
+        },
+        {
+          "from": "JAMES KEYS",
+          "to": "THERESA SPARKS",
+          "count": 147
+        },
+        {
+          "from": "JAMES KEYS",
+          "to": "$EXHAUSTED",
+          "count": 432
+        },
+        {
+          "from": "JAMES KEYS",
+          "to": "JANE KIM",
+          "count": 300
+        },
+        {
+          "from": "JAMES KEYS",
+          "to": "DEBRA WALKER",
+          "count": 269
+        },
+        {
+          "from": "MATT DRAKE",
+          "to": "JANE KIM",
+          "count": 256
+        },
+        {
+          "from": "MATT DRAKE",
+          "to": "$EXHAUSTED",
+          "count": 671
+        },
+        {
+          "from": "MATT DRAKE",
+          "to": "THERESA SPARKS",
+          "count": 187
+        },
+        {
+          "from": "MATT DRAKE",
+          "to": "DEBRA WALKER",
+          "count": 86
+        },
+        {
+          "from": "GLENDON ''ANNA CONDA'' HYDE",
+          "to": "$EXHAUSTED",
+          "count": 304
+        },
+        {
+          "from": "GLENDON ''ANNA CONDA'' HYDE",
+          "to": "THERESA SPARKS",
+          "count": 118
+        },
+        {
+          "from": "GLENDON ''ANNA CONDA'' HYDE",
+          "to": "DEBRA WALKER",
+          "count": 245
+        },
+        {
+          "from": "GLENDON ''ANNA CONDA'' HYDE",
+          "to": "JANE KIM",
+          "count": 172
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 4848
+        }
+      ]
+    },
+    {
+      "round": 12,
+      "candidates": [
+        "JANE KIM",
+        "DEBRA WALKER"
+      ],
+      "results": [
+        {
+          "name": "JANE KIM",
+          "votes": 8865
+        },
+        {
+          "name": "DEBRA WALKER",
+          "votes": 7528
+        },
+        {
+          "name": "$EXHAUSTED",
+          "votes": 8664
+        }
+      ],
+      "undervote": 8278,
+      "overvote": 386,
+      "continuing_ballots": 16393,
+      "eliminated": [
+        "THERESA SPARKS"
+      ],
+      "transfers": [
+        {
+          "from": "JANE KIM",
+          "to": "JANE KIM",
+          "count": 7767
+        },
+        {
+          "from": "DEBRA WALKER",
+          "to": "DEBRA WALKER",
+          "count": 6701
+        },
+        {
+          "from": "THERESA SPARKS",
+          "to": "JANE KIM",
+          "count": 1098
+        },
+        {
+          "from": "THERESA SPARKS",
+          "to": "$EXHAUSTED",
+          "count": 2409
+        },
+        {
+          "from": "THERESA SPARKS",
+          "to": "DEBRA WALKER",
+          "count": 827
+        },
+        {
+          "from": "$EXHAUSTED",
+          "to": "$EXHAUSTED",
+          "count": 6255
+        }
+      ]
+    }
+  ],
+  "smith_set": [
+    "JANE KIM"
+  ],
+  "condorcet": "JANE KIM",
+  "graph": [
+    {
+      "source": "JANE KIM",
+      "edges": []
+    },
+    {
+      "source": "DEBRA WALKER",
+      "edges": [
+        "JANE KIM"
+      ]
+    },
+    {
+      "source": "THERESA SPARKS",
+      "edges": [
+        "DEBRA WALKER",
+        "JANE KIM"
+      ]
+    },
+    {
+      "source": "JAMES KEYS",
+      "edges": [
+        "DEBRA WALKER",
+        "GLENDON ''ANNA CONDA'' HYDE",
+        "JANE KIM",
+        "THERESA SPARKS"
+      ]
+    },
+    {
+      "source": "MATT DRAKE",
+      "edges": [
+        "DEBRA WALKER",
+        "ELAINE ZAMORA",
+        "GLENDON ''ANNA CONDA'' HYDE",
+        "JAMES KEYS",
+        "JANE KIM",
+        "THERESA SPARKS"
+      ]
+    },
+    {
+      "source": "GLENDON ''ANNA CONDA'' HYDE",
+      "edges": [
+        "DEBRA WALKER",
+        "JANE KIM",
+        "THERESA SPARKS"
+      ]
+    },
+    {
+      "source": "ELAINE ZAMORA",
+      "edges": [
+        "DEBRA WALKER",
+        "GLENDON ''ANNA CONDA'' HYDE",
+        "JAMES KEYS",
+        "JANE KIM",
+        "THERESA SPARKS"
+      ]
+    },
+    {
+      "source": "DEAN CLARK",
+      "edges": [
+        "DEBRA WALKER",
+        "ELAINE ZAMORA",
+        "GLENDON ''ANNA CONDA'' HYDE",
+        "JAMES KEYS",
+        "JANE KIM",
+        "MATT DRAKE",
+        "THERESA SPARKS"
+      ]
+    },
+    {
+      "source": "JIM MEKO",
+      "edges": [
+        "DEAN CLARK",
+        "DEBRA WALKER",
+        "ELAINE ZAMORA",
+        "GLENDON ''ANNA CONDA'' HYDE",
+        "JAMES KEYS",
+        "JANE KIM",
+        "MATT DRAKE",
+        "THERESA SPARKS"
+      ]
+    },
+    {
+      "source": "GEORGE VAZHAPPALLY",
+      "edges": [
+        "DEAN CLARK",
+        "DEBRA WALKER",
+        "ELAINE ZAMORA",
+        "GLENDON ''ANNA CONDA'' HYDE",
+        "H. BROWN",
+        "JAMES KEYS",
+        "JANE KIM",
+        "JIM MEKO",
+        "MATT DRAKE",
+        "THERESA SPARKS"
+      ]
+    },
+    {
+      "source": "MATT ASHE",
+      "edges": [
+        "DEAN CLARK",
+        "DEBRA WALKER",
+        "ELAINE ZAMORA",
+        "FORTUNATE ''NATE'' PAYNE",
+        "GEORGE DAVIS",
+        "GEORGE VAZHAPPALLY",
+        "GLENDON ''ANNA CONDA'' HYDE",
+        "H. BROWN",
+        "JAMES KEYS",
+        "JANE KIM",
+        "JIM MEKO",
+        "MATT DRAKE",
+        "THERESA SPARKS"
+      ]
+    },
+    {
+      "source": "H. BROWN",
+      "edges": [
+        "DEAN CLARK",
+        "DEBRA WALKER",
+        "ELAINE ZAMORA",
+        "GLENDON ''ANNA CONDA'' HYDE",
+        "JAMES KEYS",
+        "JANE KIM",
+        "JIM MEKO",
+        "MATT DRAKE",
+        "THERESA SPARKS"
+      ]
+    },
+    {
+      "source": "GEORGE DAVIS",
+      "edges": [
+        "DEAN CLARK",
+        "DEBRA WALKER",
+        "ELAINE ZAMORA",
+        "FORTUNATE ''NATE'' PAYNE",
+        "GEORGE VAZHAPPALLY",
+        "GLENDON ''ANNA CONDA'' HYDE",
+        "H. BROWN",
+        "JAMES KEYS",
+        "JANE KIM",
+        "JIM MEKO",
+        "MATT DRAKE",
+        "THERESA SPARKS"
+      ]
+    },
+    {
+      "source": "FORTUNATE ''NATE'' PAYNE",
+      "edges": [
+        "DEAN CLARK",
+        "DEBRA WALKER",
+        "ELAINE ZAMORA",
+        "GEORGE VAZHAPPALLY",
+        "GLENDON ''ANNA CONDA'' HYDE",
+        "H. BROWN",
+        "JAMES KEYS",
+        "JANE KIM",
+        "JIM MEKO",
+        "MATT DRAKE",
+        "THERESA SPARKS"
+      ]
+    },
+    {
+      "source": "$WRITE_IN",
+      "edges": [
+        "DEAN CLARK",
+        "DEBRA WALKER",
+        "ELAINE ZAMORA",
+        "FORTUNATE ''NATE'' PAYNE",
+        "GEORGE DAVIS",
+        "GEORGE VAZHAPPALLY",
+        "GLENDON ''ANNA CONDA'' HYDE",
+        "H. BROWN",
+        "JAMES KEYS",
+        "JANE KIM",
+        "JIM MEKO",
+        "MATT ASHE",
+        "MATT DRAKE",
+        "THERESA SPARKS"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 8865,
+      "denominator": 16393
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 10468,
+      "denominator": 15885
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 11464,
+      "denominator": 13506
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 11597,
+      "denominator": 13389
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 11558,
+      "denominator": 13343
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 11665,
+      "denominator": 13199
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 11730,
+      "denominator": 13178
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "JIM MEKO",
+      "numerator": 11758,
+      "denominator": 13144
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 11933,
+      "denominator": 12551
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "MATT ASHE",
+      "numerator": 11911,
+      "denominator": 12414
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "H. BROWN",
+      "numerator": 11909,
+      "denominator": 12535
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 11945,
+      "denominator": 12502
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 11935,
+      "denominator": 12538
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 11975,
+      "denominator": 12034
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "JANE KIM",
+      "numerator": 7528,
+      "denominator": 16393
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 8963,
+      "denominator": 14736
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 9719,
+      "denominator": 11755
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 10030,
+      "denominator": 12226
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 9546,
+      "denominator": 11478
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 9982,
+      "denominator": 11977
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 10014,
+      "denominator": 11607
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "JIM MEKO",
+      "numerator": 10001,
+      "denominator": 11400
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 10182,
+      "denominator": 10886
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "MATT ASHE",
+      "numerator": 10158,
+      "denominator": 10656
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "H. BROWN",
+      "numerator": 10159,
+      "denominator": 10950
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 10159,
+      "denominator": 10706
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 10160,
+      "denominator": 10772
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 10216,
+      "denominator": 10278
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "JANE KIM",
+      "numerator": 5417,
+      "denominator": 15885
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 5773,
+      "denominator": 14736
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 7225,
+      "denominator": 9668
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 7298,
+      "denominator": 9146
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 7309,
+      "denominator": 10411
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 7276,
+      "denominator": 9256
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 7395,
+      "denominator": 9141
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "JIM MEKO",
+      "numerator": 7404,
+      "denominator": 8888
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 7518,
+      "denominator": 8210
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "MATT ASHE",
+      "numerator": 7502,
+      "denominator": 8016
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "H. BROWN",
+      "numerator": 7485,
+      "denominator": 8304
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 7504,
+      "denominator": 8102
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 7515,
+      "denominator": 8137
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 7555,
+      "denominator": 7628
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "JANE KIM",
+      "numerator": 2042,
+      "denominator": 13506
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 2036,
+      "denominator": 11755
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 2443,
+      "denominator": 9668
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 2824,
+      "denominator": 5182
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 2744,
+      "denominator": 6168
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 2753,
+      "denominator": 5199
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 2719,
+      "denominator": 4657
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "JIM MEKO",
+      "numerator": 2793,
+      "denominator": 4575
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 2871,
+      "denominator": 3625
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "MATT ASHE",
+      "numerator": 2866,
+      "denominator": 3491
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "H. BROWN",
+      "numerator": 2848,
+      "denominator": 3750
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 2850,
+      "denominator": 3525
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 2870,
+      "denominator": 3564
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 2889,
+      "denominator": 2970
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "JANE KIM",
+      "numerator": 1792,
+      "denominator": 13389
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 2196,
+      "denominator": 12226
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 1848,
+      "denominator": 9146
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 2358,
+      "denominator": 5182
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 2366,
+      "denominator": 5942
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 2264,
+      "denominator": 4652
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 2315,
+      "denominator": 4167
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "JIM MEKO",
+      "numerator": 2296,
+      "denominator": 3948
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 2344,
+      "denominator": 3012
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "MATT ASHE",
+      "numerator": 2359,
+      "denominator": 2949
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "H. BROWN",
+      "numerator": 2386,
+      "denominator": 3319
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 2396,
+      "denominator": 3066
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 2379,
+      "denominator": 3002
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 2415,
+      "denominator": 2495
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "JANE KIM",
+      "numerator": 1785,
+      "denominator": 13343
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 1932,
+      "denominator": 11478
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 3102,
+      "denominator": 10411
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 3424,
+      "denominator": 6168
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 3576,
+      "denominator": 5942
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 3535,
+      "denominator": 6037
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 3579,
+      "denominator": 5566
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "JIM MEKO",
+      "numerator": 3570,
+      "denominator": 5394
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 3623,
+      "denominator": 4389
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "MATT ASHE",
+      "numerator": 3601,
+      "denominator": 4199
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "H. BROWN",
+      "numerator": 3603,
+      "denominator": 4522
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 3603,
+      "denominator": 4270
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 3591,
+      "denominator": 4264
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 3641,
+      "denominator": 3718
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "JANE KIM",
+      "numerator": 1534,
+      "denominator": 13199
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 1995,
+      "denominator": 11977
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 1980,
+      "denominator": 9256
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 2446,
+      "denominator": 5199
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 2388,
+      "denominator": 4652
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 2502,
+      "denominator": 6037
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 2478,
+      "denominator": 4439
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "JIM MEKO",
+      "numerator": 2514,
+      "denominator": 4331
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 2523,
+      "denominator": 3259
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "MATT ASHE",
+      "numerator": 2550,
+      "denominator": 3174
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "H. BROWN",
+      "numerator": 2520,
+      "denominator": 3419
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 2548,
+      "denominator": 3201
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 2551,
+      "denominator": 3264
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 2576,
+      "denominator": 2656
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "JANE KIM",
+      "numerator": 1448,
+      "denominator": 13178
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 1593,
+      "denominator": 11607
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 1746,
+      "denominator": 9141
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 1938,
+      "denominator": 4657
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 1852,
+      "denominator": 4167
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 1987,
+      "denominator": 5566
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 1961,
+      "denominator": 4439
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "JIM MEKO",
+      "numerator": 2006,
+      "denominator": 3845
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 1990,
+      "denominator": 2707
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "MATT ASHE",
+      "numerator": 2036,
+      "denominator": 2662
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "H. BROWN",
+      "numerator": 1964,
+      "denominator": 2791
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 2023,
+      "denominator": 2700
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 2021,
+      "denominator": 2700
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 2064,
+      "denominator": 2143
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "JANE KIM",
+      "numerator": 1386,
+      "denominator": 13144
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 1399,
+      "denominator": 11400
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 1484,
+      "denominator": 8888
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 1782,
+      "denominator": 4575
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 1652,
+      "denominator": 3948
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 1824,
+      "denominator": 5394
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 1817,
+      "denominator": 4331
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 1839,
+      "denominator": 3845
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 1810,
+      "denominator": 2539
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "MATT ASHE",
+      "numerator": 1869,
+      "denominator": 2476
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "H. BROWN",
+      "numerator": 1870,
+      "denominator": 2820
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 1874,
+      "denominator": 2563
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 1835,
+      "denominator": 2539
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 1901,
+      "denominator": 1982
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "JANE KIM",
+      "numerator": 618,
+      "denominator": 12551
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 704,
+      "denominator": 10886
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 692,
+      "denominator": 8210
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 754,
+      "denominator": 3625
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 668,
+      "denominator": 3012
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 766,
+      "denominator": 4389
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 736,
+      "denominator": 3259
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 717,
+      "denominator": 2707
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "JIM MEKO",
+      "numerator": 729,
+      "denominator": 2539
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "MATT ASHE",
+      "numerator": 765,
+      "denominator": 1408
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "H. BROWN",
+      "numerator": 764,
+      "denominator": 1725
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 760,
+      "denominator": 1465
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 728,
+      "denominator": 1351
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 787,
+      "denominator": 869
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "JANE KIM",
+      "numerator": 503,
+      "denominator": 12414
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 498,
+      "denominator": 10656
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 514,
+      "denominator": 8016
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 625,
+      "denominator": 3491
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 590,
+      "denominator": 2949
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 598,
+      "denominator": 4199
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 624,
+      "denominator": 3174
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 626,
+      "denominator": 2662
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "JIM MEKO",
+      "numerator": 607,
+      "denominator": 2476
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 643,
+      "denominator": 1408
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "H. BROWN",
+      "numerator": 634,
+      "denominator": 1596
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 637,
+      "denominator": 1325
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 645,
+      "denominator": 1371
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 651,
+      "denominator": 732
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "JANE KIM",
+      "numerator": 626,
+      "denominator": 12535
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 791,
+      "denominator": 10950
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 819,
+      "denominator": 8304
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 902,
+      "denominator": 3750
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 933,
+      "denominator": 3319
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 919,
+      "denominator": 4522
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 899,
+      "denominator": 3419
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 827,
+      "denominator": 2791
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "JIM MEKO",
+      "numerator": 950,
+      "denominator": 2820
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 961,
+      "denominator": 1725
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "MATT ASHE",
+      "numerator": 962,
+      "denominator": 1596
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 937,
+      "denominator": 1634
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 965,
+      "denominator": 1687
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 977,
+      "denominator": 1057
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "JANE KIM",
+      "numerator": 557,
+      "denominator": 12502
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 547,
+      "denominator": 10706
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 598,
+      "denominator": 8102
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 675,
+      "denominator": 3525
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 670,
+      "denominator": 3066
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 667,
+      "denominator": 4270
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 653,
+      "denominator": 3201
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 677,
+      "denominator": 2700
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "JIM MEKO",
+      "numerator": 689,
+      "denominator": 2563
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 705,
+      "denominator": 1465
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "MATT ASHE",
+      "numerator": 688,
+      "denominator": 1325
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "H. BROWN",
+      "numerator": 697,
+      "denominator": 1634
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 708,
+      "denominator": 1433
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 723,
+      "denominator": 805
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "JANE KIM",
+      "numerator": 603,
+      "denominator": 12538
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 612,
+      "denominator": 10772
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 622,
+      "denominator": 8137
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 694,
+      "denominator": 3564
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 623,
+      "denominator": 3002
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 673,
+      "denominator": 4264
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 713,
+      "denominator": 3264
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 679,
+      "denominator": 2700
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "JIM MEKO",
+      "numerator": 704,
+      "denominator": 2539
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 623,
+      "denominator": 1351
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "MATT ASHE",
+      "numerator": 726,
+      "denominator": 1371
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "H. BROWN",
+      "numerator": 722,
+      "denominator": 1687
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 725,
+      "denominator": 1433
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 739,
+      "denominator": 820
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "JANE KIM",
+      "numerator": 59,
+      "denominator": 12034
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 62,
+      "denominator": 10278
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 73,
+      "denominator": 7628
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 81,
+      "denominator": 2970
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 80,
+      "denominator": 2495
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 77,
+      "denominator": 3718
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 80,
+      "denominator": 2656
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 79,
+      "denominator": 2143
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "JIM MEKO",
+      "numerator": 81,
+      "denominator": 1982
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 82,
+      "denominator": 869
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "MATT ASHE",
+      "numerator": 81,
+      "denominator": 732
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "H. BROWN",
+      "numerator": 80,
+      "denominator": 1057
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 82,
+      "denominator": 805
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 81,
+      "denominator": 820
+    }
+  ],
+  "first_alternates": [
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 1472,
+      "denominator": 6621
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 1011,
+      "denominator": 6621
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 297,
+      "denominator": 6621
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 250,
+      "denominator": 6621
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 458,
+      "denominator": 6621
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 381,
+      "denominator": 6621
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 203,
+      "denominator": 6621
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "JIM MEKO",
+      "numerator": 156,
+      "denominator": 6621
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 56,
+      "denominator": 6621
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "MATT ASHE",
+      "numerator": 52,
+      "denominator": 6621
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "H. BROWN",
+      "numerator": 145,
+      "denominator": 6621
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 51,
+      "denominator": 6621
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 40,
+      "denominator": 6621
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 8,
+      "denominator": 6621
+    },
+    {
+      "first_candidate": "JANE KIM",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 2041,
+      "denominator": 6621
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "JANE KIM",
+      "numerator": 2087,
+      "denominator": 5669
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 751,
+      "denominator": 5669
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 306,
+      "denominator": 5669
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 51,
+      "denominator": 5669
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 286,
+      "denominator": 5669
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 181,
+      "denominator": 5669
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 156,
+      "denominator": 5669
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "JIM MEKO",
+      "numerator": 164,
+      "denominator": 5669
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 23,
+      "denominator": 5669
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "MATT ASHE",
+      "numerator": 42,
+      "denominator": 5669
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "H. BROWN",
+      "numerator": 65,
+      "denominator": 5669
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 46,
+      "denominator": 5669
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 32,
+      "denominator": 5669
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 14,
+      "denominator": 5669
+    },
+    {
+      "first_candidate": "DEBRA WALKER",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 1465,
+      "denominator": 5669
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "JANE KIM",
+      "numerator": 770,
+      "denominator": 3605
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 578,
+      "denominator": 3605
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 132,
+      "denominator": 3605
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 313,
+      "denominator": 3605
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 166,
+      "denominator": 3605
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 153,
+      "denominator": 3605
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 71,
+      "denominator": 3605
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "JIM MEKO",
+      "numerator": 144,
+      "denominator": 3605
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 34,
+      "denominator": 3605
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "MATT ASHE",
+      "numerator": 34,
+      "denominator": 3605
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "H. BROWN",
+      "numerator": 47,
+      "denominator": 3605
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 32,
+      "denominator": 3605
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 37,
+      "denominator": 3605
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 4,
+      "denominator": 3605
+    },
+    {
+      "first_candidate": "THERESA SPARKS",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 1090,
+      "denominator": 3605
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "JANE KIM",
+      "numerator": 242,
+      "denominator": 960
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 209,
+      "denominator": 960
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 104,
+      "denominator": 960
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 13,
+      "denominator": 960
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 43,
+      "denominator": 960
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 24,
+      "denominator": 960
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 30,
+      "denominator": 960
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "JIM MEKO",
+      "numerator": 39,
+      "denominator": 960
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 9,
+      "denominator": 960
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "MATT ASHE",
+      "numerator": 3,
+      "denominator": 960
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "H. BROWN",
+      "numerator": 10,
+      "denominator": 960
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 12,
+      "denominator": 960
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 9,
+      "denominator": 960
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 1,
+      "denominator": 960
+    },
+    {
+      "first_candidate": "JAMES KEYS",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 212,
+      "denominator": 960
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "JANE KIM",
+      "numerator": 154,
+      "denominator": 947
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 56,
+      "denominator": 947
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 139,
+      "denominator": 947
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 13,
+      "denominator": 947
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 17,
+      "denominator": 947
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 69,
+      "denominator": 947
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 75,
+      "denominator": 947
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "JIM MEKO",
+      "numerator": 91,
+      "denominator": 947
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 43,
+      "denominator": 947
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "MATT ASHE",
+      "numerator": 20,
+      "denominator": 947
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "H. BROWN",
+      "numerator": 5,
+      "denominator": 947
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 19,
+      "denominator": 947
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 45,
+      "denominator": 947
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 1,
+      "denominator": 947
+    },
+    {
+      "first_candidate": "MATT DRAKE",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 200,
+      "denominator": 947
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "JANE KIM",
+      "numerator": 126,
+      "denominator": 692
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 190,
+      "denominator": 692
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 74,
+      "denominator": 692
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 44,
+      "denominator": 692
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 12,
+      "denominator": 692
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 20,
+      "denominator": 692
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 19,
+      "denominator": 692
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "JIM MEKO",
+      "numerator": 22,
+      "denominator": 692
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 5,
+      "denominator": 692
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "MATT ASHE",
+      "numerator": 11,
+      "denominator": 692
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "H. BROWN",
+      "numerator": 17,
+      "denominator": 692
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 18,
+      "denominator": 692
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 27,
+      "denominator": 692
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 2,
+      "denominator": 692
+    },
+    {
+      "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 105,
+      "denominator": 692
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "JANE KIM",
+      "numerator": 107,
+      "denominator": 637
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 82,
+      "denominator": 637
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 79,
+      "denominator": 637
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 36,
+      "denominator": 637
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 48,
+      "denominator": 637
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 23,
+      "denominator": 637
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 26,
+      "denominator": 637
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "JIM MEKO",
+      "numerator": 19,
+      "denominator": 637
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 9,
+      "denominator": 637
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "MATT ASHE",
+      "numerator": 8,
+      "denominator": 637
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "H. BROWN",
+      "numerator": 12,
+      "denominator": 637
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 17,
+      "denominator": 637
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 7,
+      "denominator": 637
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 1,
+      "denominator": 637
+    },
+    {
+      "first_candidate": "ELAINE ZAMORA",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 163,
+      "denominator": 637
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "JANE KIM",
+      "numerator": 86,
+      "denominator": 602
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 123,
+      "denominator": 602
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 42,
+      "denominator": 602
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 48,
+      "denominator": 602
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 34,
+      "denominator": 602
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 13,
+      "denominator": 602
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 18,
+      "denominator": 602
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "JIM MEKO",
+      "numerator": 9,
+      "denominator": 602
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 28,
+      "denominator": 602
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "MATT ASHE",
+      "numerator": 7,
+      "denominator": 602
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "H. BROWN",
+      "numerator": 39,
+      "denominator": 602
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 7,
+      "denominator": 602
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 14,
+      "denominator": 602
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 1,
+      "denominator": 602
+    },
+    {
+      "first_candidate": "DEAN CLARK",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 133,
+      "denominator": 602
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "JANE KIM",
+      "numerator": 69,
+      "denominator": 407
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 68,
+      "denominator": 407
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 38,
+      "denominator": 407
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 38,
+      "denominator": 407
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 25,
+      "denominator": 407
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 16,
+      "denominator": 407
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 13,
+      "denominator": 407
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 7,
+      "denominator": 407
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 17,
+      "denominator": 407
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "MATT ASHE",
+      "numerator": 10,
+      "denominator": 407
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "H. BROWN",
+      "numerator": 3,
+      "denominator": 407
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 11,
+      "denominator": 407
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 13,
+      "denominator": 407
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 1,
+      "denominator": 407
+    },
+    {
+      "first_candidate": "JIM MEKO",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 78,
+      "denominator": 407
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "JANE KIM",
+      "numerator": 20,
+      "denominator": 242
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 11,
+      "denominator": 242
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 13,
+      "denominator": 242
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 4,
+      "denominator": 242
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 25,
+      "denominator": 242
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 4,
+      "denominator": 242
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 15,
+      "denominator": 242
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 15,
+      "denominator": 242
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "JIM MEKO",
+      "numerator": 23,
+      "denominator": 242
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "MATT ASHE",
+      "numerator": 3,
+      "denominator": 242
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "H. BROWN",
+      "numerator": 6,
+      "denominator": 242
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 5,
+      "denominator": 242
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 57,
+      "denominator": 242
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 0,
+      "denominator": 242
+    },
+    {
+      "first_candidate": "GEORGE VAZHAPPALLY",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 41,
+      "denominator": 242
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "JANE KIM",
+      "numerator": 27,
+      "denominator": 185
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 24,
+      "denominator": 185
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 17,
+      "denominator": 185
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 4,
+      "denominator": 185
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 23,
+      "denominator": 185
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 15,
+      "denominator": 185
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 8,
+      "denominator": 185
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 6,
+      "denominator": 185
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "JIM MEKO",
+      "numerator": 10,
+      "denominator": 185
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 3,
+      "denominator": 185
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "H. BROWN",
+      "numerator": 4,
+      "denominator": 185
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 13,
+      "denominator": 185
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 2,
+      "denominator": 185
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 1,
+      "denominator": 185
+    },
+    {
+      "first_candidate": "MATT ASHE",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 28,
+      "denominator": 185
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "JANE KIM",
+      "numerator": 22,
+      "denominator": 182
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 16,
+      "denominator": 182
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 11,
+      "denominator": 182
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 12,
+      "denominator": 182
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 7,
+      "denominator": 182
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 6,
+      "denominator": 182
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 13,
+      "denominator": 182
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 28,
+      "denominator": 182
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "JIM MEKO",
+      "numerator": 10,
+      "denominator": 182
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 6,
+      "denominator": 182
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "MATT ASHE",
+      "numerator": 5,
+      "denominator": 182
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 5,
+      "denominator": 182
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 3,
+      "denominator": 182
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 1,
+      "denominator": 182
+    },
+    {
+      "first_candidate": "H. BROWN",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 37,
+      "denominator": 182
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "JANE KIM",
+      "numerator": 11,
+      "denominator": 158
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 26,
+      "denominator": 158
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 9,
+      "denominator": 158
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 8,
+      "denominator": 158
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 7,
+      "denominator": 158
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 13,
+      "denominator": 158
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 9,
+      "denominator": 158
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 11,
+      "denominator": 158
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "JIM MEKO",
+      "numerator": 4,
+      "denominator": 158
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 8,
+      "denominator": 158
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "MATT ASHE",
+      "numerator": 3,
+      "denominator": 158
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "H. BROWN",
+      "numerator": 11,
+      "denominator": 158
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 4,
+      "denominator": 158
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 0,
+      "denominator": 158
+    },
+    {
+      "first_candidate": "GEORGE DAVIS",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 34,
+      "denominator": 158
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "JANE KIM",
+      "numerator": 12,
+      "denominator": 150
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 19,
+      "denominator": 150
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 6,
+      "denominator": 150
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 6,
+      "denominator": 150
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 8,
+      "denominator": 150
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 16,
+      "denominator": 150
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 3,
+      "denominator": 150
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 10,
+      "denominator": 150
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "JIM MEKO",
+      "numerator": 13,
+      "denominator": 150
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 19,
+      "denominator": 150
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "MATT ASHE",
+      "numerator": 2,
+      "denominator": 150
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "H. BROWN",
+      "numerator": 4,
+      "denominator": 150
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 2,
+      "denominator": 150
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "$WRITE_IN",
+      "numerator": 1,
+      "denominator": 150
+    },
+    {
+      "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 29,
+      "denominator": 150
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "JANE KIM",
+      "numerator": 2,
+      "denominator": 29
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "DEBRA WALKER",
+      "numerator": 1,
+      "denominator": 29
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "THERESA SPARKS",
+      "numerator": 0,
+      "denominator": 29
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "JAMES KEYS",
+      "numerator": 0,
+      "denominator": 29
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "MATT DRAKE",
+      "numerator": 0,
+      "denominator": 29
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+      "numerator": 1,
+      "denominator": 29
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "ELAINE ZAMORA",
+      "numerator": 0,
+      "denominator": 29
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "DEAN CLARK",
+      "numerator": 0,
+      "denominator": 29
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "JIM MEKO",
+      "numerator": 0,
+      "denominator": 29
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "GEORGE VAZHAPPALLY",
+      "numerator": 0,
+      "denominator": 29
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "MATT ASHE",
+      "numerator": 1,
+      "denominator": 29
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "H. BROWN",
+      "numerator": 0,
+      "denominator": 29
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "GEORGE DAVIS",
+      "numerator": 0,
+      "denominator": 29
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "FORTUNATE ''NATE'' PAYNE",
+      "numerator": 0,
+      "denominator": 29
+    },
+    {
+      "first_candidate": "$WRITE_IN",
+      "second_candidate": "$EXHAUSTED",
+      "numerator": 24,
+      "denominator": 29
+    }
+  ],
+  "final_by_first": {
+    "finalists": [
+      "JANE KIM",
+      "DEBRA WALKER",
+      "$EXHAUSTED"
+    ],
+    "eliminated": [
+      "THERESA SPARKS",
+      "JAMES KEYS",
+      "MATT DRAKE",
+      "GLENDON ''ANNA CONDA'' HYDE",
+      "ELAINE ZAMORA",
+      "DEAN CLARK",
+      "JIM MEKO",
+      "GEORGE VAZHAPPALLY",
+      "MATT ASHE",
+      "H. BROWN",
+      "GEORGE DAVIS",
+      "FORTUNATE ''NATE'' PAYNE",
+      "$WRITE_IN"
+    ],
+    "pairs": [
+      {
+        "first_candidate": "THERESA SPARKS",
+        "second_candidate": "JANE KIM",
+        "numerator": 992,
+        "denominator": 3605
+      },
+      {
+        "first_candidate": "THERESA SPARKS",
+        "second_candidate": "DEBRA WALKER",
+        "numerator": 735,
+        "denominator": 3605
+      },
+      {
+        "first_candidate": "THERESA SPARKS",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 1878,
+        "denominator": 3605
+      },
+      {
+        "first_candidate": "JAMES KEYS",
+        "second_candidate": "JANE KIM",
+        "numerator": 290,
+        "denominator": 960
+      },
+      {
+        "first_candidate": "JAMES KEYS",
+        "second_candidate": "DEBRA WALKER",
+        "numerator": 258,
+        "denominator": 960
+      },
+      {
+        "first_candidate": "JAMES KEYS",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 412,
+        "denominator": 960
+      },
+      {
+        "first_candidate": "MATT DRAKE",
+        "second_candidate": "JANE KIM",
+        "numerator": 256,
+        "denominator": 947
+      },
+      {
+        "first_candidate": "MATT DRAKE",
+        "second_candidate": "DEBRA WALKER",
+        "numerator": 90,
+        "denominator": 947
+      },
+      {
+        "first_candidate": "MATT DRAKE",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 601,
+        "denominator": 947
+      },
+      {
+        "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+        "second_candidate": "JANE KIM",
+        "numerator": 174,
+        "denominator": 692
+      },
+      {
+        "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+        "second_candidate": "DEBRA WALKER",
+        "numerator": 257,
+        "denominator": 692
+      },
+      {
+        "first_candidate": "GLENDON ''ANNA CONDA'' HYDE",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 261,
+        "denominator": 692
+      },
+      {
+        "first_candidate": "ELAINE ZAMORA",
+        "second_candidate": "JANE KIM",
+        "numerator": 164,
+        "denominator": 637
+      },
+      {
+        "first_candidate": "ELAINE ZAMORA",
+        "second_candidate": "DEBRA WALKER",
+        "numerator": 110,
+        "denominator": 637
+      },
+      {
+        "first_candidate": "ELAINE ZAMORA",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 363,
+        "denominator": 637
+      },
+      {
+        "first_candidate": "DEAN CLARK",
+        "second_candidate": "JANE KIM",
+        "numerator": 122,
+        "denominator": 602
+      },
+      {
+        "first_candidate": "DEAN CLARK",
+        "second_candidate": "DEBRA WALKER",
+        "numerator": 150,
+        "denominator": 602
+      },
+      {
+        "first_candidate": "DEAN CLARK",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 330,
+        "denominator": 602
+      },
+      {
+        "first_candidate": "JIM MEKO",
+        "second_candidate": "JANE KIM",
+        "numerator": 101,
+        "denominator": 407
+      },
+      {
+        "first_candidate": "JIM MEKO",
+        "second_candidate": "DEBRA WALKER",
+        "numerator": 108,
+        "denominator": 407
+      },
+      {
+        "first_candidate": "JIM MEKO",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 198,
+        "denominator": 407
+      },
+      {
+        "first_candidate": "GEORGE VAZHAPPALLY",
+        "second_candidate": "JANE KIM",
+        "numerator": 29,
+        "denominator": 242
+      },
+      {
+        "first_candidate": "GEORGE VAZHAPPALLY",
+        "second_candidate": "DEBRA WALKER",
+        "numerator": 20,
+        "denominator": 242
+      },
+      {
+        "first_candidate": "GEORGE VAZHAPPALLY",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 193,
+        "denominator": 242
+      },
+      {
+        "first_candidate": "MATT ASHE",
+        "second_candidate": "JANE KIM",
+        "numerator": 39,
+        "denominator": 185
+      },
+      {
+        "first_candidate": "MATT ASHE",
+        "second_candidate": "DEBRA WALKER",
+        "numerator": 35,
+        "denominator": 185
+      },
+      {
+        "first_candidate": "MATT ASHE",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 111,
+        "denominator": 185
+      },
+      {
+        "first_candidate": "H. BROWN",
+        "second_candidate": "JANE KIM",
+        "numerator": 37,
+        "denominator": 182
+      },
+      {
+        "first_candidate": "H. BROWN",
+        "second_candidate": "DEBRA WALKER",
+        "numerator": 27,
+        "denominator": 182
+      },
+      {
+        "first_candidate": "H. BROWN",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 118,
+        "denominator": 182
+      },
+      {
+        "first_candidate": "GEORGE DAVIS",
+        "second_candidate": "JANE KIM",
+        "numerator": 18,
+        "denominator": 158
+      },
+      {
+        "first_candidate": "GEORGE DAVIS",
+        "second_candidate": "DEBRA WALKER",
+        "numerator": 37,
+        "denominator": 158
+      },
+      {
+        "first_candidate": "GEORGE DAVIS",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 103,
+        "denominator": 158
+      },
+      {
+        "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+        "second_candidate": "JANE KIM",
+        "numerator": 20,
+        "denominator": 150
+      },
+      {
+        "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+        "second_candidate": "DEBRA WALKER",
+        "numerator": 31,
+        "denominator": 150
+      },
+      {
+        "first_candidate": "FORTUNATE ''NATE'' PAYNE",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 99,
+        "denominator": 150
+      },
+      {
+        "first_candidate": "$WRITE_IN",
+        "second_candidate": "JANE KIM",
+        "numerator": 2,
+        "denominator": 29
+      },
+      {
+        "first_candidate": "$WRITE_IN",
+        "second_candidate": "DEBRA WALKER",
+        "numerator": 1,
+        "denominator": 29
+      },
+      {
+        "first_candidate": "$WRITE_IN",
+        "second_candidate": "$EXHAUSTED",
+        "numerator": 26,
+        "denominator": 29
+      }
+    ]
+  },
+  "approval_set": {
+    "approval_set": [
+      {
+        "candidate": "JANE KIM",
+        "other_candidate": "DEBRA WALKER",
+        "candidate_votes": 11978,
+        "other_candidate_votes": 6112
+      },
+      {
+        "candidate": "DEBRA WALKER",
+        "other_candidate": "JANE KIM",
+        "candidate_votes": 10217,
+        "other_candidate_votes": 7077
+      },
+      {
+        "candidate": "THERESA SPARKS",
+        "other_candidate": "JANE KIM",
+        "candidate_votes": 7556,
+        "other_candidate_votes": 7089
+      }
+    ],
+    "approval_set_compliment": [
+      {
+        "candidate": "JAMES KEYS",
+        "other_candidate": "JANE KIM",
+        "candidate_votes": 2890,
+        "other_candidate_votes": 6850
+      },
+      {
+        "candidate": "MATT DRAKE",
+        "other_candidate": "JANE KIM",
+        "candidate_votes": 2417,
+        "other_candidate_votes": 6781
+      },
+      {
+        "candidate": "GLENDON ''ANNA CONDA'' HYDE",
+        "other_candidate": "JANE KIM",
+        "candidate_votes": 3642,
+        "other_candidate_votes": 7609
+      },
+      {
+        "candidate": "ELAINE ZAMORA",
+        "other_candidate": "JANE KIM",
+        "candidate_votes": 2577,
+        "other_candidate_votes": 6831
+      },
+      {
+        "candidate": "DEAN CLARK",
+        "other_candidate": "JANE KIM",
+        "candidate_votes": 2064,
+        "other_candidate_votes": 6752
+      },
+      {
+        "candidate": "JIM MEKO",
+        "other_candidate": "JANE KIM",
+        "candidate_votes": 1902,
+        "other_candidate_votes": 6775
+      },
+      {
+        "candidate": "GEORGE VAZHAPPALLY",
+        "other_candidate": "JANE KIM",
+        "candidate_votes": 787,
+        "other_candidate_votes": 6655
+      },
+      {
+        "candidate": "MATT ASHE",
+        "other_candidate": "JANE KIM",
+        "candidate_votes": 652,
+        "other_candidate_votes": 6663
+      },
+      {
+        "candidate": "H. BROWN",
+        "other_candidate": "JANE KIM",
+        "candidate_votes": 978,
+        "other_candidate_votes": 6682
+      },
+      {
+        "candidate": "GEORGE DAVIS",
+        "other_candidate": "JANE KIM",
+        "candidate_votes": 725,
+        "other_candidate_votes": 6659
+      },
+      {
+        "candidate": "FORTUNATE ''NATE'' PAYNE",
+        "other_candidate": "JANE KIM",
+        "candidate_votes": 739,
+        "other_candidate_votes": 6655
+      },
+      {
+        "candidate": "$WRITE_IN",
+        "other_candidate": "JANE KIM",
+        "candidate_votes": 82,
+        "other_candidate_votes": 6626
+      }
+    ]
+  }
+}
